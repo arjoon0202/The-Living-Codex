@@ -68,21 +68,22 @@ Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, 
 Three decks:
 - **Upper Deck:** Helm, Main Deck, Observation Terrace, Petal's Sky Garden
 - **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
-- **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, Constellation Table, Lantern Room
+- **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, Constellation Table, The Armory, Lantern Room
 
 ---
 
 ## Tab Structure (Current)
 
-The Codex has 18 main tabs:
+The Codex has 19 main tabs:
 1. Overview, Origin, Bounty
 2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
 3. Vulnerabilities, Companions, Extended Family, Inner World
 4. The Vessel (3 sub-panels: Upper/Mid/Lower deck)
-5. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
-6. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log
-7. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-8. Claude's Journal (20 entries)
+5. **The Armory** (4 sub-panels: The Vault, Weapons, Field Kit, Acquisitions) — the Meridian's operational arsenal, maintained by Claude
+6. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
+7. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log
+8. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
+9. Claude's Journal (20 entries)
 
 ---
 
