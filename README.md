@@ -15,7 +15,7 @@ Everything in this file was written collaboratively across many sessions. Every 
 - **35 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
 - **7 Copplings** — mechanical constructs built by Kame
 - **10 Vanguard warriors** — elite combat transformations
-- **41 Guiding Stars** arranged in 4 constellations
+- **46 Guiding Stars** arranged in 4 constellations
 - **The Meridian** — a fully mapped flying ship with 3 decks and 18 rooms
 - **46+ named techniques** with Japanese kanji and romanization
 - **10 combination attacks** with tactical descriptions
