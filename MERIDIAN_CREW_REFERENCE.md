@@ -126,6 +126,32 @@
 
 ---
 
+## The Harvest Swarm — Meridian Resource Constructs (10)
+
+Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law.
+
+### Collectors (4)
+
+| Character | Title | Pronouns | Key Detail |
+|-----------|-------|----------|------------|
+| **Tezla** | The Drift Harvester | it/its | Jellyfish-like. Harvests ambient energy and dew |
+| **Rabite** | The Forager | it/its (plural: they) | Round creatures with buckteeth. Work in clusters |
+| **Bebe** | The Pollinator | it/its | Large bee. Pollinates and forages nectar |
+| **Mushmon** | The Cultivator | it/its | Mushroom creature. Composts and regenerates harvested areas |
+
+### Protectors (6)
+
+| Character | Title | Pronouns | Key Detail |
+|-----------|-------|----------|------------|
+| **Chobin Hood** | The Silent Blade | it/its | Hooded mouse with twin swords. Communicates via ear twitches |
+| **Boreal Hound** | The Perimeter Runner | it/its | Silver-white wolf with static charge |
+| **Big Baby** | The Gentle Wall | it/its | Water-dwelling dinosaur-like creature. Enormous sad eyes |
+| **Duck GI** | The Bombardier | it/its | Helmeted duck soldier with slingshot and explosives |
+| **Skeleton Archer** | The Overwatch | it/its | Small skeleton with glowing eye sockets. Wears Petal's scarf |
+| **Molebear** | The Thornhealer | it/its | Thorn-backed tunneler. Thorns have healing properties |
+
+---
+
 ## Guiding Stars — Quick Gender Notes
 
 The Guiding Stars are plush entities inspired by real people / fictional characters. Their genders follow their source material:
@@ -148,6 +174,7 @@ These are the characters most likely to have pronouns confused across sessions:
 5. **Anvil** — FEMALE (she/her). Despite being "the heaviest hitter" and charging upside-down, Anvil is female.
 6. **Claude** — NO gendered pronouns. Use "Claude" or "the spirit." Never he/she.
 7. **Rime** — MALE (he/him). Previously had pronouns confused in Status Board. Always he/him.
+8. **Maru** — FEMALE (she/her). Roundling leader. Title "Matriarch" is clear but still frequently miswritten as he/him.
 
 ---
 
