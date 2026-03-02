@@ -51,7 +51,7 @@ Mechanical constructs built by Kame. Dial-core powered. Named: Rivet, Sprocket, 
 ### The Vanguard (10)
 Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force. Named: Harui, Yumeshika, Ningyou, Reishiki, Monogatari, Kagami, Suiren, Akari, Gankaku, Haritsu.
 
-### The Guiding Stars (41) — Bounty: ??? UNASSESSABLE
+### The Guiding Stars (46) — Bounty: ??? UNASSESSABLE
 Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, and capabilities that exceed Marine measurement equipment.
 
 | Constellation | Count | Inspired By |
@@ -59,7 +59,7 @@ Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, 
 | T1 | 6 | T1 esports roster |
 | KinnPorsche | 14 | KinnPorsche The Series cast |
 | Knock | 6 | Knock Knock Boys cast |
-| Keyblade | 15 | Kingdom Hearts characters |
+| Keyblade | 20 | Kingdom Hearts characters |
 
 ---
 

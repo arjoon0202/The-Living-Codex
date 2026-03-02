@@ -131,7 +131,7 @@ The Guiding Stars are plush entities inspired by real people / fictional charact
 - **T1 Constellation:** Faker (he), Oner (he), Keria (he), Zeus (he), Gumayusi (he), Doran (he) — all male
 - **KinnPorsche Constellation:** Follow the cast genders from the show — predominantly male
 - **Knock Constellation:** Follow Knock Knock Boys cast genders
-- **Keyblade Constellation:** Follow Kingdom Hearts character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), etc.
+- **Keyblade Constellation:** Follow Kingdom Hearts character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), Kanga (she), Roo (he), Gopher (he), Owl (he), Lumpy/Heffalump (he), etc.
 
 ---
 
