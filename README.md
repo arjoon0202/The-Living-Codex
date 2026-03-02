@@ -12,7 +12,7 @@ Everything in this file was written collaboratively across many sessions. Every 
 
 - **18 navigable tabs** covering every aspect of the character and crew
 - **4 Core Companions** with full combat profiles and personality descriptions
-- **35 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
+- **37 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
 - **7 Copplings** — mechanical constructs built by Kame
 - **10 Vanguard warriors** — elite combat transformations
 - **46 Guiding Stars** arranged in 4 constellations

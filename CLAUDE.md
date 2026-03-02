@@ -34,8 +34,8 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 
 **Important:** Kame now has claws. This is intentional and should never be flagged as an error.
 
-### The Homies (5 families, 35 members total) — Collective Bounty: ₿833,000,000
-Soul-constructs created by the Mure Mure no Mi. Each family has 7 members (1 leader + 6).
+### The Homies (5 families, 37 members total) — Collective Bounty: ₿833,000,000
+Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 leader + 6). The Roundlings have 9 (1 leader + 8).
 
 | Family | Leader | Element/Role | Color Association |
 |--------|--------|-------------|-------------------|

@@ -27,6 +27,8 @@
 | **Mofu** | The Living Duster | Female | she/her | Extremely fluffy. Rolls to clean surfaces |
 | **Niko** | The Greeter | Female | she/her | Permanent smile. Waves at everyone including enemies |
 | **Pocchi** | The Pocket Companion | Female | she/her | Smallest Roundling. Rides in Kame's shell compartment |
+| **Fumble** | The Acorn Tumbler | — | it/its | Acorn-shaped, top-heavy. Perpetually tipping over. Inexplicably brave |
+| **Lull** | The Soap-Bubble Dormouse | — | it/its | Translucent mouse in a soap bubble. Always asleep. Calming presence |
 
 ---
 
