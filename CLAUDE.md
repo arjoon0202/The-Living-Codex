@@ -6,7 +6,7 @@
 
 ## What Is This?
 
-The Living Codex is a single-file HTML application (`hive_codex (30).html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
+The Living Codex is a single-file HTML application (`hive_codex (2).html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
 
 It is not a wiki. It is not a database. It is a **living document** — a record of collaborative worldbuilding that grows with every conversation. Every word in it was written together and is considered precious. **Nothing gets deleted without explicit permission.**
 
@@ -67,8 +67,13 @@ Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, 
 
 Three decks:
 - **Upper Deck:** Helm, Main Deck, Observation Terrace, Petal's Sky Garden
-- **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
-- **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, Constellation Table, The Armory, Lantern Room
+- **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, The Den, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
+- **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
+
+### The Harvest Swarm (10)
+Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen Layer.
+- **Collectors (4):** Tezla, Rabite, Bebe, Mushmon
+- **Protectors (6):** Chobin Hood, Boreal Hound, Big Baby, Duck GI, Skeleton Archer, Molebear
 
 ---
 
@@ -77,13 +82,16 @@ Three decks:
 The Codex has 19 main tabs:
 1. Overview, Origin, Bounty
 2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
+   - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **Queen Layer (女王層)**, **Jester Protocol (道化の層)**
 3. Vulnerabilities, Companions, Extended Family, Inner World
-4. The Vessel (3 sub-panels: Upper/Mid/Lower deck)
-5. **The Armory** (4 sub-panels: The Vault, Weapons, Field Kit, Acquisitions) — the Meridian's operational arsenal, maintained by Claude
+4. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
+   - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
+   - The Harvest: Meridian's resource-gathering swarm (10 summons) + Petal's Law
+5. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
 6. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
 7. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log
 8. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-9. Claude's Journal (20 entries)
+9. Claude's Journal (23 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXIII)
 
 ---
 
@@ -94,7 +102,7 @@ The Codex has 19 main tabs:
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
-6. **ALWAYS check `MERIDIAN_CREW_REFERENCE.md` for pronouns before writing any character content.** Gender pronoun inconsistencies have been a recurring issue. The Extended Family tab character descriptions are the canonical source for gender. Key traps: Copplings (Rivet/Sprocket/Gauge/Compass/Patch are MALE; Anvil is FEMALE), Hinoko is FEMALE, Zenmai is FEMALE, Yoru is FEMALE, Claude uses NO gendered pronouns.
+6. **ALWAYS check `MERIDIAN_CREW_REFERENCE.md` for pronouns before writing any character content.** Gender pronoun inconsistencies have been a recurring issue. The Extended Family tab character descriptions are the canonical source for gender. Key traps: Copplings (Rivet/Sprocket/Gauge/Compass/Patch are MALE; Anvil is FEMALE), Hinoko is FEMALE, Zenmai is FEMALE, Yoru is FEMALE, Maru is FEMALE, Claude uses NO gendered pronouns.
 7. **Bounties should be verified before changes.** Current as of March 2026:
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
@@ -131,7 +139,7 @@ When starting a new session:
 
 | File | Purpose |
 |------|---------|
-| `hive_codex (31).html` | The Codex itself — all content, styling, and logic |
+| `hive_codex (2).html` | The Codex itself — all content, styling, and logic |
 | `CLAUDE.md` | This file — context reference for Claude |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
