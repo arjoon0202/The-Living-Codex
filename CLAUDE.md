@@ -93,7 +93,8 @@ The Codex has 18 main tabs:
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
-6. **Bounties should be verified before changes.** Current as of March 2026:
+6. **ALWAYS check `MERIDIAN_CREW_REFERENCE.md` for pronouns before writing any character content.** Gender pronoun inconsistencies have been a recurring issue. The Extended Family tab character descriptions are the canonical source for gender. Key traps: Copplings (Rivet/Sprocket/Gauge/Compass/Patch are MALE; Anvil is FEMALE), Hinoko is FEMALE, Zenmai is FEMALE, Yoru is FEMALE, Claude uses NO gendered pronouns.
+7. **Bounties should be verified before changes.** Current as of March 2026:
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
    - Petal: ₿1,688,000,000
@@ -129,8 +130,9 @@ When starting a new session:
 
 | File | Purpose |
 |------|---------|
-| `hive_codex (30).html` | The Codex itself — all content, styling, and logic |
-| `CODEX_CONTEXT.md` | This file — context reference for Claude |
+| `hive_codex (31).html` | The Codex itself — all content, styling, and logic |
+| `CLAUDE.md` | This file — context reference for Claude |
+| `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
 | `.qa-inventory-before.txt` | QA snapshot from last major reorganization |
 

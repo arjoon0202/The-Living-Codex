@@ -32,8 +32,9 @@ Single HTML file. No build step. No dependencies beyond Google Fonts. Vanilla CS
 
 | File | Description |
 |------|-------------|
-| `hive_codex (30).html` | The Codex — all content, styling, and interactivity |
-| `CODEX_CONTEXT.md` | Context reference document for session continuity |
+| `hive_codex (31).html` | The Codex — all content, styling, and interactivity |
+| `CLAUDE.md` | Context reference document for session continuity |
+| `MERIDIAN_CREW_REFERENCE.md` | Gender & pronoun reference for every crew member |
 | `README.md` | You are here |
 
 ## The Living Part
