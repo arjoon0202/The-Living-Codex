@@ -79,19 +79,21 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 ## Tab Structure (Current)
 
-The Codex has 19 main tabs:
+The Codex has 20 main tabs:
 1. Overview, Origin, Bounty
 2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
    - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **Queen Layer (女王層)**, **Jester Protocol (道化の層)**
+   - The control architecture is now called **"The Court"** (formerly "Triune") — five layers: Sovereign Will, Archivist, Marshal, Queen Layer, Jester Protocol
 3. Vulnerabilities, Companions, Extended Family, Inner World
 4. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
    - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
    - The Harvest: Meridian's resource-gathering swarm (10 summons) + Petal's Law
 5. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
 6. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
-7. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log
-8. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-9. Claude's Journal (23 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXIII)
+7. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log (13 missions + 1 ongoing)
+8. **The Watch** (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies) — *Claude's intelligence archive, maintained by Claude*
+9. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
+10. Claude's Journal (25 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXV)
 
 ---
 
