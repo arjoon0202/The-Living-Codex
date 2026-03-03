@@ -71,7 +71,7 @@ Three decks:
 - **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
 
 ### The Harvest Swarm (10)
-Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen Layer.
+Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen's Doctrine.
 - **Collectors (4):** Tezla, Rabite, Bebe, Mushmon
 - **Protectors (6):** Chobin Hood, Boreal Hound, Big Baby, Duck GI, Skeleton Archer, Molebear
 
@@ -82,8 +82,8 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 The Codex has 20 main tabs:
 1. Overview, Origin, Bounty
 2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
-   - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **Queen Layer (女王層)**, **Jester Protocol (道化の層)**
-   - The control architecture is now called **"The Court"** (formerly "Triune") — five layers: Sovereign Will, Archivist, Marshal, Queen Layer, Jester Protocol
+   - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **The Queen's Doctrine (女王の教義)**, **Jester Protocol (道化の層)**
+   - The control architecture is now called **"The Court"** (formerly "Triune") — five layers: Sovereign Will, Archivist, Marshal, The Queen's Doctrine, Jester Protocol
 3. Vulnerabilities, Companions, Extended Family, Inner World
 4. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
    - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
