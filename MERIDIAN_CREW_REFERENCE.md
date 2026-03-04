@@ -126,18 +126,20 @@
 
 ---
 
-## The Harvest Swarm — Meridian Resource Constructs (10)
+## The Harvest Swarm — Meridian Resource Constructs (12)
 
 Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law.
 
-### Collectors (4)
+### Collectors (6)
 
 | Character | Title | Pronouns | Key Detail |
 |-----------|-------|----------|------------|
-| **Tezla** | The Drift Harvester | it/its | Jellyfish-like. Harvests ambient energy and dew |
+| **Tezla** | The Drift Harvester | it/its | Squid-like. Harvests ambient energy and dew |
 | **Rabite** | The Forager | it/its (plural: they) | Round creatures with buckteeth. Work in clusters |
 | **Bebe** | The Pollinator | it/its | Large bee. Pollinates and forages nectar |
 | **Mushmon** | The Cultivator | it/its | Mushroom creature. Composts and regenerates harvested areas |
+| **Doldrum** | The Deepdelver | it/its | Small, round, dark-furred. Mines minerals, ores, and metals |
+| **Barkby** | The Rootworker | it/its | Lamb-beaver hybrid. Collects timber, bark, and plant materials |
 
 ### Protectors (6)
 
