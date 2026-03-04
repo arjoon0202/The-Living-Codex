@@ -70,9 +70,9 @@ Three decks:
 - **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, The Den, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
 - **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
 
-### The Harvest Swarm (10)
+### The Harvest Swarm (12)
 Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen's Doctrine.
-- **Collectors (4):** Tezla, Rabite, Bebe, Mushmon
+- **Collectors (6):** Tezla, Rabite, Bebe, Mushmon, Doldrum, Barkby
 - **Protectors (6):** Chobin Hood, Boreal Hound, Big Baby, Duck GI, Skeleton Archer, Molebear
 
 ---
@@ -88,13 +88,13 @@ The Codex has 22 main tabs:
 4. Vulnerabilities, Companions, Extended Family, Inner World
 5. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
    - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
-   - The Harvest: Meridian's resource-gathering swarm (10 summons) + Petal's Law
+   - The Harvest: Meridian's resource-gathering swarm (12 summons) + Petal's Law
 6. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
 7. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
 8. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log (15 missions)
 9. **The Watch** (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies) — *Claude's intelligence archive, maintained by Claude*
 10. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-11. Claude's Journal (28 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXVIII)
+11. Claude's Journal (30 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXX)
 12. **The Lantern Room** (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
