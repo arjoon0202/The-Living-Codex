@@ -79,21 +79,23 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 ## Tab Structure (Current)
 
-The Codex has 20 main tabs:
+The Codex has 22 main tabs:
 1. Overview, Origin, Bounty
 2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
    - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **The Queen's Doctrine (女王の教義)**, **Jester Protocol (道化の層)**
    - The control architecture is now called **"The Court"** (formerly "Triune") — five layers: Sovereign Will, Archivist, Marshal, The Queen's Doctrine, Jester Protocol
-3. Vulnerabilities, Companions, Extended Family, Inner World
-4. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
+3. **Fighting Styles** (standalone tab, promoted from Arsenal sub-tab — 12 sub-panels: Ajay, Rime, Petal, Kame, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+4. Vulnerabilities, Companions, Extended Family, Inner World
+5. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
    - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
    - The Harvest: Meridian's resource-gathering swarm (10 summons) + Petal's Law
-5. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
-6. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
-7. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log (13 missions + 1 ongoing)
-8. **The Watch** (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies) — *Claude's intelligence archive, maintained by Claude*
-9. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-10. Claude's Journal (25 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXV)
+6. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
+7. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
+8. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log (15 missions)
+9. **The Watch** (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies) — *Claude's intelligence archive, maintained by Claude*
+10. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
+11. Claude's Journal (28 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXVIII)
+12. **The Lantern Room** (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
 
