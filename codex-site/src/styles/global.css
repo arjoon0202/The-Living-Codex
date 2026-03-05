@@ -123,8 +123,41 @@ body {
 .section-divider {
   width: 60px; height: 1px;
   background: linear-gradient(90deg, var(--gold), transparent);
-  margin: 52px 0;
+  margin: 40px 0;
+  opacity: 0.4;
 }
+
+/* Ornament divider — for bigger breaks (journal entries, mission logs) */
+.section-ornament {
+  text-align: center;
+  margin: 48px 0;
+  color: var(--gold-dim);
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  letter-spacing: 12px;
+  opacity: 0.4;
+}
+
+/* Vertical breathing room between major sections */
+.section-gap {
+  margin-top: 56px;
+}
+
+/* Full-width gold fade rule */
+.section-rule {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%, rgba(212, 168, 67, 0.15) 20%,
+    rgba(212, 168, 67, 0.25) 50%, rgba(212, 168, 67, 0.15) 80%,
+    transparent 100%
+  );
+  margin: 48px 0;
+}
+
+/* Spacer — pure empty space where background shows through */
+.bg-spacer { height: 32px; }
+.bg-spacer--lg { height: 56px; }
 
 /* ═══════════ MARKDOWN CONTENT ═══════════ */
 .prose {

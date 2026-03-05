@@ -102,9 +102,9 @@
 
 ---
 
-## The Vanguard — Warrior Transformations (8 Women + 2 Men)
+## The Vanguard — Warrior Transformations (9 Women + 3 Men)
 
-### The Eight (Women)
+### The Nine (Women)
 
 | Character | Cute Form | Family | Warrior Form | Pronouns |
 |-----------|-----------|--------|-------------|----------|
@@ -116,13 +116,15 @@
 | **Kagami** | The Listener | Roundling | The Mirror — mirror-armor, reflects attacks and doubts | she/her |
 | **Suiren** | The Hammock Weaver | Sproutling | Water Lily Weaver — unbreakable thread constructs | she/her |
 | **Akari** | The Nightlight | Ember | The Lantern Bearer — purifying light, dispels all illusion | she/her |
+| **Kozuchi** | The Bolt Counter | Gearling | The Forge Warden — resonance warhammer, structural destruction | she/her |
 
-### The Two (Men)
+### The Three (Men)
 
 | Character | Cute Form | Family | Warrior Form | Pronouns |
 |-----------|-----------|--------|-------------|----------|
 | **Gankaku** | The Living Pillow | Roundling | The Immovable — armored titan, absolute defense | he/him |
 | **Haritsu** | The Gossip King | Ember | Thread-and-Light — sniper, gossip-intelligence weaponized | he/him |
+| **Hoshikuzu** | The Starmap Painter | Dustling | The Cosmic Sower — cosmic dance-fighter, sensory trap networks | he/him |
 
 ---
 

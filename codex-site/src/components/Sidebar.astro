@@ -94,7 +94,7 @@ const volumes = [
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
     <a href={`${base}/`} class="sidebar-logo">
-      <span class="sidebar-logo-text">HC</span>
+      <img src={`${base}/logo/emblem-40.webp`} alt="" width="40" height="40" class="sidebar-logo-img" />
     </a>
     <div class="sidebar-title">The Living Codex</div>
     <div class="sidebar-subtitle">Ajay Persaud</div>
@@ -176,18 +176,12 @@ const volumes = [
     align-items: center;
     justify-content: center;
     width: 48px; height: 48px;
-    border: 1px solid var(--border-active);
-    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    background: rgba(212,168,67,0.06);
     text-decoration: none;
     margin-bottom: 12px;
   }
-  .sidebar-logo-text {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--gold);
-    letter-spacing: 3px;
+  .sidebar-logo-img {
+    width: 40px; height: 40px;
+    object-fit: contain;
   }
   .sidebar-title {
     font-family: 'Cinzel', serif;

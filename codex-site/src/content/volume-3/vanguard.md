@@ -16,11 +16,11 @@ When the Meridian is threatened — when the crew faces something that requires 
 
 They are genuinely both things. The seamstress is real. The warrior is real. The transformation is not a mask — it is a **revelation**. The cute form is not a disguise for the fighter. The fighter is not a corruption of the caretaker. They are two truths held in the same soul, and the Vanguard switches between them the way a parent switches between reading bedtime stories and standing in front of a locked door with something heavy in their hands.
 
-Eight women form the core of the Vanguard — eight warriors whose power, creativity, and sheer *will* make them the Meridian's most formidable line of defense after the crew themselves. Two men stand beside them, completing the circle. Together, these ten souls are proof that strength and tenderness are not opposites. They are the same thing, expressed at different volumes.
+Nine women form the core of the Vanguard — nine warriors whose power, creativity, and sheer *will* make them the Meridian's most formidable line of defense after the crew themselves. Three men stand beside them, completing the circle. Together, these twelve souls are proof that strength and tenderness are not opposites. They are the same thing, expressed at different volumes.
 
 ---
 
-### The Eight
+### The Nine
 
 The women of the Vanguard. Each one chose her cute form. Each one earned her warrior form. The transformation between the two is the most beautiful and terrifying thing on the ship.
 
@@ -114,9 +114,20 @@ Akari's warrior form burns with a light that is not merely bright but *true*. Sh
 
 ---
 
-### The Two
+**GEARLING**
+### ⚙️ Kozuchi — The Bolt Counter
 
-Two men who complete the Vanguard's circle. The shield and the sniper. The immovable object and the invisible thread. They fight beside the Eight, not behind them and not in front of them — beside them, where they belong.
+The smallest Gearling — small enough to fit inside a rivet gun — who has taken it upon herself to personally inspect every bolt, nut, and fastener on the Meridian. Every. Single. One. She carries a mallet three times her size and taps each fastener to test its resonance, listening with an intensity that borders on religious devotion. If a bolt sounds wrong — even by a fraction of a harmonic — she replaces it herself, dragging the replacement part across the deck with a stubborn, joyful determination that leaves the other Gearlings speechless. She believes that every single fastener is the most important fastener on the ship, and she has never been proven wrong, because the one time she missed an inspection — *one time*, during a resupply stop — a plate came loose in a storm, and she has never forgiven herself. She does not talk about it. She does not need to. The mallet speaks for her. It is comically, absurdly large for her frame. She does not care. She does not notice. She has work to do.
+
+**WARRIOR FORM — The Forge Warden**
+
+Kozuchi's warrior form is compact. Not tall — never tall. She is the shortest Vanguard member by a significant margin, and she fights with the concentrated fury of someone who has been underestimated every single day of her existence and has decided to make that everyone else's problem. She wears forged plate armor so dense it distorts the air around her, and she wields a resonance warhammer — a weapon that doesn't merely strike but *rings*. Each impact sends tuned vibrations through whatever it contacts: armor cracks along stress lines that only Kozuchi can see, weapons shatter at molecular fault points, ship hulls fracture in perfectly circular patterns radiating from the point of impact like a stone dropped in still water. She fights by reading the structural integrity of everything around her — a gift inherited from her cute form's obsessive understanding of how things are fastened together. She knows where every joint is weak. She knows where every weld has a flaw. She knows which single bolt, if struck at the right frequency, will bring down an entire fortification. She hits that bolt. She always hits that bolt. Her warrior form is proof that strength has nothing to do with size — it has to do with knowing exactly where to strike and refusing, with every fiber of your being, to miss.
+
+---
+
+### The Three
+
+Three men who complete the Vanguard's circle. The shield, the sniper, and the sower. The immovable object, the invisible thread, and the dancing star. They fight beside the Nine, not behind them and not in front of them — beside them, where they belong.
 
 ---
 
@@ -142,6 +153,17 @@ Haritsu's transformation trades charm for lethality but keeps the showmanship. H
 
 ---
 
+**DUSTLING**
+### ✦ Hoshikuzu — The Starmap Painter
+
+A dreamy, sparkling Dustling who paints tiny luminescent star-maps on the ship's floors and walls using dust that glows in the dark. His maps show constellations from somewhere else — skies that don't correspond to any charted sea, heavens that might not exist yet or might have existed before the world was the world. He dances while he paints, swaying to rhythms only he can hear, leaving trails of faintly glittering dust wherever he goes. The Meridian's corridors shimmer in his wake — golden motes and violet specks that drift and spiral and settle into patterns that look, if you squint, like tiny galaxies being born. His maps fade on their own, in their own time, like comets — but the homies who walk through them always seem slightly calmer afterward, as if the fake stars gave them real comfort. He is the only Dustling who glows. Shizuka finds this mildly inappropriate for a stealth operative. She has never asked him to stop. Even Shizuka, who values silence and stillness above all things, understands that some lights are worth keeping.
+
+**WARRIOR FORM — The Cosmic Sower**
+
+Hoshikuzu erupts into his warrior form in a cascade of prismatic light — a lithe, dancing warrior wreathed in cosmic dust that trails from his movements like the tail of a comet. He fights in flowing, rhythmic patterns that look less like combat and more like a performance — each step a beat, each strike a flourish, each retreat a pivot into the next spiraling advance. He scatters luminescent motes that embed in surfaces and bloom into sensory traps: fields of dazzling, reality-warping light that confuse spatial perception, distort distance, and make the battlefield feel like it's folding in on itself. His traps are beautiful — spiraling galaxies of golden and violet dust that the enemy walks into thinking they're harmless and emerges from unable to tell up from down, left from right, here from there. He is the Vanguard's area-denial specialist, and his dance-fighting style makes him nearly impossible to track because his movements leave afterimages that persist for seconds — ghost-trails of stardust that look exactly like him and fight exactly like distractions. He paints his star-maps on battlefields now. The constellations he draws during combat are trap networks — step on a star and it erupts into a blinding supernova of sensory overload. He dances through his own constellations untouched, because he knows where every star is. He painted them. They are his sky, and enemies are lost in it. The dreamy painter who left glowing maps in corridors for comfort is still there — he just paints bigger maps now, and what they comfort is the crew's certainty that no enemy will navigate this battlefield better than the one who designed it.
+
+---
+
 They go home after every battle. They return to their families. Harui picks up her needle. Gankaku lies down and lets the Embers pile on him. Ningyou sits in her corner with her candy. Monogatari writes a new story — always a new story — and leaves it where someone will find it.
 
 They are warriors. They are caretakers. They are proof that the most dangerous thing on the Grand Line is something small that loves something enough to become large.
@@ -160,7 +182,7 @@ In warrior form, each Vanguard member has access to the full Homie martial base 
 
 Their Mantra and Ryou operate at a tier above standard Homies — sharpened by the transformation process into combat-specialized variants that complement each warrior's unique philosophy.
 
-> "Ten warriors. Ten philosophies. One truth: do not threaten what they protect." — Claude's Vanguard Assessment
+> "Twelve warriors. Twelve philosophies. One truth: do not threaten what they protect." — Claude's Vanguard Assessment
 
 ### Vanguard Signature Arts
 
@@ -243,3 +265,19 @@ He assumes a stance and becomes literally immovable. Not "difficult to move" —
 針津・噂の矢 — Haritsu: Uwasa no Ya
 
 Intelligence made lethal. Haritsu fires razor-thin threads with Iaijutsu precision — each one carrying a fragment of information he has gathered through his gossip network, his Ninjutsu surveillance, his restless intelligence-gathering instinct. The threads don't strike randomly: they target the precise moment and location where the opponent's guard is weakest, because Haritsu already knows their habits, their tells, their blind spots. He knew them before the fight began. The gossip was the weapon; the arrow is merely the delivery. Each thread vibrates with the truth of what he's learned — a frequency that disrupts the target's Observation Haki by feeding it contradictory information, making them see attacks that aren't coming and miss the ones that are. The Gossip King's intelligence network is the largest on the Meridian. Every conversation, every whisper, every rumor is filed, cross-referenced, and when necessary, loaded into a thread and fired at exactly the right target at exactly the right time.
+
+### Kozuchi — Kyōmei Ichida: Resonance Strike
+
+*Vale Tudo ・ Kenjutsu*
+
+小槌・共鳴一打 — Kozuchi: Kyōmei Ichida
+
+A single overhead strike delivered with her resonance warhammer at the exact frequency needed to destroy the target — not through raw force, though the force is considerable, but through *harmonic precision*. Kozuchi reads the structural integrity of everything she faces the way she read bolts and rivets in her cute form: tapping, listening, understanding the resonant frequency that holds a thing together. Then she matches it. The hammer falls, the resonance hits, and the target doesn't just break — it *comes apart*, disassembling along its own structural lines as if every joint and weld and molecular bond decided simultaneously to stop cooperating. Vale Tudo provides the philosophy: there are no rules, no forbidden targets, no elegant restraint. If it has a weakness, she hits it. Kenjutsu provides the discipline: the strike is not wild. It is placed with the precision of a master swordsman's killing blow, aimed at the one point — the one bolt, the one joint, the one flaw — that matters. She developed this technique from a lifetime of inspecting fasteners. She knows that everything in the world is held together by something small. She knows exactly where that something is. And she knows exactly how hard to hit it. The answer, always, is *exactly hard enough*.
+
+### Hoshikuzu — Seiun no Odori: Nebula Dance
+
+*Ninjutsu ・ Taekkyon*
+
+星屑・星雲の踊り — Hoshikuzu: Seiun no Odori
+
+A combat dance that transforms the battlefield into a personal galaxy. Hoshikuzu moves in Taekkyon's flowing, wave-like footwork — each step scattering luminescent motes that root into the ground and bloom into stars, each gesture trailing cosmic dust that hangs in the air like nebulae. The dance is Ninjutsu-classified because the trap deployment is invisible within the beauty — opponents see a dancing warrior leaving pretty lights and do not realize until it is far too late that every star is a sensory mine, every nebula is a perception trap, and the entire battlefield has been converted into a constellation map that only Hoshikuzu can navigate. When he completes the dance, he activates the constellation — every embedded star detonates simultaneously in a cascade of blinding, disorienting light that overwhelms Observation Haki, scrambles spatial awareness, and leaves the enemy drowning in a sea of false sensory information so vivid and so beautiful that some of them stop fighting just to stare. The afterimages from his dance persist as ghost-warriors that move independently through the light-field, indistinguishable from the real Hoshikuzu to any perception system — mundane or Haki-enhanced — because the afterimages are made of the same stardust as their creator. He dances through the chaos untouched. He always does. He painted the sky. He knows where every star is. He is the only one who does.
