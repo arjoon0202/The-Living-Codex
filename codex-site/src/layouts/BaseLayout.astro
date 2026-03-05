@@ -1,0 +1,70 @@
+---
+import '../styles/global.css';
+import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+  title: string;
+  ambientColor?: string;
+  volume?: string;
+  section?: string;
+}
+
+const { title, ambientColor = '#D4A843', volume, section } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} — The Living Codex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body style={`--ambient-color: ${ambientColor}`}>
+  <div class="ambient-bg"></div>
+  <div class="hex-particles" id="hexParticles"></div>
+
+  <div class="site-layout">
+    <Sidebar currentVolume={volume} currentSection={section} />
+    <main class="main-content">
+      <slot />
+    </main>
+  </div>
+
+  <script>
+    // Intersection Observer for scroll reveals
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+    // Hex particles
+    const particleContainer = document.getElementById('hexParticles');
+    if (particleContainer) {
+      for (let i = 0; i < 12; i++) {
+        const p = document.createElement('div');
+        p.className = 'hex-particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.animationDuration = (15 + Math.random() * 20) + 's';
+        p.style.animationDelay = Math.random() * 15 + 's';
+        p.style.width = (4 + Math.random() * 4) + 'px';
+        p.style.height = p.style.width;
+        particleContainer.appendChild(p);
+      }
+    }
+
+    // Mobile sidebar toggle
+    const toggle = document.getElementById('sidebarToggle');
+    const sidebar = document.getElementById('sidebar');
+    if (toggle && sidebar) {
+      toggle.addEventListener('click', () => {
+        sidebar.classList.toggle('open');
+      });
+    }
+  </script>
+</body>
+</html>
