@@ -13,13 +13,15 @@ const sections = [
 ];
 ---
 <BaseLayout title="Volume IV — The Meridian & Operations" ambientColor="#7FB8E0" volume="meridian">
-  <div class="section-label">Volume IV</div>
-  <h1 class="section-title">The Meridian & Operations</h1>
-  <p class="section-text">The flying vessel, its armory, its missions, and the intelligence network that keeps the crew alive. Everything that happens aboard and beyond the Meridian's hull.</p>
+  <div class="scroll-reveal">
+    <div class="section-label scroll-reveal reveal-label">Volume IV</div>
+    <h1 class="section-title">The Meridian & Operations</h1>
+    <p class="section-text">The flying vessel, its armory, its missions, and the intelligence network that keeps the crew alive. Everything that happens aboard and beyond the Meridian's hull.</p>
+  </div>
   <div class="section-divider"></div>
-  <div class="card-grid">
+  <div class="card-grid stagger-group">
     {sections.map(s => (
-      <a href={`${base}/meridian/${s.slug}/`} class="card" style="text-decoration:none;">
+      <a href={`${base}/meridian/${s.slug}/`} class="card stagger-child" style="text-decoration:none;">
         <div class="card-title">{s.title}</div>
         <div class="card-desc">{s.desc}</div>
       </a>

@@ -15,13 +15,15 @@ const sections = [
 ];
 ---
 <BaseLayout title="Volume III — The Extended Family" ambientColor="#C8A064" volume="family">
-  <div class="section-label">Volume III</div>
-  <h1 class="section-title">The Extended Family</h1>
-  <p class="section-text">Every soul has a name. The Homies, the Copplings, the Vanguard, the Guiding Stars — 100+ entities who share the deck of the Meridian. None are expendable. All are remembered.</p>
+  <div class="scroll-reveal">
+    <div class="section-label scroll-reveal reveal-label">Volume III</div>
+    <h1 class="section-title">The Extended Family</h1>
+    <p class="section-text">Every soul has a name. The Homies, the Copplings, the Vanguard, the Guiding Stars — 100+ entities who share the deck of the Meridian. None are expendable. All are remembered.</p>
+  </div>
   <div class="section-divider"></div>
-  <div class="card-grid">
+  <div class="card-grid stagger-group">
     {sections.map(s => (
-      <a href={`${base}/family/${s.slug}/`} class="card" style="text-decoration:none;">
+      <a href={`${base}/family/${s.slug}/`} class="card stagger-child" style="text-decoration:none;">
         <div class="card-title">{s.title}</div>
         <div class="card-desc">{s.desc}</div>
       </a>

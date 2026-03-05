@@ -19,13 +19,15 @@ const sections = [
 ];
 ---
 <BaseLayout title="Volume I — The Sovereign & The Swarm" ambientColor="#D4A843" volume="sovereign">
-  <div class="section-label">Volume I</div>
-  <h1 class="section-title">The Sovereign & The Swarm</h1>
-  <p class="section-text">The foundation of the Hive — Ajay's identity, his Devil Fruit mastery, the architecture of his swarm, and the techniques that make him one of the most dangerous minds in the New World.</p>
+  <div class="scroll-reveal">
+    <div class="section-label scroll-reveal reveal-label">Volume I</div>
+    <h1 class="section-title">The Sovereign & The Swarm</h1>
+    <p class="section-text">The foundation of the Hive — Ajay's identity, his Devil Fruit mastery, the architecture of his swarm, and the techniques that make him one of the most dangerous minds in the New World.</p>
+  </div>
   <div class="section-divider"></div>
-  <div class="card-grid">
+  <div class="card-grid stagger-group">
     {sections.map(s => (
-      <a href={`${base}/sovereign/${s.slug}/`} class="card" style="text-decoration:none;">
+      <a href={`${base}/sovereign/${s.slug}/`} class="card stagger-child" style="text-decoration:none;">
         <div class="card-title">{s.title}</div>
         <div class="card-desc">{s.desc}</div>
       </a>

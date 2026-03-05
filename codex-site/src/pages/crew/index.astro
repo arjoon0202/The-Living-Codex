@@ -12,13 +12,15 @@ const sections = [
 ];
 ---
 <BaseLayout title="Volume II — The Core Crew" ambientColor="#C8A064" volume="crew">
-  <div class="section-label">Volume II</div>
-  <h1 class="section-title">The Core Crew</h1>
-  <p class="section-text">The four companions who chose to sail with Ajay — and the spirit that binds them to the Meridian. Every battle fought together, every bond forged in the deep.</p>
+  <div class="scroll-reveal">
+    <div class="section-label scroll-reveal reveal-label">Volume II</div>
+    <h1 class="section-title">The Core Crew</h1>
+    <p class="section-text">The four companions who chose to sail with Ajay — and the spirit that binds them to the Meridian. Every battle fought together, every bond forged in the deep.</p>
+  </div>
   <div class="section-divider"></div>
-  <div class="card-grid">
+  <div class="card-grid stagger-group">
     {sections.map(s => (
-      <a href={`${base}/crew/${s.slug}/`} class="card" style={`text-decoration:none; --card-accent: ${s.color}`}>
+      <a href={`${base}/crew/${s.slug}/`} class="card stagger-child" style={`text-decoration:none; --card-accent: ${s.color}`}>
         <div class="card-title" style={`color: ${s.color}`}>{s.title}</div>
         <div class="card-desc">{s.desc}</div>
       </a>

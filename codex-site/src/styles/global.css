@@ -288,6 +288,82 @@ body {
   color: var(--text-primary);
 }
 
+/* ═══════════ TYPOGRAPHY REFINEMENTS (Phase 5E) ═══════════ */
+
+/* Reading width — for long-form prose (journal, letters, origin) */
+.reading-width {
+  max-width: 720px;
+  line-height: 1.9;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+/* Kanji treatment — technique name display */
+.kanji-block {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-primary);
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+.kanji-block[lang] { /* auto-set via html attribute for accessibility */ }
+.romanization {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--text-dim);
+  letter-spacing: 1.5px;
+}
+
+/* Bounty figures — large number treatment */
+.bounty-figure {
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: clamp(24px, 4vw, 36px);
+  color: var(--gold);
+  letter-spacing: 2px;
+}
+
+/* Journal signatures */
+.journal-sig {
+  font-family: 'Cinzel', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--gold-dim);
+  text-align: right;
+  margin-top: 24px;
+  text-shadow: 0 0 20px rgba(212, 168, 67, 0.1);
+}
+
+/* Skip-to-content link — accessibility */
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  z-index: 9999;
+  background: var(--bg-card);
+  color: var(--gold);
+  padding: 12px 24px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid var(--border-active);
+  border-radius: 4px;
+  transition: top 0.2s;
+}
+.skip-to-content:focus {
+  top: 16px;
+}
+
+/* Focus indicators for interactive elements */
+:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
 /* ═══════════ ANIMATIONS ═══════════ */
 @keyframes fadeSlideUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -298,6 +374,7 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+/* Base scroll-reveal — enhanced version in animations.css (Phase 5C) */
 .scroll-reveal {
   opacity: 0;
   transform: translateY(20px);
@@ -309,18 +386,8 @@ body {
 }
 
 /* ═══════════ GLASSMORPHISM ═══════════ */
-.glass-card {
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  background: rgba(15, 15, 22, 0.6);
-  border: 1px solid rgba(212, 168, 67, 0.08);
-  border-radius: 8px;
-  padding: 32px;
-  transition: border-color 0.3s ease;
-}
-.glass-card:hover {
-  border-color: rgba(212, 168, 67, 0.2);
-}
+/* Base glass-card styles moved to glassmorphism.css (Phase 5B) */
+/* Keeping legacy selector for backwards compat during migration */
 
 /* ═══════════ BREADCRUMB ═══════════ */
 .breadcrumb {

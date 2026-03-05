@@ -1,0 +1,69 @@
+/* ═══════════ SCROLL REVEAL ANIMATIONS ═══════════ */
+/* Phase 5C — Enhanced scroll-triggered reveals and motion */
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.scroll-reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Staggered children (used for card grids, stat blocks, etc.) */
+.stagger-child {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.stagger-child.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Section label — slides in from left */
+.scroll-reveal.reveal-label {
+  transform: translateX(-20px) translateY(0);
+}
+.scroll-reveal.reveal-label.revealed {
+  transform: translateX(0) translateY(0);
+}
+
+/* Contextual border glow — triggered by data attributes */
+.glass-card[data-glow="danger"].revealed {
+  animation: dangerPulse 3s ease-in-out 1;
+}
+@keyframes dangerPulse {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: 0 0 30px rgba(224, 60, 49, 0.08), inset 0 0 40px rgba(224, 60, 49, 0.03); }
+}
+
+.glass-card[data-glow="transcendent"].revealed {
+  animation: transcendGlow 4s ease-in-out 1;
+}
+@keyframes transcendGlow {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: 0 0 40px rgba(200, 184, 255, 0.06), 0 0 20px rgba(212, 168, 67, 0.04); }
+}
+
+/* ═══════════ REDUCED MOTION ═══════════ */
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .stagger-child {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .glass-card[data-glow="danger"].revealed,
+  .glass-card[data-glow="transcendent"].revealed {
+    animation: none;
+  }
+}

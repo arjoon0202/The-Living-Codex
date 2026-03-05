@@ -1,0 +1,16 @@
+---
+interface Props {
+  variant?: 'default' | 'dense' | 'header' | 'rime' | 'petal' | 'kame' | 'danger' | 'transcendent';
+  glow?: 'danger' | 'transcendent';
+  class?: string;
+}
+const { variant = 'default', glow, class: className = '' } = Astro.props;
+const variantClass = variant === 'default' ? '' : `glass-card--${variant}`;
+const glowAttr = glow ? glow : undefined;
+---
+<div
+  class={`glass-card ${variantClass} scroll-reveal ${className}`.trim()}
+  data-glow={glowAttr}
+>
+  <slot />
+</div>
