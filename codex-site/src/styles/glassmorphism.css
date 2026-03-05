@@ -67,6 +67,47 @@
 }
 .glass-card--transcendent::before { background: linear-gradient(90deg, transparent, rgba(200, 184, 255, 0.2), transparent); }
 
+/* ═══ SECTION-BASED CARD TINTING ═══ */
+/* Applied via body[data-section] so rehype-generated glass cards inherit the right style */
+
+[data-section="rime"] .prose > .glass-card { border-color: rgba(224, 128, 112, 0.1); }
+[data-section="rime"] .prose > .glass-card:hover { border-color: rgba(224, 128, 112, 0.25); box-shadow: 0 0 40px rgba(224, 128, 112, 0.04); }
+[data-section="rime"] .prose > .glass-card::before { background: linear-gradient(90deg, transparent, rgba(224, 128, 112, 0.25), transparent); }
+
+[data-section="petal"] .prose > .glass-card { border-color: rgba(160, 212, 104, 0.1); }
+[data-section="petal"] .prose > .glass-card:hover { border-color: rgba(160, 212, 104, 0.25); box-shadow: 0 0 40px rgba(160, 212, 104, 0.04); }
+[data-section="petal"] .prose > .glass-card::before { background: linear-gradient(90deg, transparent, rgba(160, 212, 104, 0.25), transparent); }
+
+[data-section="kame"] .prose > .glass-card { border-color: rgba(127, 184, 224, 0.1); }
+[data-section="kame"] .prose > .glass-card:hover { border-color: rgba(127, 184, 224, 0.25); box-shadow: 0 0 40px rgba(127, 184, 224, 0.04); }
+[data-section="kame"] .prose > .glass-card::before { background: linear-gradient(90deg, transparent, rgba(127, 184, 224, 0.25), transparent); }
+
+[data-section="black-crown"] .prose > .glass-card {
+  border-color: rgba(224, 60, 49, 0.15); background: rgba(10, 10, 16, 0.8);
+}
+[data-section="black-crown"] .prose > .glass-card:hover {
+  border-color: rgba(224, 60, 49, 0.3);
+  box-shadow: 0 0 40px rgba(224, 60, 49, 0.06), inset 0 0 60px rgba(224, 60, 49, 0.02);
+}
+[data-section="black-crown"] .prose > .glass-card::before { background: linear-gradient(90deg, transparent, rgba(224, 60, 49, 0.25), transparent); }
+
+[data-section="ajay-state"] .prose > .glass-card {
+  border-color: rgba(200, 184, 255, 0.1); background: rgba(10, 10, 16, 0.7);
+}
+[data-section="ajay-state"] .prose > .glass-card:hover {
+  border-color: rgba(200, 184, 255, 0.25);
+  box-shadow: 0 0 60px rgba(200, 184, 255, 0.04), 0 0 30px rgba(212, 168, 67, 0.03);
+}
+[data-section="ajay-state"] .prose > .glass-card::before { background: linear-gradient(90deg, transparent, rgba(200, 184, 255, 0.2), transparent); }
+
+/* Glass cards inside prose inherit prose text styling */
+.prose > .glass-card {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--text-secondary);
+  max-width: 820px;
+}
+
 /* ═══ EXPANDABLE TECHNIQUE CARDS ═══ */
 .technique-card {
   background: rgba(15, 15, 22, 0.5);

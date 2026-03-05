@@ -19,16 +19,20 @@ const ambientColor = entry.data.ambientColor || entry.data.color || '#C8A064';
 const base = import.meta.env.BASE_URL;
 const slug = Astro.params.slug;
 const characterVariant = slug === 'rime' ? 'glass-card--rime' : slug === 'petal' ? 'glass-card--petal' : slug === 'kame' ? 'glass-card--kame' : '';
+const bgMap: Record<string, string> = {
+  'rime': `${base}/backgrounds/rime-volcanic-steam.webp`,
+  'petal': `${base}/backgrounds/petal-ancient-forest.webp`,
+  'kame': `${base}/backgrounds/kame-ocean-depths.webp`,
+};
+const backgroundImage = bgMap[slug as string] || `${base}/backgrounds/sovereign-golden-dusk.webp`;
 ---
-<BaseLayout title={entry.data.title} ambientColor={ambientColor} volume="crew" section={slug}>
+<BaseLayout title={entry.data.title} ambientColor={ambientColor} volume="crew" section={slug} backgroundImage={backgroundImage}>
   <nav class="breadcrumb scroll-reveal">
     <a href={`${base}/crew/`}>Volume II</a>
     <span class="sep">&middot;</span>
     <span>{entry.data.title}</span>
   </nav>
-  <div class={`glass-card scroll-reveal ${characterVariant}`}>
-    <div class="prose">
-      <Content />
-    </div>
+  <div class="prose">
+    <Content />
   </div>
 </BaseLayout>

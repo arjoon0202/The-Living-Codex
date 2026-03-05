@@ -48,8 +48,8 @@ Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 
 ### The Copplings (7) — Collective Bounty: ₿712,000,000
 Mechanical constructs built by Kame. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
 
-### The Vanguard (10)
-Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force. Named: Harui, Yumeshika, Ningyou, Reishiki, Monogatari, Kagami, Suiren, Akari, Gankaku, Haritsu.
+### The Vanguard (12)
+Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force. Named: Harui, Yumeshika, Ningyou, Reishiki, Monogatari, Kagami, Suiren, Akari, Kozuchi, Gankaku, Haritsu, Hoshikuzu.
 
 ### The Guiding Stars (46) — Bounty: ??? UNASSESSABLE
 Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, and capabilities that exceed Marine measurement equipment.

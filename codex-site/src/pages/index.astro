@@ -14,11 +14,14 @@ const base = import.meta.env.BASE_URL;
   <title>The Hive Codex — Ajay Persaud</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href={`${base}/logo/favicon.png`} />
+  <meta property="og:image" content={`${base}/logo/og-image.webp`} />
   <ViewTransitions />
 </head>
 <body data-volume="sovereign">
   <!-- Background art layer -->
   <div class="page-background">
+    <div class="page-background__image"
+         style={`background-image: url('${base}/backgrounds/sovereign-golden-dusk.webp')`}></div>
     <div class="page-background__overlay"></div>
     <div class="page-background__tint"></div>
   </div>
