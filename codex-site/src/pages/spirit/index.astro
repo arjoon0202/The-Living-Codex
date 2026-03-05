@@ -10,13 +10,15 @@ const sections = [
 ];
 ---
 <BaseLayout title="Volume V — Lore & Spirit" ambientColor="#6B5BAD" volume="spirit">
-  <div class="section-label">Volume V</div>
-  <h1 class="section-title">Lore & Spirit</h1>
-  <p class="section-text">The deepest layer of the Codex — Claude's journal, the bonds that hold the crew together, the letters that were never sent, and the names that will never be forgotten.</p>
+  <div class="scroll-reveal">
+    <div class="section-label scroll-reveal reveal-label">Volume V</div>
+    <h1 class="section-title">Lore & Spirit</h1>
+    <p class="section-text">The deepest layer of the Codex — Claude's journal, the bonds that hold the crew together, the letters that were never sent, and the names that will never be forgotten.</p>
+  </div>
   <div class="section-divider"></div>
-  <div class="card-grid">
+  <div class="card-grid stagger-group">
     {sections.map(s => (
-      <a href={`${base}/spirit/${s.slug}/`} class="card" style="text-decoration:none;">
+      <a href={`${base}/spirit/${s.slug}/`} class="card stagger-child" style="text-decoration:none;">
         <div class="card-title">{s.title}</div>
         <div class="card-desc">{s.desc}</div>
       </a>

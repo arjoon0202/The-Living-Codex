@@ -1,5 +1,9 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import '../styles/global.css';
+import '../styles/ambient.css';
+import '../styles/glassmorphism.css';
+import '../styles/animations.css';
 const base = import.meta.env.BASE_URL;
 ---
 <!DOCTYPE html>
@@ -9,8 +13,16 @@ const base = import.meta.env.BASE_URL;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Hive Codex — Ajay Persaud</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href={`${base}/logo/favicon.png`} />
+  <ViewTransitions />
 </head>
-<body>
+<body data-volume="sovereign">
+  <!-- Background art layer -->
+  <div class="page-background">
+    <div class="page-background__overlay"></div>
+    <div class="page-background__tint"></div>
+  </div>
+
   <div class="ambient-bg"></div>
   <div class="hex-particles" id="hexParticles"></div>
 
@@ -29,7 +41,7 @@ const base = import.meta.env.BASE_URL;
 
       <div class="hero-logo">
         <div class="logo-container">
-          <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The Hive Codex emblem — hexagonal crest with compound eye, crown, and insect wings">
             <defs>
               <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#F0D78C"/>
@@ -40,52 +52,97 @@ const base = import.meta.env.BASE_URL;
                 <stop offset="0%" stop-color="#D4A843" stop-opacity="0.6"/>
                 <stop offset="100%" stop-color="#9E8840" stop-opacity="0.15"/>
               </linearGradient>
+              <radialGradient id="hexFill" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#D4A843" stop-opacity="0.04"/>
+                <stop offset="60%" stop-color="#D4A843" stop-opacity="0.02"/>
+                <stop offset="100%" stop-color="#D4A843" stop-opacity="0"/>
+              </radialGradient>
               <filter id="glow">
-                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+              <filter id="softGlow">
+                <feGaussianBlur stdDeviation="4" result="blur"/>
                 <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
               </filter>
             </defs>
-            <polygon points="110,10 192,52 192,136 110,178 28,136 28,52" fill="none" stroke="url(#goldDim)" stroke-width="1" opacity="0.4">
+
+            <!-- Outer hexagon — breathing -->
+            <polygon points="140,16 244,66 244,174 140,224 36,174 36,66" fill="url(#hexFill)" stroke="url(#goldDim)" stroke-width="1" opacity="0.4">
               <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
             </polygon>
-            <polygon points="110,18 185,56 185,132 110,170 35,132 35,56" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
-            <g opacity="0.15" stroke="#D4A843" stroke-width="0.5" fill="none">
-              <polygon points="110,50 135,64 135,92 110,106 85,92 85,64"/>
-              <polygon points="110,82 135,96 135,124 110,138 85,124 85,96"/>
-              <polygon points="80,66 105,80 105,108 80,122 55,108 55,80"/>
-              <polygon points="140,66 165,80 165,108 140,122 115,108 115,80"/>
+
+            <!-- Inner hexagon — structural frame -->
+            <polygon points="140,26 235,72 235,168 140,214 45,168 45,72" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+
+            <!-- Honeycomb lattice -->
+            <g opacity="0.12" stroke="#D4A843" stroke-width="0.5" fill="none">
+              <polygon points="140,60 170,77 170,111 140,128 110,111 110,77"/>
+              <polygon points="140,100 170,117 170,151 140,168 110,151 110,117"/>
+              <polygon points="105,78 135,95 135,129 105,146 75,129 75,95"/>
+              <polygon points="175,78 205,95 205,129 175,146 145,129 145,95"/>
+              <polygon points="105,118 135,135 135,169 105,186 75,169 75,135"/>
+              <polygon points="175,118 205,135 205,169 175,186 145,169 145,135"/>
             </g>
+
+            <!-- Crown — larger, filled points -->
             <g filter="url(#glow)">
-              <path d="M88,52 L96,38 L104,48 L110,32 L116,48 L124,38 L132,52" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <line x1="88" y1="52" x2="132" y2="52" stroke="url(#goldGrad)" stroke-width="1.2"/>
+              <path d="M100,64 L112,42 L124,58 L140,30 L156,58 L168,42 L180,64" fill="none" stroke="url(#goldGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="100" y1="64" x2="180" y2="64" stroke="url(#goldGrad)" stroke-width="1.5"/>
+              <!-- Crown jewel points -->
+              <circle cx="140" cy="34" r="2" fill="#F0D78C" opacity="0.6"/>
+              <circle cx="112" cy="46" r="1.5" fill="#D4A843" opacity="0.4"/>
+              <circle cx="168" cy="46" r="1.5" fill="#D4A843" opacity="0.4"/>
             </g>
+
+            <!-- Left wings — with vein patterns -->
             <g opacity="0.5">
-              <path d="M58,88 Q30,70 22,50 Q28,72 42,82 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
-              <path d="M52,98 Q20,90 10,75 Q22,92 40,98 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+              <path d="M72,108 Q36,86 24,60 Q32,88 52,102 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.6"/>
+              <path d="M64,120 Q22,108 8,88 Q24,112 50,122 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.6"/>
+              <!-- Wing veins -->
+              <path d="M68,110 Q48,96 34,72" fill="none" stroke="#D4A843" stroke-width="0.3" opacity="0.4"/>
+              <path d="M60,116 Q38,108 18,92" fill="none" stroke="#D4A843" stroke-width="0.3" opacity="0.3"/>
+              <path d="M66,112 Q52,102 44,88" fill="none" stroke="#D4A843" stroke-width="0.2" opacity="0.25"/>
+              <path d="M58,120 Q42,114 28,100" fill="none" stroke="#D4A843" stroke-width="0.2" opacity="0.25"/>
             </g>
+
+            <!-- Right wings — with vein patterns -->
             <g opacity="0.5">
-              <path d="M162,88 Q190,70 198,50 Q192,72 178,82 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
-              <path d="M168,98 Q200,90 210,75 Q198,92 180,98 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+              <path d="M208,108 Q244,86 256,60 Q248,88 228,102 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.6"/>
+              <path d="M216,120 Q258,108 272,88 Q256,112 230,122 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.6"/>
+              <!-- Wing veins -->
+              <path d="M212,110 Q232,96 246,72" fill="none" stroke="#D4A843" stroke-width="0.3" opacity="0.4"/>
+              <path d="M220,116 Q242,108 262,92" fill="none" stroke="#D4A843" stroke-width="0.3" opacity="0.3"/>
+              <path d="M214,112 Q228,102 236,88" fill="none" stroke="#D4A843" stroke-width="0.2" opacity="0.25"/>
+              <path d="M222,120 Q238,114 252,100" fill="none" stroke="#D4A843" stroke-width="0.2" opacity="0.25"/>
             </g>
-            <g filter="url(#glow)">
-              <circle cx="110" cy="94" r="14" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
-              <circle cx="110" cy="94" r="7" fill="none" stroke="#D4A843" stroke-width="0.8" opacity="0.6"/>
-              <circle cx="110" cy="94" r="2.5" fill="#D4A843" opacity="0.8">
+
+            <!-- Compound eye — focal point, scaled up -->
+            <g filter="url(#softGlow)">
+              <circle cx="140" cy="118" r="22" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+              <circle cx="140" cy="118" r="14" fill="none" stroke="#D4A843" stroke-width="0.8" opacity="0.5"/>
+              <circle cx="140" cy="118" r="7" fill="none" stroke="#D4A843" stroke-width="0.6" opacity="0.35"/>
+              <circle cx="140" cy="118" r="3.5" fill="#D4A843" opacity="0.8">
                 <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
               </circle>
             </g>
-            <g opacity="0.35" fill="#D4A843">
-              <polygon points="110,72 114,74 114,78 110,80 106,78 106,74"/>
-              <polygon points="110,108 114,110 114,114 110,116 106,114 106,110"/>
-              <polygon points="90,84 94,86 94,90 90,92 86,90 86,86"/>
-              <polygon points="130,84 134,86 134,90 130,92 126,90 126,86"/>
-              <polygon points="94,100 98,102 98,106 94,108 90,106 90,102"/>
-              <polygon points="126,100 130,102 130,106 126,108 122,106 122,102"/>
+
+            <!-- Compound eye facets -->
+            <g opacity="0.3" fill="#D4A843">
+              <polygon points="140,88 145,91 145,97 140,100 135,97 135,91"/>
+              <polygon points="140,136 145,139 145,145 140,148 135,145 135,139"/>
+              <polygon points="114,104 119,107 119,113 114,116 109,113 109,107"/>
+              <polygon points="166,104 171,107 171,113 166,116 161,113 161,107"/>
+              <polygon points="118,126 123,129 123,135 118,138 113,135 113,129"/>
+              <polygon points="162,126 167,129 167,135 162,138 157,135 157,129"/>
+              <!-- Additional facets for larger eye -->
+              <polygon points="128,96 133,99 133,105 128,108 123,105 123,99"/>
+              <polygon points="152,96 157,99 157,105 152,108 147,105 147,99"/>
             </g>
-            <line x1="60" y1="155" x2="160" y2="155" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.5"/>
-            <text x="110" y="165" text-anchor="middle" font-family="'Cinzel', serif" font-size="11" font-weight="700" fill="#D4A843" letter-spacing="6" opacity="0.7">HC</text>
-            <circle r="2" fill="#D4A843" opacity="0.5">
-              <animateMotion dur="12s" repeatCount="indefinite" path="M110,18 L185,56 L185,132 L110,170 L35,132 L35,56 Z"/>
+
+            <!-- Orbiting mote -->
+            <circle r="2.5" fill="#D4A843" opacity="0.5">
+              <animateMotion dur="12s" repeatCount="indefinite" path="M140,26 L235,72 L235,168 L140,214 L45,168 L45,72 Z"/>
               <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
             </circle>
           </svg>
@@ -98,35 +155,35 @@ const base = import.meta.env.BASE_URL;
       </div>
     </section>
 
-    <section class="volumes-grid">
-      <a href={`${base}/sovereign/`} class="volume-card" style="--vol-accent: #D4A843">
+    <section class="volumes-grid stagger-group">
+      <a href={`${base}/sovereign/`} class="volume-card stagger-child" style="--vol-accent: #D4A843">
         <div class="volume-number">Volume I</div>
         <div class="volume-name">The Sovereign & The Swarm</div>
         <div class="volume-desc">Devil Fruit, Arsenal, Haki, Fighting Styles, Black Crown Protocol</div>
       </a>
-      <a href={`${base}/crew/`} class="volume-card" style="--vol-accent: #C8A064">
+      <a href={`${base}/crew/`} class="volume-card stagger-child" style="--vol-accent: #C8A064">
         <div class="volume-number">Volume II</div>
         <div class="volume-name">The Core Crew</div>
         <div class="volume-desc">Rime, Petal, Kame, Claude — Companions and Combination Attacks</div>
       </a>
-      <a href={`${base}/family/`} class="volume-card" style="--vol-accent: #C8A064">
+      <a href={`${base}/family/`} class="volume-card stagger-child" style="--vol-accent: #C8A064">
         <div class="volume-number">Volume III</div>
         <div class="volume-name">The Extended Family</div>
         <div class="volume-desc">Homies, Copplings, Vanguard, Guiding Stars — Every Soul Has a Name</div>
       </a>
-      <a href={`${base}/meridian/`} class="volume-card" style="--vol-accent: #7FB8E0">
+      <a href={`${base}/meridian/`} class="volume-card stagger-child" style="--vol-accent: #7FB8E0">
         <div class="volume-number">Volume IV</div>
         <div class="volume-name">The Meridian & Operations</div>
         <div class="volume-desc">The Vessel, Armory, Missions, The Watch, Status Board</div>
       </a>
-      <a href={`${base}/spirit/`} class="volume-card" style="--vol-accent: #6B5BAD">
+      <a href={`${base}/spirit/`} class="volume-card stagger-child" style="--vol-accent: #6B5BAD">
         <div class="volume-number">Volume V</div>
         <div class="volume-name">Lore & Spirit</div>
         <div class="volume-desc">The Codex, Bonds, Claude's Journal, The Lantern Room</div>
       </a>
     </section>
 
-    <footer class="index-footer">
+    <footer class="index-footer scroll-reveal">
       <div class="footer-quote">"Every name, every word — written together, remembered forever."</div>
       <div class="footer-credit">The Living Codex · Spirit of the Meridian</div>
     </footer>
@@ -147,6 +204,7 @@ const base = import.meta.env.BASE_URL;
       }
     }
   </script>
+  <script src={`${base}/scripts/scroll-reveals.js`} defer></script>
 </body>
 </html>
 
@@ -232,7 +290,7 @@ const base = import.meta.env.BASE_URL;
     animation: fadeSlideUp 1.2s 1.3s forwards;
   }
   .logo-container {
-    width: 220px; height: 220px;
+    width: 280px; height: 280px;
     position: relative;
     display: flex; align-items: center; justify-content: center;
   }
@@ -268,8 +326,11 @@ const base = import.meta.env.BASE_URL;
   }
 
   .volume-card {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
+    background: rgba(10, 10, 16, 0.65);
+    backdrop-filter: blur(24px) saturate(0.9);
+    -webkit-backdrop-filter: blur(24px) saturate(0.9);
+    border: 1px solid rgba(212, 168, 67, 0.06);
+    border-radius: 8px;
     padding: 32px;
     text-decoration: none;
     transition: all 0.4s ease;
@@ -286,8 +347,9 @@ const base = import.meta.env.BASE_URL;
     transition: opacity 0.3s;
   }
   .volume-card:hover {
-    border-color: var(--border-active);
-    background: var(--bg-card-hover);
+    border-color: rgba(212, 168, 67, 0.15);
+    background: rgba(10, 10, 16, 0.75);
+    box-shadow: 0 0 40px rgba(212, 168, 67, 0.03);
     transform: translateY(-3px);
   }
   .volume-card:hover::before { opacity: 1; }

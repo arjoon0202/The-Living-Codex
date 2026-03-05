@@ -151,11 +151,12 @@ const volumes = [
   .sidebar {
     position: fixed;
     top: 0; left: 0;
-    width: 260px;
+    width: 280px;
     height: 100vh;
-    background: rgba(8,8,12,0.96);
-    backdrop-filter: blur(20px);
-    border-right: 1px solid var(--border);
+    background: rgba(8, 8, 12, 0.85);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border-right: 1px solid rgba(212, 168, 67, 0.06);
     overflow-y: auto;
     z-index: 150;
     display: flex;
@@ -289,12 +290,13 @@ const volumes = [
 
   /* Offset main content for sidebar */
   :global(.site-layout) {
-    padding-left: 260px;
+    padding-left: 280px;
   }
 
   @media (max-width: 1024px) {
     .sidebar-toggle { display: block; }
     .sidebar {
+      width: 300px;
       transform: translateX(-100%);
       transition: transform 0.3s ease;
     }
@@ -303,6 +305,16 @@ const volumes = [
     }
     :global(.site-layout) {
       padding-left: 0;
+    }
+    :global(.sidebar-overlay) {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 140;
+    }
+    :global(.sidebar-overlay.visible) {
+      display: block;
     }
   }
 </style>
@@ -313,7 +325,6 @@ const volumes = [
     btn.addEventListener('click', () => {
       const volume = btn.closest('.sidebar-volume');
       if (!volume) return;
-      // Close other volumes
       document.querySelectorAll('.sidebar-volume').forEach(v => {
         if (v !== volume) v.classList.remove('open');
       });
@@ -321,10 +332,28 @@ const volumes = [
     });
   });
 
+  // Mobile drawer management
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+
+  function closeSidebar() {
+    sidebar?.classList.remove('open');
+    overlay?.classList.remove('visible');
+  }
+
   // Close sidebar on link click (mobile)
   document.querySelectorAll('.sidebar-link').forEach(link => {
-    link.addEventListener('click', () => {
-      document.getElementById('sidebar')?.classList.remove('open');
-    });
+    link.addEventListener('click', closeSidebar);
+  });
+
+  // Close on overlay click
+  overlay?.addEventListener('click', closeSidebar);
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && sidebar?.classList.contains('open')) {
+      closeSidebar();
+      document.getElementById('sidebarToggle')?.focus();
+    }
   });
 </script>

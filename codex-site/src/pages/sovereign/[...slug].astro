@@ -18,14 +18,19 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 const ambientColor = entry.data.ambientColor || entry.data.color || '#D4A843';
 const base = import.meta.env.BASE_URL;
+const slug = Astro.params.slug;
+const cardVariant = slug === 'black-crown' ? 'glass-card--danger' : slug === 'ajay-state' ? 'glass-card--transcendent' : '';
+const cardGlow = slug === 'black-crown' ? 'danger' : slug === 'ajay-state' ? 'transcendent' : undefined;
 ---
-<BaseLayout title={entry.data.title} ambientColor={ambientColor} volume="sovereign" section={Astro.params.slug}>
-  <nav class="breadcrumb">
+<BaseLayout title={entry.data.title} ambientColor={ambientColor} volume="sovereign" section={slug}>
+  <nav class="breadcrumb scroll-reveal">
     <a href={`${base}/sovereign/`}>Volume I</a>
-    <span class="sep">·</span>
+    <span class="sep">&middot;</span>
     <span>{entry.data.title}</span>
   </nav>
-  <div class="prose">
-    <Content />
+  <div class={`glass-card scroll-reveal ${cardVariant}`} data-glow={cardGlow}>
+    <div class="prose">
+      <Content />
+    </div>
   </div>
 </BaseLayout>
