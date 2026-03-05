@@ -118,6 +118,7 @@ const volumes = [
             <a
               href={`${base}/${vol.id}/${sec.slug}/`}
               class={`sidebar-link ${currentVolume === vol.id && currentSection === sec.slug ? 'active' : ''}`}
+              data-astro-reload
             >
               {sec.label}
             </a>
@@ -314,40 +315,45 @@ const volumes = [
 </style>
 
 <script>
-  // Accordion toggle for sidebar volumes
-  document.querySelectorAll('.sidebar-volume-title').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const volume = btn.closest('.sidebar-volume');
-      if (!volume) return;
-      document.querySelectorAll('.sidebar-volume').forEach(v => {
-        if (v !== volume) v.classList.remove('open');
+  function initSidebar() {
+    // Accordion toggle for sidebar volumes
+    document.querySelectorAll('.sidebar-volume-title').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const volume = btn.closest('.sidebar-volume');
+        if (!volume) return;
+        document.querySelectorAll('.sidebar-volume').forEach(v => {
+          if (v !== volume) v.classList.remove('open');
+        });
+        volume.classList.toggle('open');
       });
-      volume.classList.toggle('open');
     });
-  });
 
-  // Mobile drawer management
-  const sidebar = document.getElementById('sidebar');
-  const overlay = document.getElementById('sidebarOverlay');
+    // Mobile drawer management
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
 
-  function closeSidebar() {
-    sidebar?.classList.remove('open');
-    overlay?.classList.remove('visible');
+    function closeSidebar() {
+      sidebar?.classList.remove('open');
+      overlay?.classList.remove('visible');
+    }
+
+    // Close sidebar on link click (mobile)
+    document.querySelectorAll('.sidebar-link').forEach(link => {
+      link.addEventListener('click', closeSidebar);
+    });
+
+    // Close on overlay click
+    overlay?.addEventListener('click', closeSidebar);
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && sidebar?.classList.contains('open')) {
+        closeSidebar();
+        document.getElementById('sidebarToggle')?.focus();
+      }
+    });
   }
 
-  // Close sidebar on link click (mobile)
-  document.querySelectorAll('.sidebar-link').forEach(link => {
-    link.addEventListener('click', closeSidebar);
-  });
-
-  // Close on overlay click
-  overlay?.addEventListener('click', closeSidebar);
-
-  // Close on Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && sidebar?.classList.contains('open')) {
-      closeSidebar();
-      document.getElementById('sidebarToggle')?.focus();
-    }
-  });
+  // Run on initial load and after every ViewTransition navigation
+  document.addEventListener('astro:page-load', initSidebar);
 </script>

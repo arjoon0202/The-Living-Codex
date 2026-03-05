@@ -12,11 +12,3 @@ The Hive Codex crew does not fight as individuals. Every pairing, every formatio
 
 These are the signature formations, the devastating pairings, the moments when the crew's greatest strength — the fact that they would die for each other — becomes weaponized into something the world has learned to fear.
 
-## Sections
-
-- **Ajay Pairings** — Two-person combinations centered on the captain
-- **Companion Pairings** — Rime, Petal, and Kame fighting in combination
-- **Trio** — Three-person formations and their devastating synergies
-- **Full Formation** — The entire crew coordinating in perfect unity
-- **Spirit Formation** — Advanced combinations with the Homies and Copplings
-- **Meridian Descends** — The ultimate formation; the ship's final answer
