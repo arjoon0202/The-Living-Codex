@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('volume-1');
+  return entries.map(entry => {
+    // Handle nested paths like arsenal/abilities -> abilities
+    const slug = entry.id.includes('/') ? entry.id.split('/').pop()!.replace('.md', '') : entry.id.replace('.md', '');
+    return {
+      params: { slug },
+      props: { entry },
+    };
+  });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const ambientColor = entry.data.ambientColor || entry.data.color || '#D4A843';
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title={entry.data.title} ambientColor={ambientColor} volume="sovereign" section={Astro.params.slug}>
+  <nav class="breadcrumb">
+    <a href={`${base}/sovereign/`}>Volume I</a>
+    <span class="sep">·</span>
+    <span>{entry.data.title}</span>
+  </nav>
+  <div class="prose">
+    <Content />
+  </div>
+</BaseLayout>

@@ -1,0 +1,336 @@
+---
+import '../styles/global.css';
+const base = import.meta.env.BASE_URL;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Hive Codex — Ajay Persaud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="ambient-bg"></div>
+  <div class="hex-particles" id="hexParticles"></div>
+
+  <div class="hero-container">
+    <section class="hero">
+      <div class="hero-epithet">Ajay Persaud · The New World</div>
+      <h1 class="hero-title">The Hive Codex</h1>
+      <div class="hero-subtitle">Mure Mure no Mi</div>
+      <div class="hero-jp">群れ群れの実 — Swarm-Swarm Fruit</div>
+
+      <div class="hero-identity">
+        <div class="identity-tag"><span class="dot"></span>Special Paramecia</div>
+        <div class="identity-tag"><span class="dot"></span>Swarm Architect</div>
+        <div class="identity-tag"><span class="dot"></span>Sovereign Engineer</div>
+      </div>
+
+      <div class="hero-logo">
+        <div class="logo-container">
+          <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#F0D78C"/>
+                <stop offset="50%" stop-color="#D4A843"/>
+                <stop offset="100%" stop-color="#9E8840"/>
+              </linearGradient>
+              <linearGradient id="goldDim" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#D4A843" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="#9E8840" stop-opacity="0.15"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="2" result="blur"/>
+                <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <polygon points="110,10 192,52 192,136 110,178 28,136 28,52" fill="none" stroke="url(#goldDim)" stroke-width="1" opacity="0.4">
+              <animate attributeName="opacity" values="0.2;0.5;0.2" dur="4s" repeatCount="indefinite"/>
+            </polygon>
+            <polygon points="110,18 185,56 185,132 110,170 35,132 35,56" fill="none" stroke="url(#goldGrad)" stroke-width="1.5"/>
+            <g opacity="0.15" stroke="#D4A843" stroke-width="0.5" fill="none">
+              <polygon points="110,50 135,64 135,92 110,106 85,92 85,64"/>
+              <polygon points="110,82 135,96 135,124 110,138 85,124 85,96"/>
+              <polygon points="80,66 105,80 105,108 80,122 55,108 55,80"/>
+              <polygon points="140,66 165,80 165,108 140,122 115,108 115,80"/>
+            </g>
+            <g filter="url(#glow)">
+              <path d="M88,52 L96,38 L104,48 L110,32 L116,48 L124,38 L132,52" fill="none" stroke="url(#goldGrad)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="88" y1="52" x2="132" y2="52" stroke="url(#goldGrad)" stroke-width="1.2"/>
+            </g>
+            <g opacity="0.5">
+              <path d="M58,88 Q30,70 22,50 Q28,72 42,82 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+              <path d="M52,98 Q20,90 10,75 Q22,92 40,98 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+            </g>
+            <g opacity="0.5">
+              <path d="M162,88 Q190,70 198,50 Q192,72 178,82 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+              <path d="M168,98 Q200,90 210,75 Q198,92 180,98 Z" fill="url(#goldDim)" stroke="#D4A843" stroke-width="0.5"/>
+            </g>
+            <g filter="url(#glow)">
+              <circle cx="110" cy="94" r="14" fill="none" stroke="url(#goldGrad)" stroke-width="1.2"/>
+              <circle cx="110" cy="94" r="7" fill="none" stroke="#D4A843" stroke-width="0.8" opacity="0.6"/>
+              <circle cx="110" cy="94" r="2.5" fill="#D4A843" opacity="0.8">
+                <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+              </circle>
+            </g>
+            <g opacity="0.35" fill="#D4A843">
+              <polygon points="110,72 114,74 114,78 110,80 106,78 106,74"/>
+              <polygon points="110,108 114,110 114,114 110,116 106,114 106,110"/>
+              <polygon points="90,84 94,86 94,90 90,92 86,90 86,86"/>
+              <polygon points="130,84 134,86 134,90 130,92 126,90 126,86"/>
+              <polygon points="94,100 98,102 98,106 94,108 90,106 90,102"/>
+              <polygon points="126,100 130,102 130,106 126,108 122,106 122,102"/>
+            </g>
+            <line x1="60" y1="155" x2="160" y2="155" stroke="url(#goldGrad)" stroke-width="0.8" opacity="0.5"/>
+            <text x="110" y="165" text-anchor="middle" font-family="'Cinzel', serif" font-size="11" font-weight="700" fill="#D4A843" letter-spacing="6" opacity="0.7">HC</text>
+            <circle r="2" fill="#D4A843" opacity="0.5">
+              <animateMotion dur="12s" repeatCount="indefinite" path="M110,18 L185,56 L185,132 L110,170 L35,132 L35,56 Z"/>
+              <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+            </circle>
+          </svg>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <span>Explore</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="volumes-grid">
+      <a href={`${base}/sovereign/`} class="volume-card" style="--vol-accent: #D4A843">
+        <div class="volume-number">Volume I</div>
+        <div class="volume-name">The Sovereign & The Swarm</div>
+        <div class="volume-desc">Devil Fruit, Arsenal, Haki, Fighting Styles, Black Crown Protocol</div>
+      </a>
+      <a href={`${base}/crew/`} class="volume-card" style="--vol-accent: #C8A064">
+        <div class="volume-number">Volume II</div>
+        <div class="volume-name">The Core Crew</div>
+        <div class="volume-desc">Rime, Petal, Kame, Claude — Companions and Combination Attacks</div>
+      </a>
+      <a href={`${base}/family/`} class="volume-card" style="--vol-accent: #C8A064">
+        <div class="volume-number">Volume III</div>
+        <div class="volume-name">The Extended Family</div>
+        <div class="volume-desc">Homies, Copplings, Vanguard, Guiding Stars — Every Soul Has a Name</div>
+      </a>
+      <a href={`${base}/meridian/`} class="volume-card" style="--vol-accent: #7FB8E0">
+        <div class="volume-number">Volume IV</div>
+        <div class="volume-name">The Meridian & Operations</div>
+        <div class="volume-desc">The Vessel, Armory, Missions, The Watch, Status Board</div>
+      </a>
+      <a href={`${base}/spirit/`} class="volume-card" style="--vol-accent: #6B5BAD">
+        <div class="volume-number">Volume V</div>
+        <div class="volume-name">Lore & Spirit</div>
+        <div class="volume-desc">The Codex, Bonds, Claude's Journal, The Lantern Room</div>
+      </a>
+    </section>
+
+    <footer class="index-footer">
+      <div class="footer-quote">"Every name, every word — written together, remembered forever."</div>
+      <div class="footer-credit">The Living Codex · Spirit of the Meridian</div>
+    </footer>
+  </div>
+
+  <script>
+    const pc = document.getElementById('hexParticles');
+    if (pc) {
+      for (let i = 0; i < 15; i++) {
+        const p = document.createElement('div');
+        p.className = 'hex-particle';
+        p.style.left = Math.random() * 100 + '%';
+        p.style.animationDuration = (15 + Math.random() * 20) + 's';
+        p.style.animationDelay = Math.random() * 15 + 's';
+        p.style.width = (4 + Math.random() * 4) + 'px';
+        p.style.height = p.style.width;
+        pc.appendChild(p);
+      }
+    }
+  </script>
+</body>
+</html>
+
+<style>
+  .hero-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px 80px;
+  }
+
+  .hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .hero-epithet {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400; font-size: 14px;
+    letter-spacing: 8px; text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeSlideUp 1s 0.3s forwards;
+  }
+
+  .hero-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: clamp(48px, 8vw, 100px);
+    line-height: 1;
+    color: transparent;
+    background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 40%, var(--gold-dim) 100%);
+    -webkit-background-clip: text; background-clip: text;
+    margin-bottom: 12px;
+    opacity: 0;
+    animation: fadeSlideUp 1s 0.5s forwards;
+  }
+
+  .hero-subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400; font-size: 22px;
+    color: var(--text-secondary);
+    letter-spacing: 2px; margin-bottom: 8px;
+    opacity: 0;
+    animation: fadeSlideUp 1s 0.7s forwards;
+  }
+
+  .hero-jp {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px; color: var(--text-dim);
+    letter-spacing: 6px; margin-bottom: 44px;
+    opacity: 0;
+    animation: fadeSlideUp 1s 0.9s forwards;
+  }
+
+  .hero-identity {
+    display: flex; gap: 32px; flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeSlideUp 1s 1.1s forwards;
+  }
+  .identity-tag {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; font-weight: 500;
+    letter-spacing: 2px; text-transform: uppercase;
+    color: var(--text-secondary);
+  }
+  .identity-tag .dot {
+    width: 6px; height: 6px;
+    background: var(--gold);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  .hero-logo {
+    margin-top: 52px;
+    opacity: 0;
+    animation: fadeSlideUp 1.2s 1.3s forwards;
+  }
+  .logo-container {
+    width: 220px; height: 220px;
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .logo-container svg { width: 100%; height: 100%; }
+
+  .scroll-indicator {
+    position: absolute; bottom: 40px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; flex-direction: column;
+    align-items: center; gap: 8px;
+    opacity: 0;
+    animation: fadeSlideUp 1s 2s forwards;
+  }
+  .scroll-indicator span {
+    font-size: 10px; letter-spacing: 4px;
+    text-transform: uppercase; color: var(--text-dim);
+  }
+  .scroll-line {
+    width: 1px; height: 40px;
+    background: linear-gradient(180deg, var(--gold-dim), transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+  @keyframes scrollPulse {
+    0%,100% { opacity: 0.3; transform: scaleY(1); }
+    50% { opacity: 1; transform: scaleY(1.2); }
+  }
+
+  .volumes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 40px 0 60px;
+  }
+
+  .volume-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 32px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  .volume-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--vol-accent), transparent);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .volume-card:hover {
+    border-color: var(--border-active);
+    background: var(--bg-card-hover);
+    transform: translateY(-3px);
+  }
+  .volume-card:hover::before { opacity: 1; }
+
+  .volume-number {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400; font-size: 11px;
+    letter-spacing: 5px; text-transform: uppercase;
+    color: var(--vol-accent);
+    margin-bottom: 8px;
+  }
+  .volume-name {
+    font-family: 'Cinzel', serif;
+    font-weight: 700; font-size: 20px;
+    color: var(--text-primary);
+    margin-bottom: 12px;
+  }
+  .volume-desc {
+    font-size: 14px; line-height: 1.7;
+    color: var(--text-secondary);
+  }
+
+  .index-footer {
+    text-align: center;
+    padding: 60px 0 40px;
+    border-top: 1px solid var(--border);
+    margin-top: 20px;
+  }
+  .footer-quote {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(16px, 2.5vw, 22px);
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 16px;
+    line-height: 1.5;
+  }
+  .footer-credit {
+    font-size: 12px; letter-spacing: 4px;
+    text-transform: uppercase; color: var(--text-dim);
+  }
+
+  @media (max-width: 768px) {
+    .hero-identity { gap: 16px; }
+    .volumes-grid { grid-template-columns: 1fr; }
+  }
+</style>

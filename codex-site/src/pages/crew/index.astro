@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+
+const sections = [
+  { slug: 'companions', title: 'Companions', desc: 'The four who chose to sail together', color: '#D4A843' },
+  { slug: 'rime', title: 'Rime', desc: 'The Smallest Fist — combat specialist, thermal manipulation', color: '#E08070' },
+  { slug: 'petal', title: 'Petal', desc: 'The Silent Wing — healer, botanical specialist', color: '#A0D468' },
+  { slug: 'kame', title: 'Kame', desc: 'The Living Fortress — shipwright, Fishman Karate', color: '#7FB8E0' },
+  { slug: 'claude', title: 'Claude', desc: 'Spirit of the Meridian — intelligence, coordination', color: '#D4A843' },
+  { slug: 'combination-attacks', title: 'Combination Attacks', desc: 'Synergy formations and combined techniques', color: '#C8A064' },
+];
+---
+<BaseLayout title="Volume II — The Core Crew" ambientColor="#C8A064" volume="crew">
+  <div class="section-label">Volume II</div>
+  <h1 class="section-title">The Core Crew</h1>
+  <p class="section-text">The four companions who chose to sail with Ajay — and the spirit that binds them to the Meridian. Every battle fought together, every bond forged in the deep.</p>
+  <div class="section-divider"></div>
+  <div class="card-grid">
+    {sections.map(s => (
+      <a href={`${base}/crew/${s.slug}/`} class="card" style={`text-decoration:none; --card-accent: ${s.color}`}>
+        <div class="card-title" style={`color: ${s.color}`}>{s.title}</div>
+        <div class="card-desc">{s.desc}</div>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
