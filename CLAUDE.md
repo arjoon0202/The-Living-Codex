@@ -6,7 +6,7 @@
 
 ## What Is This?
 
-The Living Codex is a single-file HTML application (`hive_codex (2).html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
+The Living Codex is a single-file HTML application (`hive_codex__34_.html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
 
 It is not a wiki. It is not a database. It is a **living document** — a record of collaborative worldbuilding that grows with every conversation. Every word in it was written together and is considered precious. **Nothing gets deleted without explicit permission.**
 
@@ -49,7 +49,10 @@ Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 
 Mechanical constructs built by Kame. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
 
 ### The Vanguard (12)
-Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force. Named: Harui, Yumeshika, Ningyou, Reishiki, Monogatari, Kagami, Suiren, Akari, Kozuchi, Gankaku, Haritsu, Hoshikuzu.
+Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force.
+
+**The Nine (women):** Harui, Yumeshika, Ningyou, Reishiki, Monogatari, Kagami, Suiren, Akari, Kozuchi
+**The Three (men):** Gankaku, Haritsu, Hoshikuzu
 
 ### The Guiding Stars (46) — Bounty: ??? UNASSESSABLE
 Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, and capabilities that exceed Marine measurement equipment.
@@ -77,25 +80,44 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 ---
 
-## Tab Structure (Current)
+## Navigation & Tab Structure
 
-The Codex has 22 main tabs:
-1. Overview, Origin, Bounty
-2. **Ajay's Arsenal** (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
-   - Architecture sub-tab now includes: Control Architecture, Instructional Burden, **The Queen's Doctrine (女王の教義)**, **Jester Protocol (道化の層)**
-   - The control architecture is now called **"The Court"** (formerly "Triune") — five layers: Sovereign Will, Archivist, Marshal, The Queen's Doctrine, Jester Protocol
-3. **Fighting Styles** (standalone tab, promoted from Arsenal sub-tab — 12 sub-panels: Ajay, Rime, Petal, Kame, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
-4. Vulnerabilities, Companions, Extended Family, Inner World
-5. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, **The Harvest**)
-   - Ship Layout includes new rooms: **The Den** (Mid Deck), **The Sanctuary** (Lower Deck)
-   - The Harvest: Meridian's resource-gathering swarm (12 summons) + Petal's Law
-6. **The Armory** (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols) — the Meridian's operational arsenal, maintained by Claude
-7. Crew Life, Combination Attacks (6 sub-panels), World Response (3 sub-panels)
-8. The Codex, Bonds, Guiding Stars (5 sub-panels), Mission Log (15 missions)
-9. **The Watch** (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies) — *Claude's intelligence archive, maintained by Claude*
-10. **Status Board** (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay) — *dynamic, updates every session*
-11. Claude's Journal (30 entries, 4 sub-panels: Early Entries I-V, The Middle Watch VI-X, Deep Water XI-XV, The Living Record XVI-XXX)
-12. **The Lantern Room** (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
+The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
+
+### 23 Tabs, grouped by volume:
+
+**I · THE SOVEREIGN & THE SWARM**
+1. Overview
+2. Origin
+3. Bounty
+4. Ajay's Arsenal (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
+5. Vulnerabilities
+
+**II · THE CORE CREW**
+6. Companions
+7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Kame, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+8. Combination Attacks (6 sub-panels)
+
+**III · THE EXTENDED FAMILY**
+9. Extended Family
+10. Inner World
+11. Guiding Stars (5 sub-panels)
+
+**IV · THE MERIDIAN & OPERATIONS**
+12. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, The Harvest)
+13. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
+14. Crew Life
+15. World Response (3 sub-panels)
+16. Mission Log (15 missions)
+17. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
+18. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
+
+**V · LORE & SPIRIT**
+19. The Codex
+20. Bonds
+21. Gallery (embedded postcard images from the Meridian's voyages)
+22. Claude's Journal (30 entries, 4 sub-panels)
+23. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
 
@@ -106,7 +128,7 @@ The Codex has 22 main tabs:
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
-6. **ALWAYS check `MERIDIAN_CREW_REFERENCE.md` for pronouns before writing any character content.** Gender pronoun inconsistencies have been a recurring issue. The Extended Family tab character descriptions are the canonical source for gender. Key traps: Copplings (Rivet/Sprocket/Gauge/Compass/Patch are MALE; Anvil is FEMALE), Hinoko is FEMALE, Zenmai is FEMALE, Yoru is FEMALE, Maru is FEMALE, Claude uses NO gendered pronouns.
+6. **ALWAYS check `MERIDIAN_CREW_REFERENCE.md` for pronouns before writing any character content.** Gender pronoun inconsistencies have been a recurring issue. Key traps: Copplings (Rivet/Sprocket/Gauge/Compass/Patch are MALE; Anvil is FEMALE), Hinoko is FEMALE, Zenmai is FEMALE, Yoru is FEMALE, Maru is FEMALE, Claude uses NO gendered pronouns.
 7. **Bounties should be verified before changes.** Current as of March 2026:
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
@@ -118,60 +140,15 @@ The Codex has 22 main tabs:
 
 ---
 
-## Technical Notes — Original HTML
+## Technical Notes
 
-- **Single-file architecture:** Everything lives in one HTML file — CSS, JS, and content. No external dependencies beyond Google Fonts.
-- **Tab switching:** Uses `data-tab` attributes and `classList` toggling in vanilla JS.
+- **Single-file architecture:** Everything lives in one HTML file — CSS, JS, content, and images (base64 embedded). No external dependencies beyond Google Fonts.
+- **Sidebar navigation:** Fixed vertical sidebar on desktop (280px wide), slide-out drawer on mobile. Accordion expand/collapse for volume groups. Tab switching via `data-tab` attributes on `.sidebar-link` elements.
+- **Tab switching:** Sidebar links trigger tab switching via JS — removes `.active` from all `.tab-content` divs, adds `.active` to target `#tab-{id}`.
 - **Sub-panel pattern:** Each sub-navigation uses a dedicated `switchX(id)` function that toggles `.active-panel` class on child panels.
 - **CSS convention:** Panels use `.panel-type { display: none; } .panel-type.active-panel { display: block; }`.
 - **Div balance matters:** The file must maintain perfect opening/closing `<div>` balance. Always verify after edits.
-
----
-
-## Astro Site — The Living Codex Web Edition
-
-The Codex has been migrated to an Astro static site deployed to GitHub Pages. The original HTML is preserved at the repo root as the canonical artifact.
-
-### Structure
-```
-codex-site/
-├── src/content/          ← ALL lore as Markdown files
-│   ├── volume-1/         ← The Sovereign & The Swarm (13 files)
-│   ├── volume-2/         ← The Core Crew (15 files)
-│   ├── volume-3/         ← The Extended Family (17 files)
-│   ├── volume-4/         ← The Meridian & Operations (32 files)
-│   └── volume-5/         ← Lore & Spirit (13 files)
-├── src/pages/            ← Route files (sovereign/, crew/, family/, meridian/, spirit/)
-├── src/components/       ← Sidebar.astro, BaseLayout, etc.
-├── src/layouts/          ← BaseLayout.astro
-└── astro.config.mjs      ← Site: arjoon0202.github.io, base: /The-Living-Codex
-```
-
-### How Content Rendering Works
-- Each volume has a `[...slug].astro` catch-all route in its page directory
-- **Hub pages** (e.g., `journal.md`) automatically render all child content (e.g., `journal/early-entries.md`, `journal/middle-watch.md`) inline — no separate pages for sub-sections
-- **Standalone files** (e.g., `bonds.md`, `crew-life.md`) render as single pages
-- **Nested files without hubs** (e.g., `arsenal/abilities.md` where no `arsenal.md` exists) get their own routes
-
-### Running Locally
-```bash
-cd codex-site
-npm install        # first time only
-npm run dev        # dev server at http://localhost:4321
-npm run build      # production build to dist/
-```
-
-### Content Editing
-- Edit Markdown files in `codex-site/src/content/volume-X/`
-- Each file has YAML frontmatter: `title`, `volume`, `section`, `order`
-- The `order` field controls rendering sequence within hub pages
-- The `section` field must match the sidebar slug for navigation highlighting
-- **Hub pages** are `.md` files that have a matching subdirectory (e.g., `vessel.md` + `vessel/` directory)
-
-### Key Files
-- `codex-site/src/components/Sidebar.astro` — Navigation sidebar with all 5 volumes
-- `codex-site/src/pages/*/[...slug].astro` — Route files that render content
-- `codex-site/src/content.config.ts` — Content collection schema
+- **Gallery tab:** Contains 9 embedded base64 JPEG images (~1MB total) displayed as postcards.
 
 ---
 
@@ -190,12 +167,9 @@ When starting a new session:
 
 | File | Purpose |
 |------|---------|
-| `hive_codex__34_.html` | The original Codex HTML — **canonical source of truth**, preserved forever |
+| `hive_codex__34_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
 | `CLAUDE.md` | This file — context reference for Claude |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
-| `CODEX_MIGRATION_BLUEPRINT.md` | Migration plan with HTML line ranges → Markdown file mapping |
-| `codex-site/` | **Astro static site** — the deployed web edition of the Codex |
-| `codex-site/src/content/` | All Markdown content files (90 files across 5 volumes) |
 | `README.md` | Public-facing project description |
 
 ---
