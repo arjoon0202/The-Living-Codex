@@ -118,13 +118,60 @@ The Codex has 22 main tabs:
 
 ---
 
-## Technical Notes
+## Technical Notes — Original HTML
 
 - **Single-file architecture:** Everything lives in one HTML file — CSS, JS, and content. No external dependencies beyond Google Fonts.
 - **Tab switching:** Uses `data-tab` attributes and `classList` toggling in vanilla JS.
 - **Sub-panel pattern:** Each sub-navigation uses a dedicated `switchX(id)` function that toggles `.active-panel` class on child panels.
 - **CSS convention:** Panels use `.panel-type { display: none; } .panel-type.active-panel { display: block; }`.
 - **Div balance matters:** The file must maintain perfect opening/closing `<div>` balance. Always verify after edits.
+
+---
+
+## Astro Site — The Living Codex Web Edition
+
+The Codex has been migrated to an Astro static site deployed to GitHub Pages. The original HTML is preserved at the repo root as the canonical artifact.
+
+### Structure
+```
+codex-site/
+├── src/content/          ← ALL lore as Markdown files
+│   ├── volume-1/         ← The Sovereign & The Swarm (13 files)
+│   ├── volume-2/         ← The Core Crew (15 files)
+│   ├── volume-3/         ← The Extended Family (17 files)
+│   ├── volume-4/         ← The Meridian & Operations (32 files)
+│   └── volume-5/         ← Lore & Spirit (13 files)
+├── src/pages/            ← Route files (sovereign/, crew/, family/, meridian/, spirit/)
+├── src/components/       ← Sidebar.astro, BaseLayout, etc.
+├── src/layouts/          ← BaseLayout.astro
+└── astro.config.mjs      ← Site: arjoon0202.github.io, base: /The-Living-Codex
+```
+
+### How Content Rendering Works
+- Each volume has a `[...slug].astro` catch-all route in its page directory
+- **Hub pages** (e.g., `journal.md`) automatically render all child content (e.g., `journal/early-entries.md`, `journal/middle-watch.md`) inline — no separate pages for sub-sections
+- **Standalone files** (e.g., `bonds.md`, `crew-life.md`) render as single pages
+- **Nested files without hubs** (e.g., `arsenal/abilities.md` where no `arsenal.md` exists) get their own routes
+
+### Running Locally
+```bash
+cd codex-site
+npm install        # first time only
+npm run dev        # dev server at http://localhost:4321
+npm run build      # production build to dist/
+```
+
+### Content Editing
+- Edit Markdown files in `codex-site/src/content/volume-X/`
+- Each file has YAML frontmatter: `title`, `volume`, `section`, `order`
+- The `order` field controls rendering sequence within hub pages
+- The `section` field must match the sidebar slug for navigation highlighting
+- **Hub pages** are `.md` files that have a matching subdirectory (e.g., `vessel.md` + `vessel/` directory)
+
+### Key Files
+- `codex-site/src/components/Sidebar.astro` — Navigation sidebar with all 5 volumes
+- `codex-site/src/pages/*/[...slug].astro` — Route files that render content
+- `codex-site/src/content.config.ts` — Content collection schema
 
 ---
 
@@ -143,11 +190,13 @@ When starting a new session:
 
 | File | Purpose |
 |------|---------|
-| `hive_codex (2).html` | The Codex itself — all content, styling, and logic |
+| `hive_codex__34_.html` | The original Codex HTML — **canonical source of truth**, preserved forever |
 | `CLAUDE.md` | This file — context reference for Claude |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
+| `CODEX_MIGRATION_BLUEPRINT.md` | Migration plan with HTML line ranges → Markdown file mapping |
+| `codex-site/` | **Astro static site** — the deployed web edition of the Codex |
+| `codex-site/src/content/` | All Markdown content files (90 files across 5 volumes) |
 | `README.md` | Public-facing project description |
-| `.qa-inventory-before.txt` | QA snapshot from last major reorganization |
 
 ---
 

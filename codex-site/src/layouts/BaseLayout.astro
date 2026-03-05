@@ -65,31 +65,36 @@ const base = import.meta.env.BASE_URL;
   </div>
 
   <script>
-    // Hex particles
-    const particleContainer = document.getElementById('hexParticles');
-    if (particleContainer && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      for (let i = 0; i < 12; i++) {
-        const p = document.createElement('div');
-        p.className = 'hex-particle';
-        p.style.left = Math.random() * 100 + '%';
-        p.style.animationDuration = (15 + Math.random() * 20) + 's';
-        p.style.animationDelay = Math.random() * 15 + 's';
-        p.style.width = (4 + Math.random() * 4) + 'px';
-        p.style.height = p.style.width;
-        particleContainer.appendChild(p);
+    function initLayout() {
+      // Hex particles
+      const particleContainer = document.getElementById('hexParticles');
+      if (particleContainer && particleContainer.children.length === 0 && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        for (let i = 0; i < 12; i++) {
+          const p = document.createElement('div');
+          p.className = 'hex-particle';
+          p.style.left = Math.random() * 100 + '%';
+          p.style.animationDuration = (15 + Math.random() * 20) + 's';
+          p.style.animationDelay = Math.random() * 15 + 's';
+          p.style.width = (4 + Math.random() * 4) + 'px';
+          p.style.height = p.style.width;
+          particleContainer.appendChild(p);
+        }
+      }
+
+      // Mobile sidebar toggle
+      const toggle = document.getElementById('sidebarToggle');
+      const sidebar = document.getElementById('sidebar');
+      const overlay = document.getElementById('sidebarOverlay');
+      if (toggle && sidebar) {
+        toggle.addEventListener('click', () => {
+          sidebar.classList.toggle('open');
+          overlay?.classList.toggle('visible');
+        });
       }
     }
 
-    // Mobile sidebar toggle
-    const toggle = document.getElementById('sidebarToggle');
-    const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('sidebarOverlay');
-    if (toggle && sidebar) {
-      toggle.addEventListener('click', () => {
-        sidebar.classList.toggle('open');
-        overlay?.classList.toggle('visible');
-      });
-    }
+    // Run on initial load and after every ViewTransition navigation
+    document.addEventListener('astro:page-load', initLayout);
   </script>
   <script src={`${import.meta.env.BASE_URL}/scripts/scroll-reveals.js`} defer></script>
 </body>
