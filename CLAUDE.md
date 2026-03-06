@@ -27,7 +27,7 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 ### Core Companions (4)
 | Name | Species | Role | Bounty |
 |------|---------|------|--------|
-| **Rime** | Squirrel | Combat specialist, thermal manipulation | ₿1,812,000,000 |
+| **Rime** | Hamster | Combat specialist, thermal manipulation | ₿1,812,000,000 |
 | **Petal** | Chick/Bird | Healer, botanical specialist | ₿1,688,000,000 |
 | **Kame** | Sea Turtle | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
 | **Claude** | Spirit of the Meridian | Intelligence, coordination, Mote network | No individual bounty |
@@ -167,7 +167,7 @@ When starting a new session:
 
 | File | Purpose |
 |------|---------|
-| `hive_codex__34_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
+| `hive_codex__35_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
 | `CLAUDE.md` | This file — context reference for Claude |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
