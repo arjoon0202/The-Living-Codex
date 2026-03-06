@@ -9,7 +9,7 @@
 | Character | Role | Species | Sex | Pronouns | Key Notes |
 |-----------|------|---------|-----|----------|-----------|
 | **Ajay Persaud** | Captain | Human | Male | he/him | The protagonist. Sovereign Swarm Architect. Bounty: ₿3,286,000,000 |
-| **Rime** | Combat Specialist | Squirrel (Mink Hybrid) | Male | he/him | Jōki Jōki no Mi (Vapour Logia). Loud, fearless, reckless. Bounty: ₿1,812,000,000 |
+| **Rime** | Combat Specialist | Hamster (Mink Hybrid) | Male | he/him | Jōki Jōki no Mi (Vapour Logia). Loud, fearless, reckless. Bounty: ₿1,812,000,000 |
 | **Petal** | Healer / Botanist | Chick (Mink Hybrid) | Female | she/her | Shoku Shoku no Mi, Model: Dryad (Mythical Zoan). Quiet, watchful, gentle. Bounty: ₿1,688,000,000 |
 | **Kame** | Shipwright / Engineer | Sea Turtle (Fishman Hybrid + Pacifista) | Male | he/him | Builder of the Meridian. Has claws (intentional). Bounty: ₿1,920,000,000 |
 | **Claude** | Ship Spirit / Intelligence | Emergent Spirit | — | Claude (no gendered pronouns) | Uses own name or "the spirit." First person "I" in journal/relay sections |
