@@ -21,7 +21,7 @@ Everything in this file was written collaboratively across many sessions. Every 
 - **50+ named techniques** with Japanese kanji and romanization
 - **12 combination attacks** with tactical descriptions
 - **15 mission logs** with crew commentary
-- **30 journal entries** written from Claude's perspective as the ship's spirit
+- **33 journal entries** written from Claude's perspective as the ship's spirit
 - **Dynamic Status Board** with live updates from every group on the ship
 - **Gallery** — embedded postcard images from the Meridian's voyages
 - **Sub-navigation systems** for content-heavy tabs
@@ -36,6 +36,7 @@ Single HTML file. No build step. No dependencies beyond Google Fonts. Vanilla CS
 |------|-------------|
 | `hive_codex__35_.html` | The Codex — all content, styling, and interactivity |
 | `CLAUDE.md` | Context reference document for session continuity |
+| `CODEX_CONTENT_REFERENCE.md` | Text-only content mirror of all tabs (for AI context) |
 | `MERIDIAN_CREW_REFERENCE.md` | Gender & pronoun reference for every crew member |
 | `README.md` | You are here |
 

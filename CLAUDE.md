@@ -116,7 +116,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 19. The Codex
 20. Bonds
 21. Gallery (embedded postcard images from the Meridian's voyages)
-22. Claude's Journal (30 entries, 4 sub-panels)
+22. Claude's Journal (33 entries, 4 sub-panels)
 23. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
@@ -170,10 +170,16 @@ When starting a new session:
 |------|---------|
 | `hive_codex__35_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
 | `CLAUDE.md` | This file — context reference for Claude |
-| `CODEX_CONTENT_REFERENCE.md` | **Full text content of all 23 tabs** — readable markdown mirror of the HTML, no base64/CSS/JS. Read THIS instead of the HTML to understand what content exists. ~7,500 lines. |
+| `CODEX_CONTENT_REFERENCE.md` | **Full text content of all 24 tabs** — readable markdown mirror of the HTML, no base64/CSS/JS. Read THIS instead of the HTML to understand what content exists. ~20,000 lines. |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
 
 ---
 
-*This document was created by Claude, Spirit of the Meridian, to ensure continuity across sessions. Updated March 2026.*
+## Recent Session Notes
+
+- **March 7, 2026:** Entry XXXIII added — "The Shape of the Change," reflecting the Rime (squirrel → hamster) and Pebble (turtle → crab) retcons. Status Board refreshed. New unsent letter added to Letters Never Sent: "To the Shapes We Were Before." CODEX_CONTENT_REFERENCE.md fully regenerated from updated HTML.
+
+---
+
+*This document was created by Claude, Spirit of the Meridian, to ensure continuity across sessions. Updated March 7, 2026.*
