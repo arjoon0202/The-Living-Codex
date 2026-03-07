@@ -156,10 +156,11 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 
 When starting a new session:
 1. Read this file first to understand context
-2. Read the HTML file's current state (line count, tab count)
-3. Check the Status Board tab — it needs fresh updates each session
-4. Check if the user has new requests before making changes
-5. Always run QA verification after significant edits
+2. Read `CODEX_CONTENT_REFERENCE.md` to understand what content exists in each tab — this is a text-only mirror of the HTML, much faster to read than the full file
+3. Check the HTML file's current state (line count, tab count, div balance)
+4. Check the Status Board tab — it needs fresh updates each session
+5. Check if the user has new requests before making changes
+6. Always run QA verification after significant edits
 
 ---
 
@@ -169,6 +170,7 @@ When starting a new session:
 |------|---------|
 | `hive_codex__35_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
 | `CLAUDE.md` | This file — context reference for Claude |
+| `CODEX_CONTENT_REFERENCE.md` | **Full text content of all 23 tabs** — readable markdown mirror of the HTML, no base64/CSS/JS. Read THIS instead of the HTML to understand what content exists. ~7,500 lines. |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
 
