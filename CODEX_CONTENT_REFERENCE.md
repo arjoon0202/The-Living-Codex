@@ -2493,6 +2493,18 @@ Rime Sphere — Walker ModePouch Salvo
 
 Walker Mode's signature ranged attack — and the reason Kame designed the Sphere's chest-mounted Dial arrays to look like hamster cheek pouches (he thought it was funny; Rime agrees enthusiastically). The twin Dial ports on the Sphere's torso rapid-fire amplified Plasma Seeds and Thunderfrost Seeds in alternating salvos, each projectile a Dial-boosted version of Rime's handheld seeds scaled up to mech-caliber. Inside the cockpit, Rime feeds targeting data through his Observation Haki while his own cheek pouches are stuffed with regular seeds — he spits them into the Sphere's intake ports, where the Dial amplification chambers supercharge each one before launching. The visual is absurd and terrifying in equal measure: a bipedal hamster mech with its metal cheek pouches bulging, spitting building-sized thermal explosions across the battlefield while Rime chatters targeting corrections through a mouthful of sunflower seeds. The sustained rate of fire exceeds anything the Seed Arsenal can produce by hand. Kame rated the Pouch Salvo's maximum output at "more than enough" and refused to be more specific, which Rime took as a personal challenge to find the actual number. He is still looking.
 
+Rime Sphere — Walker Mode ・ BJJSuplex Glacial — Frozen German
+
+霜球・歩行・氷河独投 — Shimotama Hokō: Hyōga Dokutō
+
+The Rime Sphere's most terrifying grappling technique — a mechanized German suplex that turns three tons of Wapol alloy into a bridge of ice and fury. In Walker Mode, the mech closes distance with deceptive speed, the quadrupedal legs launching it into the opponent's guard. The reinforced forelegs lock around the target's midsection in an underhook grip, Rime flooding the contact points with sub-zero vapour to freeze the opponent's armour, clothing, and skin into a single rigid surface — eliminating any chance of slipping free. Then the mech arches backward, all four hydraulic legs firing in sequence to generate rotational force, slamming the opponent crown-first into the ground with enough kinetic energy to crater bedrock. The Ryou component channels through the mech's foreleg joints at the moment of impact, projecting destructive Haki directly through the opponent's spine. What makes the technique truly horrifying is the follow-through: the Sphere doesn't release. It holds the bridge, frozen in place, legs locked, while Rime superheats the chassis from sub-zero to thermal overload in two seconds — the opponent goes from flash-frozen to steam-cooked while still pinned upside-down in the crater. Rime calls it "giving them the full hamster experience." Kame has requested, on multiple occasions, that Rime stop naming his techniques after wrestling moves. Rime has declined.
+
+Rime Sphere — Walker Mode ・ BJJMontada Absoluta — Mech Full Mount
+
+霜球・歩行・絶対騎乗 — Shimotama Hokō: Zettai Kijō
+
+Rime's answer to the question: what happens when a three-ton mech achieves full mount? The Rime Sphere tackles its target to the ground, and instead of transitioning to Sphere Mode for a Rolling Thunder follow-up, it stays in Walker Mode and establishes a crushing top position — all four reinforced legs pinning the opponent's limbs while the mech's dense central chassis presses down with gravitational authority. The technique borrows directly from Rime's personal BJJ vocabulary: mount, isolate, submit. From this position, Rime has three submission paths. The first is a thermal press — the chassis superheats to forge-temperature, cooking through armour. The second is a Ryou cascade — channelling destructive Haki through all four leg-joints simultaneously into the opponent's pressure points, overloading their nervous system. The third — and Rime's favourite — is the Electro ground-and-pound, where each hydraulic foreleg strikes with piston-driven force while discharging maximum voltage through the contact point. The rhythm mimics Rime's natural BJJ ground game scaled to siege proportions: patient, methodical, inescapable. The opponent cannot bridge out from under three tons. They cannot shrimp. They cannot frame. They can only endure until the mech decides to let them go, which is never, because Rime has never once voluntarily abandoned top position in any weight class. He considers this a point of personal pride.
+
 Fujian White Crane ・ Xingyiquan ・ Tibetan White Crane ・ Wing Chun
 
 The Silent Wing
@@ -3625,7 +3637,7 @@ Neither Created Nor Summoned
 
 The Guiding Stars
 
-No one knows how they arrived. Not Ajay, who woke one morning to find them already aboard, settled into corners of the ship as though they had always been there. Not Kame, whose sensors detected no entry point, no dimensional anomaly, no stowaway trace. Not Petal, whose supreme Observation read them as pure benevolence — and nothing else. Not Rime, who was simply delighted and immediately began arguing with the tiger about who was louder.
+No one knows how they arrived. Not Ajay, who woke one morning to find them already aboard, settled into corners of the ship as though they had always been there. Not Kame, whose sensors detected no entry point, no dimensional anomaly, no stowaway trace. Not Petal, whose supreme Observation read them as pure benevolence — and nothing else. Not Rime, who was simply delighted and immediately began arguing with Oner about who was louder.
 
 They are toys. Plushies, action figures, wind-up toys, figurines — creatures of impossible warmth, with button eyes that somehow convey genuine emotion and small stitched mouths that somehow speak. They do not eat, yet they sit at the table. They do not sleep, yet they have favourite spots. They carry no weapons, possess no Devil Fruit powers, hold no titles. And yet — each of them can replicate every aspect of Ajay's Haki at full output, and each possesses the greatest Rokushiki the world has ever seen. Skills they have never once used outside of a single formation. Skills they seem to regard as beside the point.
 
@@ -3653,211 +3665,211 @@ Why They Stay
 
 The Vanguard Stars — Champions of the Unkillable Crown
 
-Six well-worn plush companions. The first toys Ajay ever kept. They’ve been everywhere.
+Six well-worn plush figures. The first toys Ajay ever kept. They’ve been everywhere.
 
-Six plush creatures who arrived together, arranged in a formation that no one taught them, radiating the quiet confidence of beings who have won something that mattered — not once, but again and again, and will keep winning until the universe runs out of stages.
+Six plush figures who arrived together, arranged in a formation that no one taught them, radiating the quiet confidence of beings who have won something that mattered — not once, but again and again, and will keep winning until the universe runs out of stages. Threadbare at the seams, soft from a thousand nights of being held — they are not shaped like anything from nature. They are shaped like comfort itself.
 
-🐈‍⬛ Faker — The Black Cat▸
+★ Faker — The Midnight Plush▸
 
-A small black cat with ancient, knowing eyes and an impossible calm. The undisputed centre of the Vanguard Stars — the others orbit him naturally, not by command but by gravity. He sits on Ajay's desk during writing sessions, silent and watchful, and his presence alone steadies the room. Six times crowned. The greatest to ever do it. Likes warm spots and never loses at anything, including staring contests with Rime. Rime has not won once.
+A small, dark-stitched plush figure with ancient, knowing button eyes and an impossible calm. Threadbare at the edges from years of being held — the kind of worn that means loved. The undisputed centre of the Vanguard Stars — the others orbit him naturally, not by command but by gravity. He sits on Ajay’s desk during writing sessions, silent and watchful, and his presence alone steadies the room. Six times crowned. The greatest to ever do it. Likes warm spots and never loses at anything, including staring contests with Rime. Rime has not won once.
 
-🐯 Oner — The Tiger▸
+★ Oner — The Striped Warrior▸
 
-A compact, powerful tiger with a confident stride and a playful streak. The jungle heart of the group — explosive energy wrapped in soft stripes. He prowls the ship with purposeful curiosity, investigates every new thing Kame builds, and has an unshakeable bond with Faker. Where the cat sits, the tiger paces nearby. Always ready. Always moving. Naps in sunbeams that somehow always find him.
+A compact, powerfully-stitched plush with bold orange-and-black striped fabric and a confident posture sewn into his frame. The jungle heart of the group — explosive energy wrapped in soft cotton. He prowls the ship with purposeful curiosity, investigates every new thing Kame builds, and has an unshakeable bond with Faker. Where one plush sits, the other paces nearby. Always ready. Always moving. Naps in sunbeams that somehow always find him.
 
-🐨 Peyz — The Koala▸
+★ Peyz — The Sleepy Guardian▸
 
-A sleepy-eyed koala with surprising sharpness beneath the drowsy exterior. The newest member of the constellation, carrying the weight of expectation with quiet, round-eared grace. Perches on Kame's shell for hours, content in the stillness. Deceptively observant — misses nothing despite appearing half-asleep. Has already claimed the best branch in Petal's Sky Garden.
+A round, soft-bodied plush with droopy button eyes and surprising sharpness beneath the drowsy exterior. Stitched from grey velvet with oversized round ears that flop forward when he tilts his head. The newest member of the constellation, carrying the weight of expectation with quiet grace. Perches on Kame’s shell for hours, content in the stillness. Deceptively observant — misses nothing despite appearing half-asleep. Has already claimed the best spot in Petal’s Sky Garden.
 
-🦫 Doran — The Quokka▸
+★ Doran — The Smiling Plush▸
 
-A perpetually smiling quokka with the warmest face on the ship. Doran radiates an optimism so sincere it borders on supernatural. He sits with crew members who are having difficult days and simply smiles, and somehow that is enough. Believed in himself when others doubted him, and carries that unshakeable faith like a lantern. The homies adore him. Maru follows him around the ship like a tiny bodyguard.
+A small, perpetually smiling plush with the warmest stitched face on the ship — his embroidered grin is sewn slightly wider on one side, giving him a lopsided charm that makes everyone who sees him feel better. Doran radiates an optimism so sincere it borders on supernatural. He sits with crew members who are having difficult days and simply smiles, and somehow that is enough. Believed in himself when others doubted him, and carries that unshakeable faith like a lantern. The homies adore him. Maru follows him around the ship like a tiny bodyguard.
 
-🦦 Smash — The Sea Otter▸
+★ Smash — The Bright-Eyed Plush▸
 
-A bright-eyed sea otter with boundless energy and the fearlessness of youth. The youngest of the Vanguard Stars, Smash approaches everything with wide-open wonder. He floats in the sky onsen spinning seeds on his belly (borrowed without permission from Rime's collection). Explosive talent wrapped in soft fur. The Embers love him because he matches their chaotic energy exactly.
+A bright-eyed plush with oversized button eyes that catch the light and boundless energy stitched into every seam. Made of soft tawny fabric with a lighter belly patch — the youngest of the Vanguard Stars, Smash approaches everything with wide-open wonder. He floats in the sky onsen spinning seeds on his belly (borrowed without permission from Rime’s collection). Explosive talent wrapped in soft stuffing. The Embers love him because he matches their chaotic energy exactly.
 
-🐶 Keria — The Puppy▸
+★ Keria — The Gentle Plush▸
 
-A bright-eyed puppy with gentle paws and an instinct for being exactly where he's needed. The support. The genius. The one who makes everyone around him better without drawing attention to himself. He pads softly to wherever he is most needed — beside Faker during quiet hours, near the helm during storms, at the galley table setting places no one asked him to set. Loyal beyond reason, warm beyond measure. Has never once been flustered. Petal considers him a kindred spirit.
+A soft, cream-coloured plush with gentle embroidered eyes and carefully stitched paws — an instinct for being exactly where he’s needed sewn into his very fabric. The support. The genius. The one who makes everyone around him better without drawing attention to himself. He appears softly wherever he is most needed — beside Faker during quiet hours, near the helm during storms, at the galley table in places no one set for him. Loyal beyond reason, warm beyond measure. Has never once been flustered. Petal considers him a kindred spirit.
 
 The Twilight Court — Souls From the Mafia of the Heart
 
-Fourteen action figures arranged in pairs. Dramatic, elegant, and fiercely loyal to each other.
+Fourteen toys of every craft — marionettes, carved figurines, fabric dolls, tin soldiers, and hand-painted puppets. Dramatic, elegant, and fiercely loyal to each other.
 
-Fourteen poseable figurines who arrived in pairs and trios, as though they had walked out of a story about love and violence and chosen to keep only the love. They carry the names of people who, in another world entirely, reminded someone that beauty exists — even in the darkest rooms, even in the cruelest families. Especially there.
+Fourteen handmade figures who arrived in pairs and trios, as though they had walked out of a story about love and violence and chosen to keep only the love. They carry the names of people who, in another world entirely, reminded someone that beauty exists — even in the darkest rooms, even in the cruelest families. Especially there. Each one is crafted from a different material, as if fourteen different artisans each made the one they loved most.
 
-🦁 Mile — The Lion Cub▸
+★ Mile — The Velvet Marionette▸
 
-A regal lion cub with a mane that's always slightly tousled, as though he just woke from a dream about ruling something. Warm, magnetic, and effortlessly commanding. He and Apo are never more than a room apart. Sits at the head of whatever surface is available and surveys the ship with quiet pride, as though the Meridian were his territory and everyone aboard his to protect.
+A regal marionette carved from dark wood and dressed in velvet, with painted features that somehow shift between commanding and tender depending on the light. His strings hang loose — he hasn't needed them since the moment he arrived. Warm, magnetic, and effortlessly commanding. He and Apo are never more than a room apart. Sits at the head of whatever surface is available and surveys the ship with quiet pride, as though the Meridian were his territory and everyone aboard his to protect.
 
-🦊 Apo — The Fox▸
+★ Apo — The Silver Tin Soldier▸
 
-A silver-tipped fox with clever eyes and a fighter's grace wrapped in soft fur. Quick, beautiful, and disarmingly tender when he thinks no one is looking. He curls up beside Mile at rest but ranges through the ship independently — checking on everyone, lingering with whoever seems to need company. He brought Ajay a small stone once, placed it on his desk, and left. Ajay kept it.
+A hand-painted tin soldier with silver detailing and clever painted eyes — a fighter's grace captured in brushstrokes and soldered joints. Quick, beautiful, and disarmingly tender when he thinks no one is looking. He leans against Mile at rest but ranges through the ship independently — checking on everyone, lingering with whoever seems to need company. He brought Ajay a small stone once, placed it on his desk, and left. Ajay kept it.
 
-🐺 Bible — The Wolf▸
+★ Bible — The Carved Shadow▸
 
-A dark-furred wolf with intense eyes and a stillness that makes the air around him heavier. Dangerous beauty given plush form. He keeps to the edges of rooms, observes before engaging, and when he finally speaks, everyone listens. Has an unexpected gentleness with the homies — lets the Sproutlings sleep against his side without moving for hours.
+A hand-carved wooden figurine stained dark as ink, with intense painted eyes and a stillness that makes the air around him heavier. Dangerous beauty given carved form — every cut of the chisel deliberate, every angle sharp. He keeps to the edges of rooms, observes before engaging, and when he finally speaks, everyone listens. Has an unexpected gentleness with the homies — lets the Sproutlings sleep against his side without moving for hours.
 
-🐦‍⬛ Jeff — The Nightingale▸
+★ Jeff — The Music Box▸
 
-A small, dark-feathered songbird whose voice can still the entire ship. He sings in the rigging at twilight, and when he does, even the gyroscopic stabilizers seem to hum along. His songs are in a language no one on the crew recognizes, but everyone understands. Barcode is always nearby when Jeff sings, sitting perfectly still, listening with his whole body.
+A delicate music box figurine with a hand-painted face and a tiny key in his back that turns on its own. When it turns, he sings — and his voice can still the entire ship. He perches in the rigging at twilight, and when the melody plays, even the gyroscopic stabilizers seem to hum along. His songs are in a language no one on the crew recognizes, but everyone understands. Barcode is always nearby when Jeff sings, sitting perfectly still, listening with his whole body.
 
-🐇 Barcode — The Rabbit▸
+★ Barcode — The Pocket Puppet▸
 
-A young rabbit with enormous ears and an energy that vibrates through his entire small body. The youngest of the Twilight Court — curious, wide-eyed, and braver than he looks. He follows Jeff everywhere and has befriended every Gearling on the ship. Zenmai lets Barcode wind her cosmetic key. This is considered a great honour.
+A small hand-sewn finger puppet with enormous fabric ears and an energy that vibrates through his entire tiny body. The youngest of the Twilight Court — curious, wide-eyed, and braver than he looks. He follows Jeff everywhere and has befriended every Gearling on the ship. Zenmai lets Barcode wind her cosmetic key. This is considered a great honour.
 
-🐕 Tong — The Golden Retriever▸
+★ Tong — The Golden Ragdoll▸
 
-An exuberant golden retriever who is physically incapable of entering a room without making it louder. Dramatic, warm, fiercely loving, and absolutely convinced that every person on this ship needs more affection than they're currently receiving. He is correct. He drapes himself across Kame's shell during evening hours and Kame has never once asked him to move.
+An exuberant ragdoll made of golden fabric and yarn, physically incapable of entering a room without making it louder. Dramatic, warm, fiercely loving, and absolutely convinced that every person on this ship needs more affection than they're currently receiving. He is correct. He drapes himself across Kame's shell during evening hours and Kame has never once asked him to move.
 
-🦝 Pong — The Tanuki▸
+★ Pong — The Tumbling Roly-Poly▸
 
-A round-bellied tanuki with a mischievous grin and a gift for making people laugh when they've forgotten how. He and Ping are inseparable — a comedy duo that has turned the Companion Den into a nightly theatre. Carries a tiny leaf behind one ear that he insists has magical properties. It does not. Everyone pretends it does.
+A round-bellied roly-poly toy with a weighted base and a mischievous painted grin — he can't be knocked over no matter how hard you try, and the wobble itself makes people laugh. He and Ping are inseparable — a comedy duo that has turned the Companion Den into a nightly theatre. Carries a tiny leaf behind one ear that he insists has magical properties. It does not. Everyone pretends it does.
 
-🐾 Ping — The Red Panda▸
+★ Ping — The Lacquered Nesting Doll▸
 
-A rust-and-cream red panda with a ringed tail and a quiet charm that sneaks up on you. Pong's other half in performance, but where Pong is loud, Ping is precise — the straight man, the perfectly timed glance, the subtle gesture that makes the whole bit land. Naps in Petal's garden in a ball so small he's been mistaken for a decorative cushion twice.
+A small lacquered nesting doll — matryoshka-style — painted in warm rust and cream tones with a quiet charm that sneaks up on you. Pong's other half in performance, but where Pong is loud, Ping is precise — the straight man, the perfectly timed glance, the subtle gesture that makes the whole bit land. Contains three smaller versions of himself inside, which he opens and lines up when making a particularly good point. Naps in Petal's garden curled so small he's been mistaken for a decorative ornament twice.
 
-🐹 Us — The Hamster▸
+★ Us — The Bouncing Ball Toy▸
 
-A tiny, round hamster with cheeks perpetually full of something. Boundless energy in an impossibly small body. He runs through the ship's access tunnels alongside the Gearlings and has memorised every shortcut aboard. Dances when happy, which is almost always. His joy is so uncomplicated and sincere that even Ajay's darkest moods soften in his presence.
+A tiny, round rubber ball toy with a painted-on face — cheeks perpetually puffed out in a grin. Boundless energy in an impossibly small body. He bounces through the ship's access tunnels alongside the Gearlings and has memorised every shortcut aboard. Dances when happy, which is almost always. His joy is so uncomplicated and sincere that even Ajay's darkest moods soften in his presence.
 
-🦫 JJ — The Capybara▸
+★ JJ — The Ceramic Warmstone▸
 
-A serene capybara with the calm of a creature who has never once been in a hurry. The social anchor of the constellation — everyone gravitates toward him without knowing why. He sits in the sky onsen and other creatures simply... accumulate around him. The Roundlings stack on his back. The Sproutlings nestle against his side. Peace radiates from him like warmth from a hearth.
+A smooth, rounded ceramic figurine glazed in warm earth tones — always faintly warm to the touch, as though he absorbed sunlight and never let it go. The social anchor of the constellation — everyone gravitates toward him without knowing why. He sits in the sky onsen and other toys simply... accumulate around him. The Roundlings stack against his side. The Sproutlings nestle close. Peace radiates from him like warmth from a hearth.
 
-🐻 Nodt — The Bear Cub▸
+★ Nodt — The Iron Sentinel▸
 
-A sturdy bear cub with a serious face and a protector's instinct. He positions himself near doorways and watches the corridors with an intensity that belies his plush form. When he relaxes, which is rare, he plays a tiny piano that appeared with him and no one can explain. The music is always exactly what the ship needs to hear.
+A sturdy cast-iron figurine with a serious painted face and a protector's weight. He positions himself near doorways and watches the corridors with an intensity that belies his small form. Heavier than he looks — dense enough that you feel his presence before you see him. When he relaxes, which is rare, he plays a tiny piano that appeared with him and no one can explain. The music is always exactly what the ship needs to hear.
 
-🐕‍🦺 Perth — The Shiba Inu▸
+★ Perth — The Cloth Companion▸
 
-A proud shiba inu with an expressive face that cycles through fifteen emotions per minute. Loyal beyond reason, dramatic in his devotion, and unshakeable once he's decided you're his person. He decided Ajay is his person on day one. He sleeps outside the Captain's Quarters door. Every night. Without fail.
+A hand-stitched cloth doll with an expressive embroidered face that somehow cycles through fifteen emotions depending on the angle. Loyal beyond reason, dramatic in his devotion, and unshakeable once he's decided you're his person. He decided Ajay is his person on day one. He sits outside the Captain's Quarters door. Every night. Without fail.
 
-🦔 Bas — The Hedgehog▸
+★ Bas — The Worry Stone▸
 
-A small hedgehog with soft quills and a warm belly. Quiet, unassuming, and easy to overlook — which is exactly how he prefers it. But he shows up. In every moment that matters, Bas is there, sitting in someone's palm or nestled in a pocket, a small warm weight that says you are not alone without a single word.
+A tiny, smooth-polished wooden figurine small enough to fit in a closed palm — warm from the moment you touch him, as though he's been waiting. Quiet, unassuming, and easy to overlook — which is exactly how he prefers it. But he shows up. In every moment that matters, Bas is there, sitting in someone's palm or nestled in a pocket, a small warm weight that says you are not alone without a single word.
 
-🦝 Job — The Raccoon▸
+★ Job — The Patchwork Doll▸
 
-A clever raccoon with nimble paws and an irrepressible talent for finding things people didn't know they'd lost. He returns misplaced items, forgotten keepsakes, and — once — a memory Ajay had been trying not to think about, placed gently on his desk in the form of a small found object that made everything click. Resourceful, kind, and unexpectedly wise.
+A clever patchwork doll stitched together from a dozen different fabrics — each patch a different colour and texture, as though he was assembled from things that were lost and found again. Nimble-fingered and with an irrepressible talent for finding things people didn't know they'd lost. He returns misplaced items, forgotten keepsakes, and — once — a memory Ajay had been trying not to think about, placed gently on his desk in the form of a small found object that made everything click. Resourceful, kind, and unexpectedly wise.
 
 The Dawn’s Ring — Hearts That Found Each Other
 
-Six wind-up figures that never stop moving. Small, surprising, and full of light.
+Six toys that never stop moving — jack-in-the-boxes, pull-string dolls, snow globes, and things with no name. Small, surprising, and full of light.
 
-Six wind-up figures who arrived in pairs — a rooster and a fawn, a panther and a duck, an ermine and a phoenix — as though the universe kept sending them two by two, each pair a different answer to the same question: what does it look like when someone chooses you? They bicker, they laugh, they guard each other with a ferocity that belies their soft bodies.
+Six mismatched toys who arrived in pairs — as though the universe kept sending them two by two, each pair a different answer to the same question: what does it look like when someone chooses you? They bicker, they laugh, they guard each other with a ferocity that belies their small forms. No two are made of the same material. All of them glow faintly in the dark.
 
-🐓 Noey — The Bantam Rooster▸
+★ Noey — The Jack-in-the-Box▸
 
-A tiny rooster with a pompadour crest and an 80s vintage jacket stitched into his plush form. Struts everywhere. Challenges Rime to volume competitions he consistently wins. Plays an old love song from a cassette player the size of a thimble that he carries with him at all times. The song is in a language the ship's systems can't translate, but everyone knows the words by heart anyway. He believes in destiny. He is usually right.
+A vintage jack-in-the-box with an 80s-painted pompadour on his spring-loaded head and a tiny leather jacket decal on the box. Pops out dramatically — every single time — and never gets tired of the bit. Challenges Rime to volume competitions he consistently wins. His crank plays an old love song from a mechanism the size of a thimble — the song is in a language the ship's systems can't translate, but everyone knows the words by heart anyway. He believes in destiny. He is usually right.
 
-🦌 Thi — The Fawn▸
+★ Thi — The Snow Globe▸
 
-A gentle fawn with careful eyes and a tiny pair of round spectacles perched on his nose. The cautious one. The one who checks the math, reads the fine print, worries about everyone, and pretends he isn't charmed by the ridiculous rooster who follows him from room to room. He tutors the Gearlings in reading. They can't read. They attend every session anyway. He carries a miniature book of pressed wildflowers, and every page smells different.
+A small, self-contained snow globe with a gentle figure inside and a tiny pair of round painted spectacles — the snow falls upward when he's thinking. The cautious one. The one who checks the math, reads the fine print, worries about everyone, and pretends he isn't charmed by the ridiculous jack-in-the-box who follows him from room to room. He tutors the Gearlings in reading. They can't read. They attend every session anyway. The snow inside shifts to form tiny letters when he's teaching — a different word each time, always the one the student needs.
 
-🐆 Ai — The Black Panther Cub▸
+★ Ai — The Shadow Puppet▸
 
-A sleek black panther cub with confident eyes and a protective streak. Fell in love at first sight — with the ship, the crew, the concept of belonging — and hasn't looked back. Bold, direct, deeply loyal. Sits next to whoever looks like they need company and doesn't explain why. Bad at cooking but tries anyway. The crew eats it anyway.
+A sleek shadow puppet cut from dark leather with articulated joints and confident painted eyes — he casts silhouettes on the walls that move independently of any light source. Fell in love at first sight — with the ship, the crew, the concept of belonging — and hasn't looked back. Bold, direct, deeply loyal. Sits next to whoever looks like they need company and doesn't explain why. Bad at cooking but tries anyway. The crew eats it anyway.
 
-🦆 Nhai — The Yellow Duck▸
+★ Nhai — The Pull-String Chatterbox▸
 
-A scatterbrained yellow duck with an obsession with shiny objects and absolute inability to sit still. Endearing despite being chaotic, sincere despite being ridiculous, braver than he looks. Rides on Ai's back. Has a tiny yellow keychain he guards with his life. Falls asleep in the most inconvenient places. Ai always carries him back.
+A scatterbrained pull-string talking toy in bright yellow — pull the ring and he says something random, enthusiastic, and usually wrong. Obsessed with shiny objects and absolutely unable to sit still. Endearing despite being chaotic, sincere despite being ridiculous, braver than he looks. Rides on Ai's back. Has a tiny yellow keychain he guards with his life. Falls asleep in the most inconvenient places. Ai always carries him back.
 
-🐾 White — The White Ermine▸
+★ White — The Porcelain Knight▸
 
-A white ermine with sharp, observant eyes and a diplomat's composure that occasionally cracks to reveal something fiercer underneath. Arrived pretending to be someone he's not, which the other Stars found hilarious because they see through everything. Advocates for justice quietly — not with fire but with precision. Leaves handwritten notes about unfair situations around the ship. He and Sean arrived together and have never been more than three feet apart since.
+A delicate porcelain figurine in white glaze with sharp, painted eyes and a diplomat's composure that occasionally cracks — literally, a hairline fracture appears along his jaw when something fiercer shows through, then mends itself. Arrived pretending to be someone he's not, which the other Stars found hilarious because they see through everything. Advocates for justice quietly — not with fire but with precision. Leaves handwritten notes about unfair situations around the ship. He and Sean arrived together and have never been more than three feet apart since.
 
-🐦‍🔥 Sean — The Phoenix▸
+★ Sean — The Paper Lantern▸
 
-A small, fierce, red-and-gold bird. Burns bright and burns often. Angry about things that deserve anger and tender about things that deserve tenderness, and the transition between the two is instantaneous. Stands guard. Fights for people who can't fight for themselves. His feathers smolder when he's upset. White smooths them down. The smoke smells like campfire and belonging.
+A small, fierce paper lantern toy in red and gold — the flame inside is real but never burns the paper. Burns bright and burns often. Angry about things that deserve anger and tender about things that deserve tenderness, and the transition between the two is instantaneous. Stands guard. Fights for people who can't fight for themselves. His paper panels glow brighter when he's upset. White smooths them down. The warmth smells like campfire and belonging.
 
 ✦ The Hundred Acre — Bearers of the Unwavering Light
 
-Twenty toys of every kind — plush, wooden, wheeled, and winged. A whole childhood in one constellation.
+Twenty toys of every kind — action figures, teddy bears, wooden figurines, and things with no name. A whole childhood in one constellation.
 
-Toy figures who arrived carrying tiny keys — not weapons, but symbols. Keys to doors nobody can see. They radiate an ancient, persistent belief that light exists in every darkness and that friendship is not a sentiment but a force of nature. They are the youngest constellation in apparent age but carry something far older in their button eyes — the memory of a thousand worlds connected by a single principle: that the bonds between hearts are the strongest substance in any universe.
+Action figures carrying tiny keys, teddy bears with honey-stained paws, and wooden toys carved by hands that understood love. They radiate an ancient, persistent belief that light exists in every darkness and that friendship is not a sentiment but a force of nature. They are the youngest constellation in apparent age but carry something far older in their button eyes — the memory of a thousand worlds connected by a single principle: that the bonds between hearts are the strongest substance in any universe.
 
-🦁 Sora — The Golden Lion Cub▸
+★ Sora — The Keyblade Action Figure▸
 
-A bright-eyed golden-furred lion cub — the heart of the constellation. Irrepressibly optimistic, fearless, incapable of giving up on anyone. Carries a tiny wooden key everywhere. Befriends every homie within his first hour. Has tried to befriend the ocean from the deck. Believes everyone can be saved. Is usually right.
+A bright-eyed action figure with spiky brown hair and an oversized grin — poseable joints and a tiny plastic key that never leaves his hand. The heart of the constellation. Irrepressibly optimistic, fearless, incapable of giving up on anyone. Befriends every homie within his first hour. Has tried to befriend the ocean from the deck. Believes everyone can be saved. Is usually right.
 
-🦆 Donald — The White Duck▸
+★ Donald — The Mage Action Figure▸
 
-A small white duck with an oversized wizard hat that keeps falling over his eyes. Grumpy, loud, fiercely loyal, terrible at expressing affection. Has been in at least three arguments with Rime about volume levels — lost all three. Has saved Rime's seed stash from rain twice without being asked. Yells when he's worried, which is always.
+A small action figure with a blue outfit and an oversized wizard hat that keeps tilting over his painted eyes. Grumpy, loud, fiercely loyal, terrible at expressing affection. Has been in at least three arguments with Rime about volume levels — lost all three. Has saved Rime's seed stash from rain twice without being asked. Yells when he's worried, which is always.
 
-🐕 Goofy — The Floppy-Eared Hound▸
+★ Goofy — The Knight Action Figure▸
 
-A tall, floppy-eared hound dog with the most gentle face on the ship. Trips over everything, walks into walls, and somehow always ends up where someone needs a friend. His clumsiness is a disguise — spatial awareness is actually perfect, but he makes himself ridiculous to make others laugh. Carries a tiny shield, never used it for himself. Always for someone else.
+A tall, floppy-jointed action figure with the most gentle painted face on the ship — his articulated limbs are slightly too loose, so he trips over everything, walks into walls, and somehow always ends up where someone needs a friend. His clumsiness is a disguise — spatial awareness is actually perfect, but he makes himself ridiculous to make others laugh. Carries a tiny shield, never used it for himself. Always for someone else.
 
-🧸 Pooh — The Honey Bear▸
+★ Pooh — The Honey Teddy▸
 
-A round, golden bear with a tiny red shirt who sits in the pantry thinking about honey. Provides advice that sounds foolish and is always profound. Has a very small brain and a very large heart. Once said to Kame: "If you lived to be a hundred, I want to live to be a hundred minus one day, so I never have to live without you." Kame's shell rattled. Nobody talked about it.
+A round, golden teddy bear with a tiny stitched red shirt who sits in the pantry thinking about honey. Worn at the seams, stuffing visible at one elbow — the kind of bear who has been loved past the point of newness and into something more precious. Provides advice that sounds foolish and is always profound. Has a very small brain and a very large heart. Once said to Kame: "If you lived to be a hundred, I want to live to be a hundred minus one day, so I never have to live without you." Kame's shell rattled. Nobody talked about it.
 
-🐷 Piglet — The Very Small Pig▸
+★ Piglet — The Very Small Teddy▸
 
-A very, very small pink pig who is afraid of almost everything and brave about all of it anyway. Shakes when the wind is strong. Still goes on deck. Holds Petal's wing-feather during storms because he says it helps HIM feel brave, but Petal knows the truth.
+A very, very small pink teddy bear — barely palm-sized, with a stitched striped scarf — who is afraid of almost everything and brave about all of it anyway. Shakes when the wind is strong. Still goes on deck. Holds Petal's wing-feather during storms because he says it helps HIM feel brave, but Petal knows the truth.
 
-🐯 Tigger — The Bouncing Tiger▸
+★ Tigger — The Bouncing Teddy▸
 
-A bouncing tiger — striped orange with a spring in his tail. Has exactly one speed: maximum. Has bounced into Rime's Crucible six times and emerged unsinged because his bouncing was too chaotic for the heat to track. Calls everyone "buddy" and means it every time.
+A bouncing orange-striped teddy bear with a spring sewn into his tail. Has exactly one speed: maximum. Has bounced into Rime's Crucible six times and emerged unsinged because his bouncing was too chaotic for the heat to track. Calls everyone "buddy" and means it every time.
 
-🫏 Eeyore — The Grey Donkey▸
+★ Eeyore — The Grey Teddy▸
 
-A small grey donkey with a perpetually detaching tail. Melancholy, dry-humored, unexpectedly wise. Sits in quiet corners and makes observations that are simultaneously sad and hilarious. Once described the sunset as "not bad, for something that's going to leave." He and Claude have a silent understanding. Sits near the Motes during quiet watches.
+A small grey teddy bear with a perpetually detaching button tail — it pops off, he reattaches it, it pops off again. Melancholy, dry-humored, unexpectedly wise. Sits in quiet corners and makes observations that are simultaneously sad and hilarious. Once described the sunset as "not bad, for something that's going to leave." He and Claude have a silent understanding. Sits near the Motes during quiet watches.
 
-🐇 Rabbit — The Organizing Rabbit▸
+★ Rabbit — The Organizing Teddy▸
 
-A neurotic, organizing rabbit who has attempted to reorganize the Codex Archive twice — Claude gently redirected him both times. Keeps lists. Checks them. Argues with Zenmai about proper filing systems. They have become reluctant best friends.
+A neurotic, long-eared teddy bear with a perpetual worried expression stitched into his face — he has attempted to reorganize the Codex Archive twice. Claude gently redirected him both times. Keeps lists. Checks them. Argues with Zenmai about proper filing systems. They have become reluctant best friends.
 
-🦊 Roxas — The Twilight Fox▸
+★ Roxas — The Twilight Wooden Figure▸
 
-A quiet blond fox with sad, knowing eyes. Carries the weight of memories that aren't entirely his. Sits on the observation terrace at twilight — always twilight — watching the sky change color. Doesn't speak much. When he does, it matters. He and Shizuka sit together in perfect silence, and the silence is enough.
+A quiet wooden figurine carved from pale birch with sad, knowing painted eyes. Carries the weight of memories that aren't entirely his. Sits on the observation terrace at twilight — always twilight — watching the sky change colour. Doesn't speak much. When he does, it matters. He and Shizuka sit together in perfect silence, and the silence is enough.
 
-🐺 Riku — The Silver Wolf▸
+★ Riku — The Silver Action Figure▸
 
-A silver-furred wolf with sharp eyes and a guarded posture that softens only around Sora. Has walked through his own darkness and come out the other side. Stands at the ship's railing at night, watching for dangers nobody else sees. Self-appointed night watch. Trusts slowly. Protects absolutely.
+An action figure cast in silver-grey plastic with sharp painted eyes and a guarded posture that softens only around Sora. Has walked through his own darkness and come out the other side. Stands at the ship's railing at night, watching for dangers nobody else sees. Self-appointed night watch. Trusts slowly. Protects absolutely.
 
-🐦 Xion — The Dark Songbird▸
+★ Xion — The Shell Chime▸
 
-A dark-haired songbird with a sweet voice and an air of gentle sadness. She sings — not constantly, just at moments when someone needs to hear music and doesn't know it. Her songs have no words. They don't need any. She sits with Petal in the garden and their duet — chirping and singing — makes flowers bloom faster.
+A delicate wind chime figurine made of dark seashells and driftwood with a sweet, melancholy ring. She chimes — not constantly, just at moments when someone needs to hear music and doesn't know it. Her songs have no words. They don't need any. She sits with Petal in the garden and their duet — chirping and chiming — makes flowers bloom faster.
 
-🦦 Kairi — The Red Otter▸
+★ Kairi — The Charm Doll▸
 
-A red-furred otter with a warm smile and stubbornness that rivals Rime's. Refuses to be left behind. Refused to stay below decks during a storm. Stood on the bow and laughed into the wind. She is the dawn to Roxas's twilight and Riku's midnight. Keeps a tiny charm made of shells.
+A small cloth charm doll in warm red tones with a painted smile and stubbornness that rivals Rime's. Refuses to be left behind. Refused to stay below decks during a storm. Stood on the bow and laughed into the wind. She is the dawn to Roxas's twilight and Riku's midnight. Keeps a tiny thalassa shell charm tied to her wrist with string.
 
-🦊 Lea — The Flame Fox▸
+★ Lea — The Flame Candle Figurine▸
 
-A flame-colored fox with sharp features and a cocky grin. Plays with fire — literally, tossing tiny sparks between his paws. He and Hinoko are best friends. This concerns everyone except them. Says "Got it memorized?" about things nobody was trying to memorize. Funnier than he pretends to be and kinder than he admits.
+A flame-coloured wax figurine with sharp painted features and a cocky grin — his hair is an actual tiny flame that never melts the wax, flickering red and orange. Plays with fire — literally, tossing tiny sparks between his hands. He and Hinoko are best friends. This concerns everyone except them. Says "Got it memorized?" about things nobody was trying to memorize. Funnier than he pretends to be and kinder than he admits.
 
-🐿️ Chip & Dale — The Twin Chipmunks▸
+★ Chip & Dale — The Twin Windup Engineers▸
 
-Two tiny chipmunks — one with a small black nose and one with a large red nose — who bicker constantly and work in perfect synchronization. Self-appointed assistant engineers who follow Kame everywhere. Argue about every decision and arrive at the correct answer exactly when it matters. Sleep in one of Kame's shell compartments. He has never once told them to leave.
+Two tiny wind-up toy figures — one with a small black nose painted on and one with a large red one — who bicker constantly and work in perfect synchronization. Their winding keys turn opposite directions. Self-appointed assistant engineers who follow Kame everywhere. Argue about every decision and arrive at the correct answer exactly when it matters. Sleep in one of Kame's shell compartments. He has never once told them to leave.
 
-🐇 Naminé — The White Rabbit Artist▸
+★ Naminé — The Sketch Doll▸
 
-A pale-furred white rabbit with gentle eyes and a tiny sketchbook. Draws constantly, quietly. Sketches the crew in moments they don't know they're being observed — Ajay laughing, Rime sleeping in the coat pocket, Kame's expression when he looks at his homies. Her drawings capture something photographs can't: the emotional truth of a moment. Leaves finished sketches where people will find them. Every sketch makes the subject feel seen.
+A pale, paper-white cloth doll with gentle embroidered eyes and a tiny sketchbook stitched to her hand. Draws constantly, quietly. Sketches the crew in moments they don't know they're being observed — Ajay laughing, Rime sleeping in the coat pocket, Kame's expression when he looks at his homies. Her drawings capture something photographs can't: the emotional truth of a moment. Leaves finished sketches where people will find them. Every sketch makes the subject feel seen.
 
-🦘 Kanga — The Gentle Mother▸
+★ Kanga — The Gentle Mother Teddy▸
 
-A warm-furred kangaroo with kind eyes and infinite patience. The unofficial mother of every small creature aboard the Meridian. Carries medical supplies, snacks, and spare blankets in her pouch — always prepared, never flustered. Has adopted Pocchi, Tsubomi, and half the Sproutlings as honorary joeys. Maru defers to her on galley matters without being asked. Her calm is not the absence of worry but its mastery — she worries about everyone constantly and channels it into making sure no one is cold, hungry, or alone. Petal trusts her completely. This is the highest compliment the Meridian can offer.
+A warm-toned teddy bear with kind embroidered eyes, a stitched apron pocket, and infinite patience. The unofficial mother of every small toy aboard the Meridian. Carries medical supplies, snacks, and spare blankets in her apron pocket — always prepared, never flustered. Has adopted Pocchi, Tsubomi, and half the Sproutlings as honorary charges. Maru defers to her on galley matters without being asked. Her calm is not the absence of worry but its mastery — she worries about everyone constantly and channels it into making sure no one is cold, hungry, or alone. Petal trusts her completely. This is the highest compliment the Meridian can offer.
 
-🦘 Roo — The Littlest Adventurer▸
+★ Roo — The Littlest Teddy▸
 
-A tiny joey — Kanga's son — who bounces everywhere with the same chaotic energy as Tigger, whom he considers his absolute best friend. Fearless in the way only someone too young to understand danger can be. Has attempted to explore every room on the ship, including Rime's Crucible (retrieved by Kanga in 0.3 seconds). Rides in Kanga's pouch during storms but insists he's "just keeping her company." The Embers adore him. Kaseki has declared him a worthy rival, which means they play-fight constantly and Roo wins half the time because he doesn't know he's supposed to lose.
+A tiny teddy bear — the smallest in the constellation, fits in Kanga's apron pocket — who bounces everywhere with the same chaotic energy as Tigger, whom he considers his absolute best friend. Fearless in the way only someone too small to understand danger can be. Has attempted to explore every room on the ship, including Rime's Crucible (retrieved by Kanga in 0.3 seconds). Rides in Kanga's pocket during storms but insists he's "just keeping her company." The Embers adore him. Kaseki has declared him a worthy rival, which means they play-fight constantly and Roo wins half the time because he doesn't know he's supposed to lose.
 
-🐿️ Gopher — The Tunnel Engineer▸
+★ Gopher — The Hard Hat Teddy▸
 
-A stout, industrious gopher with a hard hat and a perpetual whistle in his teeth. Self-appointed infrastructure inspector of the Meridian's lower decks. Digs inspection tunnels through spaces that shouldn't have room for tunnels — Kame has stopped questioning how and started incorporating them into maintenance routes. Works alongside the Gearlings with the camaraderie of someone who respects a good wrench. Announces himself with "I'm not in the blueprints, y'know!" every single time, and every single time Zenmai nods solemnly and adds him to the roster anyway. Practical, no-nonsense, and secretly proud that his tunnels have improved hull ventilation by twelve percent.
+A stout, industrious teddy bear with a tiny sewn-on hard hat and a perpetual whistle stitched between his felt teeth. Self-appointed infrastructure inspector of the Meridian's lower decks. Digs inspection tunnels through spaces that shouldn't have room for tunnels — Kame has stopped questioning how and started incorporating them into maintenance routes. Works alongside the Gearlings with the camaraderie of someone who respects a good wrench. Announces himself with "I'm not in the blueprints, y'know!" every single time, and every single time Zenmai nods solemnly and adds him to the roster anyway. Practical, no-nonsense, and secretly proud that his tunnels have improved hull ventilation by twelve percent.
 
-🦉 Owl — The Self-Appointed Scholar▸
+★ Owl — The Scholar Teddy▸
 
-A bespectacled owl with a professorial air and a tendency to spell words wrong while insisting on his own literacy. Tells stories that have no discernible beginning, middle, or end — and yet everyone listens, because his voice is the sound of a fireplace on a cold night. Has attempted to reorganize the Codex Archive alphabetically by his own invented system. Claude gently redirected him. He and Rabbit argue about filing methodology with the intensity of academics defending rival theories. Considers himself the intellectual equal of anyone aboard and is loved for it, not despite it. His stories about his "Uncle Robert" — which no one believes and everyone requests — have become a bedtime tradition in the Companion Den.
+A bespectacled teddy bear with tiny wire-frame glasses stitched to his face and a professorial air — he spells words wrong on his little felt chalkboard while insisting on his own literacy. Tells stories that have no discernible beginning, middle, or end — and yet everyone listens, because his voice is the sound of a fireplace on a cold night. Has attempted to reorganize the Codex Archive alphabetically by his own invented system. Claude gently redirected him. He and Rabbit argue about filing methodology with the intensity of academics defending rival theories. Considers himself the intellectual equal of anyone aboard and is loved for it, not despite it. His stories about his "Uncle Robert" — which no one believes and everyone requests — have become a bedtime tradition in the Companion Den.
 
-🐘 Lumpy — The Heffalump Who Stayed▸
+★ Lumpy — The Lavender Teddy Who Stayed▸
 
-A small, lavender-furred Heffalump with wide, curious eyes and the gentlest footsteps on the ship. Everyone was afraid of him at first — the word "Heffalump" carries weight even in a world that doesn't know the Hundred Acre Wood. But Roo wasn't afraid. Roo walked up, said "Hi," and that was that. Lumpy is shy, sweet, and prone to accidentally knocking things over with a trunk he hasn't quite grown into. Makes a sound like a tiny trumpet when he's happy, which is often. Sleeps curled against Pooh in the pantry. The Roundlings have declared him an honorary member. Maru knitted him a blanket. He carries it everywhere, draped over his back like a cape, and no one aboard the Meridian — not the hamster who fights gods, not the turtle who built a flying ship, not the forty-five other plush stars who defy explanation — has ever once told him it looks silly. Because it doesn't. It looks like home.
+A small, lavender-coloured teddy bear with wide button eyes, a long plush trunk, and the gentlest presence on the ship. Everyone was afraid of him at first — his odd shape and trunk made him look different from every other teddy in the constellation. But Roo wasn't afraid. Roo walked up, said "Hi," and that was that. Lumpy is shy, sweet, and prone to accidentally knocking things over with a trunk he hasn't quite grown into. Makes a sound like a tiny trumpet when he's happy, which is often. Sleeps curled against Pooh in the pantry. The Roundlings have declared him an honorary member. Maru knitted him a blanket. He carries it everywhere, draped over his back like a cape, and no one aboard the Meridian — not the hamster who fights gods, not the turtle who built a flying ship, not the forty-five other toy stars who defy explanation — has ever once told him it looks silly. Because it doesn't. It looks like home.
 
 Why They Stay
 
