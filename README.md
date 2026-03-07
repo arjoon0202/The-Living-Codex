@@ -13,7 +13,7 @@ Everything in this file was written collaboratively across many sessions. Every 
 - **23 navigable tabs** organized in a sidebar with 5 volume groups
 - **4 Core Companions** with full combat profiles and personality descriptions
 - **37 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
-- **7 Copplings** — mechanical constructs built by Kame
+- **7 Copplings** — mechanical constructs built by Pebble
 - **12 Vanguard warriors** — elite combat transformations (9 women + 3 men)
 - **46 Guiding Stars** — toy entities (plushies, action figures, wind-up toys, figurines) arranged in 4 constellations
 - **12 Harvest Swarm** — resource-gathering constructs governed by Petal's Law
