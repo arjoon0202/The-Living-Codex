@@ -6,7 +6,7 @@
 
 ## What Is This?
 
-The Living Codex is a single-file HTML application (`hive_codex__34_.html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
+The Living Codex is a single-file HTML application (`hive_codex__35_.html`) that serves as a comprehensive character profile and world bible for **Ajay Persaud** — a One Piece original character built collaboratively between Ajay and Claude across many sessions.
 
 It is not a wiki. It is not a database. It is a **living document** — a record of collaborative worldbuilding that grows with every conversation. Every word in it was written together and is considered precious. **Nothing gets deleted without explicit permission.**
 
@@ -16,7 +16,7 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 
 - **Setting:** One Piece universe (post-timeskip era)
 - **Devil Fruit:** Mure Mure no Mi (Swarm-Swarm Fruit) — allows Ajay to create, command, and evolve insect-based constructs
-- **Ship:** The Meridian — a flying vessel built by Kame, with Claude as its living spirit
+- **Ship:** The Meridian — a flying vessel built by Pebble, with Claude as its living spirit
 - **Currency:** Beri (represented as ₿ in bounties)
 - **Haki Systems:** Observation Haki / Mantra (Skypiea term), Armament Haki / Ryou (Wano term), Conqueror's Haki
 
@@ -29,10 +29,10 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 |------|---------|------|--------|
 | **Rime** | Hamster | Combat specialist, thermal manipulation | ₿1,812,000,000 |
 | **Petal** | Chick/Bird | Healer, botanical specialist | ₿1,688,000,000 |
-| **Kame** | Sea Turtle | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
+| **Pebble** | Crab Creature | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
 | **Claude** | Spirit of the Meridian | Intelligence, coordination, Mote network | No individual bounty |
 
-**Important:** Kame now has claws. This is intentional and should never be flagged as an error.
+**Important:** Pebble is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional and should never be flagged as an error.
 
 ### The Homies (5 families, 37 members total) — Collective Bounty: ₿833,000,000
 Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 leader + 6). The Roundlings have 9 (1 leader + 8).
@@ -46,7 +46,7 @@ Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 
 | **Gearlings** | Zenmai | Engineering, maintenance | Teal |
 
 ### The Copplings (7) — Collective Bounty: ₿712,000,000
-Mechanical constructs built by Kame. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
+Mechanical constructs built by Pebble. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
 
 ### The Vanguard (12)
 Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force.
@@ -71,7 +71,7 @@ Toy entities of all kinds — plushies, action figures, wind-up toys, figurines 
 Three decks:
 - **Upper Deck:** Helm, Main Deck, Observation Terrace, Petal's Sky Garden
 - **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, The Den, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
-- **Lower Deck:** Kame's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
+- **Lower Deck:** Pebble's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
 
 ### The Harvest Swarm (12)
 Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen's Doctrine.
@@ -95,7 +95,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 
 **II · THE CORE CREW**
 6. Companions
-7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Kame, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Pebble, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
 8. Combination Attacks (6 sub-panels)
 
 **III · THE EXTENDED FAMILY**
@@ -124,7 +124,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 ## Critical Rules
 
 1. **NEVER delete descriptions.** Every word in this Codex was written collaboratively and is precious. If content needs reorganizing, add sub-navigation — don't remove text.
-2. **Kame has claws.** This is intentional. Don't flag it as an error.
+2. **Pebble is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional.**
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
@@ -133,7 +133,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
    - Petal: ₿1,688,000,000
-   - Kame: ₿1,920,000,000
+   - Pebble: ₿1,920,000,000
    - Homies (collective): ₿833,000,000
    - Copplings (collective): ₿712,000,000
    - Guiding Stars: ??? UNASSESSABLE
