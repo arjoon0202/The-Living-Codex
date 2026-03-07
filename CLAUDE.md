@@ -55,14 +55,14 @@ Warrior-form transformations of selected Homies. They serve as the Meridian's el
 **The Three (men):** Gankaku, Haritsu, Hoshikuzu
 
 ### The Guiding Stars (46) — Bounty: ??? UNASSESSABLE
-Plush entities arranged in 4 constellations. They possess full Haki, Rokushiki, and capabilities that exceed Marine measurement equipment.
+Toy entities of all kinds — plushies, action figures, wind-up toys, figurines — arranged in 4 constellations. They possess full Haki, Rokushiki, and capabilities that exceed Marine measurement equipment. They live in the Constellation Room, a warm, magical playroom aboard the Meridian.
 
-| Constellation | Count | Inspired By |
-|--------------|-------|-------------|
-| T1 | 6 | T1 esports roster |
-| KinnPorsche | 14 | KinnPorsche The Series cast |
-| Knock | 6 | Knock Knock Boys cast |
-| Keyblade | 20 | Kingdom Hearts characters |
+| Constellation | Count | Toy Types | Notes |
+|--------------|-------|-----------|-------|
+| The Vanguard Stars | 6 | Plush toys | The original 6. Ajay's oldest toys. Well-worn, well-loved. |
+| The Twilight Court | 14 | Action figures and poseable figurines | Elegant, dramatic, paired off. |
+| The Dawn's Ring | 6 | Wind-up toys and mechanical figures | Small, charming, full of motion. |
+| The Hundred Acre | 20 | Mixed — plushies, wooden figures, toy vehicles, etc. | The biggest and most varied group. |
 
 ---
 
