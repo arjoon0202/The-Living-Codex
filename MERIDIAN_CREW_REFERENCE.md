@@ -160,10 +160,10 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 
 The Guiding Stars are toy entities — plushies, action figures, wind-up toys, and figurines — inspired by real people / fictional characters. Their genders follow their source material:
 
-- **The Vanguard Stars (6):** Faker (he), Oner (he), Keria (he), Peyz (he), Smash (he), Doran (he) — all male. Plush toys.
-- **The Twilight Court (14):** Follow the cast genders from the show — predominantly male. Action figures and poseable figurines.
-- **The Dawn's Ring (6):** Follow Knock Knock Boys cast genders. Wind-up toys and mechanical figures.
-- **The Hundred Acre (20):** Follow Kingdom Hearts / Winnie the Pooh character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), Kanga (she), Roo (he), Gopher (he), Owl (he), Lumpy/Heffalump (he), etc. Mixed toy types.
+- **The Vanguard Stars (6):** Faker (he), Oner (he), Keria (he), Peyz (he), Smash (he), Doran (he) — all male. Plush figures.
+- **The Twilight Court (14):** Follow the cast genders from the show — predominantly male. Mixed toy types: marionettes, tin soldiers, carved wooden figurines, music boxes, finger puppets, ragdolls, roly-poly toys, nesting dolls, bouncing balls, ceramic figurines, cast-iron figurines, cloth dolls, wooden worry stones, patchwork dolls.
+- **The Dawn's Ring (6):** Follow Knock Knock Boys cast genders. Mixed toy types: jack-in-the-boxes, snow globes, shadow puppets, pull-string toys, porcelain figurines, paper lanterns.
+- **The Hundred Acre (20):** Follow Kingdom Hearts / Winnie the Pooh character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), Kanga (she), Roo (he), Gopher (he), Owl (he), Lumpy/Heffalump (he), etc. Kingdom Hearts characters are action figures, wooden figurines, charm dolls, wind chimes, wax figurines, wind-up toys, and cloth dolls. Winnie the Pooh characters are teddy bears.
 
 ---
 
