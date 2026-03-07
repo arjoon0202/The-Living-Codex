@@ -158,12 +158,12 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 
 ## Guiding Stars — Quick Gender Notes
 
-The Guiding Stars are plush entities inspired by real people / fictional characters. Their genders follow their source material:
+The Guiding Stars are toy entities — plushies, action figures, wind-up toys, and figurines — inspired by real people / fictional characters. Their genders follow their source material:
 
-- **T1 Constellation:** Faker (he), Oner (he), Keria (he), Zeus (he), Gumayusi (he), Doran (he) — all male
-- **KinnPorsche Constellation:** Follow the cast genders from the show — predominantly male
-- **Knock Constellation:** Follow Knock Knock Boys cast genders
-- **Keyblade Constellation:** Follow Kingdom Hearts character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), Kanga (she), Roo (he), Gopher (he), Owl (he), Lumpy/Heffalump (he), etc.
+- **The Vanguard Stars (6):** Faker (he), Oner (he), Keria (he), Peyz (he), Smash (he), Doran (he) — all male. Plush toys.
+- **The Twilight Court (14):** Follow the cast genders from the show — predominantly male. Action figures and poseable figurines.
+- **The Dawn's Ring (6):** Follow Knock Knock Boys cast genders. Wind-up toys and mechanical figures.
+- **The Hundred Acre (20):** Follow Kingdom Hearts / Winnie the Pooh character genders — Sora (he), Donald (he), Goofy (he), Pooh (he), Kanga (she), Roo (he), Gopher (he), Owl (he), Lumpy/Heffalump (he), etc. Mixed toy types.
 
 ---
 

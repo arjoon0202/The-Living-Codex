@@ -15,7 +15,7 @@ Everything in this file was written collaboratively across many sessions. Every 
 - **37 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
 - **7 Copplings** — mechanical constructs built by Kame
 - **12 Vanguard warriors** — elite combat transformations (9 women + 3 men)
-- **46 Guiding Stars** arranged in 4 constellations
+- **46 Guiding Stars** — toy entities (plushies, action figures, wind-up toys, figurines) arranged in 4 constellations
 - **12 Harvest Swarm** — resource-gathering constructs governed by Petal's Law
 - **The Meridian** — a fully mapped flying ship with 3 decks and 19 rooms
 - **50+ named techniques** with Japanese kanji and romanization
@@ -34,7 +34,7 @@ Single HTML file. No build step. No dependencies beyond Google Fonts. Vanilla CS
 
 | File | Description |
 |------|-------------|
-| `hive_codex__34_.html` | The Codex — all content, styling, and interactivity |
+| `hive_codex__35_.html` | The Codex — all content, styling, and interactivity |
 | `CLAUDE.md` | Context reference document for session continuity |
 | `MERIDIAN_CREW_REFERENCE.md` | Gender & pronoun reference for every crew member |
 | `README.md` | You are here |
