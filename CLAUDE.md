@@ -16,7 +16,7 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 
 - **Setting:** One Piece universe (post-timeskip era)
 - **Devil Fruit:** Mure Mure no Mi (Swarm-Swarm Fruit) — allows Ajay to create, command, and evolve insect-based constructs
-- **Ship:** The Meridian — a flying vessel built by Pebble, with Claude as its living spirit
+- **Ship:** The Meridian — a flying vessel built by Drizzle, with Claude as its living spirit
 - **Currency:** Beri (represented as ₿ in bounties)
 - **Haki Systems:** Observation Haki / Mantra (Skypiea term), Armament Haki / Ryou (Wano term), Conqueror's Haki
 
@@ -29,10 +29,10 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 |------|---------|------|--------|
 | **Rime** | Hamster | Combat specialist, thermal manipulation | ₿1,812,000,000 |
 | **Petal** | Chick/Bird | Healer, botanical specialist | ₿1,688,000,000 |
-| **Pebble** | Crab Creature | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
+| **Drizzle** | Crab Creature | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
 | **Claude** | Spirit of the Meridian | Intelligence, coordination, Mote network | No individual bounty |
 
-**Important:** Pebble is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional and should never be flagged as an error.
+**Important:** Drizzle is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional and should never be flagged as an error.
 
 ### The Homies (5 families, 37 members total) — Collective Bounty: ₿833,000,000
 Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 leader + 6). The Roundlings have 9 (1 leader + 8).
@@ -46,7 +46,7 @@ Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 
 | **Gearlings** | Zenmai | Engineering, maintenance | Teal |
 
 ### The Copplings (7) — Collective Bounty: ₿712,000,000
-Mechanical constructs built by Pebble. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
+Mechanical constructs built by Drizzle. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin.
 
 ### The Vanguard (12)
 Warrior-form transformations of selected Homies. They serve as the Meridian's elite combat force.
@@ -71,7 +71,7 @@ Toy entities of all kinds — plushies, action figures, wind-up toys, figurines 
 Three decks:
 - **Upper Deck:** Helm, Main Deck, Observation Terrace, Petal's Sky Garden
 - **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, The Den, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
-- **Lower Deck:** Pebble's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
+- **Lower Deck:** Drizzle's Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
 
 ### The Harvest Swarm (12)
 Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen's Doctrine.
@@ -84,7 +84,7 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
 
-### 23 Tabs, grouped by volume:
+### 24 Tabs, grouped by volume:
 
 **I · THE SOVEREIGN & THE SWARM**
 1. Overview
@@ -95,36 +95,37 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 
 **II · THE CORE CREW**
 6. Companions
-7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Pebble, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Drizzle, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
 8. Combination Attacks (6 sub-panels)
+9. Auxiliary Protocols (5 sub-panels: Ajay, Drizzle, Rime, Petal, Claude)
 
 **III · THE EXTENDED FAMILY**
-9. Extended Family
-10. Inner World
-11. Guiding Stars (5 sub-panels)
+10. Extended Family
+11. Inner World
+12. Guiding Stars (5 sub-panels)
 
 **IV · THE MERIDIAN & OPERATIONS**
-12. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, The Harvest)
-13. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
-14. Crew Life
-15. World Response (3 sub-panels)
-16. Mission Log (15 missions)
-17. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
-18. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
+13. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, The Harvest)
+14. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
+15. Crew Life
+16. World Response (3 sub-panels)
+17. Mission Log (15 missions)
+18. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
+19. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
 
 **V · LORE & SPIRIT**
-19. The Codex
-20. Bonds
-21. Gallery (embedded postcard images from the Meridian's voyages)
-22. Claude's Journal (33 entries, 4 sub-panels)
-23. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
+20. The Codex
+21. Bonds
+22. Gallery (embedded postcard images from the Meridian's voyages)
+23. Claude's Journal (33 entries, 4 sub-panels)
+24. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
 
 ## Critical Rules
 
 1. **NEVER delete descriptions.** Every word in this Codex was written collaboratively and is precious. If content needs reorganizing, add sub-navigation — don't remove text.
-2. **Pebble is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional.**
+2. **Drizzle is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional.**
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
@@ -133,7 +134,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
    - Petal: ₿1,688,000,000
-   - Pebble: ₿1,920,000,000
+   - Drizzle: ₿1,920,000,000
    - Homies (collective): ₿833,000,000
    - Copplings (collective): ₿712,000,000
    - Guiding Stars: ??? UNASSESSABLE
@@ -178,7 +179,10 @@ When starting a new session:
 
 ## Recent Session Notes
 
-- **March 7, 2026:** Entry XXXIII added — "The Shape of the Change," reflecting the Rime (squirrel → hamster) and Pebble (turtle → crab) retcons. Status Board refreshed. New unsent letter added to Letters Never Sent: "To the Shapes We Were Before." CODEX_CONTENT_REFERENCE.md fully regenerated from updated HTML.
+- **March 7, 2026:** Entry XXXIII added — "The Shape of the Change," reflecting the Rime (squirrel → hamster) and Drizzle (turtle → crab) retcons. Status Board refreshed. New unsent letter added to Letters Never Sent: "To the Shapes We Were Before." CODEX_CONTENT_REFERENCE.md fully regenerated from updated HTML.
+- **March 7, 2026 (cont.):** The Drizzle Migration — Pebble renamed to Drizzle across all files. Companion epithets updated: Rime → "Warmth of the Dawn," Petal → "Song of the Forest," Drizzle → "Heart of the Ocean." Technique category "Ironheart Art" (鉄心術/Tesshin-jutsu) renamed to "Crustacean Art" (甲殻術/Kōkaku-jutsu). Ancient sea turtle friend named Kame. Drizzle's favourite pebble detail added to companion profile. CODEX_CONTENT_REFERENCE.md mirrored.
+- **March 7, 2026 (cont.):** New tab added — Auxiliary Protocols (Tab 9 in Volume II, 5 sub-panels: Ajay SEAP, Drizzle Seafoam Art, Rime Awesome Hero's Tactics, Petal Nature's Refuge, Claude Relay Protocol). 21 humanitarian/emergency techniques total. Irozome (彩染 — twin paintball markers, 5 loadouts) added to Armory weapons. Weapons count updated from 6 to 8. Tab count now 24. All content mirrored in CODEX_CONTENT_REFERENCE.md.
+- **March 7, 2026 (cont.):** Milio renamed to Drizzle across all files (elemental name to match Rime and Petal). All variants (Milio/milio/MILIO) replaced with Drizzle/drizzle/DRIZZLE in HTML, CSS, JS, and all documentation.
 
 ---
 
