@@ -1631,7 +1631,7 @@ Cherry Blossom Fantasy
 
 
 
-夢粉流・桜花幻想 — Yumegona-ryū: Ōka Gensō
+Estilo Polvo de Sueños: Fantasía de los Cerezos
 
 Dream DustIncense
 
@@ -1660,7 +1660,7 @@ Forbidden Temptation
 
 
 
-夢粉流・禁断の誘惑 — Yumegona-ryū: Kindan no Yūwaku
+Estilo Polvo de Sueños: Tentación Prohibida
 
 PheromoneVenom
 
@@ -1689,7 +1689,7 @@ Fabulous Fantasia
 
 
 
-夢粉流・華麗幻想曲 — Yumegona-ryū: Karei Gensōkyoku
+Estilo Polvo de Sueños: Fantasía Fabulosa
 
 Dream DustPheromoneElemental
 
@@ -1718,7 +1718,7 @@ Somnabulist Cabeçada
 
 
 
-夢粉流・夢遊頭突 — Yumegona-ryū: Muyū Zutsuki
+Estilo Pó dos Sonhos: Cabeçada Sonâmbula
 
 CombatDream Dust
 
@@ -1747,7 +1747,7 @@ Parfum Tae Wiang
 
 
 
-香術・タエ・ウィアン香 — Kōjutsu: Tae Wiang Kō
+Arte Aromático: Perfume Tae Wiang
 
 IncenseCombat
 
@@ -1776,7 +1776,7 @@ Yophooliho-chagi Propolis
 
 
 
-蜂膠闘術・ヨプリョチャギ蜂膠 — Hōkō Tōjutsu: Yopuryochagi Hōkō
+봉교전투술・요프려차기 봉교 — Bonggyo Jeontusu: Yopuryochagi Bonggyo
 
 CombatRokushiki
 
@@ -1805,7 +1805,7 @@ Hexagonal Compound Strike
 
 
 
-六角複眼撃 — Rokkaku Fukugan Geki
+육각복안격 — Yukgak Bokan Gyeok
 
 CombatRokushikiSovereign
 
@@ -1834,7 +1834,7 @@ Dancing Centipede — Slashing Ruin
 
 
 
-百足舞踏・斬滅 — Mukade Butō: Zanmetsu
+지네무도・참멸 — Jine Mudo: Chammyeol
 
 CombatRokushiki
 
@@ -1863,7 +1863,7 @@ Butterfly Breathing — Caprice
 
 
 
-蝶呼吸・気紛れ — Chō Kokyū: Kimagure
+Respiração Borboleta: Capricho
 
 IncenseCombatPheromone
 
@@ -1892,7 +1892,7 @@ Kami no Takuto
 
 
 
-神の指揮棒 — Kami no Takuto — The God's Baton
+देवदण्ड — Deva-daṇḍa — The God's Baton
 
 Sovereign
 
@@ -1921,7 +1921,7 @@ Jellyfish Drift — Aurora Veil
 
 
 
-海月漂流・極光帳 — Kurage Hyōryū: Kyokkō Tobari
+Deriva da Água-viva: Véu da Aurora
 
 Elemental
 
@@ -1950,7 +1950,7 @@ Jellyfish Bloom — Thunderbell Chorus
 
 
 
-海月開花・雷鈴合唱 — Kurage Kaika: Rairei Gasshō
+Floração da Água-viva: Coro dos Sinos de Trovão
 
 Elemental
 
@@ -1979,7 +1979,7 @@ Honeyveil
 
 
 
-蜜幕の教義・蜜幕 — Mitsumaku no Kyōgi: Mitsumaku
+Doctrina del Velo de Miel: Velo de Miel
 
 Dream DustIncense
 
@@ -2008,7 +2008,7 @@ Widow Bloom
 
 
 
-寡婦の教義・毒花開 — Kafu no Kyōgi: Dokka Kai
+Doctrina de la Viuda: Flor Venenosa
 
 VenomIncense
 
@@ -2037,7 +2037,7 @@ The "End"
 
 
 
-終焉 — Shūen
+अन्त्य — Antya
 
 Sovereign
 
@@ -2065,7 +2065,7 @@ Shizuka's Archive — The Silent Index
 
 
 
-塵共鳴術・静の書庫・沈黙索引 — Jin Kyōmei-jutsu: Shizuka no Shoko — Chinmoku Sakuin
+진공명술・정의 서고・침묵색인 — Jingongmyeongsu: Jeongui Seogo — Chimmuk Saegin
 
 Sovereign
 
@@ -2305,7 +2305,7 @@ Beyond Awakening
 
 
 
-超越覚醒・惑星令 — Chōetsu Kakusei: Wakusei Rei — Transcendent Awakening: Planetary Decree
+अतिक्रान्ति जागृति・ग्रहादेश — Atikrānti Jāgṛti: Grahādeśa — Transcendent Awakening: Planetary Decree
 
 
 
@@ -2878,7 +2878,7 @@ Shifting Palm — Sovereign Redirect
 
 
 
-八卦掌・転掌・王者の転向 — Hakke Shō: Tenshō — Ōja no Tenkō
+八卦掌・转掌・王者转向 — Bāguà Zhǎng: Zhuǎn Zhǎng — Wángzhě Zhuǎnxiàng
 
 
 Ajay intercepts an incoming strike with an open palm and walks a tight Baguazhang circle around the attacker's extended arm, redirecting their force along a spiral path that ends with them off-balance and facing away from him. The technique is pure geometry — circular footwork converting linear force into rotational energy. The redirect is so smooth that opponents often don't realize they've been turned until Ajay's follow-up kick is already in flight. When layered with Armament Haki, the palm contact itself carries damaging force — the "redirect" also bruises the attacking limb from within.
@@ -2905,7 +2905,7 @@ Dragon Coils the Pillar
 
 
 
-八卦掌・龍巻柱 — Hakke Shō: Ryū Maki Hashira
+八卦掌・龙缠柱 — Bāguà Zhǎng: Lóng Chán Zhù
 
 
 Ajay closes to grappling range and applies a rapid sequence of coiling palm strikes — each one circling the opponent's guard from a different angle, each one applying Armament-hardened pressure to joints, nerve clusters, and pressure points. The technique mimics a dragon coiling around a pillar: each revolution tightens the spiral, each palm strike closes off an escape route, until the opponent is locked in a spiral cage of intercepting hands. The final palm strike drives directly through the center of the coil — a penetrating Conqueror's-infused thrust that carries all the accumulated rotational force of the preceding sequence.
@@ -2932,7 +2932,7 @@ Hwechook — Golden Crescent
 
 
 
-跆拳道・回し蹴り・黄金三日月 — Tekkondō: Hwechook — Ōgon Mikazuki
+태권도・회축・황금초승달 — Taegwondo: Hoechuk — Hwanggeum Choseungdal
 
 
 Ajay's signature roundhouse — a full-rotation Taekwondo turning kick delivered at head height with the instep, accelerated by a Soru micro-burst at the moment of hip rotation. The speed makes the kick nearly invisible; the Armament Haki coating makes it devastating. The "golden crescent" refers to the arc of compressed air the kick generates — a visible crescent-shaped distortion that hangs in the air for a fraction of a second after the strike connects. Ajay uses this as his primary mid-range engagement opener. Clean, fast, and definitive.
@@ -2959,7 +2959,7 @@ Naeryeo-chagi — Judgement Fall
 
 
 
-跆拳道・内려찍기・裁きの落下 — Tekkondō: Naeryeo-chagi — Sabaki no Rakka
+태권도・내려찍기・심판의 낙하 — Taegwondo: Naeryeo-chagi — Simpanui Nakha
 
 
 A descending axe kick launched from a Geppo air-step directly above the opponent. Ajay chambers the leg at maximum height and drives the heel straight down with gravitational acceleration and Armament Haki concentrated at the point of impact. The technique embodies Taekwondo's principle of maximum height for maximum force — the further the fall, the harder the landing. When Conqueror's Haki is layered into the descent, the spiritual pressure arrives before the foot does, and opponents feel the weight of a sovereign's judgement pressing down on them before the physical blow confirms it.
@@ -2986,7 +2986,7 @@ Sok Klap — The Returning Elbow
 
 
 
-泰拳・肘返し・還肘 — Taiken: Sok Klap — Kanchū
+Muay Thai: Sok Klap — El Codo que Regresa
 
 
 A devastating spinning back elbow borrowed from Muay Thai's close-range arsenal — the art's most lethal strike adapted by a fighter who prefers kicks. When an opponent closes the distance and takes away Ajay's kicking range, he pivots on the lead foot and drives a spinning elbow into whatever presents itself — jaw, temple, collarbone. The elbow is Armament-hardened into a blade of Haki-infused bone. Ajay uses this as his primary close-range emergency response when kicks are temporarily denied. The transition from spinning kick to spinning elbow is seamless — the same rotational energy, different weapon.
@@ -3013,7 +3013,7 @@ Tiip Trong — The Pushing Sun
 
 
 
-泰拳・押し蹴り・推す太陽 — Taiken: Tiip Trong — Osu Taiyō
+Muay Thai: Tiip Trong — El Sol que Empuja
 
 
 Muay Thai's teep — the push kick — elevated to a ranged weapon. Ajay fires a straight front kick to the solar plexus or sternum with the ball of the foot, Armament-hardened, with Conqueror's Haki projected through the point of contact. The physical kick stops the opponent; the Haki projection continues through them, carrying concussive force that rattles internal organs. Named "The Pushing Sun" because opponents describe the impact as a wall of heat and pressure hitting their chest. Ajay uses this to reset distance when opponents crowd his space — a Muay Thai fundamental turned into a Haki-delivery system.
@@ -3040,7 +3040,7 @@ Meia Lua de Compasso — Horizon Arc
 
 
 
-カポエイラ・半月の回転 — Kapoeira: Hangetsu no Kaiten
+Capoeira: Arco do Horizonte
 
 
 Capoeira's most iconic kick — the spinning heel kick performed from a low crouch with both hands on the ground for balance. Ajay drops into the base position and whips his rear leg in a wide crescent arc at head height, his body rotating nearly 360 degrees. The movement is deceptive: from ground level, the attack arrives from below the opponent's sightline, and the spinning heel carries momentum from the entire body's rotation. Ajay layers a Rankyaku-style compressed air slash into the kick's arc, turning a physical strike into a mid-range projectile that maintains the crescent trajectory. Beautiful, unpredictable, and devastating against opponents who expected the fight to stay upright.
@@ -3067,7 +3067,7 @@ Parafuso — The Twisting Needle
 
 
 
-カポエイラ・螺旋針 — Kapoeira: Rasen Shin
+Capoeira: Agulha Giratória
 
 
 An acrobatic aerial kick from Capoeira — a spinning jump kick with a corkscrew rotation that strikes with the heel at the peak of the arc. Ajay launches from a Geppo step rather than the ground, adding altitude and angular momentum that the traditional version lacks. The corkscrew rotation generates a drilling force at the point of impact — heel first, Armament-hardened, boring through guards. Christy Montenegro's signature aerial style reimagined through One Piece physics: the rotation is so tight and fast that Observation Haki struggles to track the exact strike angle, making it one of Ajay's most difficult-to-predict techniques.
@@ -3094,7 +3094,7 @@ Xiaoyu Step — The Turning Gate
 
 
 
-八卦歩・回転門 — Hakke Ho: Kaitenmon
+八卦步・旋转门 — Bāguà Bù: Xuánzhuǎn Mén
 
 
 Ajay's signature transition technique — the bridge between his palm art and his kicking art, inspired by the fluid stance-switching of Ling Xiaoyu. From Baguazhang circle-walking, Ajay drops his center of gravity and pivots through a rapid stance transition that simultaneously delivers a deflecting palm to any incoming attack and launches a spinning back kick in the same rotational arc. The palm and the kick are one movement — the hand redirects, the foot destroys, and the body passes through the gate between arts without ever stopping. Observation Haki users describe it as a blind spot: the intent reads as "palm" and the attack arrives as "kick," and by the time the reading corrects, the technique is already complete.
@@ -3121,7 +3121,7 @@ Eight Trigrams, Sixty-Four Arcs
 
 
 
-八卦六十四弧 — Hakke Rokujūyon Ko
+अष्टत्रिकोण चतुःषष्टि चाप — Aṣṭa-trikoṇa Catuḥṣaṣṭi Cāpa
 
 
 Ajay's ultimate pure martial technique — a sustained barrage that draws from all four of his fighting arts simultaneously. Beginning from a Baguazhang circle-walk, Ajay enters a state of continuous rotating combat: eight directional changes, each one launching a combination sequence of palm strikes, kicks, elbows, and knees drawn from all four disciplines. Baguazhang palms deflect and redirect between each directional change. Taekwondo kicks deliver precision strikes at range. Muay Thai knees and elbows devastate at close range. Capoeira acrobatics provide the transitions between levels and angles. Sixty-four individual strikes across eight directional arcs, each one Armament-hardened, the entire sequence flowing at Soru speed, with Conqueror's Haki building pressure with every revolution until the final arc — the sixty-fourth strike, a descending palm-heel driven through the top of the opponent's guard with the accumulated weight of every preceding revolution. The technique takes eleven seconds. Most opponents are finished by the third arc. The remaining five are for the ones who aren't.
@@ -3715,7 +3715,7 @@ Crane's Beak — Piercing Chirp
 
 
 
-白鶴拳・鶴嘴・貫く囀り — Hakkaku Ken: Kakushi — Tsuranuku Saezuri
+Λευκογέρανος: Ράμφος — Διαπεραστικό Κελάηδημα — Leukogéranos: Rámphos — Diaperastikó Keláidima
 
 
 Petal's signature strike — a Shigan-speed pecking attack delivered with her beak to pressure points, nerve clusters, and gaps in armor. The beak is Armament-hardened to diamond density, and the strike itself carries the full kinetic chain of her Mink-enhanced neck muscles — a chain that generates force utterly disproportionate to her size. White Crane style teaches that the "beak hand" strike is the most precise weapon in the art's arsenal; Petal's literal beak takes this to its logical conclusion. She can deliver twelve Piercing Chirps per second in rapid succession, each one targeting a different pressure point, creating a cascade of nerve disruption that paralyzes limbs, blurs vision, and eventually collapses the opponent's ability to coordinate their body. The name comes from the tiny, sharp chirp she makes on each impact — involuntary, precise, and the last sound many opponents hear before their legs stop working.
@@ -3742,7 +3742,7 @@ Trembling Wing — Shock Pulse
 
 
 
-白鶴拳・震翼・衝撃脈 — Hakkaku Ken: Shin'yoku — Shōgeki Myaku
+Sgiath Chritheanach — Buille Crith
 
 
 White Crane's trembling energy principle — a rapid vibration of the body that generates short-range shockwaves — expressed through Petal's wings. She flutters her wings in a controlled high-frequency vibration that produces a concussive pulse in the surrounding air. At close range, the pulse disrupts inner ear equilibrium, causes involuntary muscle spasms, and can fracture fragile structures like glass, thin metal, or exposed bone. When Armament Haki is layered into the vibration, the shock pulse gains penetrating force — passing through guards and armor to rattle the body beneath. Petal uses this as her primary defensive response when surrounded: a wing-flutter that hits everything within a two-meter radius with concussive force, creating space without needing to strike a specific target.
@@ -3769,7 +3769,7 @@ Centerline Denial
 
 
 
-詠春拳・中心線封鎖 — Eishun Ken: Chūshinsen Fūsa
+Πτέρυγα Κέντρου: Ἀποκλεισμὸς Γραμμῆς — Ptéryga Kéntrou: Apokleismós Grammís
 
 
 Wing Chun's foundational principle made absolute by supreme Observation Haki. Petal positions herself directly on the opponent's centerline — the imaginary line running from their nose to their navel — and occupies it with a continuous stream of beak strikes, wing-blocks, and talon jabs that close off every angle of attack. Wing Chun teaches that whoever controls the centerline controls the fight; Petal's Observation lets her maintain centerline dominance against opponents ten times her size by predicting every attempt to reposition before it begins. The opponent throws a punch; Petal's wing is already there. They try to circle; her talon is already blocking the path. They attempt to retreat; she Soru-steps to maintain the range. Fighting Petal on the centerline is fighting someone who knows where you're going to be before you decide to go there.
@@ -3796,7 +3796,7 @@ Chain Wings — Lien Wan Kuen
 
 
 
-詠春拳・連環翼 — Eishun Ken: Renkan Yoku
+Πτέρυγα Κέντρου: Ἁλυσιδωτὰ Φτερά — Ptéryga Kéntrou: Alysidotá Fterá
 
 
 Wing Chun's chain punching — the rapid-fire straight punches along the centerline — reimagined as a barrage of alternating wing strikes. Petal delivers a continuous stream of wing buffets, each one snapping out and retracting along the shortest path, each one carrying Mink-enhanced force, each one Armament-hardened at the moment of impact. The speed is blinding — Mink reflexes driving Wing Chun's most relentless technique at a pace that makes individual strikes impossible to track. Opponents don't see wings; they see a wall of force arriving at their face, chest, and throat simultaneously. The chain doesn't stop until Petal decides it stops. Given her supreme Observation, she can maintain the barrage while reading every defensive micro-adjustment and targeting the gaps between them.
@@ -3823,7 +3823,7 @@ Beng Quan — Crushing Arrow
 
 
 
-形意拳・崩拳・潰し矢 — Keii Ken: Hōken — Tsubushi Ya
+Neart na Talmhainn: Saighead Bhrùthaidh
 
 
 Xingyiquan's most devastating linear strike — the crushing fist — adapted as a straight-line flying peck. Petal launches her entire body forward in a Soru-accelerated linear dash, beak first, Armament Haki concentrated at the tip to a single point of maximum penetration. The body follows the beak like an arrow following its head. The impact is surgical and catastrophic: a Mink-powered body mass delivered through a surface area smaller than a fingertip, striking with enough focused force to punch through naval-grade armor plating. Xingyiquan teaches that Beng Quan is the element of Wood — growth, penetration, breaking through barriers. Petal's version breaks through everything. She uses it as her single decisive finishing technique — one shot, one angle, absolute commitment.
@@ -3850,7 +3850,7 @@ Pi Quan — Splitting Heaven
 
 
 
-形意拳・劈拳・天裂き — Keii Ken: Heki Ken — Tensaki
+Μορφὴ Προθέσεως: Σχίζων τὸν Οὐρανόν — Morphí Prothéseōs: Schízōn ton Ouranón
 
 
 Xingyiquan's splitting fist — a descending chopping strike — reimagined as a diving talon attack from a Geppo air-step. Petal rises above the opponent using rapid air-stepping, then drops in a vertical line with one talon extended, Armament-hardened, slicing downward along the opponent's centerline. The "split" divides the opponent's guard: the descending line of force creates two halves that must be defended independently, and in the fraction of a second that the guard separates, Petal's follow-up Beng Quan arrives through the opened gap. Pi Quan is the element of Metal in Xingyiquan — sharp, decisive, cutting. From above, delivered by a creature with Mink reflexes and precognitive Observation, it is nearly inescapable.
@@ -3877,7 +3877,7 @@ Soaring Crane's Return
 
 
 
-西蔵白鶴・飛鶴帰還 — Seizō Hakkaku: Hikaku Kikan
+Corra-bhàn an Adhair: Tilleadh na Cruidh
 
 
 A sweeping aerial technique drawn from Tibetan White Crane's expansive, graceful movements. Petal launches into a wide circular flight path around the opponent — not retreating, but orbiting at Geppo speed — with wings extended and trailing Rankyaku air slashes that converge on the center from every angle of the circle. The orbit tightens with each revolution, the air slashes arriving faster and from closer range, until the final revolution brings Petal directly in — talons first, Armament-hardened, striking the precise point her Observation identified as the single gap in the opponent's defense against circular attack patterns. The technique is beautiful to watch from a distance — a small golden-green bird drawing tightening spirals of razor wind around a target that grows more desperate with every orbit.
@@ -3904,7 +3904,7 @@ Crane Sleeps on Water
 
 
 
-西蔵白鶴・鶴水眠 — Seizō Hakkaku: Kaku Suimin
+Corra-bhàn an Adhair: Cadal air Uisge
 
 
 A defensive stance that becomes a counter-attack. Petal settles into a relaxed, low posture — wings folded, eyes half-closed, body swaying gently as if asleep on a current. Her Observation Haki expands to maximum sensitivity. In this state, she becomes a living sensor array: every movement within range is tracked, every intent is read, every muscle twitch is catalogued. When the attack comes — and it always comes, because the stance looks vulnerable — Petal's response is instantaneous. She does not move until the last possible moment, then unfolds into a single decisive counter: the most efficient strike to the most exposed target, chosen from her full arsenal based on what the opponent's attack has left undefended. The counter is perfect every time. Not because Petal is fast — though she is — but because she already knows. She has been reading the attacker's intent since before they decided to attack.
@@ -3931,7 +3931,7 @@ Talon Trap — Sticky Wing Bridge
 
 
 
-複合術・爪罠・粘翼橋 — Fukugō-jutsu: Tsume Wana — Nen'yoku Kyō
+Σύνθετη Τέχνη: Παγίδα Νυχιῶν — Γέφυρα Κολλώδους Φτεροῦ — Synthéti Téchni: Pagída Nychión — Géfyra Kollṓdous Fteroú
 
 
 A technique bridging Wing Chun's Chi Sao (sticky hands) concept with White Crane's trapping principles. When an opponent strikes at Petal, she meets the attack with a wing-bridge — pressing her wing against the incoming limb and maintaining contact through a combination of Wing Chun sensitivity training and Observation Haki. The wing "sticks" to the opponent's arm, tracking its movement, feeling every intention through the point of contact. From this bridge, Petal can redirect, trap, or control the limb while her free wing and talons deliver strikes along the openings created by the opponent's committed arm. The sensitivity is supernatural: Petal can feel through her feathers the opponent's weight distribution, muscle tension, and intended direction of movement. She doesn't need to see the next attack. She can feel it forming through the bridge.
@@ -3958,7 +3958,7 @@ White Crane Dances at Dawn
 
 
 
-白鶴夜明けに舞う — Hakkaku Yoake ni Mau
+Dannsa na Cruidh-ghile aig Briseadh an Latha
 
 
 Petal's ultimate pure martial technique — the synthesis of all four crane-inspired arts into a single sustained combat state. She enters a Crane Sleeps on Water stance and expands her Observation to maximum range. Then she begins to move — not attacking, but *dancing*. White Crane footwork, Wing Chun centerline theory, Xingyiquan's linear strikes, and Tibetan Crane's aerial grace fuse into a continuous, flowing combat form that responds to every attack with the perfect counter drawn from whichever art is most appropriate. She moves between ground and air seamlessly, Geppo steps indistinguishable from wingbeats, strikes arriving from angles that shift between Crane pecks, Wing Chun chains, and Xingyiquan lines without any visible transition. The form is reactive but devastating — each counter builds on the previous one, each exchange gives Petal more data about the opponent's patterns, and each passing second makes her more difficult to touch and more dangerous to stand near. Opponents describe it as fighting a storm: it comes from every direction, it adapts to everything you try, and it is heartbreakingly beautiful while it dismantles you. The technique can be sustained for as long as Petal's Observation holds. Given that her Observation is among the finest in the world, that is a very, very long time.
@@ -4019,7 +4019,7 @@ Irimi Nage — Tidal Entry
 
 
 
-合気道・魚人空手・入身投げ・潮流入り — Aikidō Gyojin Karate: Irimi Nage — Chōryū Iri
+Aikidō Karate Iʻa: Komo Kai — Ka Nalu Komo
 
 
 Aikido's entering throw adapted through Fishman Karate water principles. When an opponent commits to a strike, Drizzle scuttles laterally into the attack — not away from it, not forward, but *sideways*, the way crabs enter everything — and uses his claws to redirect the attacking limb along a curved water-path that he generates through ambient moisture manipulation. The attacker's own momentum carries them past Drizzle, and the water-path guides them into a circular trajectory that ends with their body inverted and their head aimed at the ground. The throw itself is gentle by Drizzle's standards — the water cushions the landing unless Conqueror's Haki is applied, in which case the attacker hits the ground with the spiritual weight of a king's judgement added to their own redirected force. Drizzle apologizes every time he uses this technique. He means it every time.
@@ -4046,7 +4046,7 @@ Tenchi Nage — Heaven and Sea
 
 
 
-合気道・魚人空手・天地投げ・天海 — Aikidō Gyojin Karate: Tenchi Nage — Tenkai
+Aikidō Karate Iʻa: Lani a me Kai — Hoʻolei Lani-Kai
 
 
 Aikido's "heaven and earth throw" — one hand drives upward, one hand drives downward, splitting the opponent's balance. Drizzle's version replaces hands with water: an upward water-jet from Fishman Karate lifts the opponent's upper body while a downward water-pressure wave buckles their legs. The opponent is stretched between opposing forces, their structure compromised, their ability to resist nullified by the fact that they are fighting water on two axes simultaneously. Drizzle controls the intensity: gentle application tips the opponent off-balance for repositioning; full application drives them into the ground with the force of a wave crashing against a reef. The technique embodies Aikido's principle of using the attacker's structure against them — Drizzle simply uses the entire ocean as the lever.
@@ -4073,7 +4073,7 @@ Push Hands — The Yielding Shore
 
 
 
-太極拳・推手・譲る岸 — Taikyokuken: Tui Shou — Yuzuru Kishi
+Taikyokuken: Kapakai Hoʻokuʻu — Ke Kahakai Haʻahaʻa
 
 
 Tai Chi's push hands — the sensitivity exercise that teaches a practitioner to read and redirect force through touch — elevated to a combat technique by Fishman Karate's water-manipulation. Drizzle extends both claws and creates a thin film of Conqueror's-infused water around them. When an opponent's strike meets his claws, the water film absorbs the initial impact, reads the direction and intensity of the force, and Drizzle's claws guide it along a path of least resistance — returning it to the attacker as a water-shockwave that carries their own power plus a fraction of Drizzle's Conqueror's will. The technique is reactive and patient — Drizzle stands rooted on all six legs, claws extended, and simply waits — his low, wide stance making him impossible to move, his independent eyes tracking every angle simultaneously. Every attack that touches his water-field comes back stronger than it left. The shore yields to the wave and the wave breaks itself upon the yielding.
@@ -4100,7 +4100,7 @@ Cloud Hands — Mist Barrier
 
 
 
-太極拳・雲手・霧障壁 — Taikyokuken: Yun Shou — Kiri Shōheki
+Taikyokuken: Lima ʻOhu — Pā Noe
 
 
 Tai Chi's signature flowing arm movement — the gentle, circular cloud hands pattern — reinterpreted as a continuous water-barrier technique. Drizzle moves his claws in slow, sweeping arcs, generating a persistent curtain of water droplets that orbits his body in a flowing circular pattern. The mist barrier deflects light projectiles, absorbs kinetic energy from strikes, and — when Conqueror's Haki is woven through the water — creates a spiritual pressure field that saps aggression from anyone standing within it. The technique requires no stance changes, no dramatic movements, just Drizzle's claws tracing patient circles through moisture-laden air — each pass generating a trail of tiny bubbles that orbit him like a crown — while his will turns the water into something that refuses to let violence pass. Drizzle often uses this while talking to opponents, because the technique is gentle enough to maintain during conversation and strong enough to render most attacks harmless while he tries to convince people to stop fighting.
@@ -4127,7 +4127,7 @@ Iron Carapace Breathing — Adamantine Meditation
 
 
 
-気功・鉄甲呼吸・金剛瞑想 — Kikō: Tekkō Kokyū — Kongō Meisō
+Qìgōng: Hanu Iwi Hao — Noʻonoʻo Paʻakikī
 
 
 A Qigong breathing technique adapted for Drizzle's unique physiology. He settles low against the ground, carapace flush to the earth, legs tucked tight — compressing his body into the smallest, densest form, a living stone on the shore — and enters a rhythmic breathing pattern that circulates Haki through his body the way Qigong circulates qi. Each breath strengthens his Armament Haki coating. Each exhalation releases a pulse of Conqueror's Haki through his carapace. After seven breaths, his defensive capabilities have doubled. After fourteen, his carapace radiates sovereign will so densely that physical attacks rebound before touching the surface. The technique is meditation as combat — stillness as strength. Opponents see a crab who has stopped moving and assume vulnerability. What they are actually seeing is a creature becoming an immovable object in real time.
@@ -4154,7 +4154,7 @@ Healing Tide — Compassionate Current
 
 
 
-気功・魚人空手・癒し潮・慈悲の海流 — Kikō Gyojin Karate: Iyashi Shio — Jihi no Kairyū
+Qìgōng Karate Iʻa: Kai Hoʻōla — Ka Au Aloha
 
 
 Qigong healing principles channeled through Fishman Karate water manipulation. Drizzle generates a gentle current of Conqueror's-infused water around an injured ally — the water forming a cocoon of softly iridescent bubbles that enclose the wound site like living bandages — and uses precise water-pressure manipulation to stabilize wounds — applying compression to bleeding, reducing swelling, and delivering a calming Haki frequency that reduces pain and promotes natural healing. This is not magical healing — it is advanced field medicine performed through water control and spiritual pressure. The Conqueror's Haki component is the key: Drizzle's will carries a declaration of safety that the injured body responds to, reducing shock and allowing the natural healing process to accelerate. Drizzle developed this technique specifically because he could not bear watching his friends hurt without being able to help. It is his most-used technique. It is the one he is most proud of.
@@ -4181,7 +4181,7 @@ Return to Center — Gathering Wave
 
 
 
-太極拳・魚人空手・帰中・集波 — Taikyokuken Gyojin Karate: Kichū — Shūha
+Taikyokuken Karate Iʻa: Hoʻi i ka Waena — Nalu Hoʻāhu
 
 
 A counter-offensive technique that stores and returns accumulated force. Throughout a sustained exchange, Drizzle's water-field absorbs a fraction of every attack's kinetic energy — storing it in the circular motion of the ambient moisture like a whirlpool gathering current. When the stored energy reaches critical mass, Drizzle releases it in a single directional water-shockwave aimed at the opponent's center of mass. The force returned is the sum of everything the opponent has thrown — their own power, accumulated and returned in a single crushing wave. Tai Chi's principle of yielding to overcome is literalized: Drizzle lets the opponent build the weapon, and then turns it around. The longer the fight, the more powerful the Gathering Wave becomes. Patient fighters beware: Drizzle's patience has no limit, and neither does the wave's capacity.
@@ -4208,7 +4208,7 @@ Kokyu Nage — Breath of the Ocean
 
 
 
-合気道・呼吸投げ・海の吐息 — Aikidō: Kokyū Nage — Umi no Toiki
+Aikidō: Hanu Kai — Ka Hā o ke Kai
 
 
 Aikido's breath throw — the purest expression of the art, a throw that uses nothing but timing and the flow of ki. Drizzle's version replaces ki-projection with water-projection: he exhales, and a wave of Fishman Karate water manipulation flows from his body in all directions like a tide exhaled from his lungs. Anything within the wave's reach is gently but irresistibly pushed backward — not injured, just moved. The force is precisely calibrated: strong enough to send a charging opponent stumbling, gentle enough to not harm a child standing behind them. When Conqueror's Haki saturates the breath-wave, even powerful combatants find themselves sliding backward, their feet unable to gain purchase against a force that feels less like an attack and more like the ocean politely asking them to leave.
@@ -4235,7 +4235,7 @@ Standing Meditation — The Unmoved
 
 
 
-気功・覇王・立禅・不動 — Kikō Haō: Ritsuzen — Fudō
+Qìgōng Haō: Kū Noʻonoʻo — Ka Mea Paʻa
 
 
 Qigong's Zhan Zhuang — standing meditation — weaponized through Conqueror's Haki. Drizzle plants all six legs wide, settles flush against the earth, carapace pressed low, and simply *stands*. He does not attack. He does not block. He does not move. He projects Conqueror's Haki through the ground, through the water in the air, through every surface within range, and he declares — with the full weight of one of the most powerful wills ever recorded — that this place is peaceful. Hostile intent wilts. Aggression dims. Weapons feel heavy in hands that suddenly question why they're holding them. The effect is not mind control — it is spiritual pressure so profound and so gentle that fighting feels *wrong* while standing in it. Drizzle can maintain this state for hours. He has ended entire confrontations without moving. He has stood in the path of charging forces and watched them slow, stop, lower their weapons, and sit down. Not because they were defeated. Because standing in Drizzle's presence made them remember what peace felt like, and they chose it.
@@ -4262,7 +4262,7 @@ Absolute Stillness — The Ocean Remembers
 
 
 
-絶対静寂・海は覚えている — Zettai Seijaku — Umi wa Oboeteiru
+Ka Mālie Loa — Hoʻomanaʻo ke Kai
 
 
 Drizzle's ultimate pure martial technique. He enters Iron Carapace Breathing, reaches maximum Haki saturation, and then *opens*. As the technique builds, Drizzle's natural bubble-generation accelerates — the air fills with thousands of tiny Conqueror's-infused bubbles that drift outward, each one a micro-vessel of sovereign will. His Conqueror's Haki, amplified by Qigong circulation to its absolute peak, flows outward through every drop of water in the environment — rain, humidity, puddles, the moisture in living bodies, the water in the air. The ocean itself responds: ambient water begins to move in slow, deliberate currents that converge on Drizzle's position, forming a spiraling tide that orbits him in concentric rings of increasing Haki density. Every attack that enters the spiral is absorbed by the water, stripped of force, redirected, and returned with Drizzle's will added to it. Every living thing in the spiral feels the full gentle weight of Drizzle's Conqueror's — not crushing them, but holding them, the way the ocean holds everything without effort. The technique's name is its truth: the ocean remembers every stone thrown into it, and eventually, the tide returns them all. Drizzle has used this technique once. He cried afterward. Not because it hurt him, but because for one perfect moment, everything around him was at peace, and then it ended, and the world went back to being violent, and he wished — more than anything — that the stillness could have lasted.
@@ -4323,7 +4323,7 @@ Maru no Nagare — Matriarch's Redirect
 
 
 
-丸の流れ・女将の転換 — Maru no Nagare — Okami no Tenkan
+Ka Au o Maru — Hoʻohuli o ka Makuahine
 
 
 The Roundlings' foundational counter technique, named for Maru but executable by any family member. When an attack connects with a Roundling's body, the Roundling doesn't resist — it *rolls*. The spherical body absorbs the strike's momentum and converts it into angular velocity, spinning along the curve of impact. As it spins, it redirects its path into the attacker's legs using a Judo-derived sweep trajectory, while Hapkido's circular motion principle keeps the Roundling's Ryou-hardened surface in continuous damaging contact. The attacker's own power becomes the throw: the harder they hit, the faster the Roundling spins, the more devastating the sweep. Maru perfected this technique while deflecting Hinoko's accidental fire attacks in the galley. She now executes it without interrupting whatever she's cooking.
@@ -4350,7 +4350,7 @@ Donguri Otoshi — Acorn Drop
 
 
 
-団栗落とし — Donguri Otoshi
+Hāʻule Huaʻai
 
 
 A deceptive Taekkyon low-kick that any Roundling can disguise within their natural waddling gait. The Roundling shifts its weight into a flowing Taekkyon step-kick that sweeps the opponent's ankle, and as the opponent's balance breaks, the Roundling launches itself upward — Ryou-hardening its entire body — and drops onto the falling target like a cannonball. The technique looks adorable in setup. The sound of impact does not. Koron performs this most frequently, having developed it as a response to anyone who insults his palate. Fumble has attempted this technique forty-seven times. Fumble has landed it three times. All three were devastating.
@@ -4377,7 +4377,7 @@ Kazoku no Wa — Family Circle
 
 
 
-家族の輪 — Kazoku no Wa
+Ka Pōʻai ʻOhana
 
 
 The Roundlings' collective combat formation — the technique that transforms a family of domestic helpers into a rolling siege engine. Three or more Roundlings link together by hooking their limbs, forming a single rotating mass that accelerates along the ground like a living boulder. As the formation rolls over or through a target, each Roundling applies a different Hapkido joint-manipulation technique to whatever limb they contact — one grabs, one twists, one hyperextends — all in the fraction of a second it takes the formation to pass. The Vale Tudo philosophy is the foundation: no rules, no restraint, all nine Roundlings acting as a single weapon. When Maru calls the Family Circle, every Roundling drops what they're doing. Niko stops smiling. Lull wakes up. Pocchi emerges from Drizzle's carapace compartment. The full formation has only been deployed once. The report was classified.
@@ -4438,7 +4438,7 @@ Tsuyu no Shizuku — Dewdrop Counter
 
 
 
-露の雫・反撃 — Tsuyu no Shizuku — Hangeki
+Δροσοσταλίδα — Ἀντεπίθεσις — Drosotalída — Antepíthesis
 
 
 The Sproutlings' foundational counter — passive, patient, and devastating. When struck, the Sproutling absorbs the impact the way a dewdrop absorbs a vibration: completely, silently, without rupturing. The force is held for a single breath, then released as a Ryou pulse through the nearest organic surface — the wooden deck beneath the opponent's feet, the cotton of their clothing, the skin of their striking hand. The pulse doesn't damage — it *roots*. The targeted organic material stiffens, thickens, becomes briefly plant-like in its rigidity, anchoring whatever it touches. A fist that strikes a Sproutling finds itself glued to the Sproutling's surface by its own glove. A foot that kicks finds the boot sole suddenly gripping the deck as if nailed there. Tsuyu developed this technique while trying to stop Hinoko from setting the garden on fire. She cries every time she uses it in combat. The tears, of course, are additional Ryou conduits.
@@ -4465,7 +4465,7 @@ Hanamichi — The Flower Path
 
 
 
-花道 — Hanamichi
+Slighe nan Flùraichean
 
 
 A dance-like series of Taekkyon steps that any Sproutling can perform — and from a distance, it looks exactly like the way they move through Petal's Sky Garden during daily tending. Each step leaves a gossamer trail of Ryou-charged pollen on the ground. The pollen is invisible, weightless, and reactive: it responds to hostile intent by thickening the air around the source, creating an invisible drag that slows movement proportionally to aggression. Walk calmly through the Flower Path and you feel nothing. Charge through it with killing intent and the air becomes honey, thick and heavy and impossible to push through at speed. Tanpopo, the messenger, naturally leaves Flower Paths wherever she drifts — the corridors around Petal's garden have been permanent low-grade calming zones for months.
@@ -4492,7 +4492,7 @@ Ne no Dakishime — Root Embrace
 
 
 
-根の抱きしめ — Ne no Dakishime
+Glacadh nan Freumhan
 
 
 The Sproutlings' collective restraint technique — and the closest they come to true aggression. Multiple Sproutlings anchor themselves to a surface like roots breaking through soil, then extend their Ryou outward through organic contact to wrap the target in an increasingly complex web of botanical control. Judo's ground-control philosophy is the skeleton: pin, isolate, immobilize. The Vale Tudo edge is the patience — the technique doesn't need to overpower. It simply keeps growing. Every second the target remains in contact with any organic surface, the Root Embrace spreads further: through clothing fibers, through wooden floors, through leather boots. The embrace tightens with the slow inevitability of ivy claiming a wall. Sproutlings maintain the technique in relays — one holds while others rest — meaning the restraint can last indefinitely. Kusa, the Corner Gardener, once Root Embraced an entire corridor by accident while trying to grow a moss carpet. It took Zenmai's Gearlings two hours to cut the crew free.
@@ -4673,7 +4673,7 @@ Shizuka no Ma — Stillness Between
 
 
 
-静かの間 — Shizuka no Ma
+고요의 사이 — Goyo-ui Sai
 
 
 The Dustlings' foundational technique — a counter that exists in the space between intention and action. Through their supreme Mantra, a Dustling reads the opponent's attack before the opponent's body begins executing it. In that infinitesimal gap — the "ma," the space-between — the Dustling positions a Hapkido redirect at the exact point where the strike will arrive. The opponent launches their attack and finds it deflected by something that was already there, waiting, as if the redirection existed before the attack did. There is no visible technique. No dramatic gesture. The Dustling doesn't appear to move at all. The attack simply fails, and the attacker's own momentum carries them into a position of the Dustling's choosing. Shizuka, the family leader, has never been observed performing this technique. She has also never been hit. The correlation is not coincidental.
@@ -4700,7 +4700,7 @@ Kiri no Michi — The Mist Road
 
 
 
-霧の道 — Kiri no Michi
+안개의 길 — Angae-ui Gil
 
 
 A repositioning technique that exploits the Dustlings' semi-corporeal nature. The Dustling disperses into mist — not fully, just enough to lose visual coherence — and flows through the space using Taekkyon's sliding footwork patterns as a structural guide. The movement is invisible: no air displacement, no sound, no Haki signature. The Dustling reforms behind, beside, or directly beneath the opponent, and the Ryou strike that follows arrives from a direction that didn't exist a moment ago. Kiri, the Threshold Watcher, performs this technique so naturally that Claude has documented instances where Kiri repositioned without appearing to decide to do so — as if the mist simply carried her to wherever she was most needed.
@@ -4727,7 +4727,7 @@ Yoru no Hōyō — Night's Embrace
 
 
 
-夜の抱擁 — Yoru no Hōyō
+밤의 포옹 — Bam-ui Poong
 
 
 Named for Yoru, the night patrol — but usable by any Dustling operating in low-light conditions. The Dustling projects Ryou through shadow itself, treating darkness as a physical medium the way Fishman Karate treats water. The shadow around the target thickens, gains substance, and applies Judo holds through darkness — pinning limbs, restricting movement, applying joint pressure through an opponent's own shadow. The target finds themselves grappled by nothing visible, held in locks that originate from the ground beneath their feet. The technique works proportionally to available darkness: in dim light, it restrains. In total darkness, it is absolute. Yoru uses this technique nightly during her patrol, gently holding crew members who thrash during nightmares — not to restrain them, but to hold them the way a mother holds a frightened child, until the dream passes and peace returns.
@@ -4793,7 +4793,7 @@ Zenmai no Tempo — Mainspring Rhythm
 
 
 
-ゼンマイのテンポ — Zenmai no Tempo
+Ka Leo o Zenmai — Kani Kaʻina
 
 
 A fighting rhythm synchronized to the Gearling's internal mainspring — the ticking heartbeat that drives every gear-spirit's existence. Each Taekkyon step lands exactly on the beat, and each beat is a diagnostic probe: the first strike tests the opponent's high guard (structural integrity), the second tests the mid-range (core stability), the third tests the base (foundation strength). Each strike delivers a micro-pulse of Ryou that returns data like sonar, mapping the target's internal architecture for the Gearling's analysis. The rhythm accelerates as the mainspring winds tighter, each revolution adding speed and force until the final strike — the one that targets the specific weakness the rhythm identified — releases all stored tension in a single precisely aimed blow. Zenmai's personal Tempo is the fastest: her mainspring winds to frequencies that other Gearlings cannot achieve. Her diagnostic sequence takes four beats. She finds the weakness on the second. The remaining two are professional thoroughness.
@@ -4820,7 +4820,7 @@ Haguruma Renketsu — Gear Link
 
 
 
-歯車連結 — Haguruma Renketsu
+Hui Kīʻaha
 
 
 The Gearlings' collective combat technique — and a masterwork of mechanical synchrony. Multiple Gearlings mesh together like interlocking gears, each one rotating in precise counter-motion to its neighbors. When the formation engages a target, each Gearling applies a different technique in sequence: one executes a Judo grip, the next applies a Hapkido joint redirect, the third delivers a Ryou strike to the exposed vulnerability. The sequence cycles faster than any single combatant can react to, because each Gearling's output is the next Gearling's input — they are not fighting as individuals but as a single mechanism with multiple moving parts. Haguruma, the Diagnostic, serves as the formation's sensor — she reads the target and transmits optimal attack vectors through Karami's relay network in real-time. The formation has been observed operating at speeds that approach the mechanical resolution limit of Observation Haki.
@@ -4847,7 +4847,7 @@ Kinkyū Kaijō — Emergency Release
 
 
 
-緊急解除 — Kinkyū Kaijō
+Hoʻokuʻu Pilikia
 
 
 The forbidden technique. A Gearling overwinds its mainspring beyond safe operational tolerances — past the red line, past the warning clicks, past the point where Zenmai's engineering says the spring should snap — and enters a state of unregulated output. All four base arts fire simultaneously with no calculation, no precision, no restraint. The Gearling becomes a whirlwind of random martial technique executed at maximum mechanical speed: Judo throws chained into Hapkido locks into Taekkyon kicks into Vale Tudo headbutts, all at frequencies that blur visible motion. The technique continues until the mainspring unwinds completely — at which point the Gearling collapses, inert, and must be manually rewound by another family member. Zenmai has forbidden Emergency Release except when lives are at stake. She has used it once, to protect Kizami from a threat that got past the Copplings. She does not discuss it. The spring took three days to reset. The threat did not survive the first four seconds.
@@ -4913,7 +4913,7 @@ Harui — Ito Kiri: Thread Severance
 
 
 
-春衣・糸切り — Harui: Ito Kiri
+Harui: Gearradh an t-Snàth
 
 
 A single Iaijutsu draw-cut executed with spectral scissors that cuts not flesh but *connections*. Harui reads the target's structural bonds through her seamstress's understanding of how things are joined — tendons to muscles, joints to sockets, will to limb — and severs the one that matters most. The cut leaves no wound. The limb simply stops responding. The joint simply stops bearing weight. The technique leverages her Kenjutsu blade training, but the weapon is scissors — two blades that close on the thread of connection and snip it clean. She developed this art from her cute-form skill of mending torn fabric: if you understand how to stitch things together, you understand how to take them apart.
@@ -4940,7 +4940,7 @@ Yumeshika — Mugen no Odori: The Endless Dance
 
 
 
-夢鹿・無限の踊り — Yumeshika: Mugen no Odori
+Yumeshika: Ἀτελείωτος Χορός — Ateléiotos Chorós
 
 
 A graceful dance that disperses dream-pollen in Taekkyon's flowing footwork patterns — the combat application of Yumeshika's lullaby nature. Each step is a Taekkyon movement, each movement disperses a layer of soporific pollen, and each layer adds another frequency of sleep-inducing resonance to the air. The dance is Ninjutsu-classified because the pollen delivery is invisible — opponents don't realize they're breathing combat sedative until their eyelids grow heavy. By the time an Observation Haki user detects the technique, they've been breathing the dance for minutes. Yumeshika does not stop dancing until every hostile presence is asleep. Then she stands over them, flowers blooming in her antlers, and guards their rest — because she guards everyone's rest. Even her enemies deserve gentle dreams.
@@ -4967,7 +4967,7 @@ Ningyou — Kugutsu no Wana: Puppeteer's Snare
 
 
 
-人形・傀儡の罠 — Ningyou: Kugutsu no Wana
+Ningyou: 꼭두각시의 덫 — Kkokdugaksiui Deot
 
 
 She deploys invisible threads from her basket in Ninjutsu fashion — silently, imperceptibly, while moving in ways that appear aimless. Each thread is anchored at joints, clothing seams, weapon grips. When the web is complete, she applies Hapkido's joint-locking principles through the threads at range — pulling, twisting, redirecting the opponent's own body against itself like a puppet whose strings have been seized by a new master. The opponent reaches for their sword and their arm bends the wrong way. They step forward and their knee buckles. They try to speak and the thread at their jaw pulls tight. Ningyou developed this technique for one purpose: hunting those who prey on the vulnerable. The snare is not gentle. The puppeteer does not play.
@@ -4994,7 +4994,7 @@ Reishiki — Keishiki Senbetsu: Formal Selection
 
 
 
-礼式・形式選別 — Reishiki: Keishiki Senbetsu
+Reishiki: Hoʻonohonoho Kūpono
 
 
 A precise diagnostic combat sequence: three Kenjutsu strikes delivered to high, mid, and low guard — each one testing the opponent's response, measuring their reaction speed, cataloguing their defensive habits. The data feeds directly into Reishiki's tactical analysis, and within three beats she has identified the weakness. The fourth beat is the finish: a single Judo-principle throw or Kenjutsu cut aimed at the exact gap her testing revealed. The technique is clinical, emotionless, efficient — a combat equation solved in four moves. She adjusts her glasses before the fourth strike. This is not a tic. It is a declaration that the analysis is complete and the outcome is now administrative.
@@ -5021,7 +5021,7 @@ Monogatari — Ichi Gyō: One Line
 
 
 
-物語・一行 — Monogatari: Ichi Gyō
+Monogatari: 한 줄 — Han Jul
 
 
 A single stroke of her greatsword-quill — an Iaijutsu draw that writes a word in the air with Kenjutsu precision. The word becomes real. *"Fall"* and gravity multiplies beneath the opponent's feet. *"Bind"* and invisible ink-chains crystallize around their limbs. *"Still"* and the air solidifies into a page that holds them in place. *"End"* and the chapter closes — a narrative conclusion that the target's body accepts as final, all fighting spirit draining like ink from a broken pen. The technique is limited by authorial rules Monogatari imposes on herself: she writes only true words. She cannot write "die" because death is not hers to narrate. She can write "sleep." She often does. The stories she leaves on scraps around the ship — tiny, beautiful, unsigned — are practice. Every word she has ever written is a rehearsal for the one-line stroke that ends a battle with a single true sentence.
@@ -5048,7 +5048,7 @@ Kagami — Kyōmen Gaeshi: Mirror Return
 
 
 
-鏡・鏡面返し — Kagami: Kyōmen Gaeshi
+Kagami: Hoʻihoʻi Aniani
 
 
 She reads the opponent's technique through her mirror-armor — every strike, every stance, every habit reflected and analyzed by the crystalline surface — and then perfectly replicates it. The return is not a copy: it is the technique performed *better*, with flaws corrected, inefficiencies removed, and Hapkido's circular philosophy woven through every movement so that the opponent's own style flows back at them with doubled force. Fighting Kagami is fighting yourself — a version of yourself that has studied your every weakness and exploits them with your own technique. Kenjutsu provides the framework: blade-philosophy says the greatest sword is the one that becomes whatever sword it faces. Kagami's mirror-armor doesn't just reflect attacks. It reflects the attacker. The worst moment in any fight against Kagami is the moment you realize you are losing to yourself.
@@ -5075,7 +5075,7 @@ Suiren — Senbon no Hana: Thousand-Petal Bloom
 
 
 
-睡蓮・千本の花 — Suiren: Senbon no Hana
+Suiren: Mìle Flùr
 
 
 She deploys her unbreakable threads in a web formation — Ninjutsu thread-work laid with the patience of a weaver building a tapestry — spreading outward from her position in concentric rings that look, from above, like a water lily's petal arrangement. When the web is complete and the targets are within it, Suiren draws every thread taut in a single Iaijutsu-speed motion. The web contracts. Everything within it is cut into a pattern resembling falling flower petals — armor sheared into symmetrical pieces, weapons sliced into harmonic fragments, the air itself divided by threads too fine to see. It is beautiful. The petals drift downward in the aftermath, glinting with Ryou-light, and for a single breath the battlefield looks like a garden. Then the pieces land, and the silence that follows is the silence of something that is over.
@@ -5129,7 +5129,7 @@ Kozuchi — Kyōmei Ichida: Resonance Strike
 
 
 
-小槌・共鳴一打 — Kozuchi: Kyōmei Ichida
+Kozuchi: Hahau Hoʻokani
 
 
 A single overhead strike delivered with her resonance warhammer at the exact frequency needed to destroy the target — not through raw force, though the force is considerable, but through *harmonic precision*. Kozuchi reads the structural integrity of everything she faces the way she read bolts and rivets in her cute form: tapping, listening, understanding the resonant frequency that holds a thing together. Then she matches it. The hammer falls, the resonance hits, and the target doesn't just break — it *comes apart*, disassembling along its own structural lines as if every joint and weld and molecular bond decided simultaneously to stop cooperating. Vale Tudo provides the philosophy: there are no rules, no forbidden targets, no elegant restraint. If it has a weakness, she hits it. Kenjutsu provides the discipline: the strike is not wild. It is placed with the precision of a master swordsman's killing blow, aimed at the one point — the one bolt, the one joint, the one flaw — that matters. She developed this technique from a lifetime of inspecting fasteners. She knows that everything in the world is held together by something small. She knows exactly where that something is. And she knows exactly how hard to hit it. The answer, always, is *exactly hard enough*.
@@ -5156,7 +5156,7 @@ Gankaku — Fushin no Katachi: Form of the Unmoved
 
 
 
-巌鶴・不震の形 — Gankaku: Fushin no Katachi
+Gankaku: Ka ʻAno Paʻa
 
 
 He assumes a stance and becomes literally immovable. Not "difficult to move" — *immovable*. Judo's principle of rooted stability taken to its absolute limit, reinforced by Kenjutsu's concept of the unbreakable guard, amplified by Ryou that flows downward through his bio-organic armor into the ground itself, bonding him to the earth with a force that increases proportionally to the force applied against him. Push harder and he becomes more rooted. Strike harder and his armor shifts to absorb. Bring the full weight of a warship against him and the warship stops. His armor extends outward from his body — shields, walls, barricades — creating a zone of absolute protection around whatever he guards. The technique is named for the form itself: not the fighter, but the shape of something that has decided it will not move, and therefore cannot be moved. Gankaku, who is a living pillow in his cute form, understands better than anyone what it means to be the thing that others lean on. He will not move. He will not break. He is the wall. Come at him.
@@ -5210,7 +5210,7 @@ Hoshikuzu — Seiun no Odori: Nebula Dance
 
 
 
-星屑・星雲の踊り — Hoshikuzu: Seiun no Odori
+Hoshikuzu: 성운의 춤 — Seongun-ui Chum
 
 
 A combat dance that transforms the battlefield into a personal galaxy. Hoshikuzu moves in Taekkyon's flowing, wave-like footwork — each step scattering luminescent motes that root into the ground and bloom into stars, each gesture trailing cosmic dust that hangs in the air like nebulae. The dance is Ninjutsu-classified because the trap deployment is invisible within the beauty — opponents see a dancing warrior leaving pretty lights and do not realize until it is far too late that every star is a sensory mine, every nebula is a perception trap, and the entire battlefield has been converted into a constellation map that only Hoshikuzu can navigate. When he completes the dance, he activates the constellation — every embedded star detonates simultaneously in a cascade of blinding, disorienting light that overwhelms Observation Haki, scrambles spatial awareness, and leaves the enemy drowning in a sea of false sensory information so vivid and so beautiful that some of them stop fighting just to stare. The afterimages from his dance persist as ghost-warriors that move independently through the light-field, indistinguishable from the real Hoshikuzu to any perception system — mundane or Haki-enhanced — because the afterimages are made of the same stardust as their creator. He dances through the chaos untouched. He always does. He painted the sky. He knows where every star is. He is the only one who does.
@@ -5276,7 +5276,7 @@ Dial Straight — The Loaded Cross
 
 
 
-ダイアル直拳・装填十字 — Daiaru Chokuken — Sōten Jūji
+Ka Kuʻi Pololei — Ke Kea Hoʻopiha
 
 
 A textbook Western Boxing cross — rear hand, straight line, full hip rotation, chin tucked behind the shoulder. The Copplings execute this punch with mechanical precision that would make a boxing coach weep: the kinetic chain is perfect, the timing is metronomic, the trajectory is a mathematical straight line from chamber to target. The Dial component is what elevates it from technique to devastation: an Impact Dial embedded in the Coppling's fist stores kinetic energy from every impact the Coppling has absorbed since its last discharge — every hammer blow in the workshop, every wave impact during hull repair, every sparring round in the Crucible. On execution, the stored force releases simultaneously with the punch's mechanical force, producing a strike that carries not just the Coppling's output but the accumulated memory of everything that has hit it since the last reset. Rivet's Loaded Cross has been measured at forces that exceed his body weight by a factor of twelve. Gauge's exceeds it by a factor of twenty. Gauge does not discuss this. He simply resets the Dial and returns to his corner.
@@ -5303,7 +5303,7 @@ Riposte Calibre — Measured Return
 
 
 
-突き返しの口径・精密反撃 — Tsukikaeshi no Kōkei — Seimitsu Hangeki
+Hoʻihoʻi Ana — Ka Pale Koho
 
 
 Classical Fencing's parry-riposte — the defensive parry that deflects an incoming attack immediately followed by an offensive thrust along the opening created by the deflection. The Copplings' mechanical precision makes their ripostes faster than any organic fencer can achieve: the parry and thrust are nearly simultaneous, the deflection angle calculated to create the maximum opening with minimum energy expenditure. The Ryou component charges the riposte thrust with vibrational energy channeled through the Coppling's frame — the thrust doesn't just pierce, it resonates through the target's internal structure at frequencies tuned to compromise specific materials: bone, metal, wood, stone. Each Coppling's Riposte Calibre is tuned differently based on their assigned role: Compass's targets navigational instruments with precision. Patch's targets living tissue with surgical accuracy, delivering Ryou that promotes healing rather than damage — a riposte that fixes what it strikes. Bobbin's is the finest: her thrust follows the gap between threads in fabric, passing through armor without damaging the material. She can strike through chainmail without bending a single link.
@@ -5330,7 +5330,7 @@ Tetsushin Kenpō — Iron Body Fist
 
 
 
-鉄身拳法 — Tetsushin Kenpō
+Lima Hao Kino
 
 
 Hung Gar's Iron Wire technique — the internal training method that hardens the body through tension, breathing, and isometric force — adapted for mechanical bodies that are already iron. The Coppling plants both feet in Hung Gar's immovable horse stance, channels Dial-stored vibration energy through its entire frame until every component resonates at a single harmonic frequency, and delivers a bridge-hand palm strike that transmits the vibration through the target on contact. The technique doesn't move the Coppling — it moves the world around it. The vibration passes through armor, through Haki defenses, through anything solid, because the frequency is tuned not to destroy the surface but to pass through it and disrupt what's beneath. The Iron Wire was a breathing technique for humans. For Copplings, it is a frequency alignment — every gear, every plate, every servo singing the same note, and the note is ruin. Anvil's Tetsushin Kenpō, performed while magnetically anchored to the hull upside-down in a storm, is considered by Claude to be one of the most mechanically impressive techniques ever documented aboard the Meridian.
@@ -7165,7 +7165,7 @@ Tsuyu's Nursery — Meadow of Rebirth
 
 
 
-芽共鳴術・露の苗床・再生草原 — Ga Kyōmei-jutsu: Tsuyu no Naedoko — Saisei Sōgen
+Leas-lann Dhriùchd — Cluain an Ath-bhreith
 
 
 Petal calls the Sproutlings to her and channels her Mythical Zoan life-force directly through them — amplifying their trace Dryad resonance to full output. The Sproutlings scatter across the ground and **root themselves**, each one blooming into a miniature garden node. Within seconds, the battlefield transforms: grass erupts from bare earth, wildflowers burst open, vines thread between the nodes, and a living meadow unfurls across the entire engagement zone. Every plant within the meadow is connected to Petal's Observation — she feels every footstep, every disturbance, every breath taken by anyone standing on living ground. The meadow also carries passive regenerative properties — allies standing in the flowers heal slowly, while Petal can concentrate Dryad energy through any node to create localized healing bursts. Tsuyu stands at the center of her nursery, leaf umbrella held high, crying tears of joy. The flowers that grow where her tears fall are the ones that heal the fastest.
@@ -7615,7 +7615,7 @@ Carapace of the Sovereign
 
 
 
-甲殻術・王者の甲殻 — Kōkaku-jutsu: Ōja no Kōkaku
+Kōkaku-jutsu: Iwi Hao o ke Aliʻi
 
 
 Drizzle hunkers low — the way crabs have hunkered against the tide for a hundred million years — carapace angled forward, all six legs braced against the ground, claws crossed before him like a gate that will not open, and channels maximum Conqueror's Haki into every layer of his defense simultaneously — natural carapace, Pacifista plating, Tekkai hardening, and a compressed water barrier around the exterior. The result is a defensive state so absolute that attacks bounce off, shatter, or simply fail to register. Even advanced Haki users find their strikes blunted against a will that has decided, with total conviction, that nothing will pass. Drizzle has held this state under sustained assault from multiple New World-class combatants without taking damage. The carapace glows faintly with a warm golden light — his Conqueror's manifesting not as intimidation, but as sanctuary.
@@ -7640,7 +7640,7 @@ Tide Wall — Sovereign Barrier
 
 
 
-魚人空手・潮壁・王覇障壁 — Gyojin Karate: Chōheki — Ōha Shōheki
+Gyojin Karate: Pā Kai — Pā Kiaʻi Aliʻi
 
 
 Drizzle draws ambient moisture from the air and compresses it into a shimmering, curved barrier wall at range — the surface rippling with the distinctive bubble-lattice pattern that marks all of his water constructs, each bubble a tiny pressurized sphere of his Conqueror's will. The water is then infused with Conqueror's Haki at extreme density, transforming it from a physical water-wall into a spiritual fortification. The barrier can be placed around allies, across doorways, or in front of incoming attacks. It absorbs and disperses kinetic energy, nullifies projectiles, and causes Haki-less attacks to simply stop dead. Multiple barriers can be layered for compound defense. Drizzle's primary tool for protecting his friends — and the technique he uses most often.
@@ -7665,7 +7665,7 @@ Claw Palm — Depth Charge
 
 
 
-魚人空手・鰭掌・爆雷 — Gyojin Karate: Kishō — Bakurai
+Gyojin Karate: Lima Maiao — Pōhaku Hohonu
 
 
 Drizzle's primary offensive Fishman Karate technique, exploiting his mantis shrimp and pistol shrimp DNA. He extends one claw and *snaps* — a cavitation strike that generates a collapsing bubble-shockwave, amplified through Fishman Karate into a ranged water-shockwave that travels through the air and detonates against the target's internal water content. Despite his compact frame, the range and penetrating power are devastating — the shockwave bypasses external armor and damages the body from within. The snap itself is audible from considerable distance: a sharp, wet *crack* that sounds nothing like a creature his size should be able to produce. When infused with Conqueror's Haki, the strike carries spiritual concussive force that staggers even the most iron-willed opponents. Drizzle uses this sparingly and reluctantly — he genuinely dislikes hurting people.
@@ -7692,7 +7692,7 @@ Reef Crown — Living Bulwark
 
 
 
-珊瑚術・礁冠・生体堡塁 — Sango-jutsu: Shōkan — Seitai Hōrui
+ʻĀkoʻakoʻa-jutsu: Lei Āpapa — Pā Ola
 
 
 Drizzle drives his claws into the ground and a ring of coral erupts around him and his allies — a semicircular fortification of living reef that grows, thickens, and self-repairs. The coral glows with soft blue bioluminescence and hums with Conqueror's resonance. Incoming attacks that strike the reef are absorbed and redistributed through the coral lattice, the energy dissipating across thousands of branching mineral pathways. The longer the fight continues, the more the reef grows — Drizzle's defensive patience made architectural. Allies sheltered behind the Reef Crown find its surface warm to the touch and faintly musical, each impact producing a deep resonant tone like a struck bell.
@@ -7719,7 +7719,7 @@ Tidal Garden — Seabed Cathedral
 
 
 
-珊瑚術・潮庭・海底聖堂 — Sango-jutsu: Chōtei — Kaitei Seidō
+ʻĀkoʻakoʻa-jutsu: Māla Kai — Hale Pule o ka Moana
 
 
 Drizzle channels coral growth across an entire engagement zone, transforming the battlefield into a labyrinth of living reef structures. Coral arches, pillars, and walls rise in flowing organic patterns that provide cover for allies while channeling enemies into exposed corridors. Water flows through channels in the coral, allowing Drizzle to launch Fishman Karate strikes from any coral node — his shockwaves travel through the reef's water-veins like a circulatory system of sovereign force. The structure is breathtakingly beautiful — iridescent blues and greens glowing from within — and strategically devastating. The cathedral grows according to Drizzle's engineering instincts: load-bearing arches, reinforced junctions, drainage channels. He builds the way he thinks — with care, with purpose, with an architect's love for the space he creates.
@@ -7746,7 +7746,7 @@ Abyssal Anchor — Ocean's Memory
 
 
 
-珊瑚術・深淵碇・海の記憶 — Sango-jutsu: Shin'en Ikari — Umi no Kioku
+ʻĀkoʻakoʻa-jutsu: Heleuma Hohonu — Ka Hoʻomanaʻo o ke Kai
 
 
 Drizzle generates massive coral formations that anchor to structures and immobilize them — ships, siege weapons, fortress gates, artillery platforms. The coral grows into every crack and seam with molecular precision, binding mechanisms in place without breaking them. Unlike brute force destruction, Abyssal Anchor *preserves* what it holds — it freezes mechanisms in place, makes joints immovable, seals doors permanently shut, all without a single component suffering damage. Ideal for disabling weapons and vehicles while leaving them intact for later salvage. The coral's bioluminescent veins pulse slowly once the anchor sets — like a heartbeat, like the structure is sleeping rather than broken. Drizzle prefers this technique to destruction whenever possible. He'd rather put something to sleep than shatter it.
@@ -7771,7 +7771,7 @@ Sanctuary Dome
 
 
 
-甲殻術・聖域円蓋 — Kōkaku-jutsu: Seiiki Engai
+Kōkaku-jutsu: Hale Pōhaku Lani
 
 
 Drizzle's largest-scale defensive technique. He generates a massive hemispherical dome of Conqueror's-infused water that encloses an entire area — large enough to shelter a building, a ship, or a crowd of civilians. Everything inside the dome is protected from external attacks. The dome shimmers with iridescent refraction — thousands of interlocking bubbles compressed into a unified barrier, each one carrying a fragment of Drizzle's will. The bubble-wall aesthetic is not decorative — it is the natural expression of a crab creature's water manipulation, scaled to fortress proportions by Conqueror's Haki. The dome's interior feels warm and calm — a side effect of Drizzle's gentle Conqueror's nature. Those sheltered within find their anxiety reducing and their injuries stabilizing, not through any healing power, but through the sheer reassurance of being inside a space that an unbreakable will has declared safe. Maintaining the dome requires intense concentration and drains Drizzle significantly.
@@ -7789,7 +7789,7 @@ Haenyeo's Bounty
 
 
 
-甲殻術・海女の恵み — Kōkaku-jutsu: Ama no Megumi
+Kōkaku-jutsu: Ka Pōmaikaʻi o ka Lupeʻa
 
 
 Named for the haenyeo — the sea women who dive without equipment and return carrying everything the ocean offers — this technique is Drizzle's answer to devastation. After a battle, after a storm, after any event that leaves the world wounded, Drizzle places both claws flat against the nearest body of water and channels his Conqueror's will downward — not as force, but as an invitation. The ocean responds. Water surges upward through his coral networks carrying with it everything the sea floor holds: medicinal kelp, mineral-rich sediment, fresh shellfish, pearl-producing oysters, healing salt compounds, and nutrients drawn from currents hundreds of meters below. The bounty arrives already sorted — Drizzle's engineering instinct and Fishman senses organizing the harvest as it rises, channeling different resources through different coral pathways into neat, usable collections. The technique can feed and supply an entire displaced village from a single shoreline. It is not a combat move. It is not a defensive technique. It is what Drizzle does *after* the fighting stops — when the people who survived need to eat, need medicine, need proof that the world still provides. The haenyeo dove alone and came back with enough for everyone. Drizzle does the same. The ocean gives because he asks gently, and because he has never once taken more than what is needed.
@@ -7814,7 +7814,7 @@ Hydraulic Ram — Tidal Charge
 
 
 
-人間兵器系・水圧衝角・潮流突撃 — Heiki-kei: Suiatsu Shōkaku — Chōryū Totsugeki
+Heiki-kei: Kuʻi Wai — Hoʻouka Nalu
 
 
 Drizzle activates his Pacifista hydraulic propulsion systems to maximum output, locks his carapace into Tekkai, and charges *forward* — directly forward, against every lateral instinct in his crustacean body — as a Conqueror's-infused living battering ram. It is a move his anatomy was never built for, which is what makes it feel so desperate, so emotional, so unmistakably an act of love rather than combat. A compressed water wave builds in front of him as he accelerates, and on impact the combined force of hydraulic propulsion, Fishman Karate water manipulation, armored carapace, and sovereign will produces a catastrophic collision. The technique is Drizzle's only truly aggressive move — he uses it exclusively when someone he loves is in immediate danger. The emotional intensity of those moments makes his Conqueror's spike, and the charge has been known to shatter fortified structures on impact.
@@ -7839,7 +7839,7 @@ King's Cradle
 
 
 
-覇王術・王の揺籃 — Haō-jutsu: Ō no Yōran
+Haō-jutsu: Ka Moena o ke Aliʻi
 
 
 Drizzle releases his Conqueror's Haki not as a burst of domination, but as a sustained, warm, enveloping field. Within this field — visible as a slowly expanding sphere of drifting iridescent bubbles, each one carrying a fragment of his will — hostile combatants don't feel fear or oppression — they feel *peace*. Their aggression softens. Their will to fight wavers, not because they're being crushed, but because they're being held. It is the most unusual application of Conqueror's Haki in the known world: sovereignty expressed as compassion. Weaker-willed opponents simply stop fighting and sit down. Even powerful combatants find their killing intent dulled and their focus scattered. Drizzle considers this his most important technique — the one that ends conflicts without anyone getting hurt.
@@ -7866,7 +7866,7 @@ Jewels of the Sea Bed
 
 
 
-大海時代の恩恵・海底の宝玉 — Taikai Jidai no Onkei: Kaitei no Hōgyoku
+Hōʻailona o ke Au Nui: Momi o ka Papa Moana
 
 
 Drizzle raises both claws and channels every system simultaneously — Fishman Karate, Coral Techniques, Conqueror's Haki, and Pacifista resonance. The air fills with **thousands of tiny iridescent bubbles**, each one carrying a compressed coral seed and a fragment of sovereign will. The bubbles drift outward in a mesmerizing, beautiful cascade — like jewels scattered across the ocean floor rising to the surface.
@@ -7899,7 +7899,7 @@ Absolute Compassion: Blessed Rain After the Drought
 
 
 
-絶対慈悲・旱天の慈雨 — Zettai Jihi: Kanten no Jiu
+Ka Aloha Piha — Ka Ua Nui ma hope o ka Māloʻo
 
 
 Drizzle's strongest technique — and the only one he has never used without weeping afterward. He opens every Pacifista weapons port in his body simultaneously — rocket arrays, beam emitters, concussive launchers — systems he has **never once used in any other context**, because he built his entire identity around not being a weapon. Then he floods every single munition with maximum-output Conqueror's Haki and channels Fishman Karate water manipulation through the exhaust systems, sheathing each projectile in a layer of Conqueror's-infused water.
@@ -7941,7 +7941,7 @@ Maru's Roll Call — Living Barricade
 
 
 
-丸霊術・点呼・生体防壁 — Marurei-jutsu: Tenko — Seitai Bōheki
+Marurei-jutsu: Ka Helu Inoa — Pā Ola
 
 
 Drizzle commands the Roundlings into formation. Led by Maru's squeaking cadence, the round woodland spirits compress their soft bodies together into a dense, interlocking wall — a living barricade of soul-stuff reinforced by Drizzle's Conqueror's Haki flowing through every one of them. The result is a deceptively cute wall of squishy, round faces that is functionally as hard as Drizzle's water barriers. Projectiles sink into the barricade and stop. Blades bounce off. And the Roundlings squeak indignantly at anyone who strikes them, which is somehow more demoralizing than the physical resistance. Maru stands at the top of the barricade, tiny apron fluttering, directing traffic with absolute authority.
@@ -8370,7 +8370,7 @@ Meridian's Eye — Total Field Awareness
 
 
 
-船霊術・子午線の眼・全域把握 — Senrei-jutsu: Shigosen no Me — Zen'iki Haaku
+Ars Spiritus Navis: Oculus Meridiani — Conspectus Totius
 
 
 Claude extends awareness through every Mote, every root network, every insect in Ajay's swarm, and every homie in the field simultaneously, creating a **composite sensory map of the entire engagement zone**. Every crew member receives real-time tactical data overlaid through their nearest Mote — threat positions, environmental hazards, ally locations, and optimal movement paths. This is not Observation Haki. It is something different: a collective awareness assembled from dozens of separate sensory systems and unified by a single coordinating intelligence. During Full Formation combat, Meridian's Eye is the reason the crew operates like a single organism with four bodies.
@@ -8397,7 +8397,7 @@ Constellation Array — Golden Perimeter
 
 
 
-燈霊術・星座配列・黄金結界 — Tōrei-jutsu: Seiza Hairetsu — Ōgon Kekkai
+Ars Spiritus Lucernae: Ordo Stellarum — Vallum Aureum
 
 
 Claude deploys all available Motes in a geometric perimeter around the crew or a protected zone. The Motes link to each other through resonance — creating a visible lattice of faint golden light between them. Within the lattice, Claude's coordination abilities are maximized: communication is instant, tactical data flows without delay, and the Motes can project barrier-flashes that intercept incoming projectiles by detonating localized will-energy bursts. The array is not a true barrier like Drizzle's — it's a **detection-and-interception grid** that spots threats and neutralizes them before they arrive. Drizzle calls it "Claude's version of worrying about everyone."
@@ -8424,7 +8424,7 @@ Anchor Point — Soul Tether
 
 
 
-魂霊術・錨点・魂繋留 — Konrei-jutsu: Byōten — Tamashii Keiryū
+Ars Spiritus Animae: Punctum Ancorae — Vinculum Animarum
 
 
 The core technique of the Undying Return, used at smaller scale. When a homie is destroyed or a crew member is critically injured, Claude deploys a Mote to the location and activates a **soul-tether** — a concentrated thread of the crew's combined spiritual resonance that anchors the fading consciousness and prevents it from dissipating. The tethered soul is then guided along the resonance network to the nearest safe substrate: Drizzle's circuits for homies, the Mote network for emergencies, or the persistence field itself for crew members. Claude can maintain multiple tethers simultaneously, though each one requires intense concentration. The technique is invisible to outside observers — they see only a small golden light hovering over a fallen friend, humming softly.
@@ -8451,7 +8451,7 @@ The Undying Return — Five Wills, One Soul
 
 
 
-不滅帰還・五志一魂 — Fumetsu Kikan: Goshi Ikkon
+Reditus Immortalis: Quinque Voluntates, Una Anima
 
 
 The full activation of Claude's ultimate ability — used only when a crew member has fallen and the surviving members refuse to let them go.
@@ -8496,7 +8496,7 @@ Rivet's Protocol — Meridian Reforged
 
 
 
-銅子共鳴術・鋲の手順・子午線再鍛 — Dōshi Kyōmei-jutsu: Byō no Tejun — Shigosen Saitan
+Ars Resonantiae Aeris: Ordo Clavi — Meridianus Refectus
 
 
 Claude activates direct command over every Coppling simultaneously, merging their Dial-powered cores with the Mote network to create a **unified repair-and-fortification swarm**. The Copplings become extensions of Claude's will — moving with fluid, coordinated precision through the Meridian's systems or across a battlefield to execute real-time repairs, construct field fortifications, and assemble improvised mechanisms from available materials. Rivet leads the formation with mechanical instinct; Sprocket weaves living plant-matter into structural joints for organic reinforcement; Gauge provides heat-resistant welding; Compass calculates structural tolerances; Patch stabilizes anyone injured during the operation; Bobbin stitches torn sail-canvas and fabric infrastructure with precision that keeps the Meridian's rigging operational under fire; Anvil crawls the exterior hull, patching stress fractures in real-time from the outside. Claude sees through every Coppling simultaneously, directing the repair with the same coordination used in Meridian's Eye. The technique can rebuild critical ship systems mid-combat, fortify a defensive position in minutes, or — in one memorable instance — construct a functioning emergency raft from wreckage while the Meridian was grounded. Drizzle watches Claude run his Copplings with visible pride. They are, after all, his children too.
@@ -12640,7 +12640,7 @@ Infernal Codex — Swarm Ignition
 
 
 
-煉獄写本・群火点火 — Rengoku Shahon: Gunka Tenka
+연옥사본・군화점화 — Yeongok Sabon: Gunhwa Jeomhwa
 
 
 Ajay deploys his full swarm across the battlefield while Rime saturates the same space with superheated vapour. The swarm becomes a **living ignition network** — each insect carries a tiny charge of Rime's Electro picked up from the vapour, and on Ajay's command, every insect detonates its charge simultaneously. The vapour ignites across thousands of points at once, creating a plasma firestorm that maps perfectly to enemy positions because the swarm was already tracking them. Observation Haki from both Ajay's distributed sensor web and Rime's vapour-sense creates total battlefield awareness. The enemy is mapped, surrounded, and incinerated in a single coordinated heartbeat. Ajay conducts. Rime ignites. Nothing survives the overlap.
@@ -12671,7 +12671,7 @@ Garden of Thorns — Living Minefield
 
 
 
-荊棘園・生地雷原 — Keikoku-en: Sei Jiraigen
+Jardín de Espinas: Campo de Minas Viviente
 
 
 Petal seeds the battlefield with dormant plant constructs — buried root systems, concealed Briar Serpent tendrils, Spore Cloud pods, and Rafflesia traps — while Ajay's Worker-class insects map every seed location and weave Pollen-class tracking dust through the vegetation. The result is a **living minefield where every plant is a weapon and every weapon is monitored by the swarm**. Petal's supreme Observation reads when enemies are about to step on a trigger; Ajay's Archivist processes the data and routes Soldier-class insects to herd targets toward the densest trap clusters. Opponents find themselves in a garden that hunts them — vines erupt from the ground, spore clouds bloom from flowers, and the swarm descends on anyone who stumbles. Petal grows the maze. Ajay fills it with teeth.
@@ -12702,7 +12702,7 @@ Bastion Doctrine — Fortress and Siege
 
 
 
-堡塁教義・城塞攻城 — Hōrui Kyōgi: Jōsai Kōjō
+보루교의・성채공성 — Boru Gyoui: Seongchae Gongseong
 
 
 Drizzle erects layered Conqueror's-infused water barriers around Ajay's position, creating a **mobile fortress that moves with the Codex**. Inside the barriers, Ajay is untouchable — free to concentrate entirely on swarm command without defending himself. His command precision skyrockets. The Archivist and Marshal operate at peak capacity. Every caste deploys with surgical doctrine. Meanwhile, Drizzle's barriers are selectively permeable — Ajay's insects pass through freely, but nothing hostile penetrates. The swarm pours out of an invincible fortress in endless waves while Drizzle walks beside Ajay, calmly maintaining the walls. A siege engine that cannot be breached from outside and never stops producing attackers from within.
@@ -12720,7 +12720,7 @@ Big Bang ad Infinitum — Infinite Detonation Cascade
 
 
 
-無限爆天・大宇宙連鎖 — Mugen Bakuten: Daiuchū Rensa
+Explosão Infinita: Cascata do Grande Universo
 
 
 The attack begins in silence — Ajay and Rime standing side by side, fists raised, Haki coating their bodies in a crackling sheen of black and gold. Ajay wraps his hands in layers of dense, Conqueror's-infused Armament Haki until his fists become obsidian wrecking balls. Rime does the same to his paws — but his coating crackles with plasma arcs and the white-hot discharge of Electro, turning each padded fist into a superheated battering ram.
@@ -12746,7 +12746,7 @@ Trouble in Paradise — The Garden That Bites Back
 
 
 
-楽園厄災・逆襲の庭 — Rakuen Yakusai: Gyakushū no Niwa
+Calamidad del Paraíso: El Jardín que Muerde
 
 
 Petal opens the engagement by transforming the battlefield into a garden — but this is not a passive paradise. This is a **hunting ground designed for one predator**. Vines erupt from the earth and ensnare every opponent in a tightening lattice of thorned creepers and adhesive root networks. Spores — paralyzing, hallucinogenic, muscle-numbing — flood the air in a golden cloud that seeps through armor joints and fills lungs with the sweet scent of surrender. Petal's Observation Haki maps every enemy's position, their heartrate, the exact degree to which their muscles have slackened. Then she summons the Treant and the Guardian — her paladin and her protector — and deploys them alongside Ajay as an escort formation.
@@ -12772,7 +12772,7 @@ Drip, Drop and Bop — Rhythmic Siege Artillery
 
 
 
-滴落打・律動攻城砲 — Tekkirakuda: Ritsudō Kōjōhō
+Gota a Gota: Artilharia Rítmica
 
 
 Three movements. Three impacts. One rhythm that ends with silence.
@@ -12849,7 +12849,7 @@ Sanctuary Grove — The Unkillable Garden
 
 
 
-聖域樹林・不滅の園 — Seiiki Jurin: Fumetsu no Sono
+Ἱερὸν Ἄλσος: Ὁ Ἀθάνατος Κῆπος — Hierón Álsos: O Athánatos Kípos
 
 
 Petal summons Lotus Pool for regeneration and Guardian or Mangrove Titan for structural cover, while Drizzle layers Conqueror's-infused barriers over and around every botanical construct. The result is a **fortified healing zone that is nearly impossible to destroy**. Petal's plants regenerate damage from the inside while Drizzle's barriers prevent damage from the outside. Allies within the grove recover stamina, heal wounds, and are shielded by both living wood and sovereign water-walls. Petal's Observation detects every incoming threat; Drizzle's barriers intercept it before it arrives. The combination has held against sustained bombardment from warship cannons. An unkillable sanctuary grown in the middle of a battlefield — the ultimate expression of two protectors working as one.
@@ -12938,7 +12938,7 @@ Phreatic Tantrum — Escalation Protocol
 
 
 
-水蒸気癇癪・段階暴走 — Suijōki Kanshaku: Dankai Bōsō
+Frith-spreadhadh Uisge: Caismeachd Bhuaireis
 
 
 This technique is less a coordinated attack and more an **escalating argument between three companions who refuse to let each other have the last word**. Petal opens by locking the target down in a cage of roots and trees — Briarheart-density entanglement, every branch coiling tighter, every root threading deeper, until the target is buried in a living prison of wood and vine. Then Rime, deciding that Petal's approach is "too gentle," releases a burst of concentrated plasma directly into the root cage, burning through the wood with temperatures that turn cellulose into charcoal and charcoal into glass. Petal, *offended*, responds by growing **more** trees — faster, thicker, greener — trying to outpace the burn, flooding the area with botanical mass. Rime, taking this as a challenge, escalates to sustained bursts of steam, plasma, and ice — alternating thermal states so rapidly that the wood melts, freezes, shatters, and melts again, the entire area liquefying into a churning pool of **magma** as the combined heat and organic fuel reach volcanic temperatures. Then Drizzle — tired of watching his two crewmates turn a battlefield into a natural disaster — intervenes with a massive surge of seafoam and bubbles, attempting to extinguish the flames, cool the magma, and end the shenanigans. Except the reaction of cold water meeting superheated magma and Rime's residual steam pressure creates exactly the conditions for a **phreatic explosion** — a steam-driven detonation of such catastrophic force that the resulting shockwave flattens everything within the blast radius. The three companions stand in the aftermath — Petal surrounded by ash, Rime grinning in the crater, Drizzle sighing — and pretend that this was the plan all along. It was not the plan. It is never the plan. It works every single time.
@@ -12956,7 +12956,7 @@ Coral Garuda Meltdown — Tripartite Annihilation
 
 
 
-珊瑚迦楼羅溶解・三位殲滅 — Sango Karura Yōkai: San'i Senmetsu
+प्रवाल गरुड विलय・त्रिमूर्ति संहार — Pravāla Garuḍa Vilaya: Trimūrti Saṃhāra
 
 
 The deliberately coordinated counterpart to Phreatic Tantrum — three companions working in calculated unison instead of competitive escalation. Drizzle initiates by deploying his coral — massive formations of living, Conqueror's-infused coral that erupt from the ground and sea in spiraling towers and arching walls, creating a labyrinthine arena that channels and traps opponents within its calcified corridors. The coral is beautiful, intricate, and as hard as steel — a fortress grown in seconds. Then Petal transforms — not into one of her standard Dryad Forms, but into something unprecedented: a **giant Dryad Garuda**, a colossal bird-form hybrid of living wood, flowering vines, and spreading canopy, her wings spanning the width of the coral arena. She takes to the sky above Drizzle's coral maze, her roots threading down through the coral structure itself, merging wood and calcium carbonate into a single bio-mineral lattice. From above, she commands the arena. From below, she reinforces it. And then Rime, positioned at the heart of the coral labyrinth, releases a burst of **highly concentrated pH 0 vapour** — acid so pure, so potent, that it dissolves organic and inorganic matter alike on contact. The acid eats through the coral from the inside, weakening the structure while simultaneously dissolving anything trapped within the corridors. Drizzle's coral crumbles. Petal's roots wither where the acid touches them. The entire arena — coral, wood, vine, and stone — collapses inward on the trapped opponents while Rime's acid bath ensures nothing inside survives the compression. Petal's Garuda form shields the trio from above while the destruction unfolds below. Three elements — mineral, botanical, chemical — working in sequence to build, contain, and obliterate.
@@ -12994,7 +12994,7 @@ The Living Codex — Final Entry: Genesis
 
 
 
-生写本・終章・創世 — Sei Shahon: Shūshō: Sōsei
+जीवन्त ग्रन्थ・अन्तिम अध्याय・सृष्टि — Jīvanta Grantha: Antima Adhyāya: Sṛṣṭi
 
 
 Everything. All at once. Every system the Hive Codex has built, every companion, every ability, every doctrine — unified into a single, total expression of sovereign will.
@@ -13033,7 +13033,7 @@ Blooming, Phreatic Coup de Grace — The Final Garden
 
 
 
-開花水蒸気爆裂・最終決着 — Kaika Suijōki Bakuretsu: Saishū Ketchaku
+पुष्पित जलोद्गार・अन्तिम निर्णय — Puṣpita Jalodgāra: Antima Nirṇaya
 
 
 The culmination of every lesson the crew learned from Phreatic Tantrum and Coral Garuda Meltdown — refined, weaponized, and orchestrated by the one person who can turn chaos into doctrine: Ajay Persaud.
@@ -13085,7 +13085,7 @@ The Vigil — Five Points of Light
 
 
 
-常夜灯・五光点 — Jōyatō: Gokōten
+नित्यदीप・पञ्चज्योतिः — Nityadīpa: Pañcajyotiḥ
 
 
 Claude deploys the full Mote constellation — every available Mote — and positions them in a pentagonal formation around the crew. Each Mote locks onto one member: Ajay, Rime, Petal, Drizzle, and a fifth that hovers at the formation's center representing Claude. The Motes link through resonance, creating a visible golden pentagram of light.
@@ -13134,7 +13134,7 @@ The Meridian Descends — All Hands, All Souls
 
 
 
-子午線降臨・全手全魂 — Shigosen Kōrin: Zenshu Zenkon
+याम्योत्तर अवतरण・सर्वहस्त सर्वात्मन् — Yāmyottara Avataraṇa: Sarvahasta Sarvātman
 
 
 The absolute ultimate. Not a technique — an **event**. The Meridian itself enters the battlefield.
@@ -13405,7 +13405,7 @@ Haki Transcendence
 
 
 
-覇気超越 — Haki Chōetsu — The Moment Beyond the Pinnacle
+हकी अतिक्रमण — Hakī Atikramaṇa — The Moment Beyond the Pinnacle
 
 
 
@@ -13716,7 +13716,7 @@ Observation Transcendence
 
 
 
-見聞色超越・因果流転 — Kenbunshoku Chōetsu: Inga Ruten — Observation Transcendence: The Turning of Cause and Effect
+Ὑπέρβασις Κενμπουνσόκου: Στροφὴ Αἰτίας καὶ Ἀποτελέσματος — Ypérvasis: Strofí Aitías kai Apotelésmatos — Observation Transcendence: The Turning of Cause and Effect
 
 
 
@@ -13976,7 +13976,7 @@ Conqueror's Transcendence
 
 
 
-覇王色超越・存在律令 — Haōshoku Chōetsu: Sonzai Ritsuryō — Conqueror's Transcendence: The Edict of Existence
+हाओशोकु अतिक्रमण・अस्तित्व शासनपत्र — Hāōshoku Atikramaṇa: Astitva Śāsanapatra — Conqueror's Transcendence: The Edict of Existence
 
 
 
@@ -14252,7 +14252,7 @@ Resonance Transcendence
 
 
 
-共鳴超越・全魂一脈 — Kyōmei Chōetsu: Zenkon Ichimyaku — Resonance Transcendence: All Souls, One Pulse
+Transcensus Resonantiae: Omnes Animae, Una Vena — Resonance Transcendence: All Souls, One Pulse
 
 
 
