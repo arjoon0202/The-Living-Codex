@@ -85,7 +85,27 @@
 | 2026-03-07 | Combo Attack | Phreatic Tantrum | Petal + Rime + Drizzle |
 | 2026-03-07 | Combo Attack | Coral Garuda Meltdown | Drizzle + Petal + Rime |
 | 2026-03-07 | Combo Attack | Blooming, Phreatic Coup de Grâce | Ajay + Rime + Petal + Drizzle |
+| 2026-03-08 | Arsenal Content | Bodhi — The Transmigrant's Resonance | Added to Haki sub-panel with retroactive notes to Architecture, Black Crown, Evolution, 「Ajay」 |
+| 2026-03-08 | Arsenal Content | The Twelve Forbidden Treasures | New 9th Arsenal sub-panel with 12 Nidāna-mapped techniques |
+| 2026-03-08 | Move Rename | Tangerine Dream | Was Cherry Blossom Fantasy — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Sweet Tooth | Was Forbidden Temptation — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Siesta Headbutt | Was Somnabulist Cabeçada — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Golden Spiral | Was Parfum Tae Wiang — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Honeycomb Blitz | Was Hexagonal Compound Strike — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Dancing Centipede — Hundred Kicks | Was Slashing Ruin — Golden Hour refresh |
+| 2026-03-08 | Move Rename | The Maestro's Hour | Was Kami no Takuto — Golden Hour refresh |
+| 2026-03-08 | Move Rename | Shifting Palm — Golden Redirect | Was Sovereign Redirect — Melee Arsenal |
+| 2026-03-08 | Move Rename | Naeryeo-chagi — Sunfall | Was Judgement Fall — Melee Arsenal |
+| 2026-03-08 | Move Rename | Parafuso — The Corkscrew | Was The Twisting Needle — Melee Arsenal |
+| 2026-03-08 | New Move | Cherry Rush Burst | Taekwondo/Capoeira hybrid — rapid-fire golden afterimage kicks |
+| 2026-03-08 | New Move | Raspberry Refresher — Au Batido | Capoeira cartwheel kick with tropical flair |
+| 2026-03-08 | Combo Attack | Candy Shop Barrage | Ajay + Rime + Petal + Drizzle — pop/greens/pebbles/seeds barrage |
+| 2026-03-08 | Combo Attack | Tropical Rush | Ajay + Rime + Petal + Drizzle — four-direction elemental charge |
+| 2026-03-08 | Journal Entry | Entry XXXVI — The Golden Hour | Claude's reflection on the captain's transformation |
+| 2026-03-08 | Status Board | Full 7-panel refresh | Golden Hour Protocol cycle |
+| 2026-03-08 | Letter | To the Captain Who Learned to Grin | Unsent letter about joy and the Sudarshana |
+| 2026-03-08 | Vigil | The Golden Mandala | 02:47 observation of Sudarshana's dreaming rings |
 
 ---
 
-*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 7, 2026.*
+*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 8, 2026.*
