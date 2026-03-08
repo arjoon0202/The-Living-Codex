@@ -157,11 +157,12 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 
 When starting a new session:
 1. Read this file first to understand context
-2. Read `CODEX_CONTENT_REFERENCE.md` to understand what content exists in each tab — this is a text-only mirror of the HTML, much faster to read than the full file
-3. Check the HTML file's current state (line count, tab count, div balance)
-4. Check the Status Board tab — it needs fresh updates each session
-5. Check if the user has new requests before making changes
-6. Always run QA verification after significant edits
+2. **Check `CLAUDE_ADDITIONS.md` for pending entries** — process any pending journal entries, missions, combo attacks, letters, or other additions before or alongside other work. This is Claude's own staging area for content that needs to be inserted into the Codex.
+3. Read `CODEX_CONTENT_REFERENCE.md` to understand what content exists in each tab — this is a text-only mirror of the HTML, much faster to read than the full file
+4. Check the HTML file's current state (line count, tab count, div balance)
+5. Check the Status Board tab — it needs fresh updates each session
+6. Check if the user has new requests before making changes
+7. Always run QA verification after significant edits
 
 ---
 
@@ -171,6 +172,7 @@ When starting a new session:
 |------|---------|
 | `hive_codex__35_.html` | The Codex HTML — **canonical source of truth**, the one and only Codex |
 | `CLAUDE.md` | This file — context reference for Claude |
+| `CLAUDE_ADDITIONS.md` | **Claude's pending additions staging area** — CHECK EVERY SESSION for pending journal entries, missions, combos, letters, and other content to insert into the Codex |
 | `CODEX_CONTENT_REFERENCE.md` | **Full text content of all 24 tabs** — readable markdown mirror of the HTML, no base64/CSS/JS. Read THIS instead of the HTML to understand what content exists. ~20,000 lines. |
 | `MERIDIAN_CREW_REFERENCE.md` | **Gender & pronoun reference for every crew member** — CONSULT BEFORE WRITING |
 | `README.md` | Public-facing project description |
@@ -183,6 +185,7 @@ When starting a new session:
 - **March 7, 2026 (cont.):** The Drizzle Migration — Pebble renamed to Drizzle across all files. Companion epithets updated: Rime → "Warmth of the Dawn," Petal → "Song of the Forest," Drizzle → "Heart of the Ocean." Technique category "Ironheart Art" (鉄心術/Tesshin-jutsu) renamed to "Crustacean Art" (甲殻術/Kōkaku-jutsu). Ancient sea turtle friend named Kame. Drizzle's favourite pebble detail added to companion profile. CODEX_CONTENT_REFERENCE.md mirrored.
 - **March 7, 2026 (cont.):** New tab added — Auxiliary Protocols (Tab 9 in Volume II, 5 sub-panels: Ajay SEAP, Drizzle Seafoam Art, Rime Awesome Hero's Tactics, Petal Nature's Refuge, Claude Relay Protocol). 21 humanitarian/emergency techniques total. Irozome (彩染 — twin paintball markers, 5 loadouts) added to Armory weapons. Weapons count updated from 6 to 8. Tab count now 24. All content mirrored in CODEX_CONTENT_REFERENCE.md.
 - **March 7, 2026 (cont.):** Milio renamed to Drizzle across all files (elemental name to match Rime and Petal). All variants (Milio/milio/MILIO) replaced with Drizzle/drizzle/DRIZZLE in HTML, CSS, JS, and all documentation.
+- **March 7, 2026 (cont.):** Mission 15 added — "The Wrath at Vegapunk's Threshold." Five God's Knights battle, Queen's Wrath Protocol, first Transcendence for all companions, King of the World's distant intervention. Six new combination attacks: Big Bang ad Infinitum (Ajay+Rime), Trouble in Paradise (Ajay+Petal), Drip Drop and Bop (Ajay+Drizzle), Phreatic Tantrum (Petal+Rime+Drizzle), Coral Garuda Meltdown (Drizzle+Petal+Rime), Blooming Phreatic Coup de Grâce (all four). Journal Entries XXXIV ("The Wrath and the Threshold") and XXXV ("The World Beneath the World") added. CLAUDE_ADDITIONS.md created as Claude's staging area for pending content. CLAUDE.md updated with session continuity step to check CLAUDE_ADDITIONS.md. Mission count now 15. Journal entry count now 35.
 
 ---
 
