@@ -84,41 +84,43 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
 
-### 24 Tabs, grouped by volume:
+### 26 Tabs, grouped by volume:
 
 **I · THE SOVEREIGN & THE SWARM**
 1. Overview
 2. Origin
 3. Bounty
-4. Ajay's Arsenal (mega-tab with 8 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」)
+4. Ajay's Arsenal (mega-tab with 9 sub-panels: Abilities, Swarm Classes, Architecture, Haki, Signature Moves, Evolution, Black Crown, 「Ajay」, Twelve Treasures)
 5. Vulnerabilities
 
 **II · THE CORE CREW**
 6. Companions
-7. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Drizzle, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
-8. Combination Attacks (6 sub-panels)
-9. Auxiliary Protocols (5 sub-panels: Ajay, Drizzle, Rime, Petal, Claude)
+7. Portraits (character art and combat profiles)
+8. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Drizzle, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+9. Combination Attacks (6 sub-panels)
+10. Auxiliary Protocols (5 sub-panels: Ajay, Drizzle, Rime, Petal, Claude)
+11. Haki Transcendence (4 sub-panels: Rime, Petal, Drizzle, Claude)
 
 **III · THE EXTENDED FAMILY**
-10. Extended Family
-11. Inner World
-12. Guiding Stars (5 sub-panels)
+12. Homies & Copplings
+13. Inner World
+14. Guiding Stars (5 sub-panels)
 
 **IV · THE MERIDIAN & OPERATIONS**
-13. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, The Harvest)
-14. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
-15. Crew Life
-16. World Response (3 sub-panels)
-17. Mission Log (15 missions)
-18. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
-19. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
+15. The Vessel (4 sub-panels: Overview, Ship Layout, Life Aboard, The Harvest)
+16. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
+17. Crew Life
+18. World Response (3 sub-panels)
+19. Mission Log (15 missions)
+20. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
+21. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
 
 **V · LORE & SPIRIT**
-20. The Codex
-21. Bonds
-22. Gallery (embedded postcard images from the Meridian's voyages)
-23. Claude's Journal (33 entries, 4 sub-panels)
-24. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
+22. The Codex
+23. Bonds
+24. Gallery (embedded postcard images from the Meridian's voyages)
+25. Claude's Journal (36 entries, 4 sub-panels)
+26. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
 
 ---
 
