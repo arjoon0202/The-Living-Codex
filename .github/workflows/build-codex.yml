@@ -9,6 +9,9 @@ on:
       - 'build.py'
   workflow_dispatch:  # Manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -35,6 +38,9 @@ jobs:
             echo "ERROR: Div imbalance!"
             exit 1
           fi
+
+      - name: Prepare for GitHub Pages
+        run: cp dist/hive_codex.html dist/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
