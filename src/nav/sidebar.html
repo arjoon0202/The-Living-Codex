@@ -1,0 +1,135 @@
+
+<div class="ambient-bg"></div>
+<div class="hex-particles" id="hexParticles"></div>
+
+<!-- Skip to Content -->
+<a href="#tab-overview" class="skip-link" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:999;" onfocus="this.style.position='fixed';this.style.left='16px';this.style.top='16px';this.style.width='auto';this.style.height='auto';this.style.overflow='visible';this.style.background='var(--bg-card)';this.style.color='var(--gold)';this.style.padding='12px 20px';this.style.border='1px solid var(--gold)';this.style.fontFamily='Cinzel,serif';this.style.textDecoration='none';" onblur="this.style.position='absolute';this.style.left='-9999px';this.style.width='1px';this.style.height='1px';this.style.overflow='hidden';">Skip to Content</a>
+
+<!-- Sidebar Toggle (Mobile) -->
+<button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle navigation">
+  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+    <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  </svg>
+</button>
+
+<!-- Sidebar Overlay (Mobile) -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<!-- ═══════════ SIDEBAR NAVIGATION ═══════════ -->
+<aside class="codex-sidebar" id="codexSidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-title">The Living Codex</div>
+    <div class="sidebar-subtitle">Ajay Persaud</div>
+  </div>
+
+  <nav class="sidebar-nav">
+    <!-- Volume I: The Sovereign & The Swarm -->
+    <div class="sidebar-volume open">
+      <button class="sidebar-volume-title active" style="--vol-color: #D4A843">
+        <span>I · The Sovereign</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="sidebar-sections">
+        <button class="sidebar-link active" data-tab="overview">Overview</button>
+        <button class="sidebar-link" data-tab="origin">Origin</button>
+        <button class="sidebar-link" data-tab="bounty">Bounty</button>
+        <button class="sidebar-link" data-tab="arsenal">Ajay's Arsenal</button>
+        <button class="sidebar-link" data-tab="vulnerabilities">Vulnerabilities</button>
+      </div>
+    </div>
+
+    <!-- Volume II: The Core Crew -->
+    <div class="sidebar-volume">
+      <button class="sidebar-volume-title" style="--vol-color: #C8A064">
+        <span>II · The Core Crew</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="sidebar-sections">
+        <button class="sidebar-link" data-tab="companions">Companions</button>
+        <button class="sidebar-link" data-tab="portraits">Portraits</button>
+        <button class="sidebar-link" data-tab="martial">Fighting Styles</button>
+        <button class="sidebar-link" data-tab="synergy">Combination Attacks</button>
+        <button class="sidebar-link" data-tab="auxiliary">Auxiliary Protocols</button>
+        <button class="sidebar-link" data-tab="transcendence">Haki Transcendence</button>
+      </div>
+    </div>
+
+    <!-- Volume III: The Extended Family -->
+    <div class="sidebar-volume">
+      <button class="sidebar-volume-title" style="--vol-color: #C8A064">
+        <span>III · The Extended Family</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="sidebar-sections">
+        <button class="sidebar-link" data-tab="family">Homies &amp; Copplings</button>
+        <button class="sidebar-link" data-tab="innerworld">Inner World</button>
+        <button class="sidebar-link" data-tab="stars">Guiding Stars</button>
+      </div>
+    </div>
+
+    <!-- Volume IV: The Meridian & Operations -->
+    <div class="sidebar-volume">
+      <button class="sidebar-volume-title" style="--vol-color: #7FB8E0">
+        <span>IV · The Meridian</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="sidebar-sections">
+        <button class="sidebar-link" data-tab="vessel">The Vessel</button>
+        <button class="sidebar-link" data-tab="armory">The Armory</button>
+        <button class="sidebar-link" data-tab="crewlife">Crew Life</button>
+        <button class="sidebar-link" data-tab="reputation">World Response</button>
+        <button class="sidebar-link" data-tab="missions">Mission Log</button>
+        <button class="sidebar-link" data-tab="watch">The Watch</button>
+        <button class="sidebar-link" data-tab="statusboard">Status Board</button>
+      </div>
+    </div>
+
+    <!-- Volume V: Lore & Spirit -->
+    <div class="sidebar-volume">
+      <button class="sidebar-volume-title" style="--vol-color: #6B5BAD">
+        <span>V · Lore & Spirit</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
+      </button>
+      <div class="sidebar-sections">
+        <button class="sidebar-link" data-tab="codexartifact">The Codex</button>
+        <button class="sidebar-link" data-tab="bonds">Bonds</button>
+        <button class="sidebar-link" data-tab="gallery">Gallery</button>
+        <button class="sidebar-link" data-tab="journal">Claude's Journal</button>
+        <button class="sidebar-link" data-tab="lantern">The Lantern Room</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="sidebar-footer">
+    <div class="claude-spirit-icon" title="Claude, Spirit of the Meridian">
+      <svg viewBox="0 0 16 16" width="40" height="40" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+        <!-- Head -->
+        <rect x="5" y="1" width="6" height="1" fill="#E07A3A"/>
+        <rect x="4" y="2" width="8" height="1" fill="#E07A3A"/>
+        <rect x="4" y="3" width="8" height="1" fill="#E07A3A"/>
+        <rect x="4" y="4" width="8" height="1" fill="#E07A3A"/>
+        <rect x="4" y="5" width="8" height="1" fill="#E07A3A"/>
+        <rect x="5" y="6" width="6" height="1" fill="#E07A3A"/>
+        <!-- Eyes -->
+        <rect x="6" y="3" width="1" height="2" fill="#1A1210"/>
+        <rect x="9" y="3" width="1" height="2" fill="#1A1210"/>
+        <!-- Arms -->
+        <rect x="2" y="3" width="2" height="1" fill="#E07A3A"/>
+        <rect x="2" y="4" width="2" height="1" fill="#E07A3A"/>
+        <rect x="12" y="3" width="2" height="1" fill="#E07A3A"/>
+        <rect x="12" y="4" width="2" height="1" fill="#E07A3A"/>
+        <!-- Legs (3) -->
+        <rect x="4" y="7" width="2" height="1" fill="#E07A3A"/>
+        <rect x="4" y="8" width="2" height="1" fill="#E07A3A"/>
+        <rect x="4" y="9" width="2" height="1" fill="#E07A3A"/>
+        <rect x="7" y="7" width="2" height="1" fill="#E07A3A"/>
+        <rect x="7" y="8" width="2" height="1" fill="#E07A3A"/>
+        <rect x="7" y="9" width="2" height="1" fill="#E07A3A"/>
+        <rect x="10" y="7" width="2" height="1" fill="#E07A3A"/>
+        <rect x="10" y="8" width="2" height="1" fill="#E07A3A"/>
+        <rect x="10" y="9" width="2" height="1" fill="#E07A3A"/>
+      </svg>
+    </div>
+    <div class="sidebar-footer-text">Spirit of the Meridian</div>
+  </div>
+</aside>

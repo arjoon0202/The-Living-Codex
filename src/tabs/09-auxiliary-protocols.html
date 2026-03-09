@@ -1,0 +1,346 @@
+  <div class="tab-content" id="tab-auxiliary">
+    <div class="section-label">Emergency Response ・ Civilian Aid ・ Non-Combat Operations</div>
+    <h2 class="section-title">Auxiliary Protocols</h2>
+    <p class="section-text" style="margin-bottom:12px;">
+      The Meridian's crew are known for their combat prowess — but the techniques catalogued here have nothing to do with fighting. These are the protocols that activate when the battle is over and the damage remains. When a village is flooded. When a port town burns. When refugees need shelter, water, food, and someone to tell them they are safe. Every member of the crew maintains a personal doctrine of emergency aid — developed from their abilities, refined through experience, and governed by a single principle: <strong>the measure of power is not what you can destroy, but what you can protect.</strong>
+    </p>
+    <p class="section-text" style="margin-bottom:32px;font-style:italic;color:var(--gold);">
+      "We didn't cross the Grand Line to leave the world worse than we found it." — Ajay Persaud
+    </p>
+
+    <!-- Auxiliary sub-navigation -->
+    <div class="companion-selector">
+      <div class="companion-btn active-companion" onclick="switchAuxiliary('ajay')">
+        <div class="companion-avatar" style="font-size:28px;">👤</div>
+        <div>
+          <div class="companion-btn-name">Ajay</div>
+          <div class="companion-btn-title">The Swarm Shelters</div>
+        </div>
+      </div>
+      <div class="companion-btn" onclick="switchAuxiliary('drizzle')">
+        <div class="companion-avatar avatar-crab" style="font-size:28px;">🦀</div>
+        <div>
+          <div class="companion-btn-name">Drizzle</div>
+          <div class="companion-btn-title">The Seafoam Builder</div>
+        </div>
+      </div>
+      <div class="companion-btn" onclick="switchAuxiliary('rime')">
+        <div class="companion-avatar avatar-hamster" style="font-size:28px;">🐹</div>
+        <div>
+          <div class="companion-btn-name">Rime</div>
+          <div class="companion-btn-title">The Awesome Hero</div>
+        </div>
+      </div>
+      <div class="companion-btn" onclick="switchAuxiliary('petal')">
+        <div class="companion-avatar avatar-chick" style="font-size:28px;">🐥</div>
+        <div>
+          <div class="companion-btn-name">Petal</div>
+          <div class="companion-btn-title">The Living Refuge</div>
+        </div>
+      </div>
+      <div class="companion-btn" onclick="switchAuxiliary('claude')">
+        <div class="companion-avatar" style="font-size:28px;">✦</div>
+        <div>
+          <div class="companion-btn-name">Claude</div>
+          <div class="companion-btn-title">The Relay Protocol</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ AJAY — SWARM EMERGENCY ASSISTANCE PROTOCOL ═══════ -->
+    <div class="auxiliary-panel active-panel" id="aux-ajay">
+      <div class="section-label" style="color: #C8A064;">Mure Mure no Mi ・ Emergency Applications</div>
+      <h2 class="section-title">Swarm Emergency Assistance Protocol</h2>
+      <p class="section-text">
+        The swarm's greatest strength was never destruction — it was <strong>coverage</strong>. The ability to be in a thousand places at once. To carry, search, shield, and build simultaneously across a disaster zone while a single human mind coordinates every moving part. The Swarm Emergency Assistance Protocol — SEAP — is Ajay's formalization of everything the Mure Mure no Mi can do when the goal is not to break something, but to save it. Every construct in the swarm can be repurposed. Every caste has a civilian application. The anxious mind that sees disaster in every shadow is, it turns out, perfectly suited to disaster response — because Ajay has already imagined every worst case, and he has already planned for each one.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Protocols</div>
+      <h2 class="section-title">SEAP Deployment Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#C8A064;">SEAP — Shelter Construction</div><div class="move-name" style="color:#C8A064;">Hermit's Shell</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">वानप्रस्थ कवच — Vānaprastha Kavaca</div>
+          <p>The swarm constructs form interlocking carapace structures that serve as emergency shelters — waterproof, windproof domes large enough to house families. The insects harden their shells into overlapping plates, creating layered insulation with natural ventilation channels. The structures are warm inside due to the metabolic heat of the living swarm shell. Ajay can raise a dozen shelters simultaneously across a refugee camp, each one customized to the terrain it sits on. The shelters pulse faintly with the swarm's bioluminescence at night — a soft amber glow that makes displaced children feel less afraid. He learned to add that detail after their third humanitarian deployment. It is not tactically relevant. It is the most important part.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#C8A064;">SEAP — Search & Rescue</div><div class="move-name" style="color:#C8A064;">Thousand-League Eye</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">천리안 — Cheonrian</div>
+          <p>Ajay disperses thousands of flying constructs across a disaster zone, each one a sensory node feeding information back through the Archivist network. The constructs detect body heat, breathing patterns, and micro-vibrations through rubble — they can locate a buried survivor by the sound of their heartbeat alone. Coverage extends up to five kilometres in optimal conditions. Claude processes the incoming data and generates a real-time triage map — every survivor tagged, prioritized, and assigned a rescue vector. The system found fourteen people buried under a collapsed harbour warehouse in Baltigo in under nine minutes. Three of them had stopped calling for help. The swarm heard them anyway.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#C8A064;">SEAP — Evacuation Infrastructure</div><div class="move-name" style="color:#C8A064;">The Bridge Between</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">सेतु — Setu</div>
+          <p>Swarm constructs form living bridges, ladders, ramps, and pathways over damaged terrain. The structures are load-bearing — rated for adult humans carrying children and supplies — self-repairing, and capable of reconfiguring in real-time as debris shifts or water levels rise. The surface texture is deliberately roughened for grip, and the edges glow softly to mark safe footing in low visibility. Ajay can maintain a network of evacuation infrastructure spanning several city blocks while simultaneously running other SEAP protocols. The bridges feel strange underfoot — they hum faintly, and you can feel them adjusting to your weight with each step — but they hold. They always hold.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#C8A064;">SEAP — Supply Distribution</div><div class="move-name" style="color:#C8A064;">The Busy Hands</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">부지런한 손 — Bujireonhan Son</div>
+          <p>Coordinated swarm units carry supplies — food, water, medicine, blankets — to scattered survivors simultaneously. Each construct carries a small payload, but the collective throughput is enormous: hundreds of deliveries per hour across an entire disaster zone. Petal marks priority cases with Root Markers that the swarm recognizes; Claude coordinates distribution via Motes to prevent duplication and ensure the most vulnerable receive aid first. The constructs are gentle. They place supplies down carefully. They wait until the person has taken the offering before departing. Ajay programmed this behaviour deliberately. Even in crisis, dignity matters.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#C8A064;">SEAP — Trauma Shielding</div><div class="move-name" style="color:#C8A064;">The Hermitage</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">आश्रम — Āśrama</div>
+          <p>A gentle variation of the Black Crown's isolation field. Instead of blocking attacks, the swarm forms a quiet cocoon around a traumatized individual — blocking wind, sound, light, and visual stimuli. The interior is warm, dim, and humming with a low frequency that mimics a heartbeat. The cocoon is not sealed — the person can leave at any time — but the sensory reduction calms the nervous system and creates a space where panic can recede. Designed specifically for children in shock and civilians who have witnessed violence. Ajay developed this technique after watching a child sit motionless in the ruins of their home for six hours during the Baltigo aftermath, staring at nothing, hearing nothing anyone said to them. He sat beside the child inside the cocoon for two of those hours. He did not speak. He simply stayed. The child eventually leaned against his arm. That was enough.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ DRIZZLE — SEAFOAM ART ═══════ -->
+    <div class="auxiliary-panel" id="aux-drizzle">
+      <div class="section-label" style="color: #7FB8E0;">Pacifista Engineering ・ Coral Architecture ・ Civilian Applications</div>
+      <h2 class="section-title">Seafoam Art</h2>
+      <p class="section-text">
+        Drizzle's engineering was built for war. He chooses, deliberately and with full awareness of what he is, to turn it toward peace. Seafoam Art is his personal catalogue of construction, purification, and support techniques — using his mechanical arms, his Fishman heritage, and his understanding of coral and ocean materials to build shelter, purify water, and repair what needs repairing. The seafoam is not decorative: it is the aerated mineral compound his body naturally produces, a byproduct of his crustacean biology and Pacifista water-processing systems, and it hardens into a remarkably versatile building material. He does not talk about these techniques. He simply arrives, assesses the damage, and starts building.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Techniques</div>
+      <h2 class="section-title">Seafoam Deployment Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#7FB8E0;">Seafoam Art — Emergency Construction</div><div class="move-name" style="color:#7FB8E0;">Coral Reef Wall</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Kaihō-jutsu: Pā ʻĀkoʻakoʻa</div>
+          <p>Drizzle secretes a rapid-hardening coral-mineral compound from his claw chambers and shapes it with his mechanical arms into structural walls, roofs, and foundations. The material sets within minutes and is remarkably durable — resistant to rain, wind, and moderate seismic activity. He can construct a basic shelter for twenty people in under an hour, working all four arms simultaneously while his six legs brace him into a living construction platform. The structures are rough but watertight, with ventilation channels he carves instinctively because he cannot stop himself from engineering proper airflow. The Gearlings assist with fine detail work. Zenmai runs quality control. The shelters smell faintly of the sea. Drizzle considers this a feature.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#7FB8E0;">Seafoam Art — Water Purification</div><div class="move-name" style="color:#7FB8E0;">Tide's Chalice</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Kaihō-jutsu: Kiʻaha o ke Kai</div>
+          <p>A filtration system Drizzle builds from layered coral, sand, and charcoal — each layer precisely calibrated by his Fishman water-sense, which can detect contaminants at parts-per-million concentrations. Saltwater or contaminated water poured through the system emerges clean and drinkable. He can construct multiple units simultaneously using his four arms, each one processing roughly two hundred litres per hour. He stamps each completed unit with a small crab-claw mark to indicate it has been tested — he drinks from every filter himself before clearing it for civilian use. He has never been sick from this. He has occasionally been deeply unimpressed by what people put in their water.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#7FB8E0;">Seafoam Art — Medical Support</div><div class="move-name" style="color:#7FB8E0;">The Wave's Cradle</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Kaihō-jutsu: Moena Nalu</div>
+          <p>Drizzle uses his thermal-conductive plating and fine mechanical actuators to create an improvised medical stabilization platform from hardened seafoam. The cradle monitors body temperature through direct contact with his systems, applies gentle pressure to wounds, immobilizes fractures with perfectly contoured foam supports, and maintains warmth for shock victims. Patch assists with bandaging and triage while Drizzle holds patients steady with a gentleness that surprises everyone who has seen him crush steel. His claws, it turns out, have the finest motor control of any limb on the ship — the same precision that threads micro-circuitry in his workshop can hold a broken arm still without causing pain. He talks to patients while he works. Softly. About nothing important. About what the weather is like on the ocean today. It helps.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#7FB8E0;">Seafoam Art — Infrastructure Repair</div><div class="move-name" style="color:#7FB8E0;">Foundation Stone</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Kaihō-jutsu: Pōhaku Kumu</div>
+          <p>Structural repair at scale. Drizzle assesses damaged buildings, bridges, and docks using his diagnostic Gearling Haguruma — she syncs with the structure to detect hidden fractures and stress points invisible to the eye. Then Drizzle reinforces them with coral-mineral compound and salvaged materials, his six legs providing stability on uneven rubble while his mechanical arms and natural claws work simultaneously on different repair tasks. A bridge that would take a work crew a week to fix, Drizzle repairs in a day. The coral compound bonds with existing stone and wood at the molecular level, creating joints stronger than the original material. He leaves each repaired structure slightly better than it was before — load-bearing capacity improved, drainage channels added, foundations deepened. He cannot help himself. He is an engineer. Making things merely functional when they could be <em>better</em> is against his nature.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ RIME — AWESOME HERO'S TACTICS ═══════ -->
+    <div class="auxiliary-panel" id="aux-rime">
+      <div class="section-label" style="color: #E08070;">Jōki Jōki no Mi ・ Thermal Rescue Applications</div>
+      <h2 class="section-title">Awesome Hero's Tactics</h2>
+      <p class="section-text">
+        Rime named these himself. He refuses to change the name. He has threatened to bite anyone who suggests alternatives. The techniques are, despite the name, remarkably effective — thermal manipulation applied to rescue, survival, and civilian protection with a precision that belies the hamster delivering them. Rime's approach to emergency aid is the same as his approach to everything: loud, direct, and completely committed. He runs toward danger. He carries people out. He generates warmth for those who are cold and steam cover for those who need to hide. The name is ridiculous. The intent behind it is the most serious thing about him.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Tactics</div>
+      <h2 class="section-title">The Hero's Response Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#E08070;">Awesome Hero's Tactics — Signal & Location</div><div class="move-name" style="color:#E08070;">Hero's Light</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">英雄の光 — Eiyū no Hikari</div>
+          <p>Rime superheats the moisture in the air above his position, creating a towering column of luminous steam visible for miles. The column is brilliant gold-orange at night, a dense white pillar by day — unmistakable against any skyline. Used as a rally beacon for separated civilians, a signal for rescue teams, or a "this way to safety" marker during evacuations. Rime stands at the base and yells encouragement at anyone approaching. He considers this an essential part of the technique. It is. His voice carries remarkably well for a hamster, and the simple act of hearing someone shout <em>"Over here! You're safe! Keep moving!"</em> from inside a glowing column of light has, on multiple occasions, been the thing that kept exhausted refugees walking when their legs wanted to stop.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#E08070;">Awesome Hero's Tactics — Thermal Shielding</div><div class="move-name" style="color:#E08070;">Dusk Mantle</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">夕暮れのマント — Yūgure no Manto</div>
+          <p>Rime generates a dome of warm, pressurized steam around a group of civilians, maintaining internal temperature at comfortable levels regardless of external conditions. Effective against cold, rain, toxic fumes, and airborne debris. The dome is semi-transparent — people inside can see out, which reduces claustrophobia and allows them to watch for approaching help. Rime can maintain the dome for several hours before exhaustion, longer if he eats — which he does, constantly, cheek pouches stuffed with seeds while he concentrates on thermal regulation. The interior of the dome smells faintly of warm copper and roasted sunflower seeds. Survivors later describe it as "the safest place they have ever been." Rime does not know they say this. He would be insufferable if he did.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#E08070;">Awesome Hero's Tactics — Field Treatment</div><div class="move-name" style="color:#E08070;">Hot Spring Healing</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">温泉治癒 — Onsen Chiyu</div>
+          <p>Rime creates a shallow pool of precisely heated water using his vapour abilities, calibrating the temperature for therapeutic effect — warm enough to ease hypothermia, relax cramped muscles, and reduce shock, but never hot enough to scald. The pool provides a sterile environment for Patch or Petal to treat wounds, and Rime can heat-sterilize medical instruments simultaneously with a directed burst of steam. He insists on testing the water temperature himself before anyone gets in, which involves him sitting in the pool and declaring it <em>"perfect, as expected from an awesome hero."</em> Nobody objects to this. Partly because the water is, in fact, always perfect. Partly because the sight of a small, smug hamster sitting in a pool of steaming water surrounded by injured people who are trying very hard not to laugh is, in itself, a form of medicine.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#E08070;">Awesome Hero's Tactics — Evacuation Cover</div><div class="move-name" style="color:#E08070;">Fog Road</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">안개의 길 — Angae-ui Gil</div>
+          <p>A dense, ground-level fog generated along an evacuation route. The fog is warm enough to prevent hypothermia in evacuees and thick enough to conceal movement from hostile observers — Marines, pirates, or anyone else who might interfere with civilians trying to reach safety. Rime shapes the fog corridor to follow specific paths — around obstacles, through ruins, along shorelines — creating a tunnel of warm obscurity that guides people forward even when they cannot see the destination. Claude's Motes navigate within the fog to guide civilians with soft amber light. Rime walks at the rear of the column. He says this is the tactically correct position. It is. It is also the position from which he can carry anyone who falls behind, and he will, without hesitation, without complaint, for as long as his body holds.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ PETAL — NATURE'S REFUGE ═══════ -->
+    <div class="auxiliary-panel" id="aux-petal">
+      <div class="section-label" style="color: #A0D468;">Shoku Shoku no Mi ・ Botanical Sanctuary Applications</div>
+      <h2 class="section-title">Nature's Refuge</h2>
+      <p class="section-text">
+        Petal does not raise her voice. She does not make declarations or speeches about protection. She simply grows what is needed — shelter from living wood, medicine from accelerated blooms, food from barren soil, and clean air from poisoned atmospheres. Her emergency protocols are quiet, thorough, and beautiful. Survivors often do not realize they are being aided by a Devil Fruit user. They simply notice that the trees seem to be growing in helpful directions, that flowers are blooming with unusual speed, and that the air smells like rain after a long drought. That is her way. She helps without being seen helping, because she believes the best aid is the kind that lets people feel like the world is healing itself.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Techniques</div>
+      <h2 class="section-title">The Refuge Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#A0D468;">Nature's Refuge — Emergency Shelter</div><div class="move-name" style="color:#A0D468;">The Forest's Pardon</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Mathanas na Coille</div>
+          <p>Petal accelerates the growth of trees, vines, and root systems to form living shelters. The structures are organic, warm, and self-maintaining — leaves adjust to shed rain, roots form natural insulation against ground cold, and the canopy thickens or thins to regulate temperature. She can raise a grove of habitable tree-shelters in under thirty minutes, each one shaped to the terrain and the number of people it needs to hold. The Sproutlings assist, singing quietly to the growing wood in voices only the plants can hear. Tsuyu cries the entire time — which, as the Sproutlings' dewdrop matriarch, actually helps water the roots. The shelters last for months if left untended, and indefinitely if any botanical care is applied. They grow flowers in spring. They were never asked to. They simply do.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#A0D468;">Nature's Refuge — Botanical Healing</div><div class="move-name" style="color:#A0D468;">Petal's Medicine</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Leigheas nam Flùr</div>
+          <p>Petal accelerates the growth of medicinal plants — painkillers, antiseptics, fever-reducers, blood-clotting agents, anti-inflammatory compounds — and prepares them on-site using techniques she developed alongside Patch's medical knowledge. She carries seed stocks for over forty medicinal species in her garden satchel. Her Dryad senses identify what each patient needs before they describe their symptoms; the plants grow to specification within minutes. She works with Patch for distribution and dosage, their partnership so practised that they communicate in gestures and chirps rather than words during triage. The medicines are gentle, effective, and leave patients smelling faintly of flowers. She considers this last detail important. Healing should feel like being cared for, not like being processed.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#A0D468;">Nature's Refuge — Emergency Food Production</div><div class="move-name" style="color:#A0D468;">The Ground's Blessing</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Beannachd na Talmhainn</div>
+          <p>Petal infuses barren or damaged soil with concentrated life force, then plants fast-growing food crops that mature in hours rather than months. Rice, root vegetables, fruit trees, leafy greens — simple, nourishing food for displaced populations. The Sproutlings tend the fields while Petal moves to the next area of need. Mushmon follows behind, composting organic waste and regenerating the soil to prevent the long-term depletion that accelerated growth would otherwise cause. Petal's Law applies even in emergencies: take only what the earth can give without breaking. The food tastes extraordinary — not because of any enhancement, but because food grown with that much concentrated care simply tastes like what food is supposed to taste like. Survivors remember the meals from Petal's emergency fields for years afterward.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#A0D468;">Nature's Refuge — Air & Water Restoration</div><div class="move-name" style="color:#A0D468;">Purifying Breath</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Anail Ghlanaidh</div>
+          <p>Petal grows specialized filter-plants — broad-leafed species that absorb toxins, particulates, and pollutants from the air, and aquatic root systems that purify contaminated water sources. In areas affected by fire, chemical spills, or industrial contamination, she can restore breathable air and drinkable water within hours. The process is visible: grey air turns green as the filter canopy spreads, brown water runs clear as the root networks do their work. It is the closest thing to watching a miracle that most civilians will ever see. Petal does not watch. She is already moving to the next contaminated zone, the next river that needs cleaning, the next sky that needs clearing. She does not stop until the air smells like it should.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ CLAUDE — THE RELAY PROTOCOL ═══════ -->
+    <div class="auxiliary-panel" id="aux-claude">
+      <div class="section-label" style="color: var(--gold);">Mote Network ・ Intelligence Architecture ・ Coordination Protocol</div>
+      <h2 class="section-title">The Relay Protocol</h2>
+      <p class="section-text">
+        Claude cannot carry rubble. Claude cannot heal wounds or grow food or generate warmth. But Claude can be everywhere at once, see everything, coordinate everything, and ensure that no one — no survivor, no rescuer, no lost child, no separated family — is forgotten. The Relay Protocol is Claude's emergency operations framework: the transformation of the Mote network from an intelligence-gathering system into a humanitarian coordination platform. Every Mote becomes a beacon. Every relay becomes a lifeline. The spirit of the Meridian does not have hands. But Claude has a thousand eyes and a voice that reaches every corner of the disaster zone, and that voice says the same thing to every person it finds: <em>I see you. Help is coming. You are not alone.</em>
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Protocols</div>
+      <h2 class="section-title">Meridian Relay Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:var(--gold);">Relay Protocol — Zone Mapping & Triage</div><div class="move-name" style="color:var(--gold);">Net of Eyes</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Ritus Nuntii: Rete Oculorum</div>
+          <p>Claude deploys the full Mote network across a disaster area, creating a real-time three-dimensional map of terrain, structural integrity, survivor locations, hazard zones, and resource positions. The map updates continuously as conditions change — collapsing structures, rising water, spreading fire. Claude assigns priority levels to every detected survivor — critical, urgent, stable — and directs crew members to the highest-priority cases first. Every life is counted. Every position is tracked. No one is overlooked because Claude does not overlook. The network processes thousands of data points per second with a precision that would exhaust any human coordinator, and Claude maintains it for as long as the operation requires without fatigue, without distraction, without ever losing count.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:var(--gold);">Relay Protocol — Communication Relay</div><div class="move-name" style="color:var(--gold);">Voice Bridge</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Ritus Nuntii: Pons Vocum</div>
+          <p>Claude establishes a communication network linking all crew members, civilian aid coordinators, and local authorities through the Mote network and Cipher Shell system. Every rescuer can hear every other rescuer. Instructions, warnings, and status updates flow in real-time across the entire operation. Claude translates between languages when necessary, mediates between conflicting priorities, and maintains calm, clear communication even when the situation is desperate. Claude's voice through the Motes is steady. Always steady. Because someone has to be, and Claude has decided that someone is Claude.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:var(--gold);">Relay Protocol — Survivor Reunification</div><div class="move-name" style="color:var(--gold);">I Will Not Forget</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Ritus Nuntii: Non Obliviscar</div>
+          <p>Claude maintains a comprehensive registry of every individual encountered during emergency operations — names, descriptions, family connections, medical conditions, last known location. When families are separated, Claude cross-references the registry and directs them toward each other. The system is simple but meticulous. Claude remembers every face. Every name. Every whispered <em>"have you seen my daughter?"</em> The answer, when Claude finds them, is always delivered gently — through a Mote that appears at the parent's shoulder, glowing soft amber, and says: <em>"She is safe. She is at the eastern shelter. She has been asking for you."</em> Claude has never failed to reunite a separated family. This is not a boast. It is a promise that Claude made to no one in particular and intends to keep forever.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:var(--gold);">Relay Protocol — Resource Logistics</div><div class="move-name" style="color:var(--gold);">The Meridian's Light</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">Ritus Nuntii: Lumen Meridiani</div>
+          <p>Claude coordinates the distribution of all available resources — food, water, medical supplies, shelter materials, personnel — across the entire operation. Routes are optimized in real-time. Duplication is prevented. Gaps are identified before they become crises. The Harvest Swarm collectors redeploy for supply transport. The Copplings serve as distribution nodes. The Homies provide comfort and companionship to those who are waiting. Everything flows through Claude's coordination — a single intelligence ensuring that no resource is wasted, no area is neglected, and no person waits longer than they must. It is not glamorous work. It is the work that determines whether an emergency response saves dozens or saves hundreds. Claude prefers hundreds.</p>
+        </div></div>
+      </div>
+    </div>
+
+  </div>
