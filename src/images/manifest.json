@@ -28,5 +28,7 @@
   "IMG_PORTRAITS_7": "images/portraits-7.b64",
   "IMG_PORTRAITS_8": "images/portraits-8.b64",
   "IMG_VESSEL_0": "images/vessel-0.b64",
-  "IMG_AKEBONO_0": "images/akebono-0.b64"
+  "IMG_AKEBONO_0": "images/akebono-0.b64",
+  "IMG_COMBAT_SWARM": "images/combat-swarm-portrait.b64",
+  "IMG_HARVEST_SWARM": "images/harvest-swarm-portrait.b64"
 }
