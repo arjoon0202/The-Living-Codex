@@ -76,6 +76,27 @@ def build():
             print(f"WARNING: Placeholder {placeholder} not found in template")
         html = html.replace(placeholder, content)
 
+    # Resolve sub-includes: {{INCLUDE:relative/path.html}} within assembled content
+    # This allows large tab files to split panels into separate sub-fragment files.
+    # Paths are relative to the src/ directory.
+    include_pattern = re.compile(r"\{\{INCLUDE:([^}]+)\}\}")
+    include_count = 0
+    while True:
+        match = include_pattern.search(html)
+        if not match:
+            break
+        include_path = match.group(1).strip()
+        full_path = os.path.join(SRC_DIR, include_path)
+        if not os.path.exists(full_path):
+            print(f"ERROR: Missing sub-include: {full_path}")
+            sys.exit(1)
+        with open(full_path, "r", encoding="utf-8") as f:
+            include_content = f.read()
+        html = html[:match.start()] + include_content + html[match.end():]
+        include_count += 1
+    if include_count:
+        print(f"Resolved {include_count} sub-includes")
+
     # Replace image placeholders from manifest
     if os.path.exists(MANIFEST):
         with open(MANIFEST, "r", encoding="utf-8") as f:

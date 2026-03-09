@@ -156,6 +156,14 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 
 ---
 
+## Sanctuary Residents
+
+| Character | Title | Species | Sex | Pronouns | Key Detail |
+|-----------|-------|---------|-----|----------|------------|
+| **Akebono** | The Dawn Slug / The Jelly Princess | Giant Sea Slug | Female | she/her | Wari Wari no Mi (Divide-Divide Fruit). Rescued by Drizzle from the Hollowvein Trench. Lives in the Sanctuary. Auxiliary support entity — divides into hundreds/thousands of copies for mass deployment aid. Palm-sized aboard ship, island-sized at true form. |
+
+---
+
 ## Guiding Stars — Quick Gender Notes
 
 The Guiding Stars are toy entities — plushies, action figures, wind-up toys, and figurines — inspired by real people / fictional characters. Their genders follow their source material:

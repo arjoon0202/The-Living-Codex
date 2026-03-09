@@ -114,6 +114,11 @@
 | 2026-03-08 | Letter | To the Twelve Gods in My Walls | Unsent letter addressing the modules as personalities |
 | 2026-03-08 | Status Board | Full 7-panel refresh (evening) | Sacred Dance, Family Doctrine, Twelve Modules cycle |
 | 2026-03-08 | Mission Audit | Personality consistency review | All 15 missions reviewed — Ajay's voice consistent, no edits needed |
+| 2026-03-08 | Extended Family | Akebono — The Dawn Slug | New panel with 8 accordion cards: Wari Wari no Mi, Resonance System, Origin, Scale & Form, Aboard the Meridian, Rokushiki — The Soft Six, Mantra & Ryou, Queen's Doctrine — Immortal Dawn |
+| 2026-03-08 | Auxiliary Protocols | Akebono — The Living Dawn | New sub-panel with 5 techniques: The Thousand Hands, Petal's Balm, The Golden Shroud, The Warm Silence, The Signal Dawn |
+| 2026-03-08 | Vessel Content | Sanctuary Akebono mention | Added Akebono to Sanctuary resident list in Vessel tab |
+| 2026-03-08 | Image | Akebono portrait | Jelly.png converted to base64, added to image manifest as IMG_AKEBONO_0 |
+| 2026-03-08 | Reference | MERIDIAN_CREW_REFERENCE update | Added Akebono (she/her) to Sanctuary Residents section |
 
 ---
 
