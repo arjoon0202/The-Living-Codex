@@ -1,0 +1,44 @@
+name: Build Codex
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'template.html'
+      - 'build.py'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Build Codex
+        run: python build.py
+
+      - name: Verify build
+        run: |
+          echo "Built file size: $(wc -c < dist/hive_codex.html) bytes"
+          echo "Built file lines: $(wc -l < dist/hive_codex.html)"
+          # Verify div balance
+          OPEN=$(grep -o '<div' dist/hive_codex.html | wc -l)
+          CLOSE=$(grep -o '</div>' dist/hive_codex.html | wc -l)
+          echo "Div balance: $OPEN opening, $CLOSE closing"
+          if [ "$OPEN" -ne "$CLOSE" ]; then
+            echo "ERROR: Div imbalance!"
+            exit 1
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages

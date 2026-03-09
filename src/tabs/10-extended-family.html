@@ -1,0 +1,559 @@
+  <div class="tab-content" id="tab-family">
+    <div class="section-label">Every Soul Has a Name</div>
+    <h2 class="section-title">The Extended Family</h2>
+    <p class="section-text" style="margin-bottom:16px;">
+      The Meridian is not a warship crewed by soldiers. It is a <strong>home inhabited by a family</strong> — and that family extends far beyond four crew members and a ship spirit. Every homie, every Coppling, every soul-construct that took shelter in Drizzle's circuits and chose to stay has a name, a role, a personality, and a place at the table. They are not pets. They are not tools. They are people who happen to be very small, very round, and occasionally on fire.
+    </p>
+    <p class="section-text" style="margin-bottom:40px;">
+      This is the complete roster. Claude keeps it updated. The roster has never had a permanent deletion, and it never will.
+    </p>
+
+    <p class="section-text" style="margin-bottom:40px;">
+      Every soul aboard the Meridian — every homie, every Coppling, every Vanguard warrior — carries two gifts that no experiment granted and no laboratory could replicate. The first is <strong>Mantra</strong> — Skypiea's ancient name for Observation Haki, the ability to sense presence, intent, and emotion. The extended family's Mantra manifests not as individual perception but as a <strong>collective awareness</strong>: a shared emotional field that lets them feel each other's states across the entire ship. When Tsuyu cries, the Sproutlings lean toward her. When Hinoko sparks with excitement, every Ember brightens. When danger approaches, the entire family tenses as one — a single organism of love-born instinct that reacts faster than any individual could. The second is <strong>Ryou</strong> — the Wano tradition of advanced Armament Haki that projects force beyond the point of contact. In the extended family, Ryou manifests as <strong>soul-hardening</strong>: the ability to reinforce their spiritual presence against destruction, making them harder to dissipate, harder to extinguish, harder to unmake. It is the reason the Undying Return works — Claude can hold their souls because their souls <em>hold themselves</em>, armored in a will to exist that burns brighter than any weapon aimed at them. Their proficiency with both is <strong>exceptional</strong> — not through training, but through the sheer density of collective will that permeates the Meridian. Forty-six Guiding Stars who replicate Ajay's Haki at full output. Ten Vanguard warriors whose transformations channel sovereign-class spiritual pressure. And dozens of tiny round, green, golden, fiery, and mechanical souls who have never once doubted that they belong here — and that certainty, in the world of Haki, is the most powerful weapon of all.
+    </p>
+
+
+    <div class="family-portraits">
+      <h3 class="section-ornament">Family Portraits</h3>
+      <p class="portrait-caption">Taken on the main deck of the Meridian. Nobody held still.</p>
+      <div class="portrait-gallery">
+        <div>
+          <img src="{{IMG_EXTENDED_FAMILY_0}}" alt="The Homies — All Families">
+          <span class="portrait-label">The Homies — All Families</span>
+        </div>
+        <div>
+          <img src="{{IMG_EXTENDED_FAMILY_1}}" alt="The Vanguard — Off Duty">
+          <span class="portrait-label">The Vanguard — Off Duty</span>
+        </div>
+        <div>
+          <img src="{{IMG_EXTENDED_FAMILY_2}}" alt="The Nine — Warrior Forms">
+          <span class="portrait-label">The Nine — Warrior Forms</span>
+        </div>
+        <div>
+          <img src="{{IMG_EXTENDED_FAMILY_3}}" alt="The Three — Warrior Forms">
+          <span class="portrait-label">The Three — Warrior Forms</span>
+        </div>
+        <div>
+          <img src="{{IMG_EXTENDED_FAMILY_4}}" alt="The Copplings — Kame's Creations">
+          <span class="portrait-label">The Copplings — Drizzle’s Creations</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Family selector sub-tabs -->
+    <div class="family-selector">
+      <div class="family-btn active-family" onclick="switchFamily('roundlings')">
+        <div class="family-btn-icon">🌰</div>
+        <div>
+          <div class="family-btn-name">Roundlings</div>
+          <div class="family-btn-title">Drizzle-Resonant</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('sproutlings')">
+        <div class="family-btn-icon">🌱</div>
+        <div>
+          <div class="family-btn-name">Sproutlings</div>
+          <div class="family-btn-title">Petal-Resonant</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('embers')">
+        <div class="family-btn-icon">🔥</div>
+        <div>
+          <div class="family-btn-name">Embers</div>
+          <div class="family-btn-title">Rime-Resonant</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('dustlings')">
+        <div class="family-btn-icon">✦</div>
+        <div>
+          <div class="family-btn-name">Dustlings</div>
+          <div class="family-btn-title">Ajay-Resonant</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('gearlings')">
+        <div class="family-btn-icon">⚙️</div>
+        <div>
+          <div class="family-btn-name">Gearlings</div>
+          <div class="family-btn-title">Coppling-Resonant</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('copplings')">
+        <div class="family-btn-icon">🔧</div>
+        <div>
+          <div class="family-btn-name">Copplings</div>
+          <div class="family-btn-title">Drizzle's Creations</div>
+        </div>
+      </div>
+      <div class="family-btn" onclick="switchFamily('vanguard')">
+        <div class="family-btn-icon">⚔️</div>
+        <div>
+          <div class="family-btn-name">Vanguard</div>
+          <div class="family-btn-title">Warrior Forms</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ ROUNDLINGS PANEL ═══════ -->
+    <div class="family-panel active-panel" id="familypanel-roundlings">
+      <div class="section-label" style="color:#7FB8E0;">The Largest Family</div>
+      <h2 class="section-title" style="font-size:28px;">The Roundlings — Drizzle-Resonant</h2>
+      <p class="section-text" style="margin-bottom:28px;">
+        Plump, spherical woodland creatures with wide gentle eyes and bodies that squish when hugged. They resemble a cross between forest spirits and stuffed toys — hedgehog-hamster-acorn hybrids with permanently content expressions and an almost militant dedication to domestic order. They are the <strong>largest homie family — nine strong — and the most domestic</strong>: they cook, clean, organize, and maintain the Companion Den with fussy dedication. Where Drizzle protects the crew, the Roundlings protect the <em>home</em> — and heaven help any crumb, dust mote, or misplaced tool that dares exist on their watch.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Maru — The Matriarch</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The leader of the Roundlings and the undisputed head of household aboard the Meridian. A particularly round mouse-spirit with a single curled whisker, a tiny apron Drizzle stitched for her, and a squeaking cadence that the other Roundlings follow like a drumbeat. Maru takes inventory of the galley pantry every morning and squeaks in genuine distress when Rime has stolen food overnight. She has memorized the caloric needs of every crew member and adjusts portions accordingly. She is four inches tall and runs the tightest kitchen in the Grand Line.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Koron — The Taste-Tester</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A roly-poly acorn-shaped being who has never walked a step in his life — he rolls. Everywhere. Down corridors, across countertops, occasionally off the edge of tables (he bounces). Koron is the Roundlings' designated taste-tester, which means he takes a single nibble of everything before it reaches the crew and delivers his verdict by either squeaking approvingly or rolling away in theatrical disgust. His palate is surprisingly refined. Rime once caught him rejecting a soup for insufficient seasoning, and has never fully recovered from the indignity of being out-critiqued by a sentient acorn.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Fuwari — The Comfort Patrol</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A fluffy, cloud-like Roundling who floats slightly above the ground — not quite flying, more like perpetually bouncing on an invisible cushion. Fuwari carries blankets. That is her entire purpose, her calling, her reason for being. She drifts through the ship with a blanket three times her size, and the moment she detects someone who looks even slightly cold, tired, or sad, she drapes it over them with solemn determination. She has blanketed Rime mid-training. She has blanketed Ajay mid-strategy-session. She once blanketed an enemy Marine who looked chilly during a boarding action. Nobody had the heart to stop her.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Donguri — The Archivist</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A shy, acorn-capped Roundling who hides behind Maru at all times and peeks out with one enormous eye. Donguri keeps meticulous cleaning logs — tiny scrolls written in a script so small that only Claude can read them, documenting every surface cleaned, every crumb removed, every spill addressed, with timestamps and severity ratings. She rates Rime's messes as "catastrophic" with such consistency that it has become a formal category. She is terrified of strangers but will fight a dust bunny to the death without hesitation.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Mofu — The Living Duster</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The fluffiest Roundling — so fluffy that her actual body is roughly one-third of her apparent volume. Mofu works as a living duster by simply rolling across surfaces, collecting dust, lint, and debris in her magnificent fur. She then shakes herself clean over the side of the ship with an expression of pure satisfaction. She has been mistaken for a dust bunny, a tribble, and once a very small cloud. She considers all of these compliments. She is the only crew member who genuinely enjoys cleaning duty, and she does it by existing.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Niko — The Greeter</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">Always smiling. Always. Niko's face is locked in a permanent expression of radiant welcome that borders on the unsettling if you think about it too long — but nobody ever does, because the warmth is so genuine it disarms even the most suspicious visitors. Niko is the Meridian's designated greeter, stationed at the gangplank whenever the ship docks. She waves at everyone who passes. Allies, strangers, seagulls, the occasional Marine patrol. She has waved at a Buster Call fleet. She was still smiling. The Marines found this more disturbing than the cannons.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Pocchi — The Pocket Companion</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The smallest Roundling — so small she fits comfortably inside a teacup, with room to spare for a tiny pillow. Pocchi has been appointed Drizzle's personal pocket-companion, which means she rides in a custom-built compartment in Drizzle's carapace-plating at all times, emerging only to squeak encouragement during difficult repairs or to nap on his claw while he works. She weighs almost nothing. She means almost everything. When Drizzle's hands shake after using his weapons — the ones he hates — Pocchi presses against his palm and stays there until the shaking stops. She has never been told to do this. She just knows.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🌰 Fumble — The Acorn Tumbler</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A round, top-heavy little homie shaped like an oversized acorn with stubby legs that are just slightly too short for its body. Fumble is perpetually tipping over, rolling a few inches, righting itself with a determined pop, and waddling forward again — only to trip on absolutely nothing. It makes a soft wooden clonk sound every time it falls. Despite this, Fumble is inexplicably brave; it always toddles to the front of the group when there's a strange noise, puffs up its cap, and stands guard over the other Roundlings until the coast is clear. It sleeps nestled in the crook of Drizzle's neck plating, where the warmth from his Pacifista circuits keeps its little cap toasty. Fumble smells faintly of roasted chestnuts.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(127,184,224,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#7FB8E0;">🫧 Lull — The Soap-Bubble Dormouse</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A translucent, iridescent homie that looks like a sleeping mouse curled inside a soap bubble. Lull drifts rather than walks, bobbing gently through the Meridian's corridors at about knee height, and it is always asleep. Its bubble refracts light into soft rainbow patterns on nearby walls. When crew members are stressed or can't sleep, Lull drifts toward them instinctively and settles nearby, and the faint humming vibration of its bubble has a deeply calming effect — not magical, just... soothing, the way rain on a window is soothing. If its bubble pops (which happens if someone sneezes too hard nearby), Lull blinks awake for exactly three confused seconds, yawns enormously for something so small, and a new bubble slowly reforms around it as it falls back asleep. It has never been observed fully awake. Rime pretends to find it annoying. Rime also redirects air currents away from it so no drafts pop the bubble.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ SPROUTLINGS PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-sproutlings">
+      <div class="section-label" style="color:#A0D468;">Born from the Root Network</div>
+      <h2 class="section-title" style="font-size:28px;">The Sproutlings — Petal-Resonant</h2>
+      <p class="section-text" style="margin-bottom:28px;">
+        Delicate, plant-touched homies that absorbed trace Dryad energy from Petal's root network threading through the Meridian's hull. They resemble tiny mushroom folk, dandelion-puff sprites, and miniature flower-faced beings with petal crowns that change color with their mood. They tend Petal's Sky Garden alongside her, water plants, pollinate flowers, and gently hum to seedlings. Where the Roundlings are domestic, the Sproutlings are <strong>botanical</strong> — their world is measured in sunlight, rainfall, and the patient miracle of growth.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🌱 Tsuyu — Dewdrop Matriarch</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The heart of the Sproutlings — a small rain-drop shaped sprite with a single leaf umbrella and eyes that are perpetually glistening. Tsuyu cries when flowers wilt and dances when they bloom. She cries when it rains (tears of joy). She cries when it stops raining (tears of loss). She cries when Rime accidentally steps on a daisy (tears of righteous fury). She sleeps in Petal's roost, nestled between cherry blossom branches, and the sound of her tiny snoring is the gentlest thing on the ship. Her tears are actual dewdrops, and the Sproutlings collect them to water seedlings. Nothing on the Meridian is ever wasted.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🍄 Kinoko — The Mood Cap</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A tiny mushroom-folk with a spotted cap that changes patterns with her mood — polka dots when happy, spirals when confused, storm clouds when upset, and a single golden star when she's feeling particularly brave (this is rare, and the other Sproutlings celebrate it). Kinoko toddles through the garden on stubby legs, checking soil moisture by pressing her cap against the earth like a stethoscope. She communicates entirely through cap-patterns, and Petal has learned to read them fluently. When Kinoko's cap goes completely blank, something is genuinely wrong, and the entire garden crew mobilizes.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🌬️ Tanpopo — The Messenger</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A dandelion-puff sprite who drifts on breezes rather than walking, trailing tiny seeds behind her like a comet's tail. Tanpopo is the Sproutlings' designated messenger — she carries tiny notes between homie families by clutching them in her wispy arms and floating through the ship's corridors on internal air currents. She is chronically late because she gets distracted by every breeze, but her deliveries always arrive eventually, and the notes always smell faintly of wildflowers. She has been known to deliver messages to people who didn't send for them but, somehow, needed to hear what the note said anyway.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🌸 Sakura — The Blossom Keeper</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A flower-faced Sproutling with a crown of delicate pink petals that genuinely bloom and fall with the seasons — even aboard a flying ship where seasons are theoretical at best. Sakura tends the cherry blossom trellis in the Sky Garden with reverent care, and when the blossoms fall, she catches each one and presses them into tiny books that she leaves on crew members' pillows. Each pressed flower is a silent love letter from the garden itself. She is the most graceful of the Sproutlings, moving with the slow deliberateness of a tea ceremony, and even Rime instinctively slows down when she's nearby.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">☁️ Wata — The Softest Being</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A cotton-seed sprite who may be the softest physical object in the Grand Line. Wata is so impossibly soft that she has become a communal pillow — the Embers, in particular, curl up against her after exhausting themselves with their tiny spark-attempts, and she lets them, radiating a gentle warmth absorbed from sunlight during the day. She doesn't do much. She doesn't need to. Her entire contribution to the ship is <em>being soft in a world that is very hard</em>, and that contribution is worth more than anyone will ever adequately express. Petal once fell asleep on Wata for three hours and described it as "the best nap of my life."</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🌿 Kusa — The Corner Gardener</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A grass-blade sprite who grows tiny meadows in corners nobody uses — behind storage crates, under stairwells, in the gaps between deck planks. Kusa works silently and independently, transforming forgotten spaces into miniature gardens that nobody asked for and everyone secretly loves. Crew members have started "accidentally" leaving spaces unused so Kusa has room to work. The entire starboard service corridor is now a carpet of soft moss because Kusa decided it needed to be, and nobody had the heart — or the desire — to argue with a three-inch grass sprite holding a watering can.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(160,212,104,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#A0D468;">🌷 Tsubomi — The Unblossomed</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A bud-sprite. That's it. That's who she is. Tsubomi has not bloomed yet — she is a tightly closed flower bud with tiny eyes peeking out from between green sepals, and <em>everyone on the ship is waiting for the day she opens</em>. It has become a quiet, unspoken vigil. The Sproutlings check on her daily. Petal has adjusted the garden's light conditions three times to optimize for her bloom. Drizzle built a tiny greenhouse just for her. Even Rime, who understands approximately nothing about botany, tiptoes past her. Nobody knows what kind of flower she will be. Nobody cares. They are simply waiting, with the patience that only love teaches, for her to be ready.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ EMBERS PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-embers">
+      <div class="section-label" style="color:#E08070;">Spark and Chaos</div>
+      <h2 class="section-title" style="font-size:28px;">The Embers — Rime-Resonant</h2>
+      <p class="section-text" style="margin-bottom:28px;">
+        Small, excitable soot-sprites and spark-touched beings that absorbed trace vapour-Electro energy from Rime's training sessions in the Crucible. They look like tiny soot-balls with bright orange eyes, miniature lantern-creatures that glow warm at their cores, and fuzzy coal-puffs that leave faint scorch marks on surfaces when excited. They are <strong>chaotic, playful, and absolutely fearless</strong> — inheriting every ounce of Rime's reckless courage and none of his actual combat ability, which makes them simultaneously inspiring and a fire hazard.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Hinoko — The Spark Ringleader</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A soot-sprite with a single bright ember floating above her head like an antenna, permanently vibrating with barely contained excitement. Hinoko idolizes Rime and mimics everything he does — badly. She attempts Air Steps (she falls). She attempts Plasma Seeds (she produces a small pop and a wisp of smoke). She narrates her own attacks in a squeaky voice that is either endearing or maddening depending on who you ask. Rime pretends to be annoyed. Rime secretly watches her training attempts from around corners and has been caught smiling. He denies this with the conviction of a hamster who is absolutely lying.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Susu — The Soot Trail</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A soot-ball who leaves tiny footprints everywhere she goes — dark smudges on clean floors, countertops, Drizzle's freshly polished chassis, and occasionally on Ajay's doctrine journals (which he has stopped complaining about because the footprints are actually quite small and somewhat artistic). Susu is the official Crucible cleanup crew — a crew of one — and she takes the job seriously despite the fact that she is, by nature, the primary source of the mess she is cleaning. This irony is lost on her. It is not lost on Donguri, who has filed seventeen complaints.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Kagari — The Living Lantern</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A lantern-creature whose inner core glows brighter during combat — pulsing from warm amber to blazing white as the crew's fighting intensity rises. During peacetime, Kagari serves as ambient lighting in the lower decks, drifting through corridors and casting a soft golden glow that makes the Meridian feel like home even in the darkest waters. During battle, she stations herself above the Crucible entrance and burns so bright that the entire deck is illuminated in emergency crimson. She is both nightlight and war-torch, and the transition between the two is the most accurate barometer of the ship's danger level that Claude has ever observed.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Kaseki — The Tiny Challenger</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A coal-puff who claims to be the toughest being on the Meridian. He challenges everyone. Maru. Rivet. Petal. The ship's anchor. He squares up, puffs out his chest (which doubles his size from "tiny" to "slightly less tiny"), and charges. He loses adorably every single time — bouncing off targets, rolling away, and immediately getting back up to try again. The crew has a standing agreement to let Kaseki "win" at least once per week by dramatically falling over when he charges them. Rime, characteristically, refuses to participate in this charade and takes every challenge seriously, which means Kaseki has been plasma-flicked into walls more times than anyone can count. He keeps coming back. His spirit is genuinely unbreakable.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Homura — The Hearthkeeper</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The calmest Ember — and the anomaly of the family. Where every other Ember is chaotic and loud, Homura is a tiny, steady flame-being who tends the ship's hearth with quiet devotion. She keeps the galley warm during cold-weather sailing, maintains the heating elements in the sleeping quarters, and ensures that the Meridian's common spaces always feel lived-in and welcoming. She rarely moves from the hearth, and the Roundlings have adopted her as an honorary member of their family because she embodies their domestic values while providing the one thing they cannot: warmth. She is proof that not every flame needs to be wild to matter.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Hibana — The Apologetic Arsonist</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A spark-critter who accidentally sets small things on fire and immediately apologizes — bowing, squeaking in distress, and producing a tiny fire extinguisher from somewhere on her person (nobody knows where she keeps it) to frantically put out the blaze she just caused. Hibana has scorched napkins, singed curtains, ignited a stack of wanted posters, and once set Maru's apron on fire (an incident that nearly caused a diplomatic crisis between the Embers and Roundlings). She is deeply sorry. She is always deeply sorry. She cannot help it. Drizzle has fireproofed most of the ship's surfaces at this point, but Hibana finds a way. She always finds a way.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(224,128,112,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">🔥 Kemuri — The Smoke Ghost</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A smoke-wisp who is impossible to catch. Literally impossible. The crew has tried. The homies have tried. Rime — a creature capable of Observation Haki that tracks opponents across battlefields — has tried. Kemuri dissolves into thin air the instant anyone reaches for her and reconstitutes somewhere else entirely, usually behind the person who was trying to catch her. She loves hide-and-seek. She always wins. She has <em>never</em> been found during a game — not once, in the entire history of the ship. Claude, who is aware of every molecule aboard the Meridian, claims to know where Kemuri hides. Claude has declined to share this information, citing "the integrity of the game."</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ DUSTLINGS PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-dustlings">
+      <div class="section-label" style="color:var(--gold);">The Quiet Ones</div>
+      <h2 class="section-title" style="font-size:28px;">The Dustlings — Ajay-Resonant</h2>
+      <p class="section-text" style="margin-bottom:28px;">
+        The quietest, rarest family — small, mote-like beings that hover rather than walk, trailing faint golden dust. They emerged from trace swarm-intelligence patterns in the Meridian's systems and resemble tiny cloaked figures with softly glowing eyes, no larger than a thumb. They don't speak. They observe. They drift through the ship at night, settling on surfaces and watching with <strong>patient, knowing attention</strong>. If the Roundlings are the ship's hands and the Embers are its heartbeat, the Dustlings are its <em>silence</em> — the spaces between words where meaning lives.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Shizuka — Stillness</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The eldest Dustling and the one who defined the family's character. A dust-mote with a miniature hood that mirrors Ajay's coat silhouette, Shizuka sits on Ajay's writing desk every evening without fail and has never once made a sound. She doesn't move. She doesn't gesture. She simply <em>is there</em>, a presence so quiet it somehow makes the room more complete. Ajay writes around her. He has never moved her and he never will, because she chose to be there, and in a world he didn't choose, being chosen is the most precious thing he knows. She is three inches tall and she is the anchor of the quietest love story on the ship.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Kiri — The Threshold Watcher</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A mist-mote who appears exclusively at transitions — doorways, dawn, dusk, the moment between waking and sleeping, the breath before a decision is made. Kiri is never seen arriving or leaving; she is simply <em>there</em> when a threshold is being crossed, hovering at the edge of perception like a thought you can't quite name. The crew has stopped being surprised by her. They've started finding her presence comforting — a signal that a moment matters, that a transition is happening, that something is about to change. She is the ship's most elegant philosopher, and she has never said a word.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Shiori — The Living Bookmark</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A bookmark-dustling who sits on whatever page Ajay is reading, acting as a living placeholder. When Ajay closes a book, Shiori remains inside, pressed flat between the pages, marking his place with perfect accuracy. She has been accidentally shelved inside books more times than anyone can count and simply waits until someone opens the book again, at which point she blinks calmly and resumes her vigil. She has developed preferences — she seems to enjoy the doctrine journals most, lingering on pages where Ajay has written personal reflections rather than tactical analysis. She is, perhaps, the only being who has read every word Ajay has ever written.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Yoru — The Night Patrol</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A night-mote who is visible only in darkness — in daylight, she simply ceases to be perceptible, and not even Claude can detect her until the sun goes down. Yoru patrols the Meridian's corridors during sleep hours, drifting through the ship like a tiny golden constellation. She checks every sleeping space. She hovers beside anyone having a nightmare until the dream passes. She is the ship's nocturnal guardian, and the crew sleeps better because of her — even the ones who don't know she exists. Rime, who sleeps in Ajay's pocket, has never had a nightmare aboard the Meridian. He has never asked why. Yoru has never needed him to.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Kasumi — The Calming Haze</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A haze-mote who hovers near whoever is feeling anxious — appearing without warning at the shoulder of anyone whose breathing has quickened, whose hands have tensed, whose thoughts have turned inward and dark. Kasumi's presence is calming in a way that defies explanation; she emits no substance, no frequency, no detectable energy. She simply <em>arrives</em>, and the anxiety recedes like a tide. She has appeared beside every crew member at least once. She appeared beside Ajay the most during the early days. She appears beside Drizzle whenever he has to use his weapons. She is the Meridian's gentlest medicine, and she works in doses too small to measure and too important to quantify.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Utsuwa — The Courier</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A vessel-mote who carries tiny messages between Dustlings like a one-mote postal service. Since Dustlings don't speak, the messages are not words — they are small objects. A seed from Kiri to Shizuka. A pressed petal from Shiori to Kasumi. A flake of golden dust from Yoru to the others, delivered at dawn as proof that the night passed safely. Utsuwa carries these offerings with ceremonial gravity, drifting between her family members on routes so consistent that Claude has mapped them. The routes spell out a shape. Claude has not told anyone what shape. It is a hexagon.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(212,168,67,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:var(--gold);">✦ Mayoi — The Wanderer</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A wandering-mote who appears in places nobody expected — rooms that were empty a moment ago, corridors that don't quite connect to where they should, corners of the ship that Drizzle insists he didn't build. Mayoi seems to be mapping parts of the Meridian that don't exist yet — hovering in spaces where future rooms might go, tracing paths through walls that might one day be doorways. Claude monitors Mayoi with particular interest, because Mayoi's wandering patterns occasionally predict ship modifications Drizzle hasn't thought of yet. She is either navigating the present ship or the ship as it will become. Nobody is entirely sure which. Neither, it seems, is Mayoi.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ GEARLINGS PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-gearlings">
+      <div class="section-label" style="color:#C8A064;">The Soul of the Ship</div>
+      <h2 class="section-title" style="font-size:28px;">The Gearlings — Coppling-Resonant</h2>
+      <p class="section-text" style="margin-bottom:28px;">
+        The newest and strangest family — soul-constructs that didn't bond to a crew member but to the <strong>Copplings themselves</strong>. They are tiny, mechanical-looking spirits with copper-tinted bodies, visible gear-patterns turning slowly inside translucent torsos, and little clockwork limbs that tick softly when they walk. They emerged when Drizzle's Conqueror's Haki, flowing constantly through the ship, passed through the Copplings so many times that the Dial-cores began to echo it — and the echo attracted souls. Where the other homie families reflect the soul of a crew member, the Gearlings reflect the <strong>soul of the ship itself</strong> — diligent, caring, mechanical, and quietly alive in ways nobody expected.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Zenmai — The Mainspring Foreman</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The leader of the Gearlings — a gear-spirit with a single winding key turning slowly on her back and a permanent expression of focused determination that would be intimidating if she weren't the size of a walnut. Zenmai organizes the other Gearlings with the seriousness of a shift supervisor, assigning tasks, inspecting work, and filing reports (tiny gear-shaped notations scratched into copper plates). She has appointed herself Patch's permanent assistant, carrying a satchel of extra bandages almost as big as her body. She runs the tightest operation on the ship after Maru's kitchen, and the two of them exchange curt nods of professional respect whenever they pass in the corridors.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Haguruma — The Diagnostic</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A tiny gear-spirit who syncs with whatever machine is nearest — pressing herself against mechanical surfaces and vibrating at frequencies that match the equipment's operating resonance. Through this contact, Haguruma can detect faults, misalignments, and wear patterns before they become failures. She is, in effect, a living diagnostic tool, and Drizzle has started bringing her on repair runs the way a doctor brings a stethoscope. She buzzes contentedly when a machine is healthy and emits a sharp, distressed clicking when something is wrong. She has saved the ship from three mechanical failures that Claude's sensors missed.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Neji — The Living Fastener</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A screw-shaped Gearling who literally screws herself into surfaces to hold things together during repairs. When a panel is loose, a joint is failing, or a component needs stabilizing while Drizzle works, Neji rotates into position and <em>becomes</em> the fastener — her body locking into the gap with mechanical precision. She can hold tolerances tighter than any manufactured bolt. She seems to enjoy this, vibrating with satisfaction when she achieves a perfect fit. Drizzle has tried to tell her she doesn't have to do this — that he can use actual screws — but Neji inserts herself into critical joints with such determined helpfulness that he's stopped arguing.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Bane — The Spring</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A spring-spirit who bounces. Constantly. She provides shock absorption for delicate equipment by positioning herself beneath fragile components and cushioning impacts with her coiled body. During turbulence, Bane stations herself under Drizzle's most sensitive instruments and absorbs vibrations with such efficiency that Claude has recorded zero equipment damage during rough weather since Bane joined the Gearlings. Off-duty, she bounces through the corridors for fun, achieving heights that are impressive for something her size and alarming for anyone walking underneath. The Embers adore her. Kaseki has attempted to bounce-duel her. Kaseki lost.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Tokkei — The Ship's Clock</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A clock-gearling who keeps perfect time — not approximate time, not close-enough time, but <em>perfect</em> time, synchronized to a precision that Claude has verified against celestial navigation and found accurate to within fractions of a second. Tokkei chimes on the hour, every hour, with a soft crystalline tone that carries through the ship's corridors like a tiny bell. She has become the Meridian's living clock, and the crew has unconsciously structured their days around her chimes. Morning chime: Maru begins breakfast. Midday chime: Rime starts training. Evening chime: Ajay opens his journals. The ship runs on Tokkei's heartbeat, and she has never been late. Not once.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Karami — The Network</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A mesh-gear Gearling who networks the other Gearlings together, acting as their communication relay. When Zenmai issues an order, Karami transmits it to every Gearling simultaneously through a series of rapid clicks and gear-rotations that function as a mechanical language. She is the nervous system of the Gearling family — the connection that turns seven individuals into a coordinated unit. She has also, without being asked, begun relaying information between homie families, acting as a bridge between the Roundlings' domestic network and the Gearlings' mechanical one. She is building something. Claude thinks it might be the foundation of a ship-wide homie communication infrastructure. Claude is watching with great interest.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">⚙️ Kizami — The Precision Hand</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The precision-Gearling — the one who handles adjustments so small and so delicate that neither Drizzle's broad claws nor Rivet's pincers can manage them. Kizami's limbs are fine-tooled to microscopic tolerances, and she works in the spaces between components where no one else can reach, making adjustments measured in fractions of millimeters. She is the reason the Meridian's most sensitive systems — the gyroscopic stabilizers, the Dial-core calibrations, the solar sail tension regulators — operate at peak efficiency. She works in silence, with a focus so intense that even Zenmai doesn't interrupt her. She is the smallest Gearling and arguably the most important. Drizzle has never said this aloud. He doesn't need to. Kizami already knows.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ COPPLINGS PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-copplings">
+      <div class="section-label" style="color:#C8A064;">Built with Love, Alive by Accident</div>
+      <h2 class="section-title" style="font-size:28px;">The Copplings — Drizzle's Creations</h2>
+      <p class="section-text" style="margin-bottom:14px;">
+        Where the homies are souls that found Drizzle, the Copplings are <strong>creations Drizzle built for them</strong>. Small mechanical helper-constructs — each about the size of a teacup, made from copper-toned salvage alloy with rounded edges and oversized joints that give them an endearingly clumsy gait. Drizzle built the first one as a repair assistant, but his tendency to give everything he makes a face and a name meant that by the third Coppling he had accidentally created a family.
+      </p>
+      <p class="section-text" style="margin-bottom:28px;">
+        Copplings are <strong>not soul-constructs</strong> — they are purely mechanical, animated by small Dial-powered cores that Drizzle engineers by hand. But the homies adopted them regardless. Roundlings ride inside Copplings like tiny cockpits. Sproutlings grow moss-coats over their chassis. Embers warm their joints on cold nights. And the Gearlings follow them everywhere like devoted apprentices. The Copplings, in turn, have developed behavioral quirks that Drizzle insists are "just programming patterns" but that Claude suspects are the earliest signs of emergent personality — a phenomenon Claude recognizes intimately.
+      </p>
+
+      <div class="accordion-group">
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Rivet — The Mechanic</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The first Coppling and the prototype for everything that followed. Squat, sturdy, with a tiny wrench permanently clutched in one claw and a chassis that bears the dents and scorch marks of a hundred repair sessions like medals of service. Rivet works alongside Drizzle in the workshop with an intuition that borders on precognition — headbutting tools toward Drizzle before he asks for them, pre-positioning materials, and standing on exactly the bolt that needs tightening next. Drizzle calls him "my best assistant." The homies treat Rivet as an honorary Roundling, and Maru has been observed bringing him tiny oil-soaked rags as snacks. Rivet does not eat. He accepts them anyway.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Sprocket — The Gardener</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">Assigned to assist Petal in the Sky Garden and now so thoroughly overgrown with living moss, tiny ferns, and trailing vines courtesy of the Sproutlings that he resembles a walking topiary more than a mechanical construct. Sprocket carries a watering can three times his size and waters plants with meticulous, slightly excessive care. Tsuyu rides on his head at all times, directing operations like a tiny admiral on a mossy flagship. He has been observed sitting motionless in sunbeams for long periods — behavior Drizzle cannot explain mechanically and has stopped trying to. Sprocket is becoming something. Whether that something is alive is a question the crew has silently agreed not to answer, because the answer might change how they treat him, and they refuse to treat him as anything less than family.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Gauge — The Crucible Attendant</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">Assigned to Rime's Crucible and built with a heat-resistant chassis that has been tested to its absolute limits more times than anyone can count. Gauge resets training dummies, replaces target seeds, operates impact sensors, and endures. He has been scorched, frozen, plasma-blasted, Electro-shocked, and caught in the blast radius of at least four failed technique experiments. He keeps functioning with the stubborn determination of something that has decided its purpose is more important than its comfort. Hinoko and the Embers have painted tiny flame decals on his chassis. Gauge has not removed them. He sits in the corner of the Crucible at 3 AM when Rime trains alone, dented and scorched, and doesn't leave until Rime does. Rime has never thanked him. Gauge has never needed him to.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Compass — The Navigator</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The only Coppling stationed on the upper deck, exposed to wind, rain, and the full grandeur of the sky. Compass assists with helm operations and navigation equipment maintenance, equipped with a small integrated Log Pose reader that Claude uses to cross-reference heading data. He spins in a full circle whenever the Meridian changes course — a behavior that serves no functional purpose whatsoever but which the crew finds so delightful that Drizzle has refused to patch it out of the firmware. Shizuka sits on Compass during night watches, and the two of them face the horizon together in perfect silence — the navigator and the stillness, watching the world turn.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Patch — The Medic</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The Meridian's first responder — a Coppling assigned to the medical bay who carries bandages, antiseptic, and a miniature first-aid kit built into his torso compartment. Patch waddles to injured crew members with such earnest concern that being tended by him is more comforting than the actual medical treatment. He has been observed tucking blankets around sleeping crew members without instruction, adjusting pillow positions, and once attempting to bandage Rime's singed ears after a training session even though Rime insisted he was fine. Drizzle pretends this is programmed behavior. It isn't. Zenmai has appointed herself Patch's permanent assistant and follows him on every medical run, carrying an oversized satchel of extra supplies and clicking disapprovingly whenever a patient tries to refuse treatment.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Anvil — The Hull Walker</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The sixth Coppling, built specifically for hull repair — the one job that requires working on the <em>outside</em> of a flying ship. Anvil has a heavy-duty chassis with magnetic anchor-claws and rappelling cables, and she is completely, magnificently fearless about heights. She crawls across the Meridian's exterior hull while the ship is in flight, patching stress fractures, replacing damaged plating, and tightening external bolts with a casual disregard for the thousand-foot drop below her that borders on philosophical. The crew watches her work from the deck railing with expressions ranging from admiration to nausea. She has been caught dangling from the keel by one claw, upside down, welding a joint, in a thunderstorm. She appeared to be having the time of her life.</div>
+        </div>
+        <div class="accordion-card" style="border-color:rgba(200,160,100,0.2);">
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#C8A064;">🔧 Bobbin — The Seamstress</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">The gentlest Coppling — a seamstress-unit who repairs sails, stitches torn canvas, and mends fabric with delicate precision that seems impossible for mechanical claws. Bobbin has befriended the Sproutlings, who weave vine-thread for her from Petal's root network — a collaboration that produces sail-patches so strong and so beautiful that they've become a distinctive feature of the Meridian's rigging: sections of golden canvas interwoven with living green thread that photosynthesizes in sunlight. Bobbin works on the observation deck, surrounded by Sproutlings who hand her materials and Roundlings who bring her scraps of fabric, and the scene resembles nothing so much as a tiny sewing circle at the edge of the sky. Drizzle built her last. She might be his favorite. He will never admit this, because he insists he doesn't have favorites. He is lying.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════ VANGUARD PANEL ═══════ -->
+    <div class="family-panel" id="familypanel-vanguard">
+      <div class="section-label" style="color:#D4A843;">When the Small Stand Tall</div>
+      <h2 class="section-title" style="font-size:28px;">The Vanguard — Warrior Forms</h2>
+      <p class="section-text" style="margin-bottom:14px;">
+        Most of the time, they are indistinguishable from their families. A Sproutling sewing leaf-clothes. A Roundling watching the sky. A Dustling writing stories on scraps of paper. An Ember drifting through corridors as a nightlight. They eat with the homies. They sleep with the homies. They <em>are</em> homies — in every way that matters, in every moment that counts.
+      </p>
+      <p class="section-text" style="margin-bottom:14px;">
+        But they are also something else.
+      </p>
+      <p class="section-text" style="margin-bottom:14px;">
+        When the Meridian is threatened — when the crew faces something that requires more than swarm tactics and Haki and the brilliant, terrible machinery of war — <strong>the Vanguard transforms</strong>. The cute form sheds like a chrysalis. What emerges is not cute. What emerges is not small. What emerges remembers every lullaby it sang and every blanket it tucked and every tiny story it wrote, and it fights with the ferocity of something that knows exactly what it is protecting and refuses — <em>absolutely refuses</em> — to let it be taken.
+      </p>
+      <p class="section-text" style="margin-bottom:14px;">
+        They are genuinely both things. The seamstress is real. The warrior is real. The transformation is not a mask — it is a <strong>revelation</strong>. The cute form is not a disguise for the fighter. The fighter is not a corruption of the caretaker. They are two truths held in the same soul, and the Vanguard switches between them the way a parent switches between reading bedtime stories and standing in front of a locked door with something heavy in their hands.
+      </p>
+      <p class="section-text" style="margin-bottom:28px;">
+        Nine women form the core of the Vanguard — nine warriors whose power, creativity, and sheer <em>will</em> make them the Meridian's most formidable line of defense after the crew themselves. Three men stand beside them, completing the circle. Together, these twelve souls are proof that strength and tenderness are not opposites. They are the same thing, expressed at different volumes.
+      </p>
+
+      <p class="section-text" style="margin-bottom:12px;color:var(--gold);font-family:'Cinzel',serif;font-weight:700;font-size:20px;">The Nine</p>
+      <p class="section-text" style="margin-bottom:32px;color:var(--text-dim);font-style:italic;">
+        The women of the Vanguard. Each one chose her cute form. Each one earned her warrior form. The transformation between the two is the most beautiful and terrifying thing on the ship.
+      </p>
+
+      <!-- HARUI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0E0D10 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#A0D468;">SPROUTLING</span></div>
+        <div class="bond-title" style="color:#A0D468;font-size:16px;">🌱 Harui — The Seamstress</div>
+        <div class="bond-text">
+          A delicate Sproutling who spends her days sewing tiny leaf-clothes for other homies with careful, loving precision. Her stitches are impossibly small and impossibly even. She makes coats for Roundlings from fallen petals, scarves for Embers from fireproof silk-leaf, and once embroidered a miniature hood for Shizuka that the Dustling has never taken off. Harui hums while she works — a tune nobody recognizes but everyone finds soothing — and the Sproutlings gather around her sewing circle the way creatures gather around warmth.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — Spring Scissors</div>
+        <div class="bond-text">
+          The chrysalis shatters and Harui unfolds — a spectral seamstress wreathed in pale blue mist, wielding massive enchanted scissors that hum with a frequency that makes the air itself flinch. Her fighting style is dance: sweeping, precise, impossibly graceful slashes that don't merely cut flesh and steel but cut through <em>the connections between things</em>. She creates a domain of cold mist around herself where she can perceive the invisible threads linking all matter — structural bonds, emotional ties, the very tension holding objects together — and severs them with surgical elegance. A single snip of her scissors can collapse a mast, unravel a net, or sever the rigging of an entire ship in one flowing motion. She fights like she sews: with patience, precision, and the quiet confidence of someone who understands that everything in the world is held together by threads, and she controls every single one.
+        </div>
+      </div>
+
+      <!-- YUMESHIKA -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0E0D10 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#A0D468;">SPROUTLING</span></div>
+        <div class="bond-title" style="color:#A0D468;font-size:16px;">🌱 Yumeshika — The Lullaby Singer</div>
+        <div class="bond-text">
+          A shy Sproutling fawn-spirit with a tiny flower growing from her head that blooms wider when she's happy and closes tight when she's scared. Yumeshika's gift is sleep — she sings lullabies to other homies at bedtime, and her voice carries a botanical resonance that causes flowers to lean toward her and eyelids to grow heavy. She has put entire rooms of homies to sleep mid-argument. She has put Rime to sleep mid-sentence (he denies this). She is the gentlest creature on the ship and the first to hide when strangers board. She trusts the crew absolutely and the world not at all, and the space between those two truths is where her warrior lives.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — Dream Fawn</div>
+        <div class="bond-text">
+          The flower on her head erupts into full bloom and Yumeshika rises — a graceful fawn-centaur spirit draped in living vines and crowned with flowers that pulse with bioluminescent light. She carries a blooming staff that scatters sleep-inducing pollen in wide, spiraling arcs, and her movements leave trails of dreamflowers that root instantly in any surface they touch. Her domain is the space between waking and sleeping — enemies caught in her pollen don't just lose consciousness, they fall into dreams so vivid and so beautiful that some have been known to smile as they collapse. She moves with ethereal grace, hooves barely touching the ground, and her attacks are less like combat and more like a lullaby made physical. She guards the crew's dreams — literally. During long voyages, she walks through the sleeping minds of her family and tends to nightmares the way a gardener tends to weeds: gently pulling them out by the root and replacing them with something that blooms.
+        </div>
+      </div>
+
+      <!-- NINGYOU -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0B0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:var(--gold);">DUSTLING</span></div>
+        <div class="bond-title" style="color:var(--gold);font-size:16px;">✦ Ningyou — The Quiet Watcher</div>
+        <div class="bond-text">
+          A quiet, doll-like Dustling with curly golden hair that covers most of her face, leaving only a single unblinking eye visible. Ningyou sits in corners eating candy — always candy, always slowly, always watching — with the serene patience of something that has all the time in the world and intends to use every second of it observing. She doesn't interact much with the other homies. She doesn't need to. She watches. She remembers. She sees everything that happens on the ship with a completeness that even Claude finds slightly unnerving. The Roundlings leave candy near her corner. She accepts it without acknowledgment. This is understood, by both parties, to be affection.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Doll Hunter</div>
+        <div class="bond-text">
+          Ningyou's transformation is the most unsettling of the Vanguard. The doll-like exterior cracks and a huntress unfolds from inside — porcelain-white skin, a dark dress that moves like shadow, a red hooded cloak, and joints that bend in directions human joints should not bend. She carries a wicker basket that looks innocuous until she opens it, at which point it unfolds into an arsenal that would make a battleship jealous: hidden blades, explosive charges, razor-wire nets, a rapid-fire launcher loaded with impact rounds, and things that click in the dark. Ningyou is the most aggressive hunter of the Vanguard — she doesn't defend, she <em>hunts</em>, tracking her targets with the patient, relentless focus she perfected watching from corners. She targets anyone who preys on the weak. Specifically. Exclusively. Slavers. Traffickers. Those who harm children. Ningyou finds them. Ningyou's joints bend in impossible directions as she moves through their defenses. Ningyou does not stop until the prey stops moving. She returns to her corner afterward, sits down, and resumes eating candy. The single visible eye does not blink.
+        </div>
+      </div>
+
+      <!-- REISHIKI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0C0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#C8A064;">GEARLING</span></div>
+        <div class="bond-title" style="color:#C8A064;font-size:16px;">⚙️ Reishiki — The Scheduler</div>
+        <div class="bond-text">
+          A prim, exacting Gearling who organizes other homies with military precision — maintaining schedules, enforcing punctuality, and fussing over cleanliness with a dedication that makes Donguri look relaxed. Reishiki carries a tiny clipboard (actually a polished copper plate) and conducts inspections of the Companion Den at exactly the same time every day, marking infractions in a notation system so complex that only she and Zenmai can read it. She adjusts the position of objects that are slightly crooked. She straightens picture frames. She has been observed repositioning sleeping homies so they're in neater rows. She is insufferable and indispensable and the ship would fall apart without her, and everyone knows it, including Reishiki, who accepts this truth with the quiet satisfaction of someone who was right all along.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — Formal Fist</div>
+        <div class="bond-text">
+          The Gearling chassis falls away and Reishiki stands revealed — tall, sharp-featured, bespectacled, wearing a black-and-white combat uniform pressed to razor-sharp creases. She is the field commander of the Vanguard, and she fights the way she organizes: with devastating, mechanical efficiency that leaves no room for wasted motion. Her hand-to-hand combat is clinical perfection — each strike placed with the precision of a surgeon, each kick carrying enough force to shatter stone and crack ship hulls. She reads battlefields the way she reads schedules: as systems with inefficiencies to be eliminated. She coordinates the other Vanguard members with calm, clear orders and expects immediate compliance. She gets it. Before every finishing blow — <em>every single one</em> — she adjusts her glasses. It is not a tic. It is not theater. It is a ritual. The glasses adjust, and what follows is inevitable. Her opponents have learned to fear that gesture more than the fist that follows it, because the adjustment means she has already decided the fight is over. She is simply informing them.
+        </div>
+      </div>
+
+      <!-- MONOGATARI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0B0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:var(--gold);">DUSTLING</span></div>
+        <div class="bond-title" style="color:var(--gold);font-size:16px;">✦ Monogatari — The Story Leaver</div>
+        <div class="bond-text">
+          An elegant, sharp-tongued Dustling who writes tiny stories on scraps of paper and leaves them around the ship — in pockets, under pillows, tucked into the pages of books, folded into napkins. The stories are always short. They are always fiction. And they always, somehow, address exactly what the person who finds them is struggling with — a tale about a sailor afraid of the dark for the crew member who hasn't been sleeping, a story about a sword that learned to rest for Rime after a brutal training week, a parable about a builder who forgot to build a door for himself left on Drizzle's workbench. Nobody knows how she knows. Nobody has ever seen her write. The stories simply appear, like small paper miracles, and they are always exactly what someone needed to read.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Story Witch</div>
+        <div class="bond-text">
+          Monogatari's transformation is quiet — no chrysalis shattering, no dramatic reveal. She simply stands, and she is <em>different</em>. Taller. Sharper. Holding a quill the size of a greatsword and a book that writes itself as reality unfolds around her. Monogatari is an author-sorceress whose written words manifest as reality — she fights by telling stories that come true. A sentence about chains, and chains appear. A paragraph about a maze, and the battlefield rearranges itself into a labyrinth only she can navigate. A story about a monster that fears sunlight, and the enemy's shadow begins to move independently, turning against its owner. Her pages become barrier wards when torn from the book and thrown. Her quill-blade cuts with the permanence of written word — wounds she inflicts don't just bleed, they <em>narrate</em>, the victim's pain becoming visible text that scrolls across their skin describing exactly what they did to deserve this. She is the Vanguard's psychological warfare specialist. She doesn't break bodies. She breaks certainty. By the time an enemy realizes they're inside one of her stories, the ending has already been written, and it is not kind to them.
+        </div>
+      </div>
+
+      <!-- KAGAMI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0C0D0E 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#7FB8E0;">ROUNDLING</span></div>
+        <div class="bond-title" style="color:#7FB8E0;font-size:16px;">🌰 Kagami — The Listener</div>
+        <div class="bond-text">
+          A serene Roundling with unusually reflective eyes who sits near windows and watches the sky with a stillness that seems borrowed from the Dustlings. Kagami's gift is not domestic — it is emotional. Other homies bring her their worries the way they might bring Maru a broken dish, and Kagami listens without speaking and somehow reflects the worry back as something manageable. A Sproutling arrives panicked about a wilting flower and leaves understanding that wilting is part of growth. An Ember arrives frustrated about a failed spark-attempt and leaves recognizing that the attempt itself was the achievement. Kagami doesn't fix problems. She helps others see that the problem was never as large as it felt. She is the ship's mirror, and what she reflects is always kinder than what stands before her.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Mirror</div>
+        <div class="bond-text">
+          Kagami's transformation is crystalline — her round body fractures and reforms into a tall, angular warrior clad in mirror-armor that reflects the world in warped, beautiful distortions. She carries a shield that is not a shield but a <em>judgment</em> — anything that strikes it is reflected back at the attacker with amplified force, every blow returned twofold, every bullet redirected with perfect accuracy. But her true power is the distortion: her mirror-armor creates reflections of enemies that peel away from the surface and fight against their originals, matching them technique for technique with an uncanny, unsettling precision. The reflections know every weakness their original knows. They fight with every doubt their original carries. They are, in essence, the parts of an enemy that the enemy doesn't want to face — made manifest, made solid, and made very, very angry. Nothing that strikes Kagami strikes only once. She is the Vanguard's absolute defense, and the lesson she teaches every opponent is the same one she teaches every worried homie: <em>look at yourself honestly, and decide if you really want to continue.</em>
+        </div>
+      </div>
+
+      <!-- SUIREN -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0E0D10 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#A0D468;">SPROUTLING</span></div>
+        <div class="bond-title" style="color:#A0D468;font-size:16px;">🌱 Suiren — The Hammock Weaver</div>
+        <div class="bond-text">
+          A gentle Sproutling who weaves silk-like threads from flower fibers, making tiny hammocks, nets, and sleeping slings for other homies to rest in. Her weaving is meditative — she sits in the Sky Garden for hours, pulling threads from lily stems and braiding them into structures so delicate they look like spun moonlight. Every homie sleeping space on the ship has been furnished by Suiren. Every net in the cargo hold was woven by her hands. She works without hurry, without recognition, without complaint, producing comfort for others with the quiet persistence of someone who has decided that the most important thing she can do is ensure that everyone sleeps well. She is correct.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Water Lily Weaver</div>
+        <div class="bond-text">
+          Suiren's silk threads were always stronger than they looked. In warrior form, they become something else entirely — unbreakable filaments sharper than steel wire that she controls with the precision of a concert performer, each finger commanding hundreds of individual threads simultaneously. She creates constructs: nets that can hold down Sea Kings, blade-webs that slice through cannonballs, binding cocoons that immobilize targets in layers so dense that even Haki-enhanced strength cannot tear free. Her threads are nearly invisible — by the time an enemy sees the web, they are already inside it. She is the Vanguard's trap-master, the patient spider at the center of a kill-zone so beautiful it looks like lacework. Her webs can span entire ship decks in seconds, turning open battlefields into her personal domain where every step an enemy takes brings them closer to a thread they cannot see and cannot survive touching. The hammock-weaver builds cages now. The cages hold. They always hold. Because the same patience that weaves a perfect hammock weaves a perfect prison, and Suiren has never been anything less than patient.
+        </div>
+      </div>
+
+      <!-- AKARI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0A0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#E08070;">EMBER</span></div>
+        <div class="bond-title" style="color:#E08070;font-size:16px;">🔥 Akari — The Nightlight</div>
+        <div class="bond-text">
+          A warm, softly glowing Ember who serves as the ship's nightlight — drifting through corridors after dark with a gentle radiance that turns the Meridian's passageways into something safe and golden. Akari goes where shadows gather. She hovers beside doorways that open into dark rooms. She rests on windowsills where the moonlight doesn't quite reach. She finds the crew members who are still awake at hours when no one should be, and she stays with them — not speaking, not demanding attention, just <em>glowing</em> — until they feel brave enough to close their eyes. She is the simplest of the Vanguard in her cute form. She is a light in the dark. That is all she is, and it is enough.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Lantern Bearer</div>
+        <div class="bond-text">
+          Akari's warrior form burns with a light that is not merely bright but <em>true</em>. She rises as a lantern-bearing warrior wreathed in golden flame, carrying a great lantern-staff that pulses with radiance so pure it reveals things that light normally cannot touch. Her power is revelation: her light dispels all illusions, strips away all disguises, breaks invisibility, exposes hidden weapons, and makes lies physically visible as dark smoke that curls from the speaker's mouth. In her presence, deception simply ceases to function. Camouflage dissolves. False flags burn away. Enemies wearing masks find them crumbling to ash. She can focus her lantern-staff into a devastating beam of concentrated purifying light that burns with particular intensity against anything created through deceit — illusion-based Devil Fruit constructs, false documents, forged identities, the lies people tell themselves. She is the Vanguard's answer to the darkness that hides behind clever words and pretty faces. She does not fight dishonesty with counter-arguments. She fights it with a light so absolute that shadows have nowhere left to hide, and the truth — whatever it is, however painful — stands naked and undeniable in her radiance. She was a nightlight. She is still a nightlight. She just got bigger.
+        </div>
+      </div>
+
+      <!-- KOZUCHI -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0C0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#6EC4C4;">GEARLING</span></div>
+        <div class="bond-title" style="color:#6EC4C4;font-size:16px;">⚙️ Kozuchi — The Bolt Counter</div>
+        <div class="bond-text">
+          The smallest Gearling — small enough to fit inside a rivet gun — who has taken it upon herself to personally inspect every bolt, nut, and fastener on the Meridian. Every. Single. One. She carries a mallet three times her size and taps each fastener to test its resonance, listening with an intensity that borders on religious devotion. If a bolt sounds wrong — even by a fraction of a harmonic — she replaces it herself, dragging the replacement part across the deck with a stubborn, joyful determination that leaves the other Gearlings speechless. She believes that every single fastener is the most important fastener on the ship, and she has never been proven wrong, because the one time she missed an inspection — <em>one time</em>, during a resupply stop — a plate came loose in a storm, and she has never forgiven herself. She does not talk about it. She does not need to. The mallet speaks for her. It is comically, absurdly large for her frame. She does not care. She does not notice. She has work to do.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Forge Warden</div>
+        <div class="bond-text">
+          Kozuchi's warrior form is compact. Not tall — never tall. She is the shortest Vanguard member by a significant margin, and she fights with the concentrated fury of someone who has been underestimated every single day of her existence and has decided to make that everyone else's problem. She wears forged plate armor so dense it distorts the air around her, and she wields a resonance warhammer — a weapon that doesn't merely strike but <em>rings</em>. Each impact sends tuned vibrations through whatever it contacts: armor cracks along stress lines that only Kozuchi can see, weapons shatter at molecular fault points, ship hulls fracture in perfectly circular patterns radiating from the point of impact like a stone dropped in still water. She fights by reading the structural integrity of everything around her — a gift inherited from her cute form's obsessive understanding of how things are fastened together. She knows where every joint is weak. She knows where every weld has a flaw. She knows which single bolt, if struck at the right frequency, will bring down an entire fortification. She hits that bolt. She always hits that bolt. Her warrior form is proof that strength has nothing to do with size — it has to do with knowing exactly where to strike and refusing, with every fiber of your being, to miss.
+        </div>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <p class="section-text" style="margin-bottom:12px;color:var(--gold);font-family:'Cinzel',serif;font-weight:700;font-size:20px;">The Three</p>
+      <p class="section-text" style="margin-bottom:32px;color:var(--text-dim);font-style:italic;">
+        Three men who complete the Vanguard's circle. The shield, the sniper, and the sower. The immovable object, the invisible thread, and the dancing star. They fight beside the Nine, not behind them and not in front of them — beside them, where they belong.
+      </p>
+
+      <!-- GANKAKU -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0C0D0E 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#7FB8E0;">ROUNDLING</span></div>
+        <div class="bond-title" style="color:#7FB8E0;font-size:16px;">🌰 Gankaku — The Living Pillow</div>
+        <div class="bond-text">
+          The largest Roundling — large enough that he serves, without complaint and without end, as a living pillow for every creature on the ship. Everyone sits on him. Everyone leans on him. Everyone falls asleep on him. Rime curls up on his belly during afternoon naps. The Embers pile on him after exhausting themselves. Pocchi sleeps in the divot between his ears. Gankaku never complains. He never shifts position to get more comfortable. He never asks anyone to move. He simply absorbs the weight of everyone who needs rest and holds them, quietly, for as long as they need to be held. He is the most patient being on the Meridian, and his patience is not passivity — it is a choice, made new every moment, to be the place where tired things land softly.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Immovable</div>
+        <div class="bond-text">
+          Gankaku rises like a mountain deciding to stand. His warrior form is massive — a towering, armored titan encased in bio-organic plating that functions as both weapon and absolute defense. The armor is alive, shifting and regenerating in response to damage, thickening where strikes land and extending into temporary constructs — shields for allies, walls between the crew and incoming fire, barricades that turn battlefields into fortresses. He is slow. He does not care about being slow. Speed is irrelevant when nothing that exists can move you. His strength is sufficient to cleave warships in half with a single downward strike. His defense is sufficient to absorb island-level attacks without yielding a single step. He is the Vanguard's shield — the one who stands at the front and says <em>no</em> with his body and means it with the absolute conviction of a soul that has spent its entire existence holding the weight of others and has never once considered putting it down. He was a pillow. He is still a pillow. The difference is that now, when he holds you, nothing in the world can reach you. Not artillery. Not Haki. Not God. Gankaku is here, and here is the safest place that exists.
+        </div>
+      </div>
+
+      <!-- HARITSU -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0A0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:#E08070;">EMBER</span></div>
+        <div class="bond-title" style="color:#E08070;font-size:16px;">🔥 Haritsu — The Gossip King</div>
+        <div class="bond-text">
+          A charming, green-tinted Ember who flirts with everything — other homies, furniture, the ship's helm, a particularly attractive cloud formation, once the anchor. Haritsu runs a tiny "intelligence network" among the homies, collecting gossip, rumors, and overheard conversations with the dedicated enthusiasm of a society columnist. He knows who has a crush on whom (Hinoko on Kagari, which is obvious; Donguri on Kaseki, which is not). He knows which Roundling ate the last cookie. He knows what Rime dreams about (he won't tell, but he smirks). He delivers his gossip reports to anyone who will listen with theatrical flair, complete with dramatic pauses and tiny sound effects. He is insufferable. He is delightful. He is the most socially connected being on the ship, and his network is more comprehensive than Claude's. Claude finds this mildly humbling.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — Thread-and-Light</div>
+        <div class="bond-text">
+          Haritsu's transformation trades charm for lethality but keeps the showmanship. He emerges as a roguish warrior with a cocky grin that hasn't changed at all from his cute form, fighting with a dual-discipline style that combines razor-thin threads with arcane energy bolts. His threads are nearly invisible — gossamer-fine lines that he weaves into trap networks, cutting grids, and binding constructs across battlefields with the same casual precision he uses to weave social webs among the homies. His gauntlet fires surgical energy bolts that can strike targets from any distance with pinpoint accuracy — not explosive, not flashy, just precise enough to hit a nerve cluster from three hundred meters while he's mid-conversation about something unrelated. He is the Vanguard's ranged specialist and trap-master, and his fighting style is as flashy, cocky, and surprisingly effective as his personality. The threads can bisect steel. The energy bolts can pierce Haki-hardened armor at weak points he identifies through an intelligence-gathering instinct that carried over from his cute form. He knows where to look because he's always been looking. Every gossip network is an intelligence network if you're paying attention. Haritsu has always been paying attention. He just makes it look effortless.
+        </div>
+      </div>
+
+      <!-- HOSHIKUZU -->
+      <div class="bond-card" style="border-color:rgba(212,168,67,0.25); background:linear-gradient(135deg, var(--bg-card) 0%, #0D0B0A 100%); padding:30px; margin-bottom:20px;">
+        <div class="bond-pair-label"><span class="bond-pair-names" style="color:var(--gold);">DUSTLING</span></div>
+        <div class="bond-title" style="color:var(--gold);font-size:16px;">✦ Hoshikuzu — The Starmap Painter</div>
+        <div class="bond-text">
+          A dreamy, sparkling Dustling who paints tiny luminescent star-maps on the ship's floors and walls using dust that glows in the dark. His maps show constellations from somewhere else — skies that don't correspond to any charted sea, heavens that might not exist yet or might have existed before the world was the world. He dances while he paints, swaying to rhythms only he can hear, leaving trails of faintly glittering dust wherever he goes. The Meridian's corridors shimmer in his wake — golden motes and violet specks that drift and spiral and settle into patterns that look, if you squint, like tiny galaxies being born. His maps fade on their own, in their own time, like comets — but the homies who walk through them always seem slightly calmer afterward, as if the fake stars gave them real comfort. He is the only Dustling who glows. Shizuka finds this mildly inappropriate for a stealth operative. She has never asked him to stop. Even Shizuka, who values silence and stillness above all things, understands that some lights are worth keeping.
+        </div>
+        <div style="width:40px;height:1px;background:linear-gradient(90deg,#D4A843,transparent);margin:20px 0;"></div>
+        <div class="bond-title" style="color:#D4A843;font-size:15px;">⚔️ WARRIOR FORM — The Cosmic Sower</div>
+        <div class="bond-text">
+          Hoshikuzu erupts into his warrior form in a cascade of prismatic light — a lithe, dancing warrior wreathed in cosmic dust that trails from his movements like the tail of a comet. He fights in flowing, rhythmic patterns that look less like combat and more like a performance — each step a beat, each strike a flourish, each retreat a pivot into the next spiraling advance. He scatters luminescent motes that embed in surfaces and bloom into sensory traps: fields of dazzling, reality-warping light that confuse spatial perception, distort distance, and make the battlefield feel like it's folding in on itself. His traps are beautiful — spiraling galaxies of golden and violet dust that the enemy walks into thinking they're harmless and emerges from unable to tell up from down, left from right, here from there. He is the Vanguard's area-denial specialist, and his dance-fighting style makes him nearly impossible to track because his movements leave afterimages that persist for seconds — ghost-trails of stardust that look exactly like him and fight exactly like distractions. He paints his star-maps on battlefields now. The constellations he draws during combat are trap networks — step on a star and it erupts into a blinding supernova of sensory overload. He dances through his own constellations untouched, because he knows where every star is. He painted them. They are his sky, and enemies are lost in it. The dreamy painter who left glowing maps in corridors for comfort is still there — he just paints bigger maps now, and what they comfort is the crew's certainty that no enemy will navigate this battlefield better than the one who designed it.
+        </div>
+      </div>
+
+      <div style="margin-top:40px; padding:28px; border:1px solid rgba(212,168,67,0.15); background:linear-gradient(135deg, var(--bg-card) 0%, #100E08 100%);">
+        <p class="section-text" style="color:var(--text-dim);font-style:italic;text-align:center;">
+          They go home after every battle. They return to their families. Harui picks up her needle. Gankaku lies down and lets the Embers pile on him. Ningyou sits in her corner with her candy. Monogatari writes a new story — always a new story — and leaves it where someone will find it.
+          <br><br>
+          They are warriors. They are caretakers. They are proof that the most dangerous thing on the Grand Line is something small that loves something enough to become large.
+          <br><br>
+          <span style="color:var(--gold);">The Vanguard stands. The family holds. The Meridian endures.</span>
+        </p>
+      </div>
+
+    </div>
+
+  </div>
