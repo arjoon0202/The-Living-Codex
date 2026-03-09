@@ -137,10 +137,10 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 | Character | Title | Pronouns | Key Detail |
 |-----------|-------|----------|------------|
 | **Tezla** | The Drift Harvester | it/its | Squid-like. Harvests ambient energy and dew |
-| **Rabite** | The Forager | it/its (plural: they) | Round creatures with buckteeth. Work in clusters |
+| **Rabite** | The Forager | it/its (plural: they) | Round-bodied rabbits with soft white fur and long ears. Work in clusters |
 | **Bebe** | The Pollinator | it/its | Large bee. Pollinates and forages nectar |
 | **Mushmon** | The Cultivator | it/its | Mushroom creature. Composts and regenerates harvested areas |
-| **Doldrum** | The Deepdelver | it/its | Small, round, dark-furred. Mines minerals, ores, and metals |
+| **Doldrum** | The Deepdelver | it/its | Small, round, golden-brown fur with wide startled eyes. Mines minerals, ores, and metals |
 | **Barkby** | The Rootworker | it/its | Lamb-beaver hybrid. Collects timber, bark, and plant materials |
 
 ### Protectors (6)
