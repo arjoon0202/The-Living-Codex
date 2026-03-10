@@ -29,6 +29,15 @@
   "IMG_PORTRAITS_8": "images/portraits-8.b64",
   "IMG_VESSEL_0": "images/vessel-0.b64",
   "IMG_AKEBONO_0": "images/akebono-0.b64",
-  "IMG_COMBAT_SWARM": "images/combat-swarm-portrait.b64",
-  "IMG_HARVEST_SWARM": "images/harvest-swarm-portrait.b64"
+  "IMG_COMBAT_SWARM": "images/swarm-new.b64",
+  "IMG_HARVEST_SWARM": "images/harvest-swarm-portrait.b64",
+  "IMG_CONDUCTOR": "images/conductor.b64",
+  "IMG_ROUNDLINGS": "images/roundlings.b64",
+  "IMG_SPROUTLINGS": "images/sproutlings.b64",
+  "IMG_EMBERLINGS": "images/emberlings.b64",
+  "IMG_DUSTLINGS": "images/dustlings.b64",
+  "IMG_GEARLINGS": "images/gearlings.b64",
+  "IMG_COPPLINGS_PORTRAIT": "images/copplings-portrait.b64",
+  "IMG_VANGUARDS_NINE": "images/vanguards-nine.b64",
+  "IMG_VANGUARDS_THREE": "images/vanguards-three.b64"
 }
