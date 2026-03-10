@@ -3,12 +3,16 @@
 Build the Hive Codex from fragments.
 
 Reads template.html, replaces {{PLACEHOLDER}} tokens with file contents,
-then replaces {{IMG_*}} tokens with base64 data URIs from src/images/.
-Outputs the complete single-file HTML to dist/hive_codex.html.
+then decodes {{IMG_*}} base64 images to separate files in dist/images/
+and replaces placeholders with relative paths.
+
+Outputs HTML to dist/hive_codex.html + dist/index.html, with images
+in dist/images/. This keeps the HTML well under GitHub's 100 MB limit.
 
 Zero external dependencies — Python 3 standard library only.
 """
 
+import base64
 import json
 import os
 import re
@@ -20,6 +24,7 @@ DIST_DIR = os.path.join(SCRIPT_DIR, "dist")
 SRC_DIR = os.path.join(SCRIPT_DIR, "src")
 IMAGES_DIR = os.path.join(SRC_DIR, "images")
 MANIFEST = os.path.join(IMAGES_DIR, "manifest.json")
+DIST_IMAGES_DIR = os.path.join(DIST_DIR, "images")
 
 # Map placeholder tokens to source files
 FRAGMENTS = {
@@ -54,6 +59,48 @@ FRAGMENTS = {
     "TAB_26_LANTERN_ROOM":        "tabs/26-lantern-room.html",
     "MAIN_SCRIPTS":               "scripts/main.js",
 }
+
+# MIME type to file extension mapping
+MIME_TO_EXT = {
+    "png": "png",
+    "jpeg": "jpg",
+    "jpg": "jpg",
+    "gif": "gif",
+    "webp": "webp",
+    "svg+xml": "svg",
+}
+
+
+def decode_b64_file(b64_path):
+    """Read a .b64 file and return (raw_bytes, extension).
+
+    Handles both formats:
+    - Full data URI: data:image/png;base64,iVBOR...
+    - Raw base64: iVBOR...
+    """
+    with open(b64_path, "r", encoding="utf-8") as f:
+        content = f.read().strip()
+
+    if content.startswith("data:"):
+        # Parse data URI: data:image/<type>;base64,<payload>
+        match = re.match(r"data:image/([^;]+);base64,(.*)", content, re.DOTALL)
+        if not match:
+            print(f"ERROR: Could not parse data URI in {b64_path}")
+            sys.exit(1)
+        mime_sub = match.group(1)
+        raw_b64 = match.group(2).strip()
+        ext = MIME_TO_EXT.get(mime_sub, mime_sub)
+    else:
+        # Raw base64 — detect format from magic bytes
+        raw_b64 = content
+        if raw_b64.startswith("/9j/"):
+            ext = "jpg"
+        else:
+            # Default to png (covers iVBOR... and others)
+            ext = "png"
+
+    img_bytes = base64.b64decode(raw_b64)
+    return img_bytes, ext
 
 
 def build():
@@ -97,27 +144,43 @@ def build():
     if include_count:
         print(f"Resolved {include_count} sub-includes")
 
-    # Replace image placeholders from manifest
+    # Decode images to dist/images/ and replace placeholders with paths
     if os.path.exists(MANIFEST):
         with open(MANIFEST, "r", encoding="utf-8") as f:
             image_manifest = json.load(f)
 
+        os.makedirs(DIST_IMAGES_DIR, exist_ok=True)
+
         img_count = 0
+        total_img_bytes = 0
         for token, filepath in image_manifest.items():
             full_path = os.path.join(SRC_DIR, filepath)
             if not os.path.exists(full_path):
                 print(f"ERROR: Missing image file: {full_path}")
                 sys.exit(1)
-            with open(full_path, "r", encoding="utf-8") as f:
-                data_uri = f.read()
+
+            # Decode base64 to binary image file
+            img_bytes, ext = decode_b64_file(full_path)
+
+            # Output filename: token without IMG_ prefix, lowercased, with extension
+            img_name = token.lower().replace("img_", "").replace("_", "-") + "." + ext
+            img_out_path = os.path.join(DIST_IMAGES_DIR, img_name)
+
+            with open(img_out_path, "wb") as f:
+                f.write(img_bytes)
+
+            total_img_bytes += len(img_bytes)
+
+            # Replace placeholder in HTML with relative path
             placeholder = "{{" + token + "}}"
+            relative_path = "images/" + img_name
             if placeholder in html:
-                html = html.replace(placeholder, data_uri)
+                html = html.replace(placeholder, relative_path)
                 img_count += 1
             else:
                 print(f"WARNING: Image placeholder {placeholder} not found in assembled HTML")
 
-        print(f"Injected {img_count} images from {len(image_manifest)} manifest entries")
+        print(f"Decoded {img_count} images to dist/images/ ({total_img_bytes:,} bytes total)")
 
     # Check for unreplaced placeholders
     remaining = re.findall(r"\{\{[A-Z_]+\}\}", html)
@@ -131,7 +194,7 @@ def build():
         f.write(html)
 
     print(f"Built: {output_path}")
-    print(f"Size: {os.path.getsize(output_path):,} bytes")
+    print(f"HTML size: {os.path.getsize(output_path):,} bytes")
 
     # Quick div balance check
     open_divs = len(re.findall(r'<div[\s>]', html))
@@ -144,6 +207,11 @@ def build():
 
     line_count = html.count('\n') + 1
     print(f"Lines: {line_count}")
+
+    # Size guard: warn if HTML exceeds 50 MB (should be ~7-8 MB without inline images)
+    html_size_mb = os.path.getsize(output_path) / (1024 * 1024)
+    if html_size_mb > 50:
+        print(f"WARNING: HTML is {html_size_mb:.1f} MB — images may still be inlined!")
 
 
 if __name__ == "__main__":

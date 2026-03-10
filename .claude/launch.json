@@ -4,7 +4,7 @@
     {
       "name": "codex-html",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-c", "python3 -m http.server $PORT"],
+      "runtimeArgs": ["-c", "cd dist && python3 -m http.server $PORT"],
       "port": 8765,
       "autoPort": true
     },
