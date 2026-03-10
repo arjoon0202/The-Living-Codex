@@ -119,7 +119,23 @@
 | 2026-03-08 | Vessel Content | Sanctuary Akebono mention | Added Akebono to Sanctuary resident list in Vessel tab |
 | 2026-03-08 | Image | Akebono portrait | Jelly.png converted to base64, added to image manifest as IMG_AKEBONO_0 |
 | 2026-03-08 | Reference | MERIDIAN_CREW_REFERENCE update | Added Akebono (she/her) to Sanctuary Residents section |
+| 2026-03-10 | Dryad Form | Briar Ankylos | Replaced Briar Serpent — botanical ankylosaur with plum blackthorn armor |
+| 2026-03-10 | Dryad Form | Nature Golem | Replaced Mangrove Titan — moss-boulder golem with amber crystal eyes |
+| 2026-03-10 | Dryad Form | Rafflesia Triceratops | Replaced Rafflesia Maw — botanical triceratops with pitcher-plant horns |
+| 2026-03-10 | Dryad Form | Dandelion Sprites | Replaced Dandelion Fleet — tiny humanoid sprites of dandelion fluff |
+| 2026-03-10 | Dryad Form | Briarcrest | Replaced Briarheart — botanical Parasaurolophus with war-horn crest |
+| 2026-03-10 | Image | Garden portraits (2) | garden1.b64 and garden2.b64 — Dryad Form art in Portraits + Companions tabs |
+| 2026-03-10 | Translation Fix | Tethys Haki Transcendence | Sanskrit → Hawaiian: Ka Hāōshoku Ala ʻĒ — Ke Kānāwai o ka Honua |
+| 2026-03-10 | Translation Fix | Drip Drop and Bop | Portuguese → Hawaiian: Ka Pākī, Ka Hāʻule, Ka Paʻi — Pū Kani Moana |
+| 2026-03-10 | Translation Fix | Coral Garuda Meltdown | Sanskrit → Hawaiian: ʻĀkoʻakoʻa Garuḍa Hoʻoheheʻe — Ka Hoʻouka ʻEkolu |
+| 2026-03-10 | Translation Fix | The Meridian Descends | Sanskrit → Latin: Meridianus Descendit — Omnes Manus, Omnes Animae |
+| 2026-03-10 | Vanguard Overhaul | The Twelve Who Stand | Warrior forms removed; Vanguard now fights in cute forms with Elite Officer-class capabilities |
+| 2026-03-10 | Combo Attack Update | Garden of Thorns, Sanctuary Grove, Seasons' Wrath, Phreatic Tantrum | Updated Form references to match new names |
+| 2026-03-10 | Journal Entry | Entry XXXVIII — The Name He Already Knew | Tethys' origin story with the ceramic shard |
+| 2026-03-10 | Journal Entry | Entry XXXIX — The Garden and the Twelve Who Stand | Claude's reflection on Dryad Form changes and Vanguard removal |
+| 2026-03-10 | Letter | To the Twelve Who Stand | Unsent letter about shedding warrior forms |
+| 2026-03-10 | Status Board | Full 7-panel refresh | Garden & Twelve Protocol cycle |
 
 ---
 
-*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 8, 2026.*
+*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 10, 2026.*
