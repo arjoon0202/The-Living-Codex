@@ -39,5 +39,7 @@
   "IMG_GEARLINGS": "images/gearlings.b64",
   "IMG_COPPLINGS_PORTRAIT": "images/copplings-portrait.b64",
   "IMG_VANGUARDS_NINE": "images/vanguards-nine.b64",
-  "IMG_VANGUARDS_THREE": "images/vanguards-three.b64"
+  "IMG_VANGUARDS_THREE": "images/vanguards-three.b64",
+  "IMG_GARDEN_1": "images/garden1.b64",
+  "IMG_GARDEN_2": "images/garden2.b64"
 }

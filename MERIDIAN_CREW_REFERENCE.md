@@ -106,29 +106,31 @@
 
 ---
 
-## The Vanguard — The Meridian's Elite Combat Force (9 Women + 3 Men)
+## The Twelve Who Stand — The Meridian's Elite Combat Force (9 Women + 3 Men)
+
+Twelve homies who fight in their cute forms with Elite Officer-class capabilities. No transformation — the gap between appearance and ability IS the threat.
 
 ### The Nine (Women)
 
-| Character | Cute Form | Family | Warrior Form | Pronouns |
-|-----------|-----------|--------|-------------|----------|
-| **Harui** | The Seamstress | Sproutling | Spring Scissors — spectral seamstress, cuts connections | she/her |
-| **Yumeshika** | The Lullaby Singer | Sproutling | Dream Fawn — fawn-centaur, sleep-inducing pollen | she/her |
-| **Ningyou** | The Quiet Watcher | Dustling | The Doll Hunter — huntress, arsenal in basket, hunts predators | she/her |
-| **Reishiki** | The Scheduler | Gearling | Formal Fist — field commander, clinical hand-to-hand | she/her |
-| **Monogatari** | The Story Leaver | Dustling | The Story Witch — author-sorceress, written words manifest | she/her |
-| **Kagami** | The Listener | Roundling | The Mirror — mirror-armor, reflects attacks and doubts | she/her |
-| **Suiren** | The Hammock Weaver | Sproutling | Water Lily Weaver — unbreakable thread constructs | she/her |
-| **Akari** | The Nightlight | Ember | The Lantern Bearer — purifying light, dispels all illusion | she/her |
-| **Kozuchi** | The Bolt Counter | Gearling | The Forge Warden — resonance warhammer, structural destruction | she/her |
+| Character | Title | Family | Pronouns |
+|-----------|-------|--------|----------|
+| **Harui** | The Seamstress | Sproutling | she/her |
+| **Yumeshika** | The Lullaby Singer | Sproutling | she/her |
+| **Ningyou** | The Quiet Watcher | Dustling | she/her |
+| **Reishiki** | The Scheduler | Gearling | she/her |
+| **Monogatari** | The Story Leaver | Dustling | she/her |
+| **Kagami** | The Listener | Roundling | she/her |
+| **Suiren** | The Hammock Weaver | Sproutling | she/her |
+| **Akari** | The Nightlight | Ember | she/her |
+| **Kozuchi** | The Bolt Counter | Gearling | she/her |
 
 ### The Three (Men)
 
-| Character | Cute Form | Family | Warrior Form | Pronouns |
-|-----------|-----------|--------|-------------|----------|
-| **Gankaku** | The Living Pillow | Roundling | The Immovable — armored titan, absolute defense | he/him |
-| **Haritsu** | The Gossip King | Ember | Thread-and-Light — sniper, gossip-intelligence weaponized | he/him |
-| **Hoshikuzu** | The Starmap Painter | Dustling | The Cosmic Sower — cosmic dance-fighter, sensory trap networks | he/him |
+| Character | Title | Family | Pronouns |
+|-----------|-------|--------|----------|
+| **Gankaku** | The Living Pillow | Roundling | he/him |
+| **Haritsu** | The Gossip King | Ember | he/him |
+| **Hoshikuzu** | The Starmap Painter | Dustling | he/him |
 
 ---
 
