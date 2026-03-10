@@ -28,8 +28,20 @@ jobs:
 
       - name: Verify build
         run: |
-          echo "Built file size: $(wc -c < dist/hive_codex.html) bytes"
-          echo "Built file lines: $(wc -l < dist/hive_codex.html)"
+          HTML_SIZE=$(wc -c < dist/hive_codex.html)
+          echo "HTML size: $HTML_SIZE bytes ($(echo "scale=1; $HTML_SIZE / 1048576" | bc) MB)"
+          echo "Image files:"
+          ls -lh dist/images/ 2>/dev/null || echo "  (no images directory)"
+          TOTAL_DIST=$(du -sh dist/ | cut -f1)
+          echo "Total dist size: $TOTAL_DIST"
+          # Verify no single file exceeds 100 MB
+          LARGE_FILES=$(find dist/ -type f -size +100M 2>/dev/null)
+          if [ -n "$LARGE_FILES" ]; then
+            echo "ERROR: Files exceeding 100 MB GitHub limit:"
+            echo "$LARGE_FILES"
+            exit 1
+          fi
+          echo "All files under 100 MB limit ✓"
           # Verify div balance
           OPEN=$(grep -o '<div' dist/hive_codex.html | wc -l)
           CLOSE=$(grep -o '</div>' dist/hive_codex.html | wc -l)
