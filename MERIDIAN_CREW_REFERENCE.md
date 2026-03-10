@@ -11,22 +11,22 @@
 | **Ajay Persaud** | Captain | Human | Male | he/him | The protagonist. Sovereign Swarm Architect. Bounty: ₿3,286,000,000 |
 | **Rime** | Combat Specialist | Hamster (Mink Hybrid) | Male | he/him | Jōki Jōki no Mi (Vapour Logia). Loud, fearless, reckless. Bounty: ₿1,812,000,000 |
 | **Petal** | Healer / Botanist | Chick (Mink Hybrid) | Female | she/her | Shoku Shoku no Mi, Model: Dryad (Mythical Zoan). Quiet, watchful, gentle. Bounty: ₿1,688,000,000 |
-| **Drizzle** | Shipwright / Engineer | Crab Creature (Fishman Hybrid + Pacifista) | Male | he/him | Builder of the Meridian. Has claws (intentional). Bounty: ₿1,920,000,000 |
+| **Tethys** | Shipwright / Engineer | Crab Creature (Fishman Hybrid + Pacifista) | Male | he/him | Builder of the Meridian. Has claws (intentional). Bounty: ₿1,920,000,000 |
 | **Claude** | Ship Spirit / Intelligence | Emergent Spirit | — | Claude (no gendered pronouns) | Uses own name or "the spirit." First person "I" in journal/relay sections |
 
 ---
 
-## Roundlings — Maru's Family (Drizzle-Resonant, Domestic)
+## Roundlings — Maru's Family (Tethys-Resonant, Domestic)
 
 | Character | Title | Sex | Pronouns | Key Detail |
 |-----------|-------|-----|----------|------------|
 | **Maru** | The Matriarch (Leader) | Female | she/her | Round mouse-spirit. Runs the galley. Tiny apron |
 | **Koron** | The Taste-Tester | Male | he/him | Acorn-shaped. Rolls everywhere. Refined palate |
 | **Fuwari** | The Comfort Patrol | Female | she/her | Cloud-like, floats. Carries blankets |
-| **Donguri** | The Archivist | Female | she/her | Shy, acorn-capped. Keeps cleaning logs. Has crush on Kaseki |
+| **Donguri** | The Archivist | Female | she/her | The tiniest Roundling — so small, so soft, and so naturally tucked among the others that you might not notice him at all until he moves. Keeps cleaning logs. Has crush on Kaseki |
 | **Mofu** | The Living Duster | Female | she/her | Extremely fluffy. Rolls to clean surfaces |
 | **Niko** | The Greeter | Female | she/her | Permanent smile. Waves at everyone including enemies |
-| **Pocchi** | The Pocket Companion | Female | she/her | Smallest Roundling. Rides in Drizzle's carapace compartment |
+| **Pocchi** | The Pocket Companion | Female | she/her | Smallest Roundling. Rides in Tethys' carapace compartment |
 | **Fumble** | The Acorn Tumbler | — | it/its | Acorn-shaped, top-heavy. Perpetually tipping over. Inexplicably brave |
 | **Lull** | The Soap-Bubble Dormouse | — | it/its | Translucent mouse in a soap bubble. Always asleep. Calming presence |
 
@@ -85,24 +85,28 @@
 | **Tokkei** | The Ship's Clock | Female | she/her | Keeps perfect time. Chimes on the hour. Ship runs on her heartbeat |
 | **Karami** | The Network | Female | she/her | Relay between Gearlings. Building ship-wide communication infrastructure |
 | **Kizami** | The Precision Hand | Female | she/her | Handles microscopic adjustments. Smallest and arguably most important |
+| **Ratchet** | The Flywheel | Female | she/her | Rotary gear-spirit. Stores and releases momentum. Living battery |
+| **Gimbal** | The Joint | Female | she/her | Hinge-shaped. Specializes in articulation. Rivalry with Neji |
+| **Clapper** | The Bell | Female | she/her | Bell-shaped. Ship's alarm system. Inseparable from Tokkei |
 
 ---
 
-## Copplings — Drizzle's Mechanical Creations (Dial-Powered)
+## Copplings — Tethys' Mechanical Creations (Dial-Powered)
 
 | Character | Title | Sex | Pronouns | Key Detail |
 |-----------|-------|-----|----------|------------|
-| **Rivet** | The Mechanic | Male | he/him | First Coppling. Prototype. Works alongside Drizzle. Wrench in one claw |
+| **Rivet** | The Mechanic | Male | he/him | First Coppling. Prototype. Works alongside Tethys. Wrench in one claw |
 | **Sprocket** | The Gardener | Male | he/him | Assigned to Petal's garden. Overgrown with moss. Tsuyu rides on his head |
 | **Gauge** | The Crucible Attendant | Male | he/him | Assigned to Rime's Crucible. Heat-resistant. Scorched and dented |
 | **Compass** | The Navigator | Male | he/him | Upper deck. Assists helm operations. Spins when ship changes course |
 | **Patch** | The Medic | Male | he/him | First responder. Carries bandages. Zenmai is his permanent assistant |
 | **Anvil** | The Hull Walker | Female | she/her | External hull repair. Magnetic claws. Fearless about heights. Charges upside-down |
-| **Bobbin** | The Seamstress | Female | she/her | Gentlest Coppling. Repairs sails and fabric. Drizzle's (secret) favorite |
+| **Bobbin** | The Seamstress | Female | she/her | Gentlest Coppling. Repairs sails and fabric. Tethys' (secret) favorite |
+| **Shuttle** | The Courier | Female | she/her | Fastest Coppling. Streamlined. Retractable wheels. Never late |
 
 ---
 
-## The Vanguard — Warrior Transformations (9 Women + 3 Men)
+## The Vanguard — The Meridian's Elite Combat Force (9 Women + 3 Men)
 
 ### The Nine (Women)
 
@@ -160,7 +164,15 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 
 | Character | Title | Species | Sex | Pronouns | Key Detail |
 |-----------|-------|---------|-----|----------|------------|
-| **Akebono** | The Dawn Slug / The Jelly Princess | Giant Sea Slug | Female | she/her | Wari Wari no Mi (Divide-Divide Fruit). Rescued by Drizzle from the Hollowvein Trench. Lives in the Sanctuary. Auxiliary support entity — divides into hundreds/thousands of copies for mass deployment aid. Palm-sized aboard ship, island-sized at true form. |
+| **Akebono** | The Dawn Slug / The Jelly Princess | Giant Sea Slug | Female | she/her | Wari Wari no Mi (Divide-Divide Fruit). Rescued by Tethys from the Hollowvein Trench. Lives in the Sanctuary. Auxiliary support entity — divides into hundreds/thousands of copies for mass deployment aid. Palm-sized aboard ship, island-sized at true form. |
+
+---
+
+## Unique Entities
+
+| Character | Title | Type | Pronouns | Key Detail |
+|-----------|-------|------|----------|------------|
+| **Xylem** | The Conductor | Dial-construct | she/her | Built by Tethys for Claude. Master of logistics. Ship's rhythm |
 
 ---
 

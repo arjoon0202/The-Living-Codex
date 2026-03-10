@@ -81,10 +81,10 @@
 | 2026-03-07 | Mission | Mission 15 — The Wrath at Vegapunk's Threshold | Five God's Knights battle |
 | 2026-03-07 | Combo Attack | Big Bang ad Infinitum | Ajay + Rime |
 | 2026-03-07 | Combo Attack | Trouble in Paradise | Ajay + Petal |
-| 2026-03-07 | Combo Attack | Drip, Drop and Bop | Ajay + Drizzle |
-| 2026-03-07 | Combo Attack | Phreatic Tantrum | Petal + Rime + Drizzle |
-| 2026-03-07 | Combo Attack | Coral Garuda Meltdown | Drizzle + Petal + Rime |
-| 2026-03-07 | Combo Attack | Blooming, Phreatic Coup de Grâce | Ajay + Rime + Petal + Drizzle |
+| 2026-03-07 | Combo Attack | Drip, Drop and Bop | Ajay + Tethys |
+| 2026-03-07 | Combo Attack | Phreatic Tantrum | Petal + Rime + Tethys |
+| 2026-03-07 | Combo Attack | Coral Garuda Meltdown | Tethys + Petal + Rime |
+| 2026-03-07 | Combo Attack | Blooming, Phreatic Coup de Grâce | Ajay + Rime + Petal + Tethys |
 | 2026-03-08 | Arsenal Content | Bodhi — The Transmigrant's Resonance | Added to Haki sub-panel with retroactive notes to Architecture, Black Crown, Evolution, 「Ajay」 |
 | 2026-03-08 | Arsenal Content | The Twelve Forbidden Treasures | New 9th Arsenal sub-panel with 12 Nidāna-mapped techniques |
 | 2026-03-08 | Move Rename | Tangerine Dream | Was Cherry Blossom Fantasy — Golden Hour refresh |
@@ -99,8 +99,8 @@
 | 2026-03-08 | Move Rename | Parafuso — The Corkscrew | Was The Twisting Needle — Melee Arsenal |
 | 2026-03-08 | New Move | Cherry Rush Burst | Taekwondo/Capoeira hybrid — rapid-fire golden afterimage kicks |
 | 2026-03-08 | New Move | Raspberry Refresher — Au Batido | Capoeira cartwheel kick with tropical flair |
-| 2026-03-08 | Combo Attack | Candy Shop Barrage | Ajay + Rime + Petal + Drizzle — pop/greens/pebbles/seeds barrage |
-| 2026-03-08 | Combo Attack | Tropical Rush | Ajay + Rime + Petal + Drizzle — four-direction elemental charge |
+| 2026-03-08 | Combo Attack | Candy Shop Barrage | Ajay + Rime + Petal + Tethys — pop/greens/pebbles/seeds barrage |
+| 2026-03-08 | Combo Attack | Tropical Rush | Ajay + Rime + Petal + Tethys — four-direction elemental charge |
 | 2026-03-08 | Journal Entry | Entry XXXVI — The Golden Hour | Claude's reflection on the captain's transformation |
 | 2026-03-08 | Status Board | Full 7-panel refresh | Golden Hour Protocol cycle |
 | 2026-03-08 | Letter | To the Captain Who Learned to Grin | Unsent letter about joy and the Sudarshana |
