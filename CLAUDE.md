@@ -84,7 +84,7 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
 
-### 26 Tabs, grouped by volume:
+### 27 Tabs, grouped by volume:
 
 **I · THE SOVEREIGN & THE SWARM**
 1. Overview
@@ -100,6 +100,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 9. Combination Attacks (6 sub-panels)
 10. Auxiliary Protocols (5 sub-panels: Ajay, Tethys, Rime, Petal, Claude)
 11. Haki Transcendence (4 sub-panels: Rime, Petal, Tethys, Claude)
+12. Devil Fruit Awakening (4 sub-panels: Ajay, Rime, Petal, Tethys)
 
 **III · THE EXTENDED FAMILY**
 12. Homies & Copplings
@@ -238,7 +239,7 @@ When starting a new session:
 | File | Purpose |
 |------|---------|
 | `hive_codex__35_.html` | The original monolith HTML (kept for reference) |
-| `src/tabs/*.html` | **26 tab content fragments — edit these for content changes** |
+| `src/tabs/*.html` | **27 tab content fragments — edit these for content changes** |
 | `src/images/*.b64` | 42 base64 image source files — **DO NOT READ DIRECTLY** (delegate to agent/CLI) |
 | `src/images/manifest.json` | Maps image placeholders to `.b64` files |
 | `src/head/styles.css` | All CSS |
@@ -273,6 +274,8 @@ When starting a new session:
 - **March 9, 2026:** The Name Day Update — Major multi-section overhaul. (1) Drizzle renamed to Tethys (テティス) globally across all files — the shipwright chose his name from a ceramic shard in his laboratory aquarium depicting the Titan goddess of freshwater. (2) Weaver Class removed from swarm castes (12 → 11 castes). Incense Class updated with gossamer-silk webbing capability. (3) Three new Gearlings: Ratchet (The Flywheel), Gimbal (The Joint), Clapper (The Bell) — Gearlings now largest family at 10 members. (4) Shuttle (The Courier) added as 8th Coppling. (5) Xylem (The Conductor) added as unique Dial-construct entity — built by Tethys for Claude, master of ship logistics. (6) Donguri description updated. Roundlings label changed to "The Cuddliest Family." Gearlings labeled "The Largest Family." (7) Vanguard description updated from "warrior-form transformations" to "the Meridian's elite combat force." (8) Family portrait images embedded: Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Copplings, Vanguard Nine, Vanguard Three, Swarm (replaced). 10 total new images added. (9) Combination attacks updated: Shuttle + Xylem + Akebono additions to Vigil, Meridian Descends, and crew-wide references. (10) Status Board fully refreshed (all 7 panels) with Name Day Protocol content. Total Homies now 40, Copplings now 8, combat swarm castes now 11.
 
 - **March 10, 2026:** The Garden & The Twelve Who Stand Update — Major multi-section overhaul. (1) Dryad Forms overhauled: 5 Forms redesigned — Briar Serpent → Briar Ankylos (botanical ankylosaur), Mangrove Titan → Nature Golem (moss-boulder golem), Rafflesia Maw → Rafflesia Triceratops (botanical triceratops), Dandelion Fleet → Dandelion Sprites (tiny humanoid sprites), Briarheart → Briarcrest (botanical parasaurolophus with war-horn crest). All cross-references updated across combo attacks, mission log, and status board. (2) Dryad Form portrait images embedded: garden1.png and garden2.png added to Portraits tab via image manifest system. (3) Translation fixes: Tethys' Haki Transcendence (Sanskrit → Hawaiian/Polynesian), Drip Drop and Bop (Portuguese → Hawaiian), Coral Garuda Meltdown (Sanskrit → Hawaiian), The Meridian Descends (Sanskrit → Latin). (4) Vanguard warrior forms removed entirely — the Twelve no longer transform. All 12 warrior form descriptions removed from Extended Family tab. Vanguard reframed as "The Twelve Who Stand" — they fight in their cute forms with Elite Officer-class capabilities. Intro text rewritten, cross-references updated across Fighting Styles, Family Doctrine, Status Board, Mission Log, and CLAUDE.md. (5) Combo attack prose updated to reflect new Dryad Form behaviors. (6) Journal Entries XXXVIII ("The Name He Already Knew") and XXXIX ("The Garden and the Twelve Who Stand") added. New unsent letter: "To the Twelve Who Stand — On Not Needing to Be Bigger." Status Board refreshed with Garden & Twelve Protocol content. Journal entry count now 39.
+
+- **March 10, 2026 (cont.):** Devil Fruit Awakening Update — Major new tab and multi-section additions. (1) Devil Fruit Awakening tab added (Tab 27, Volume II — Core Crew). 4 sub-panels with full awakening mechanics and 21 awakened signature moves (11 Swarm Apex Avatars for Ajay, 5 each for Rime/Petal/Tethys). (2) Swarm class rename: Bombardier Class → Pyralis Class (🔥 Firestorm — bioluminescent firefly flamethrowers); Herculean Class → Herculean Bombardier Class (⚔️ Heavy Assault / Siege — now with explosive ordnance). (3) Tethys Green Blood lore added to Companions tab — Sango Sango no Mi (Reef-Reef Fruit) partial extract origin, explaining coral manipulation without Devil Fruit weakness. (4) 4 awakening images added (ajay-awakening, rime-awakening, petal-awakening, tethys-awakening). (5) Journal Entry XL ("The Awakening and the Eleven"). Tab count now 27. Journal entry count now 40.
 
 ---
 
