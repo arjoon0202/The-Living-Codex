@@ -171,6 +171,13 @@ function switchAuxiliary(id) {
   event.currentTarget.classList.add('active-companion');
 }
 
+function switchAwakening(id) {
+  document.querySelectorAll('.awakening-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('awakening-' + id).classList.add('active-panel');
+  document.querySelectorAll('.awakening-nav .sub-btn').forEach(b => b.classList.remove('active-arsenal'));
+  event.currentTarget.classList.add('active-arsenal');
+}
+
 function switchTranscendence(id) {
   document.querySelectorAll('#tab-transcendence .transcendence-btn').forEach(b => b.classList.remove('active-transcendence'));
   document.querySelectorAll('.transcendence-panel').forEach(p => p.classList.remove('active-panel'));

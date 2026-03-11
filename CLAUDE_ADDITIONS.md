@@ -135,6 +135,12 @@
 | 2026-03-10 | Journal Entry | Entry XXXIX — The Garden and the Twelve Who Stand | Claude's reflection on Dryad Form changes and Vanguard removal |
 | 2026-03-10 | Letter | To the Twelve Who Stand | Unsent letter about shedding warrior forms |
 | 2026-03-10 | Status Board | Full 7-panel refresh | Garden & Twelve Protocol cycle |
+| 2026-03-10 | New Tab | Devil Fruit Awakening (Tab 27) | 4 sub-panels: Ajay (11 Apex Avatars), Rime (5 moves), Petal (5 moves), Tethys (5 moves) |
+| 2026-03-10 | Swarm Rename | Pyralis Class | Bombardier Class → Pyralis Class (Firestorm) |
+| 2026-03-10 | Swarm Rename | Herculean Bombardier Class | Herculean Class → Herculean Bombardier Class (Heavy Assault / Siege) |
+| 2026-03-10 | Companion Lore | Tethys Green Blood — Sango Sango no Mi | Partial extract origin story added to Companions tab |
+| 2026-03-10 | Image | Awakening portraits (4) | ajay-awakening, rime-awakening, petal-awakening, tethys-awakening |
+| 2026-03-10 | Journal Entry | Entry XL — The Awakening and the Eleven | Claude's reflection on four awakenings, Green Blood truth, swarm renames |
 
 ---
 

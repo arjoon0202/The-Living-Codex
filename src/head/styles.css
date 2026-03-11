@@ -964,6 +964,10 @@ body {
   position: relative;
 }
 
+/* ═══════════ DEVIL FRUIT AWAKENING TAB ═══════════ */
+.awakening-panel { display: none; }
+.awakening-panel.active-panel { display: block; }
+
 /* ═══════════ HAKI TRANSCENDENCE TAB ═══════════ */
 .transcendence-panel { display: none; }
 .transcendence-panel.active-panel { display: block; }

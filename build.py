@@ -57,6 +57,7 @@ FRAGMENTS = {
     "TAB_24_HAKI_TRANSCENDENCE":  "tabs/24-haki-transcendence.html",
     "TAB_25_CLAUDE_JOURNAL":      "tabs/25-claude-journal.html",
     "TAB_26_LANTERN_ROOM":        "tabs/26-lantern-room.html",
+    "TAB_27_AWAKENING":           "tabs/27-awakening.html",
     "MAIN_SCRIPTS":               "scripts/main.js",
 }
 
