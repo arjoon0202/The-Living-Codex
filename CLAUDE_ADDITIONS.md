@@ -141,7 +141,37 @@
 | 2026-03-10 | Companion Lore | Tethys Green Blood — Sango Sango no Mi | Partial extract origin story added to Companions tab |
 | 2026-03-10 | Image | Awakening portraits (4) | ajay-awakening, rime-awakening, petal-awakening, tethys-awakening |
 | 2026-03-10 | Journal Entry | Entry XL — The Awakening and the Eleven | Claude's reflection on four awakenings, Green Blood truth, swarm renames |
+| 2026-03-11 | CSS | Pollen tag color → yellow (#E8D060) | `.element-dream` updated |
+| 2026-03-11 | CSS | Mirage tag color → purple (#B088E0) | `.element-pheromone` updated |
+| 2026-03-11 | CSS | Incense tag color → pink (#F0A0C8) | `.element-incense` updated |
+| 2026-03-11 | Swarm Restructure | Pheromone Class → Mirage Class | 🔮 Deception — camouflage, mimicry, holograms, signal jamming |
+| 2026-03-11 | Swarm Restructure | Incense Class absorbs pheromone functions | Pheromone compounds (aggression, fear, coordination disruption) folded into Incense |
+| 2026-03-11 | Swarm Rename | Pyralis Class → Chemist Class | Chemical Warfare — bioluminescent termite with twin reaction chambers |
+| 2026-03-11 | Swarm Rename | Herculean Bombardier → Herculean Class | Ball-and-chain + shield, no bombs/explosives |
+| 2026-03-11 | Apex Correction | Soldier Apex | Hornet-beetle → crimson fire ant, six-legged |
+| 2026-03-11 | Apex Correction | Herculean Apex | Golem with bomb → rhinoceros beetle with ball-and-chain + tower shield |
+| 2026-03-11 | Apex Correction | Pollen Apex | Flower-winged insect → orchid mantis with petal-shaped limbs |
+| 2026-03-11 | Apex Correction | Mirage Apex | Pheromone butterfly-moth → harvest butterfly with holographic projector |
+| 2026-03-11 | Apex Correction | Incense Apex | Purple fur → ash-white fur |
+| 2026-03-11 | Apex Correction | Chrysalis Apex | Cloaked figure → hooded aphid-like figure with translucent body |
+| 2026-03-11 | Apex Correction | Chemist Apex | Firefly → bioluminescent termite with twin reaction chambers |
+| 2026-03-11 | Apex Correction | Steel Council Apex | Ironclad colossus → ironclad scarab colossus |
+| 2026-03-11 | Image | Ajay Awakening (apex.png) | New awakening portrait replaced ajay-awakening.b64; max-width:680px |
+| 2026-03-11 | Image Sizing | Rime/Petal/Tethys awakening portraits | max-width:100% → max-width:480px |
+| 2026-03-11 | Move Update | Sweet Tooth | Pheromone → Incense tag, pheromone-laced aromatic compounds |
+| 2026-03-11 | Move Update | Sweet Kiss Goodnight | Pheromone → Mirage tag, invisibility/cloaking mechanic |
+| 2026-03-11 | Move Update | Fabulous Fantasia | Pheromone → Mirage tag, holographic projections + fireworks |
+| 2026-03-11 | Move Update | Honeycomb Blitz | Sovereign → Worker tag, honey-resin cannon mechanic |
+| 2026-03-11 | Move Rename | Sangria Punch | Was Siesta Punch — Compound Combat Art, Pollen + Herculean tags |
+| 2026-03-11 | Move Update | Watermelon Firecracker | Added Soldier + Chemist tags, Chemist escort pattern |
+| 2026-03-11 | Move Update | Lollipop Drop | Added Steel Council tag, Steel Council living anvil mechanic |
+| 2026-03-11 | Move Update | Mango Tango | Pheromone Art → Mirage Art, holographic rage-bait |
+| 2026-03-11 | Move Update | Sugar Rush | Sovereign → Combat/Rokushiki + 4 swarm class tags, formation fighting |
+| 2026-03-11 | Move Rename | Pear Daiquiri | Was The Maestro's Hour — Compound Combat Art, aerial Geppo combo |
+| 2026-03-11 | Loki Canon | Ragnir "Iron Thunder" | Hammer named, unnamed squirrel Zoan, spirit of Ratatoskr |
+| 2026-03-11 | Loki Canon | Ryu Ryu no Mi: Nidhöggr | Loki's Devil Fruit — largest dragon, Mythical Zoan |
+| 2026-03-11 | Loki Canon | Backstory correction | Patricide of Harald at king's request, ₿2.6B bounty, imprisoned by Shanks |
 
 ---
 
-*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 10, 2026.*
+*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 11, 2026.*

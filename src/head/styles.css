@@ -721,13 +721,13 @@ body {
   padding: 3px 10px; margin-bottom: 12px;
   border: 1px solid;
 }
-.element-dream { color: #C9A4F0; border-color: rgba(201,164,240,0.3); }
+.element-dream { color: #E8D060; border-color: rgba(232,208,96,0.3); }
 .element-venom { color: #8FE08F; border-color: rgba(143,224,143,0.3); }
-.element-pheromone { color: #F08FBB; border-color: rgba(240,143,187,0.3); }
+.element-pheromone { color: #B088E0; border-color: rgba(176,136,224,0.3); }
 .element-combat { color: #F0B88F; border-color: rgba(240,184,143,0.3); }
 .element-sovereign { color: var(--gold); border-color: var(--border-active); }
 .element-elemental { color: #8FC8F0; border-color: rgba(143,200,240,0.3); }
-.element-incense { color: #D4B0E0; border-color: rgba(212,176,224,0.3); }
+.element-incense { color: #F0A0C8; border-color: rgba(240,160,200,0.3); }
 .element-rokushiki { color: #E0D08F; border-color: rgba(224,208,143,0.3); }
 
 /* ═══════════ HAKI ═══════════ */
