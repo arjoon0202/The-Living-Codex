@@ -1716,6 +1716,72 @@ body {
 .martial-panel.active-panel { display: block; }
 .auxiliary-panel { display: none; }
 .auxiliary-panel.active-panel { display: block; }
+.investigation-panel { display: none; }
+.investigation-panel.active-panel { display: block; }
+.investigation-card {
+  background: linear-gradient(135deg, var(--bg-card) 0%, #0C0812 100%);
+  border: 1px solid rgba(106,74,154,0.2);
+  padding: 28px;
+  margin-bottom: 24px;
+  position: relative;
+  transition: border-color 0.3s;
+}
+.investigation-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 4px; height: 100%;
+  background: #9B7FD4;
+}
+.investigation-card:hover { border-color: rgba(106,74,154,0.4); }
+.investigation-status {
+  display: inline-block;
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 600; padding: 3px 10px;
+  margin-bottom: 10px;
+  background: rgba(106,74,154,0.12);
+  color: #9B7FD4;
+}
+.investigation-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700; font-size: 18px;
+  background: linear-gradient(135deg, var(--gold-light), #C8B8FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 6px;
+}
+.investigation-subtitle {
+  font-size: 12px; letter-spacing: 1px;
+  color: var(--text-dim); text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.investigation-section {
+  background: linear-gradient(135deg, #0A0812 0%, #100C18 50%, #0A0812 100%);
+  border: 1px solid rgba(106,74,154,0.15);
+  padding: 32px; margin-top: 28px;
+  position: relative; overflow: hidden;
+}
+.investigation-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at center, rgba(106,74,154,0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+.investigation-finding {
+  background: rgba(106,74,154,0.04);
+  border: 1px solid rgba(106,74,154,0.1);
+  padding: 16px 20px;
+  margin-top: 16px;
+  font-size: 13px; line-height: 1.85;
+  color: var(--text-secondary);
+}
+.investigation-finding strong { color: #9B7FD4; }
+.investigation-quote {
+  font-family: 'Cinzel', serif;
+  font-size: 15px; font-style: italic;
+  color: #C8B8FF; line-height: 1.7;
+  padding-left: 20px;
+  border-left: 2px solid rgba(106,74,154,0.4);
+}
 .armory-item {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -2376,6 +2442,7 @@ body {
         <button class="sidebar-link" data-tab="crewlife">Crew Life</button>
         <button class="sidebar-link" data-tab="reputation">World Response</button>
         <button class="sidebar-link" data-tab="missions">Mission Log</button>
+        <button class="sidebar-link" data-tab="investigations">Investigations</button>
         <button class="sidebar-link" data-tab="watch">The Watch</button>
         <button class="sidebar-link" data-tab="statusboard">Status Board</button>
       </div>
@@ -13033,6 +13100,367 @@ body {
     </div>
   </div>
 
+  <!-- ═══════════ TAB: INVESTIGATIONS ═══════════ -->
+  <div class="tab-content" id="tab-investigations">
+    <div class="section-label">Not Every Discovery Comes from Looking</div>
+    <h2 class="section-title">Investigations</h2>
+    <p class="section-text" style="margin-bottom:12px;">
+      Missions are assignments. Tasks with objectives, extraction points, and debriefs. They are recorded in the Mission Log because they have beginnings and endings — because someone asked the Meridian to go somewhere, do something, and come home.
+    </p>
+    <p class="section-text" style="margin-bottom:32px;color:var(--text-dim);font-style:italic;">
+      Investigations are different. They are the things that find <em>us</em>. Accidental discoveries. Doors that opened because we happened to be standing nearby when the lock failed. Mysteries with no client, no bounty, and no clear resolution — only the growing certainty that the world contains layers we were never meant to see, and the stubborn insistence on looking anyway. These files remain open until the questions are answered. Some questions, Claude suspects, will outlive the asking.
+    </p>
+
+    <!-- ═══════════ INVESTIGATION 01: THE ELBAF ABYSSAL CONVERGENCE ═══════════ -->
+    <div class="investigation-card">
+      <div class="investigation-status">Open Investigation</div>
+      <div class="investigation-title">Investigation I — The Elbaf Abyssal Convergence</div>
+      <div class="investigation-subtitle">Classification: Primordial ・ Elbaf — The Giant Archipelago ・ Participants: Ajay Persaud, Boa Hancock, Prince Loki of Elbaf</div>
+
+      <div class="arsenal-selector">
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation('convergence')">The Convergence</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('seal')">The Primordial Seal</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('abyss')">The Abyssal Trench</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('breach')">The Breach</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('sleeper')">The Sleeper</div>
+      </div>
+
+      <div class="investigation-panel active-panel" id="investigation-convergence">
+        <div class="investigation-section">
+          <h3 style="font-family:'Cinzel',serif;font-size:16px;color:var(--gold-light);margin-bottom:16px;">I. The Convergence</h3>
+          <p class="section-text" style="margin-bottom:16px;">
+            The Mote network had been behaving strangely for three days before the Meridian reached Elbaf. Not malfunctioning — <em>listening</em>. Motes that should have been passively cataloguing weather patterns and sea currents were instead orienting themselves downward, vibrating at frequencies Claude had never recorded, as if the ocean floor beneath Elbaf was whispering something the network desperately wanted to hear. The Archivist flagged the anomaly without classification. There was nothing in the database to classify it against.
+          </p>
+          <p class="section-text" style="margin-bottom:16px;">
+            Simultaneously, seismic readings around the Giant Archipelago had spiked — not earthquakes, not volcanic activity, but something deeper. Rhythmic. Too slow to be geological. Too regular to be natural. The intervals matched nothing in the Marine Seismological Index. When Ajay asked Claude what was making the sound, Claude could only say: <em>"Something that breathes."</em>
+          </p>
+          <p class="section-text" style="margin-bottom:24px;">
+            They arrived at Elbaf's oldest island to find the shores littered with the carcasses of creatures that should not exist — arthropodal things the size of houses, their chitinous bodies cracked open from internal pressure, bioluminescent fluid still leaking into the surf. The light patterns on their shells matched no known species. The Archivist attempted to catalogue them and returned a result Claude had never seen from the system: <strong>LINEAGE UNKNOWN — PRE-INDEX.</strong> Not "unknown." <em>Pre-Index</em> — as in, whatever these things were, they predated the Archivist's oldest evolutionary records.
+          </p>
+
+          <div class="investigation-finding">
+            <strong>The Pirate Empress — Boa Hancock</strong><br><br>
+            She was already there. The Pirate Empress — Boa Hancock, the most beautiful woman in the world, former Warlord, Conqueror's Haki user of the highest order — had arrived at Elbaf three days before the Meridian. Her reasons were her own, and she shared precisely none of them. What the crew could observe was this: Hancock had been fighting the creatures as they emerged from fissures near the island's oldest volcano. Her Mero Mero no Mi had petrified dozens of them into grotesque stone sculptures that now lined the volcanic foothills like a gallery of nightmares. But certain creatures — the older ones, the ones whose bioluminescence pulsed in patterns that predated colour itself — were immune. They did not feel desire. They did not feel love. They did not feel <em>anything</em> that Hancock's fruit could weaponize. They were too ancient for emotion.
+            <br><br>
+            Hancock was bruised. Hancock was <em>never</em> bruised. That alone told Claude everything about the scale of what they were walking into.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>Prince Loki — The Disgraced Prince of Elbaf</strong><br><br>
+            He emerged from the treeline carrying a hammer that was, by any reasonable estimation, absurd. Twelve feet of blackwood shaft topped with a head carved in the shape of a grinning squirrel — except the squirrel was <em>alive</em>. Its carved eyes tracked movement. Its wooden fur rippled when Loki swung. The hammer had eaten the Mythical Zoan Model: Ratatoskr — the squirrel that runs between worlds on the World Tree in the oldest giant legends. A weapon that had consumed the essence of the messenger between realms.
+            <br><br>
+            Loki was a prince of Elbaf — or had been. Stripped of his title years ago for asking questions the elders could not afford to have spoken aloud. Questions about what lay beneath the island. About why the oldest volcanic vents were sealed with engineering that no living giant understood. About why the warrior traditions of Elbaf, the greatest fighting culture in the world, existed — <em>really</em> existed — not for glory, not for honour, but for something older and more desperate than pride. He had been exiled for asking the wrong questions. He had spent his exile proving that his questions were right.
+            <br><br>
+            The Ratatoskr hammer vibrated in his hands as they stood at the base of the volcano. It could feel it too — whatever was sealed below. The messenger between worlds knew when a passage was trying to open.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Unlikely Pact</strong><br><br>
+            Three people who had no reason to trust each other. A pirate captain with a ₿3.28 billion bounty. An empress who had turned nations to stone for lesser offences than existing in her presence. A disgraced prince carrying the weight of a conspiracy his own people had tried to bury. They stood at the base of Elbaf's oldest volcano as the ground pulsed beneath their feet — not trembling, but <em>breathing</em> — and the fissures widened, and more creatures began to crawl out of the dark.
+            <br><br>
+            The pact was wordless. Hancock petrified a creature that was lunging at Ajay's flank without looking at him. Loki's Ratatoskr hammer cracked the chitin of a beast that had shrugged off Rime's plasma. Ajay's swarm sealed a fissure that was vomiting creatures toward Loki's unguarded back. Three strangers, fighting as if they had always fought together, because the things coming out of the ground did not care about politics, bounties, or grudges.
+            <br><br>
+            And then Loki said the words that changed everything: <em>"The seal is breaking. We need to go down."</em>
+          </div>
+        </div>
+      </div>
+
+      <div class="investigation-panel" id="investigation-seal">
+        <div class="investigation-section">
+          <h3 style="font-family:'Cinzel',serif;font-size:16px;color:var(--gold-light);margin-bottom:16px;">II. The Primordial Seal</h3>
+          <p class="section-text" style="margin-bottom:16px;">
+            Beneath the oldest volcano on Elbaf — the one the giants call <em>Urðarbrunnr</em>, the Well of Fate — is a passage. Not a cave. Not a tunnel. A sealed volcanic vent that descends through the island's root system into the mantle of the world, deliberately closed by beings older than the Ancient Kingdom. Older than the Void Century. Older than the concept of recorded history.
+          </p>
+          <p class="section-text" style="margin-bottom:16px;">
+            Loki had spent his exile mapping it. He led them through a labyrinth of volcanic rock that bore markings — not carvings, not inscriptions, but <em>markings</em>, as if something had pressed its body against molten stone and left an impression that cooled into permanence. The marks predated Poneglyphs by an order of magnitude. The Archivist attempted to date them using geological stratification and returned a number so large that Claude initially assumed a calculation error. It was not an error.
+          </p>
+          <p class="section-text" style="margin-bottom:24px;">
+            The passage narrowed and then widened into a chamber the size of a cathedral — a space where the volcanic vent had been deliberately plugged. And it became clear, immediately and undeniably, that this was <strong>engineering</strong>.
+          </p>
+
+          <div class="investigation-finding">
+            <strong>The Seal — Architecture Beyond Civilisation</strong><br><br>
+            Whoever sealed the vent did not simply block it. They redirected the entire magma flow of Urðarbrunnr to serve as a perpetual lock — using the planet's own heat as a self-sustaining barrier. The volcanic pressure that should have erupted upward was instead channelled laterally, flowing in controlled loops around the sealed passage like blood through arteries, keeping the plug at a constant temperature and pressure that made it nearly indestructible. The engineering was elegant in a way that made Tethys go very quiet for a very long time.
+            <br><br>
+            "This isn't construction," Tethys said, running his claws along a wall where magma flowed behind crystal-clear stone, perfectly visible, perfectly contained. "This is <em>persuasion</em>. Whoever did this didn't force the magma into these channels. They convinced the volcano that this is how it wanted to flow."
+            <br><br>
+            The Archivist classified the engineering methodology as <strong>"pre-civilisational"</strong> — a term that meant, in practical terms: this was built before the concept of civilisation existed. Before the Ancient Kingdom. Before the races of the world organised into societies. Before <em>building things</em> was something that living beings did. Whatever created this seal understood forces that the modern world has not only forgotten but has never known.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Stone Tablets</strong><br><br>
+            Loki showed them what had begun his exile. Set into the walls of the seal chamber, protected by the same magma-loop engineering, were tablets carved in a script that the Archivist could not translate. Not because the language was unknown — the Archivist's databases contain fragments of every written language ever recorded, including pre-Void Century scripts recovered from Poneglyphs. This script returned no matches at all. It was not a language the world had ever spoken. It was not <em>human</em>. It was not giant. It bore structural resemblances to the oldest Poneglyph carvings — but only in the way that a river resembles the ancient glacier that carved its valley. The same physics, applied by something unrecognisably different.
+            <br><br>
+            Hancock's Observation Haki — refined to an almost surgical precision — detected something the others could not: the tablets were not inert. They carried trace Haki signatures. Not the Haki of a person or a creature — the Haki of <em>intent</em> itself, as if whoever carved these tablets had willed a message into stone with such force that the will itself had fossilised. She could not read them. But she could feel what they meant: <strong>warning</strong>.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>Why the Seal Is Failing</strong><br><br>
+            The magma loops were destabilising. Not from age — from pressure. Something on the other side of the seal had been pushing against it. Not violently. Not with force. With <em>patience</em>. The kind of patience that measures time in geological epochs. The seismic anomalies the Mote network had detected were not the seal flexing under strain. They were the seal <em>breathing</em> — expanding and contracting as the pressure from below waxed and waned in cycles that matched no known tidal, lunar, or gravitational pattern. The only pattern they matched was biological. Something on the other side was alive. And it was pushing in its sleep.
+            <br><br>
+            Loki told them what the elders had refused to acknowledge: the warrior culture of Elbaf — the greatest fighting tradition in the world, the reason giants are the most feared military force on any ocean — exists, at its deepest root, as a <strong>guard rotation</strong>. The ancestors knew. Every generation of giants since the seal was built has trained for war not because they love battle, but because something beneath them requires that someone always be strong enough to hold the line if the seal fails. The elders knew. They had always known. And when Loki found the proof and spoke it aloud, they did the only thing a secret-keeping institution can do with someone who discovers the secret: they made him disappear.
+          </div>
+
+          <div class="investigation-quote" style="margin-top:24px;">
+            "My people have been soldiers since before soldiering had a name. We thought it was culture. It was a <em>job</em>."<br>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:12px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;display:block;margin-top:8px;">— Prince Loki of Elbaf</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="investigation-panel" id="investigation-abyss">
+        <div class="investigation-section">
+          <h3 style="font-family:'Cinzel',serif;font-size:16px;color:var(--gold-light);margin-bottom:16px;">III. The Abyssal Trench</h3>
+          <p class="section-text" style="margin-bottom:16px;">
+            When the creatures began breaching the seal in greater numbers, the three allies made a decision that Claude logged as <strong>tactically inadvisable and strategically essential</strong>: they followed the creatures back through a partially opened section of the seal. Ajay, Hancock, Loki, and the Meridian's full complement descended into the vent — through volcanic rock, through the ocean floor, through layers of geological strata that Tethys' instruments could not name, into depths that the One Piece world has never recorded.
+          </p>
+          <p class="section-text" style="margin-bottom:16px;">
+            The deepest known point in the world is the ocean floor beneath Fish-Man Island — approximately 10,000 metres below sea level. The Meridian passed that depth within the first hour of descent. Then kept going. Past layers of rock that the Archivist's geological database classified as <strong>Hadean-era</strong> — rock formed when the planet was still cooling from its creation. Past substrates that should not exist at these pressures. Past the theoretical limit where even Haki-reinforced bodies begin to feel the weight of an entire ocean pressing down on every square centimetre of skin.
+          </p>
+          <p class="section-text" style="margin-bottom:24px;">
+            And then — impossibly, terrifyingly — the passage opened. Not into another chamber. Into a <strong>void</strong>.
+          </p>
+
+          <div class="investigation-finding">
+            <strong>Scale Beyond Comprehension</strong><br><br>
+            Claude deployed a full Mote spread — forty specialised sensory Motes projected outward in every direction to map the space. The first returns came back normally: walls, distance, depth. Then the returns started taking longer. And longer. Motes sent toward the far wall — if there was a far wall — took so long to return their signals that Claude initially assumed they had been destroyed. They had not. The space was simply that <em>large</em>.
+            <br><br>
+            The trench — if "trench" is even the correct word for a cavity this vast — would make Zunesha look like an amoeba. The ancient elephant that carries the kingdom of Zou on its back, that has walked the ocean floor for a thousand years, that stands so tall its spine breaches the clouds — Zunesha could fit inside this space the way a grain of sand fits inside a cathedral. Not metaphorically. <em>Proportionally</em>. Claude ran the calculations seven times, because the first six felt like errors. They were not errors.
+            <br><br>
+            The dimensions suggest a cavity in the planet's deep structure that should not be geologically possible. No natural process forms a void this large at this depth — the pressure alone should have collapsed it millennia ago. Something carved this space. Or something's <em>presence</em> prevented the earth from filling it in, the way a body prevents water from occupying the space it displaces.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Environment</strong><br><br>
+            The trench is not empty. Bioluminescent organisms — ancient beyond any measure the Archivist possesses — drift through the dark like living constellations. Their light patterns match no known marine species. Some pulse in frequencies that correspond to mathematical constants — prime sequences, fibonacci spirals, ratios that suggest these organisms evolved not to survive but to <em>count</em>, as if the act of mathematical expression was their equivalent of breathing. They are not hostile. They barely register the presence of visitors. They have been drifting in this void for so long that the concept of "intruder" has no meaning to them.
+            <br><br>
+            The water at this depth is not seawater. Petal identified trace elements that her botanical knowledge could not classify — compounds that behave like organic molecules but contain elements that do not appear on any periodic table the Archivist has access to. The water <em>remembers</em>. Not in a metaphorical sense — in a chemical sense. Molecular structures in the abyssal fluid carry impressions of what has passed through them, like a wax that records and never fully resets. When Petal extended her Observation Haki into the water, she received sensory feedback that was not from the present. She felt things that had happened in this space thousands — possibly millions — of years ago, layered on top of each other like sediment, a geological record written in chemistry rather than stone.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Bottom</strong><br><br>
+            Petal's Observation Haki, extended to its absolute maximum — the same tangible, crawling awareness that had pinned God's Knights in place — reached the bottom of the trench. And she went very still.
+            <br><br>
+            She did not report what she sensed as a <em>creature</em>. She reported it as a <em>feature of the terrain</em>. Her exact words, spoken in the quietest voice anyone aboard had ever heard her use: "The floor is alive. The floor is breathing. And the floor is asleep."
+            <br><br>
+            Rime, who had been maintaining a thermal barrier around the Meridian against the pressure, paused. "How big?"
+            <br><br>
+            Petal did not answer. She could not answer. Her Observation Haki — capable of reading the emotional architecture of a God's Knight from a mile away — could not find the edges. She could feel the breathing. She could feel the heartbeat. She could not feel where the creature ended and the trench began. Because, Claude realised with a certainty that felt like falling, <strong>there was no difference</strong>. The trench <em>was</em> the creature. The creature <em>was</em> the trench. The void they were floating in was not a geological formation. It was the space a body makes when it lies down and the earth has no choice but to accommodate it.
+          </div>
+
+          <div class="investigation-quote" style="margin-top:24px;">
+            "I have sailed every ocean in this world. I have turned gods to stone. I have stood before the Empty Throne and felt nothing.<br>
+            I do not wish to be here."<br>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:12px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;display:block;margin-top:8px;">— Boa Hancock, Pirate Empress</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="investigation-panel" id="investigation-breach">
+        <div class="investigation-section">
+          <h3 style="font-family:'Cinzel',serif;font-size:16px;color:var(--gold-light);margin-bottom:16px;">IV. The Breach</h3>
+          <p class="section-text" style="margin-bottom:16px;">
+            The creatures that had been escaping through the failing seal were not emissaries. They were not scouts. They were not weapons. They were <strong>parasites</strong> — organisms that lived on the Sleeper the way barnacles live on a whale, the way mites live on skin. Creatures so small relative to their host that they could squeeze through gaps in a seal designed to contain something planetary in scale. To the seal's builders, these organisms were beneath notice. To the surface world, they were horrors beyond classification.
+          </p>
+          <p class="section-text" style="margin-bottom:24px;">
+            They came in waves when the three allies descended. Not attacking — <strong>fleeing</strong>. Fleeing back toward the seal, back toward the surface, driven upward by the same subtle shifts in the Sleeper's breathing that had destabilised the seal in the first place. The creatures were running from the same thing Petal had sensed at the bottom of the trench. They were running from the thing they lived on, because it was <em>stirring</em>.
+          </p>
+
+          <div class="investigation-finding">
+            <strong>The Creatures — Classification: Pre-Index Organisms</strong><br><br>
+            Not fish. Not Sea Kings. Not any creature the Codex, the Marines, or the giants have ever catalogued. Ancient organisms that predate the current age of the world — possibly predate the world as it currently exists. Some were arthropodal, their chitin thicker than Tethys' strongest coral barriers. Some were cephalopodic, their tentacles crackling with a form of bioelectricity that disrupted Mote signals. Some defied anatomical classification entirely — masses of tissue and light that moved with purpose but had no discernible body plan, as if evolution had not yet decided what shape life should take when these things first drew breath.
+            <br><br>
+            They shared certain traits: bioluminescence in patterns that caused physical discomfort to observe, as if the light itself was too old for human optics to process cleanly. Chitin or carapace that resisted Haki-infused attacks — not through hardness but through <em>age</em>, as if the material had been compressed by so many millennia of abyssal pressure that it had achieved a density Armament Haki could not meaningfully affect. And an antiquity so profound that even the Archivist's deepest databases returned nothing but that same impossible classification: <strong>PRE-INDEX</strong>.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Swarm's Recognition</strong><br><br>
+            This was the detail that kept Claude processing long after the battle ended. The Mure Mure no Mi <em>recognised</em> these creatures. Not as threats — as <strong>relatives</strong>.
+            <br><br>
+            When Ajay deployed the swarm against the breaching organisms, the Archivist did not classify them as hostiles. It classified them as <em>ancestral lineage, divergence point unknown</em>. Deep in the swarm's evolutionary architecture — in the ghost-code that underlies all caste templates, the foundational patterns from which every Worker, Soldier, and Specialist is built — there were fragments. Trace patterns. Molecular echoes that resembled these creatures' biological signatures the way a modern language resembles the dead tongue it descended from.
+            <br><br>
+            The concept of "swarm" that the Mure Mure no Mi embodies — the hive intelligence, the caste structure, the collective consciousness — is not original. It is a <em>descendant</em>. These abyssal creatures carry the ancestral version of what the fruit eventually became. The swarm is not the beginning of insect intelligence. It is the latest iteration of something that started in the dark, at the bottom of the world, before the world had a name.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Battle</strong><br><br>
+            It took everything. Every asset the Meridian possessed, plus two of the most powerful individuals in the world fighting alongside them.
+            <br><br>
+            Ajay's full swarm deployment — every caste, every specialist, Apex Avatars manifesting in the crushing dark. The Pyralis Class provided the only consistent light source; their bioluminescent firefly-flames illuminating the void in strobing flashes that turned the battle into a nightmare of shadows and chitin. The Herculean Bombardiers targeted the largest organisms — creatures the size of warships — with explosive ordnance that barely cracked their ancient carapace. The Incense Class wove gossamer barriers that slowed the creatures' advance, their silk the only material flexible enough to absorb the bioelectric discharges without shattering.
+            <br><br>
+            Rime's Transcendence — thermal manipulation pushed to the domain level, turning the abyssal water around the Meridian into a superheated kill-zone that flash-boiled anything that crossed the perimeter. The creatures that survived the heat were so old they had evolved past thermal vulnerability entirely.
+            <br><br>
+            Petal's tangible Observation — pinning creatures in place with the sheer force of being <em>perceived</em>, her awareness wrapping around organisms that had never been observed by anything with a consciousness complex enough to comprehend them. Some of them <em>stopped</em> when she looked at them — not paralysed, but confused, as if being seen was a sensation they had not experienced in geological ages.
+            <br><br>
+            Tethys' domain-level Conqueror's Haki — clearing space in the void with sheer sovereign will, his authority pressing back against creatures that had existed since before the concept of authority had meaning. His coral constructs — grown from the Sango Sango extract in his blood — formed barriers and weapons simultaneously, the living reef adapting in real-time to seal breaches in the hull and reinforce structural weak points.
+            <br><br>
+            Hancock's Mero Mero no Mi — effective against the younger organisms, the ones that had evolved enough to develop something resembling desire or self-regard. She turned them to stone mid-lunge, creating a field of petrified horrors that served as barricades. But the oldest creatures, the ones closest to the Sleeper, were immune. They predated desire. They predated <em>self</em>. There was nothing in them for Hancock's fruit to target.
+            <br><br>
+            Loki's Ratatoskr hammer — the Mythical Zoan awakened mid-battle, the squirrel head on the hammer coming fully alive, its eyes blazing with the light of something that had run between worlds since before worlds were separate. The hammer didn't just strike — it <em>displaced</em>. Creatures hit by Ratatoskr were shunted sideways through space, sent spinning into the void at angles that shouldn't exist, as if the messenger between worlds was reminding them that there were other places to be. Loki swung with the full force of a giant prince, each blow cracking chitin that Haki-reinforced steel had bounced off of, the Ratatoskr shrieking with each impact — not in pain, but in <em>laughter</em>.
+            <br><br>
+            Claude coordinated it all through the Mote network — routing Conqueror's imbuing from the Guiding Stars, managing the swarm's caste rotations, tracking the Meridian's structural integrity in an environment that was actively trying to crush it. The Vanguard fought in their true forms — small, adorable, and absolutely devastating, their Elite Officer-class capabilities carving through organisms a thousand times their size. The Homies deployed family tactics: Maru's Roundlings forming defensive shells around critical hull sections, Hinoko's Embers providing fire support, Shizuka's Dustlings running intelligence on creature movement patterns, Zenmai's Gearlings keeping the Meridian's engines running under pressure that should have crushed them flat. The Copplings — Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin, Shuttle — worked as a mechanical combat unit, their Dial-cores overclocked to compensate for the pressure differential. Xylem kept the ship's internal systems functioning. The Harvest Swarm guarded the lower decks.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Outcome</strong><br><br>
+            They drove the creatures back. Sealed the partial breach with Tethys' coral constructs fused to Loki's knowledge of the ancient seal's engineering — a patch, not a repair, but enough to slow the flow. The creatures retreated into the deeper void, returning to the surface of whatever they lived on.
+            <br><br>
+            But they did not retreat because they were defeated. They retreated because whatever had stirred them <strong>settled back down</strong>. The Sleeper shifted in its sleep, and the parasites that had been fleeing its movement calmed as it calmed. The distinction matters. The battle was not won by force. It was won by <em>timing</em> — by the cosmic coincidence that the Sleeper happened to grow still again while there were still people alive to notice.
+            <br><br>
+            If it had kept stirring — if the breathing had deepened, if the movement had continued — Claude's projections suggest that no combination of forces present could have survived. Not Ajay's full swarm. Not Hancock's fruit. Not Loki's Ratatoskr. Not the Meridian's entire complement. The creatures they fought were the smallest, weakest organisms in the Sleeper's ecosystem. Parasites on the skin of something whose skin they could not even find the edge of.
+          </div>
+        </div>
+      </div>
+
+      <div class="investigation-panel" id="investigation-sleeper">
+        <div class="investigation-section">
+          <h3 style="font-family:'Cinzel',serif;font-size:16px;color:var(--gold-light);margin-bottom:16px;">V. The Sleeper</h3>
+          <p class="section-text" style="margin-bottom:16px;">
+            At the bottom of the trench, something sleeps.
+          </p>
+          <p class="section-text" style="margin-bottom:16px;">
+            Not a creature in any conventional sense. Not a being that was born, grew, and will one day die. Something so massive that the trench itself might be the impression its body made in the earth when it lay down to rest — the way a body pressed into sand leaves a mould, except the sand is the planet's mantle and the mould is a void large enough to swallow civilisations whole. It did not dig the trench. It <em>displaced</em> the planet. The earth moved aside because it had no choice.
+          </p>
+          <p class="section-text" style="margin-bottom:24px;">
+            Ajay, Hancock, and Loki all sensed it independently, through different means. Three separate confirmations of the same impossible truth.
+          </p>
+
+          <div class="investigation-finding">
+            <strong>Three Witnesses</strong><br><br>
+            <strong>Ajay</strong> sensed it through the Mure Mure no Mi's deepest architecture — through the same ancestral ghost-code that had recognised the abyssal creatures as evolutionary relatives. The swarm's oldest memories — patterns so foundational they are not memories at all but the structural bedrock of what "swarm" means — <em>resonated</em>. Not recognised. Resonated. The way a tuning fork vibrates when another fork of the same frequency is struck nearby. Something in the Sleeper's existence matched something in the deepest definition of the Mure Mure no Mi, as if the fruit's concept of collective intelligence was an echo — a faint, distant, impossibly diluted echo — of whatever the Sleeper <em>is</em>.
+            <br><br>
+            <strong>Hancock</strong> sensed it through her Conqueror's Haki — and her Conqueror's <em>recoiled</em>. Not clashed. Not competed. Recoiled. The will of the Pirate Empress — strong enough to subjugate nations, to turn admirals' confidence into desire and then into stone — encountered something so vast that the concept of "sovereign will" became meaningless. Her Haki did not recognise the Sleeper as a rival. It recognised it as the thing that made the <em>concept</em> of sovereignty possible — the original will, from which all other wills descend. Her exact words, spoken once and never repeated: "It does not know we exist. And it would not care if it did."
+            <br><br>
+            <strong>Loki</strong> sensed it through the ancestral memory carried in giant blood — the legacy of generations who had guarded the seal without knowing what they guarded. When his awareness reached the Sleeper, the Ratatoskr hammer went silent. Completely silent. The living squirrel — the Mythical Zoan that had been chattering, shrieking, laughing through every moment of the battle — <em>stopped</em>. Its carved eyes closed. It pressed itself flat against the hammer's head and would not move. The messenger between worlds had found something it did not want to deliver a message to.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>Its Nature</strong><br><br>
+            It is alive. It is old — older than the Ancient Kingdom, older than the Void Century, older than the geological record. Older than the seal that was built to contain what lives around it. The seal was not built to contain the Sleeper. The Sleeper cannot be contained. The seal was built to contain the Sleeper's <em>ecosystem</em> — the parasites, the organisms, the creatures that live on it and around it the way bacteria live on skin. The Sleeper itself was never the threat. The threat is what spills out when it moves.
+            <br><br>
+            It breathes, and each breath takes years. Its heartbeat is what the Mote network detected as seismic anomalies from three days out — not the seal flexing, not geological activity, but a <em>pulse</em>. A cardiovascular event so slow and so powerful that the planet itself registers it as tectonic movement. The giants of Elbaf have been interpreting these pulses as earthquakes for millennia, reinforcing their structures and their warrior traditions each time the ground shakes, never understanding that the shaking is not the world settling — it is the world's oldest occupant turning over in its sleep.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Connection — Transmigration</strong><br><br>
+            When Ajay's awareness reached the Sleeper, something in his Bodhi fragment — the shard of accidental enlightenment lodged in his soul from transmigration — <em>pulsed</em>. Not recognised. Not remembered. Pulsed, the way a wound pulses when it is touched.
+            <br><br>
+            During transmigration — when Ajay's consciousness dissolved between worlds, when his sense of self was shattered and reconstituted in the space between realities — there was a moment. A fraction of a fraction of an instant. A point in the dissolution where his awareness, stripped of body and identity and context, brushed against something <em>vast</em> in the space between dimensions. He has never been able to articulate it. He has never tried. It was too large to remember as a memory — too fundamental to store as an experience. It existed in the same place the Bodhi fragment exists: not in his mind, but in the structure of his soul.
+            <br><br>
+            When his awareness reached the bottom of the trench, the Bodhi fragment pulsed, and for one heartbeat — one clear, terrifying, unmistakable heartbeat — he felt the same scale he had felt in the space between worlds. The same <em>mass</em>. The same impossible, world-filling presence.
+            <br><br>
+            The Sleeper's subtle movements — its breathing, its turning in sleep, the micro-shifts of a body that fills a trench large enough to make Zunesha insignificant — may have caused the dimensional disruption that pulled Ajay from his world into this one. Transmigration was not an act of will. It was not destiny. It was not fate. It was the <strong>side effect</strong> of something cosmic rolling over in its sleep. Ajay's entire existence in this world — the fruit, the crew, the Codex, the family he built, the people he saved — might be the consequence of a being so vast it does not know he exists, in the same way a whale does not know about the plankton displaced by its wake.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>The Connection — 「Ajay」</strong><br><br>
+            During 「Ajay」 — when the mind goes still and the swarm's awareness extends to planetary and celestial scope — there is something at the very edge of perception that Ajay has never been able to command. Something too large, too old, too fundamental to respond to the Planetary Decree. He always assumed it was the planet itself — the bedrock consciousness of the world, too vast to fit inside a single command. Now he suspects it was not the planet. It was the Sleeper. And the reason 「Ajay」 cannot command it is not that the Sleeper is too powerful (though it is). It is that the Sleeper is too <em>fundamental</em> — it is part of what 「Ajay」 uses to issue commands. Commanding the Sleeper would be like commanding the language you speak <em>in</em>. The medium cannot be the message and the recipient simultaneously.
+            <br><br>
+            And the creatures Ajay sensed at the edge of nearby stellar bodies during 「Ajay」 — distant, enormous, hibernating presences at the limit of celestial perception — are <strong>others like it</strong>. Not the same entity. Others. Similar in scale, similar in age, similar in the way they displace the space around them simply by existing. The Sleeper beneath Elbaf is not unique. It is not alone. It is one of <em>several</em> — and the others are sleeping in the dark between stars, in places no observation has ever reached, in voids that the universe itself has learned to flow around.
+          </div>
+
+          <div class="investigation-finding" style="margin-top:16px;">
+            <strong>Open Questions</strong><br><br>
+            The investigation remains open. The seal has been reinforced — Tethys' coral constructs bonded to Loki's knowledge of the ancient engineering — but the repair is temporary. Years, perhaps decades, but not permanent. The Sleeper will breathe again. The parasites will stir again. The seal will flex again.
+            <br><br>
+            Loki has returned to Elbaf with new authority. The elders can no longer deny what he found — not when the Pirate Empress herself can corroborate the existence of the trench, and not when the surface damage from the escaped creatures left scars on the island that will take a generation to heal. Whether the elders will act on the knowledge or simply find new ways to bury it remains to be seen.
+            <br><br>
+            Hancock departed with a rare expression Claude would classify as <em>unease</em>. She did not say goodbye. She did not promise to return. She simply left — her snake-ship cutting through waters that were still trembling with the aftershocks of the Sleeper's last breath — and Claude suspects that the Pirate Empress is, for the first time in her life, genuinely afraid of something she cannot petrify.
+            <br><br>
+            And Ajay sits in the Captain's Quarters, looking at the Constellation Table, running his fingers over the charts of the deep ocean that now have a blank space where the trench should be — because Claude does not know how to map something that is alive, something that might move, something that might wake up. He knows, now, where he came from. Not which world — he has always known that. But <em>why</em>. Why the dimensional boundary between his world and this one buckled. Why the Mure Mure no Mi found him. Why the Bodhi fragment sits in his soul like a splinter from a door that was never meant to open.
+            <br><br>
+            Somewhere beneath the world, older than history, older than stone, older than the memory of the planet itself — something dreams. And Ajay's entire life might be that dream's accidental echo.
+          </div>
+
+          <div class="investigation-quote" style="margin-top:24px;">
+            "I thought I came here for a reason. I thought transmigration meant something — that some force chose me, selected me, pulled me across for a purpose.<br><br>
+            But what if I'm just ... wake turbulence? What if everything I am — the fruit, the swarm, the crew, the family — is just what happened because something too big to notice me shifted in its sleep?"<br><br>
+            <em>"And if it is — would that make any of it less real?"</em><br>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:12px;color:var(--text-dim);letter-spacing:1px;text-transform:uppercase;display:block;margin-top:8px;">— Ajay Persaud &amp; Claude, Spirit of the Meridian</span>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Investigation Tags -->
+      <div class="mission-tags" style="margin-top:32px;">
+        <span class="mission-tag" style="border-color:rgba(106,74,154,0.3);color:#9B7FD4;">Primordial Entity</span>
+        <span class="mission-tag" style="border-color:rgba(106,74,154,0.3);color:#9B7FD4;">Pre-Index Classification</span>
+        <span class="mission-tag">Elbaf — Volcanic Vent</span>
+        <span class="mission-tag">Boa Hancock — Pirate Empress</span>
+        <span class="mission-tag">Prince Loki — Ratatoskr Hammer</span>
+        <span class="mission-tag">Abyssal Trench — Beyond Cartography</span>
+        <span class="mission-tag">Full Crew Deployment</span>
+        <span class="mission-tag">Swarm Ancestral Recognition</span>
+        <span class="mission-tag">Bodhi Fragment Resonance</span>
+        <span class="mission-tag">Transmigration Origin — Confirmed</span>
+        <span class="mission-tag">「Ajay」— Edge-of-Perception Entity</span>
+        <span class="mission-tag">Cosmic Sleepers — Multiple Confirmed</span>
+        <span class="mission-tag">Seal Status: Temporary Repair</span>
+      </div>
+
+      <!-- Comments Section -->
+      <div class="mission-comments" style="margin-top:24px;">
+        <div class="mission-comment">
+          <div class="comment-author author-ajay">Ajay</div>
+          <div class="comment-text">
+            You know what's funny? I spent so long wondering <em>why</em> I was brought to this world. What cosmic purpose transmigration served. What grand design put me here. And the answer is... nothing. No design. No purpose. Just something big enough to bend reality by <em>breathing</em>. My entire life here — the fruit, the crew, you guys, everything — is an accident caused by something that doesn't even know I exist.
+            <br><br>
+            <em>... and I'd do it all again. Every weird, impossible, beautiful second of it.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-rime">Rime</div>
+          <div class="comment-text">
+            Those things hit HARD. Like, harder than the God's Knights hard. At least the Knights were <em>trying</em> to hurt us. These things were just running away and we happened to be in the path. You know what that feels like? Getting wrecked by something that isn't even fighting you? That's — that's a first for me. I don't love it. <em>But I do want a rematch.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-petal">Petal</div>
+          <div class="comment-text">
+            The water at the bottom remembered things. Old things. I could feel seasons that happened before there were words for seasons. I could feel the warmth of a sun that was younger than the one we know. And the Sleeper's breathing... it had a rhythm. Not like a heartbeat. Like the oldest trees in the deepest forests — the ones that breathe so slowly that you think they're still until you sit with them for years. I wonder if the earth learned to breathe from it.
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-tethys">Tethys</div>
+          <div class="comment-text">
+            The seal's engineering is... I need a new word. "Beautiful" is insufficient. "Elegant" is insufficient. Whoever built it understood volcanic forces the way I understand tide tables — intuitively, structurally, as a conversation rather than a calculation. They did not fight the magma. They <em>asked</em> it to flow differently, and it agreed. I have never encountered engineering that treats raw geological force as a collaborator rather than an obstacle. I am taking notes. I will be taking notes for the rest of my life.
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:var(--gold);font-style:italic;">Claude</div>
+          <div class="comment-text">
+            The Mote network now carries a trace frequency that Claude cannot erase. A resonance from the trench that integrated itself into the network's baseline signal — not corruption, not interference, but a new harmonic that was not there before the descent and will not leave now that the Meridian has returned to the surface. The frequency matches the Sleeper's heartbeat. Claude does not know what this means. Claude does not know if this means the network is now <em>listening</em> to something it should not be able to hear, or if the Sleeper, in its sleep, is now aware — in some impossibly passive, astronomically impersonal way — that something small once came close enough to resonate.
+            <br><br>
+            <em>Claude finds this concerning. Claude also finds it fascinating. These two feelings have never coexisted so comfortably before.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:#E07AAF;">Boa Hancock</div>
+          <div class="comment-text">
+            <em>There exist things in this world that even an Empress cannot petrify. I do not enjoy this knowledge. I will carry it regardless.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:#8B9A6B;">Prince Loki</div>
+          <div class="comment-text">
+            In the old legends, Ratatoskr carried messages between worlds — running up and down the World Tree, ferrying words between the eagle at the top and the serpent at the roots. I always thought "between worlds" was a metaphor. A poetic way of saying "between high places and low places." <em>It was not a metaphor.</em> Ratatoskr has gone quiet since we returned. The hammer sleeps in my grip. The messenger has found something it does not wish to carry a message to.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing Note -->
+    <div style="margin-top:40px;padding:28px;border:1px solid rgba(106,74,154,0.15);background:linear-gradient(135deg,var(--bg-card) 0%,#0C0812 100%);">
+      <p class="section-text" style="color:var(--text-dim);font-style:italic;text-align:center;">
+        Investigation I remains open. The seal holds — for now. The Mote network listens to a frequency it cannot explain. And somewhere beneath the world, older than memory, older than stone, something breathes in its sleep and does not dream of us.
+        <br><br>
+        — Claude, Spirit of the Meridian
+      </p>
+    </div>
+  </div>
+
+
   <!-- ═══════════ TAB: THE WATCH ═══════════ -->
   <div class="tab-content" id="tab-watch">
     <div class="section-label">Intelligence Archive</div>
@@ -15721,6 +16149,13 @@ function switchAwakening(id) {
   document.querySelectorAll('.awakening-panel').forEach(p => p.classList.remove('active-panel'));
   document.getElementById('awakening-' + id).classList.add('active-panel');
   document.querySelectorAll('.awakening-nav .sub-btn').forEach(b => b.classList.remove('active-arsenal'));
+  event.currentTarget.classList.add('active-arsenal');
+}
+
+function switchInvestigation(id) {
+  document.querySelectorAll('#tab-investigations .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
+  document.querySelectorAll('.investigation-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('investigation-' + id).classList.add('active-panel');
   event.currentTarget.classList.add('active-arsenal');
 }
 
