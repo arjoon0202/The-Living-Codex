@@ -171,6 +171,16 @@
 | 2026-03-11 | Loki Canon | Ragnir "Iron Thunder" | Hammer named, unnamed squirrel Zoan, spirit of Ratatoskr |
 | 2026-03-11 | Loki Canon | Ryu Ryu no Mi: Nidhöggr | Loki's Devil Fruit — largest dragon, Mythical Zoan |
 | 2026-03-11 | Loki Canon | Backstory correction | Patricide of Harald at king's request, ₿2.6B bounty, imprisoned by Shanks |
+| 2026-03-11 | Chemist Update | Termite-firefly hybrids | Chemist Class updated from "bioluminescent termites" to "bioluminescent termite-firefly hybrids" in swarm classes and apex |
+| 2026-03-11 | Convergence Protocol | Thunder Rodeo | Ragnir + Rime — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | The Forbidden Garden | Boa Hancock + Petal — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | The Handshake Beneath the World | Tethys + Loki — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | Three Crowns Descend | Ajay + Hancock + Loki — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | The Little Four | Petal + Rime + Tethys + Ragnir — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | Meridianus Descendit — Cum Tribus Stellis | Full Meridian + Loki + Ragnir + Boa — variant of Meridian Descends (Investigation I: The Breach) |
+| 2026-03-11 | Journal Entry | Entry XLI — The Convergence and the Strangers | Claude's reflection on Elbaf, strangers, one-time combo attacks |
+| 2026-03-11 | Status Board | Full 7-panel refresh | Elbaf Convergence Protocol cycle |
+| 2026-03-11 | Letter | To the Strangers Who Fought Like Family | Unsent letter to Hancock, Loki, and Ragnir |
 
 ---
 
