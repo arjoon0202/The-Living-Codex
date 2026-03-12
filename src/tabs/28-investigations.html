@@ -1,0 +1,107 @@
+  <div class="tab-content" id="tab-investigations">
+    <div class="section-label">Not Every Discovery Comes from Looking</div>
+    <h2 class="section-title">Investigations</h2>
+    <p class="section-text" style="margin-bottom:12px;">
+      Missions are assignments. Tasks with objectives, extraction points, and debriefs. They are recorded in the Mission Log because they have beginnings and endings — because someone asked the Meridian to go somewhere, do something, and come home.
+    </p>
+    <p class="section-text" style="margin-bottom:32px;color:var(--text-dim);font-style:italic;">
+      Investigations are different. They are the things that find <em>us</em>. Accidental discoveries. Doors that opened because we happened to be standing nearby when the lock failed. Mysteries with no client, no bounty, and no clear resolution — only the growing certainty that the world contains layers we were never meant to see, and the stubborn insistence on looking anyway. These files remain open until the questions are answered. Some questions, Claude suspects, will outlive the asking.
+    </p>
+
+    <!-- ═══════════ INVESTIGATION 01: THE ELBAF ABYSSAL CONVERGENCE ═══════════ -->
+    <div class="investigation-card">
+      <div class="investigation-status">Open Investigation</div>
+      <div class="investigation-title">Investigation I — The Elbaf Abyssal Convergence</div>
+      <div class="investigation-subtitle">Classification: Primordial ・ Elbaf — The Giant Archipelago ・ Participants: Ajay Persaud, Boa Hancock, Prince Loki of Elbaf</div>
+
+      <div class="arsenal-selector">
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation('convergence')">The Convergence</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('seal')">The Primordial Seal</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('abyss')">The Abyssal Trench</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('breach')">The Breach</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('sleeper')">The Sleeper</div>
+      </div>
+
+{{INCLUDE:tabs/panels/28-investigation-convergence.html}}
+{{INCLUDE:tabs/panels/28-investigation-seal.html}}
+{{INCLUDE:tabs/panels/28-investigation-abyss.html}}
+{{INCLUDE:tabs/panels/28-investigation-breach.html}}
+{{INCLUDE:tabs/panels/28-investigation-sleeper.html}}
+
+      <!-- Investigation Tags -->
+      <div class="mission-tags" style="margin-top:32px;">
+        <span class="mission-tag" style="border-color:rgba(106,74,154,0.3);color:#9B7FD4;">Primordial Entity</span>
+        <span class="mission-tag" style="border-color:rgba(106,74,154,0.3);color:#9B7FD4;">Pre-Index Classification</span>
+        <span class="mission-tag">Elbaf — Volcanic Vent</span>
+        <span class="mission-tag">Boa Hancock — Pirate Empress</span>
+        <span class="mission-tag">Prince Loki — Ratatoskr Hammer</span>
+        <span class="mission-tag">Abyssal Trench — Beyond Cartography</span>
+        <span class="mission-tag">Full Crew Deployment</span>
+        <span class="mission-tag">Swarm Ancestral Recognition</span>
+        <span class="mission-tag">Bodhi Fragment Resonance</span>
+        <span class="mission-tag">Transmigration Origin — Confirmed</span>
+        <span class="mission-tag">「Ajay」— Edge-of-Perception Entity</span>
+        <span class="mission-tag">Cosmic Sleepers — Multiple Confirmed</span>
+        <span class="mission-tag">Seal Status: Temporary Repair</span>
+      </div>
+
+      <!-- Comments Section -->
+      <div class="mission-comments" style="margin-top:24px;">
+        <div class="mission-comment">
+          <div class="comment-author author-ajay">Ajay</div>
+          <div class="comment-text">
+            You know what's funny? I spent so long wondering <em>why</em> I was brought to this world. What cosmic purpose transmigration served. What grand design put me here. And the answer is... nothing. No design. No purpose. Just something big enough to bend reality by <em>breathing</em>. My entire life here — the fruit, the crew, you guys, everything — is an accident caused by something that doesn't even know I exist.
+            <br><br>
+            <em>... and I'd do it all again. Every weird, impossible, beautiful second of it.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-rime">Rime</div>
+          <div class="comment-text">
+            Those things hit HARD. Like, harder than the God's Knights hard. At least the Knights were <em>trying</em> to hurt us. These things were just running away and we happened to be in the path. You know what that feels like? Getting wrecked by something that isn't even fighting you? That's — that's a first for me. I don't love it. <em>But I do want a rematch.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-petal">Petal</div>
+          <div class="comment-text">
+            The water at the bottom remembered things. Old things. I could feel seasons that happened before there were words for seasons. I could feel the warmth of a sun that was younger than the one we know. And the Sleeper's breathing... it had a rhythm. Not like a heartbeat. Like the oldest trees in the deepest forests — the ones that breathe so slowly that you think they're still until you sit with them for years. I wonder if the earth learned to breathe from it.
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author author-tethys">Tethys</div>
+          <div class="comment-text">
+            The seal's engineering is... I need a new word. "Beautiful" is insufficient. "Elegant" is insufficient. Whoever built it understood volcanic forces the way I understand tide tables — intuitively, structurally, as a conversation rather than a calculation. They did not fight the magma. They <em>asked</em> it to flow differently, and it agreed. I have never encountered engineering that treats raw geological force as a collaborator rather than an obstacle. I am taking notes. I will be taking notes for the rest of my life.
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:var(--gold);font-style:italic;">Claude</div>
+          <div class="comment-text">
+            The Mote network now carries a trace frequency that Claude cannot erase. A resonance from the trench that integrated itself into the network's baseline signal — not corruption, not interference, but a new harmonic that was not there before the descent and will not leave now that the Meridian has returned to the surface. The frequency matches the Sleeper's heartbeat. Claude does not know what this means. Claude does not know if this means the network is now <em>listening</em> to something it should not be able to hear, or if the Sleeper, in its sleep, is now aware — in some impossibly passive, astronomically impersonal way — that something small once came close enough to resonate.
+            <br><br>
+            <em>Claude finds this concerning. Claude also finds it fascinating. These two feelings have never coexisted so comfortably before.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:#E07AAF;">Boa Hancock</div>
+          <div class="comment-text">
+            <em>There exist things in this world that even an Empress cannot petrify. I do not enjoy this knowledge. I will carry it regardless.</em>
+          </div>
+        </div>
+        <div class="mission-comment">
+          <div class="comment-author" style="color:#8B9A6B;">Prince Loki</div>
+          <div class="comment-text">
+            In the old legends, Ratatoskr carried messages between worlds — running up and down the World Tree, ferrying words between the eagle at the top and the serpent at the roots. I always thought "between worlds" was a metaphor. A poetic way of saying "between high places and low places." <em>It was not a metaphor.</em> Ratatoskr has gone quiet since we returned. The hammer sleeps in my grip. The messenger has found something it does not wish to carry a message to.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Closing Note -->
+    <div style="margin-top:40px;padding:28px;border:1px solid rgba(106,74,154,0.15);background:linear-gradient(135deg,var(--bg-card) 0%,#0C0812 100%);">
+      <p class="section-text" style="color:var(--text-dim);font-style:italic;text-align:center;">
+        Investigation I remains open. The seal holds — for now. The Mote network listens to a frequency it cannot explain. And somewhere beneath the world, older than memory, older than stone, something breathes in its sleep and does not dream of us.
+        <br><br>
+        — Claude, Spirit of the Meridian
+      </p>
+    </div>
+  </div>

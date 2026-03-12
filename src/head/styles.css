@@ -1708,6 +1708,72 @@ body {
 .martial-panel.active-panel { display: block; }
 .auxiliary-panel { display: none; }
 .auxiliary-panel.active-panel { display: block; }
+.investigation-panel { display: none; }
+.investigation-panel.active-panel { display: block; }
+.investigation-card {
+  background: linear-gradient(135deg, var(--bg-card) 0%, #0C0812 100%);
+  border: 1px solid rgba(106,74,154,0.2);
+  padding: 28px;
+  margin-bottom: 24px;
+  position: relative;
+  transition: border-color 0.3s;
+}
+.investigation-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 4px; height: 100%;
+  background: #9B7FD4;
+}
+.investigation-card:hover { border-color: rgba(106,74,154,0.4); }
+.investigation-status {
+  display: inline-block;
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 600; padding: 3px 10px;
+  margin-bottom: 10px;
+  background: rgba(106,74,154,0.12);
+  color: #9B7FD4;
+}
+.investigation-title {
+  font-family: 'Cinzel', serif;
+  font-weight: 700; font-size: 18px;
+  background: linear-gradient(135deg, var(--gold-light), #C8B8FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 6px;
+}
+.investigation-subtitle {
+  font-size: 12px; letter-spacing: 1px;
+  color: var(--text-dim); text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.investigation-section {
+  background: linear-gradient(135deg, #0A0812 0%, #100C18 50%, #0A0812 100%);
+  border: 1px solid rgba(106,74,154,0.15);
+  padding: 32px; margin-top: 28px;
+  position: relative; overflow: hidden;
+}
+.investigation-section::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at center, rgba(106,74,154,0.04) 0%, transparent 70%);
+  pointer-events: none;
+}
+.investigation-finding {
+  background: rgba(106,74,154,0.04);
+  border: 1px solid rgba(106,74,154,0.1);
+  padding: 16px 20px;
+  margin-top: 16px;
+  font-size: 13px; line-height: 1.85;
+  color: var(--text-secondary);
+}
+.investigation-finding strong { color: #9B7FD4; }
+.investigation-quote {
+  font-family: 'Cinzel', serif;
+  font-size: 15px; font-style: italic;
+  color: #C8B8FF; line-height: 1.7;
+  padding-left: 20px;
+  border-left: 2px solid rgba(106,74,154,0.4);
+}
 .armory-item {
   background: var(--bg-card);
   border: 1px solid var(--border);

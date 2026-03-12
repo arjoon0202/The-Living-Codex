@@ -84,7 +84,7 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
 
-### 27 Tabs, grouped by volume:
+### 28 Tabs, grouped by volume:
 
 **I · THE SOVEREIGN & THE SWARM**
 1. Overview
@@ -113,8 +113,9 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 17. Crew Life
 18. World Response (3 sub-panels)
 19. Mission Log (15 missions)
-20. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
-21. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
+20. Investigations (5 sub-panels: The Convergence, The Primordial Seal, The Abyssal Trench, The Breach, The Sleeper)
+21. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
+22. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
 
 **V · LORE & SPIRIT**
 22. The Codex
@@ -182,6 +183,7 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 | Arsenal | `04-arsenal.html` | `04-arsenal-swarm.html`, `04-arsenal-haki.html`, `04-arsenal-moves.html`, `04-arsenal-ajay.html`, `04-arsenal-treasures.html` |
 | Claude's Journal | `25-claude-journal.html` | `25-journal-early.html`, `25-journal-middle.html`, `25-journal-deep.html`, `25-journal-recent-a.html`, `25-journal-recent-b.html` |
 | Lantern Room | `26-lantern-room.html` | `26-lantern-hearth-resonance.html`, `26-lantern-letters.html`, `26-lantern-vigil-names.html` |
+| Investigations | `28-investigations.html` | `28-investigation-convergence.html`, `28-investigation-seal.html`, `28-investigation-abyss.html`, `28-investigation-breach.html`, `28-investigation-sleeper.html` |
 
 ### To edit styles:
 - Edit `src/head/styles.css`
@@ -310,6 +312,8 @@ When starting a new session:
 - **March 10, 2026 (cont.):** Devil Fruit Awakening Update — Major new tab and multi-section additions. (1) Devil Fruit Awakening tab added (Tab 27, Volume II — Core Crew). 4 sub-panels with full awakening mechanics and 21 awakened signature moves (11 Swarm Apex Avatars for Ajay, 5 each for Rime/Petal/Tethys). (2) Swarm class rename: Bombardier Class → Pyralis Class (🔥 Firestorm — bioluminescent firefly flamethrowers); Herculean Class → Herculean Bombardier Class (⚔️ Heavy Assault / Siege — now with explosive ordnance). (3) Tethys Green Blood lore added to Companions tab — Sango Sango no Mi (Reef-Reef Fruit) partial extract origin, explaining coral manipulation without Devil Fruit weakness. (4) 4 awakening images added (ajay-awakening, rime-awakening, petal-awakening, tethys-awakening). (5) Journal Entry XL ("The Awakening and the Eleven"). Tab count now 27. Journal entry count now 40.
 
 - **March 11, 2026:** Large File Split — 8 oversized tab files split into ~32 new sub-fragment files in `src/tabs/panels/` using `{{INCLUDE:...}}` directives. Files split: Companions (4 panels), Fighting Styles (4 panels), Claude's Journal (5 panels), Vessel (4 panels), Extended Family (4 panels + existing Akebono), Mission Log (4 panels), Lantern Room (3 panels), Armory (4 panels). All sub-fragments kept under 60KB for efficient agent editing. Build output verified bit-for-bit identical (MD5 match). Auto-split guidance added to Critical Rules. `split_tabs.py` utility created for future splits. CLAUDE.md updated with panel file map, sub-fragment architecture docs, and auto-split procedure.
+
+- **March 11, 2026 (cont.):** Investigations Tab Added (Tab 28, Volume IV) — New tab type distinct from Mission Log for accidental discoveries and mysteries. Investigation I: "The Elbaf Abyssal Convergence" — Ajay, Boa Hancock, and Prince Loki of Elbaf discover a volcanic vent sealed by pre-civilisational beings beneath Elbaf's oldest volcano. The vent leads to an abyssal trench so vast it makes Zunesha look like an amoeba, containing a hibernating cosmic entity (the Sleeper) whose subtle movements likely caused Ajay's transmigration. Key revelations: Elbaf's warrior culture exists as a millennia-old guard rotation; the Mure Mure no Mi recognised the abyssal creatures as evolutionary ancestors; the Sleeper is the entity sensed at the edge of perception during 「Ajay」 but too fundamental to command; similar entities sleep in distant stars. Loki's hammer ate the Mythical Zoan Model: Ratatoskr (messenger between worlds). 5 sub-panels: The Convergence, The Primordial Seal, The Abyssal Trench, The Breach, The Sleeper. Tab count now 28. CODEX_CONTENT_REFERENCE.md regenerated.
 
 ---
 
