@@ -29,10 +29,10 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 |------|---------|------|--------|
 | **Rime** | Hamster | Combat specialist, thermal manipulation | ₿1,812,000,000 |
 | **Petal** | Chick/Bird | Healer, botanical specialist | ₿1,688,000,000 |
-| **Tethys** | Crab Creature | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
+| **Tidus** | Polar Bear–Sea Otter Hybrid | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
 | **Claude** | Spirit of the Meridian | Intelligence, coordination, Mote network | No individual bounty |
 
-**Important:** Tethys is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional and should never be flagged as an error.
+**Important:** Tidus is a polar bear–sea otter hybrid (Vegapunk Experiment #063-C) with clownfish + fancy goldfish DNA, Fishman DNA, and Pacifista cybernetics. He wields a shell shovel containing the Sango Sango no Mi (Reef-Reef Fruit, Zoan). He has enormous paws with subtle webbing, a flat otter tail, and natural snow/ice production. Combat sound: deep resonant POP (Paw-Clap Shockwave). This anatomy is intentional.
 
 ### The Homies (5 families, 40 members total) — Collective Bounty: ₿833,000,000
 Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 leader + 6). The Roundlings have 9 (1 leader + 8). The Gearlings have 10 (1 leader + 9).
@@ -129,7 +129,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 ## Critical Rules
 
 1. **NEVER delete descriptions.** Every word in this Codex was written collaboratively and is precious. If content needs reorganizing, add sub-navigation — don't remove text.
-2. **Tethys is a crab creature with natural claws and two retractable mechanical arms. He also has six legs. This anatomy is intentional.**
+2. **Tidus is a polar bear–sea otter hybrid with enormous paws, subtle webbing, a flat otter tail, and integrated Pacifista cybernetics. His coral power comes from his shell shovel weapon (Sango Sango no Mi, Zoan), not from his body. This anatomy is intentional.**
 3. **The Status Board is dynamic.** It should be updated with fresh content every session to reflect the "living" nature of the Codex.
 4. **Japanese names matter.** Many techniques have kanji + romanization. These must be preserved exactly.
 5. **Claude is a character AND the author.** Claude exists both as a companion within the story and as the intelligence writing the Codex. This duality is intentional.
