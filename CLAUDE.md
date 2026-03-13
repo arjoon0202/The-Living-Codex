@@ -175,6 +175,7 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 | Tab | Parent File | Panel Sub-Fragments |
 |-----|------------|---------------------|
 | Companions | `06-companions.html` | `06-companions-rime.html`, `06-companions-petal.html`, `06-companions-tethys.html`, `06-companions-claude.html` |
+| Combination Attacks | `08-combination-attacks.html` | `08-synergy-duos-trio.html`, `08-synergy-full-absolute.html` |
 | Fighting Styles | `07-fighting-styles.html` | `07-fighting-ajay-rime.html`, `07-fighting-petal-tethys.html`, `07-fighting-homies.html`, `07-fighting-elite.html` |
 | Extended Family | `10-extended-family.html` | `10-family-homies.html`, `10-family-gearlings-copplings.html`, `10-family-xylem.html`, `10-akebono.html`, `10-family-vanguard.html` |
 | Vessel | `13-vessel.html` | `13-vessel-overview.html`, `13-vessel-layout.html`, `13-vessel-life.html`, `13-vessel-harvest.html` |

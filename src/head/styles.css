@@ -1092,11 +1092,11 @@ body {
   border: 1px solid rgba(160,212,104,0.2);
 }
 .trans-section-petal::before { background: radial-gradient(ellipse at center, rgba(160,212,104,0.04) 0%, transparent 70%); }
-.trans-section-tethys {
+.trans-section-tidus {
   background: linear-gradient(135deg, #080C12 0%, #0C1018 50%, #080C12 100%);
   border: 1px solid rgba(127,184,224,0.2);
 }
-.trans-section-tethys::before { background: radial-gradient(ellipse at center, rgba(127,184,224,0.04) 0%, transparent 70%); }
+.trans-section-tidus::before { background: radial-gradient(ellipse at center, rgba(127,184,224,0.04) 0%, transparent 70%); }
 .trans-section-claude {
   background: linear-gradient(135deg, #120E06 0%, #181208 50%, #120E06 100%);
   border: 1px solid rgba(212,168,67,0.2);
@@ -1399,7 +1399,7 @@ body {
 }
 .inner-rime::after { background: linear-gradient(180deg, #E08070, transparent); }
 .inner-petal::after { background: linear-gradient(180deg, #A0D468, transparent); }
-.inner-tethys::after { background: linear-gradient(180deg, #7FB8E0, transparent); }
+.inner-tidus::after { background: linear-gradient(180deg, #7FB8E0, transparent); }
 .inner-ajay::after { background: linear-gradient(180deg, var(--gold), transparent); }
 .inner-label {
   font-family: 'Rajdhani', sans-serif;
@@ -1579,7 +1579,7 @@ body {
 .comment-author.author-ajay { color: var(--gold); }
 .comment-author.author-rime { color: #E08070; }
 .comment-author.author-petal { color: #A0D468; }
-.comment-author.author-tethys { color: #7FB8E0; }
+.comment-author.author-tidus { color: #7FB8E0; }
 .comment-author.author-claude { color: var(--gold-dim); }
 .comment-author.author-maru { color: #7FB8E0; }
 .comment-author.author-hinoko { color: #E08070; }
@@ -1702,7 +1702,14 @@ body {
   display: flex; align-items: center; justify-content: center;
   font-size: 32px; flex-shrink: 0;
 }
-.avatar-hamster { background: linear-gradient(135deg, #2A1A1A, #1A0F0F); border: 1px solid rgba(220,120,100,0.3); }
+.avatar-chinchilla { background: linear-gradient(135deg, #2A1A1A, #1A0F0F); border: 1px solid rgba(220,120,100,0.3); }
+.chinchilla-emoji {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: -0.15em;
+    object-fit: contain;
+}
 .avatar-chick { background: linear-gradient(135deg, #2A2A1A, #1A1A0F); border: 1px solid rgba(140,200,100,0.3); }
 .companion-btn-name {
   font-family: 'Cinzel', serif; font-weight: 700; font-size: 18px;
@@ -2071,7 +2078,7 @@ body {
 .dot-ajay { background: var(--gold); }
 .dot-rime { background: #E08070; }
 .dot-petal { background: #A0D468; }
-.dot-tethys { background: #7FB8E0; }
+.dot-tidus { background: #7FB8E0; }
 .synergy-names {
   font-size: 11px; font-weight: 600; letter-spacing: 2px;
   text-transform: uppercase; color: var(--text-dim);
@@ -2400,7 +2407,7 @@ body {
 }
 .companion-portrait-img.border-rime { border: 2px solid #E08070; }
 .companion-portrait-img.border-petal { border: 2px solid #A0D468; }
-.companion-portrait-img.border-tethys { border: 2px solid #7FB8E0; }
+.companion-portrait-img.border-tidus { border: 2px solid #7FB8E0; }
 .portrait-self-caption {
   font-family: 'Rajdhani', sans-serif; font-style: italic;
   color: var(--text-dim, #7A766C); font-size: 0.85rem; text-align: center;
@@ -2412,7 +2419,7 @@ body {
 }
 .martial-portrait-img.border-rime { border: 1px solid #E08070; }
 .martial-portrait-img.border-petal { border: 1px solid #A0D468; }
-.martial-portrait-img.border-tethys { border: 1px solid #7FB8E0; }
+.martial-portrait-img.border-tidus { border: 1px solid #7FB8E0; }
 /* ═══ Family Portraits Gallery ═══ */
 .family-portraits {
   text-align: center; margin: 2rem 0 3rem 0; padding: 1.5rem;
