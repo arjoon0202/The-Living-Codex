@@ -2076,8 +2076,8 @@ body {
 .tag-zone { color: #C8A0D4; border-color: rgba(200,160,212,0.3); }
 .tag-utility { color: #D4D47F; border-color: rgba(212,212,127,0.3); }
 .tag-ultimate { color: #D47F7F; border-color: rgba(212,127,127,0.3); }
-.avatar-crab { background: linear-gradient(135deg, #1A2030, #0F1420); border: 1px solid rgba(100,160,220,0.3); }
-.name-crab { color: #7FB8E0; }
+.avatar-bear { background: linear-gradient(135deg, #1A2030, #0F1420); border: 1px solid rgba(100,160,220,0.3); }
+.name-tidus { color: #7FB8E0; }
 .avatar-spirit {
   background: linear-gradient(135deg, #1A1510, #0F0D08);
   border: 1px solid rgba(212,168,67,0.3);
