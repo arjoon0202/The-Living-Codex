@@ -140,7 +140,7 @@ def main():
     ok = split_file("tabs/06-companions.html", [
         (43, 356, "06-companions-rime.html"),      # Rime panel + trailing blanks
         (357, 698, "06-companions-petal.html"),     # Petal panel + trailing blanks
-        (699, 1081, "06-companions-tethys.html"),   # Tethys panel + trailing blanks
+        (699, 1081, "06-companions-tidus.html"),   # Tidus panel + trailing blanks
         (1082, 1560, "06-companions-claude.html"),  # Claude panel
     ], dry_run=dry_run)
     all_ok = all_ok and ok
@@ -151,7 +151,7 @@ def main():
     print("\n07-fighting-styles.html:")
     ok = split_file("tabs/07-fighting-styles.html", [
         (102, 477, "07-fighting-ajay-rime.html"),       # Ajay + Rime
-        (478, 735, "07-fighting-petal-tethys.html"),     # Petal + Tethys
+        (478, 735, "07-fighting-petal-tidus.html"),     # Petal + Tidus
         (736, 1001, "07-fighting-homies.html"),          # 5 Homie families
         (1002, 1314, "07-fighting-elite.html"),          # Vanguard + Copplings + Stars
     ], dry_run=dry_run)

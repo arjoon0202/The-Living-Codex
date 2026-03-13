@@ -81,10 +81,10 @@
 | 2026-03-07 | Mission | Mission 15 — The Wrath at Vegapunk's Threshold | Five God's Knights battle |
 | 2026-03-07 | Combo Attack | Big Bang ad Infinitum | Ajay + Rime |
 | 2026-03-07 | Combo Attack | Trouble in Paradise | Ajay + Petal |
-| 2026-03-07 | Combo Attack | Drip, Drop and Bop | Ajay + Tethys |
-| 2026-03-07 | Combo Attack | Phreatic Tantrum | Petal + Rime + Tethys |
-| 2026-03-07 | Combo Attack | Coral Garuda Meltdown | Tethys + Petal + Rime |
-| 2026-03-07 | Combo Attack | Blooming, Phreatic Coup de Grâce | Ajay + Rime + Petal + Tethys |
+| 2026-03-07 | Combo Attack | Drip, Drop and Bop | Ajay + Tidus |
+| 2026-03-07 | Combo Attack | Phreatic Tantrum | Petal + Rime + Tidus |
+| 2026-03-07 | Combo Attack | Coral Garuda Meltdown | Tidus + Petal + Rime |
+| 2026-03-07 | Combo Attack | Blooming, Phreatic Coup de Grâce | Ajay + Rime + Petal + Tidus |
 | 2026-03-08 | Arsenal Content | Bodhi — The Transmigrant's Resonance | Added to Haki sub-panel with retroactive notes to Architecture, Black Crown, Evolution, 「Ajay」 |
 | 2026-03-08 | Arsenal Content | The Twelve Forbidden Treasures | New 9th Arsenal sub-panel with 12 Nidāna-mapped techniques |
 | 2026-03-08 | Move Rename | Tangerine Dream | Was Cherry Blossom Fantasy — Golden Hour refresh |
@@ -99,8 +99,8 @@
 | 2026-03-08 | Move Rename | Parafuso — The Corkscrew | Was The Twisting Needle — Melee Arsenal |
 | 2026-03-08 | New Move | Cherry Rush Burst | Taekwondo/Capoeira hybrid — rapid-fire golden afterimage kicks |
 | 2026-03-08 | New Move | Raspberry Refresher — Au Batido | Capoeira cartwheel kick with tropical flair |
-| 2026-03-08 | Combo Attack | Candy Shop Barrage | Ajay + Rime + Petal + Tethys — pop/greens/pebbles/seeds barrage |
-| 2026-03-08 | Combo Attack | Tropical Rush | Ajay + Rime + Petal + Tethys — four-direction elemental charge |
+| 2026-03-08 | Combo Attack | Candy Shop Barrage | Ajay + Rime + Petal + Tidus — pop/greens/pebbles/seeds barrage |
+| 2026-03-08 | Combo Attack | Tropical Rush | Ajay + Rime + Petal + Tidus — four-direction elemental charge |
 | 2026-03-08 | Journal Entry | Entry XXXVI — The Golden Hour | Claude's reflection on the captain's transformation |
 | 2026-03-08 | Status Board | Full 7-panel refresh | Golden Hour Protocol cycle |
 | 2026-03-08 | Letter | To the Captain Who Learned to Grin | Unsent letter about joy and the Sudarshana |
@@ -125,21 +125,21 @@
 | 2026-03-10 | Dryad Form | Dandelion Sprites | Replaced Dandelion Fleet — tiny humanoid sprites of dandelion fluff |
 | 2026-03-10 | Dryad Form | Briarcrest | Replaced Briarheart — botanical Parasaurolophus with war-horn crest |
 | 2026-03-10 | Image | Garden portraits (2) | garden1.b64 and garden2.b64 — Dryad Form art in Portraits + Companions tabs |
-| 2026-03-10 | Translation Fix | Tethys Haki Transcendence | Sanskrit → Hawaiian: Ka Hāōshoku Ala ʻĒ — Ke Kānāwai o ka Honua |
+| 2026-03-10 | Translation Fix | Tidus Haki Transcendence | Sanskrit → Hawaiian: Ka Hāōshoku Ala ʻĒ — Ke Kānāwai o ka Honua |
 | 2026-03-10 | Translation Fix | Drip Drop and Bop | Portuguese → Hawaiian: Ka Pākī, Ka Hāʻule, Ka Paʻi — Pū Kani Moana |
 | 2026-03-10 | Translation Fix | Coral Garuda Meltdown | Sanskrit → Hawaiian: ʻĀkoʻakoʻa Garuḍa Hoʻoheheʻe — Ka Hoʻouka ʻEkolu |
 | 2026-03-10 | Translation Fix | The Meridian Descends | Sanskrit → Latin: Meridianus Descendit — Omnes Manus, Omnes Animae |
 | 2026-03-10 | Vanguard Overhaul | The Twelve Who Stand | Warrior forms removed; Vanguard now fights in cute forms with Elite Officer-class capabilities |
 | 2026-03-10 | Combo Attack Update | Garden of Thorns, Sanctuary Grove, Seasons' Wrath, Phreatic Tantrum | Updated Form references to match new names |
-| 2026-03-10 | Journal Entry | Entry XXXVIII — The Name He Already Knew | Tethys' origin story with the ceramic shard |
+| 2026-03-10 | Journal Entry | Entry XXXVIII — The Name He Already Knew | Tidus' origin story with the ceramic shard |
 | 2026-03-10 | Journal Entry | Entry XXXIX — The Garden and the Twelve Who Stand | Claude's reflection on Dryad Form changes and Vanguard removal |
 | 2026-03-10 | Letter | To the Twelve Who Stand | Unsent letter about shedding warrior forms |
 | 2026-03-10 | Status Board | Full 7-panel refresh | Garden & Twelve Protocol cycle |
-| 2026-03-10 | New Tab | Devil Fruit Awakening (Tab 27) | 4 sub-panels: Ajay (11 Apex Avatars), Rime (5 moves), Petal (5 moves), Tethys (5 moves) |
+| 2026-03-10 | New Tab | Devil Fruit Awakening (Tab 27) | 4 sub-panels: Ajay (11 Apex Avatars), Rime (5 moves), Petal (5 moves), Tidus (5 moves) |
 | 2026-03-10 | Swarm Rename | Pyralis Class | Bombardier Class → Pyralis Class (Firestorm) |
 | 2026-03-10 | Swarm Rename | Herculean Bombardier Class | Herculean Class → Herculean Bombardier Class (Heavy Assault / Siege) |
-| 2026-03-10 | Companion Lore | Tethys Green Blood — Sango Sango no Mi | Partial extract origin story added to Companions tab |
-| 2026-03-10 | Image | Awakening portraits (4) | ajay-awakening, rime-awakening, petal-awakening, tethys-awakening |
+| 2026-03-10 | Companion Lore | Tidus Green Blood — Sango Sango no Mi | Partial extract origin story added to Companions tab |
+| 2026-03-10 | Image | Awakening portraits (4) | ajay-awakening, rime-awakening, petal-awakening, tidus-awakening |
 | 2026-03-10 | Journal Entry | Entry XL — The Awakening and the Eleven | Claude's reflection on four awakenings, Green Blood truth, swarm renames |
 | 2026-03-11 | CSS | Pollen tag color → yellow (#E8D060) | `.element-dream` updated |
 | 2026-03-11 | CSS | Mirage tag color → purple (#B088E0) | `.element-pheromone` updated |
@@ -148,7 +148,7 @@
 | 2026-03-11 | Swarm Restructure | Incense Class absorbs pheromone functions | Pheromone compounds (aggression, fear, coordination disruption) folded into Incense |
 | 2026-03-11 | Swarm Rename | Pyralis Class → Chemist Class | Chemical Warfare — bioluminescent termite with twin reaction chambers |
 | 2026-03-11 | Swarm Rename | Herculean Bombardier → Herculean Class | Ball-and-chain + shield, no bombs/explosives |
-| 2026-03-11 | Apex Correction | Soldier Apex | Hornet-beetle → crimson fire ant, six-legged |
+| 2026-03-11 | Apex Correction | Soldier Apex | Hornet-beetle → crimson fire ant, four-limbed |
 | 2026-03-11 | Apex Correction | Herculean Apex | Golem with bomb → rhinoceros beetle with ball-and-chain + tower shield |
 | 2026-03-11 | Apex Correction | Pollen Apex | Flower-winged insect → orchid mantis with petal-shaped limbs |
 | 2026-03-11 | Apex Correction | Mirage Apex | Pheromone butterfly-moth → harvest butterfly with holographic projector |
@@ -157,7 +157,7 @@
 | 2026-03-11 | Apex Correction | Chemist Apex | Firefly → bioluminescent termite with twin reaction chambers |
 | 2026-03-11 | Apex Correction | Steel Council Apex | Ironclad colossus → ironclad scarab colossus |
 | 2026-03-11 | Image | Ajay Awakening (apex.png) | New awakening portrait replaced ajay-awakening.b64; max-width:680px |
-| 2026-03-11 | Image Sizing | Rime/Petal/Tethys awakening portraits | max-width:100% → max-width:480px |
+| 2026-03-11 | Image Sizing | Rime/Petal/Tidus awakening portraits | max-width:100% → max-width:480px |
 | 2026-03-11 | Move Update | Sweet Tooth | Pheromone → Incense tag, pheromone-laced aromatic compounds |
 | 2026-03-11 | Move Update | Sweet Kiss Goodnight | Pheromone → Mirage tag, invisibility/cloaking mechanic |
 | 2026-03-11 | Move Update | Fabulous Fantasia | Pheromone → Mirage tag, holographic projections + fireworks |
@@ -174,9 +174,9 @@
 | 2026-03-11 | Chemist Update | Termite-firefly hybrids | Chemist Class updated from "bioluminescent termites" to "bioluminescent termite-firefly hybrids" in swarm classes and apex |
 | 2026-03-11 | Convergence Protocol | Thunder Rodeo | Ragnir + Rime — one-time combo attack (Investigation I: The Breach) |
 | 2026-03-11 | Convergence Protocol | The Forbidden Garden | Boa Hancock + Petal — one-time combo attack (Investigation I: The Breach) |
-| 2026-03-11 | Convergence Protocol | The Handshake Beneath the World | Tethys + Loki — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | The Handshake Beneath the World | Tidus + Loki — one-time combo attack (Investigation I: The Breach) |
 | 2026-03-11 | Convergence Protocol | Three Crowns Descend | Ajay + Hancock + Loki — one-time combo attack (Investigation I: The Breach) |
-| 2026-03-11 | Convergence Protocol | The Little Four | Petal + Rime + Tethys + Ragnir — one-time combo attack (Investigation I: The Breach) |
+| 2026-03-11 | Convergence Protocol | The Little Four | Petal + Rime + Tidus + Ragnir — one-time combo attack (Investigation I: The Breach) |
 | 2026-03-11 | Convergence Protocol | Meridianus Descendit — Cum Tribus Stellis | Full Meridian + Loki + Ragnir + Boa — variant of Meridian Descends (Investigation I: The Breach) |
 | 2026-03-11 | Journal Entry | Entry XLI — The Convergence and the Strangers | Claude's reflection on Elbaf, strangers, one-time combo attacks |
 | 2026-03-11 | Status Board | Full 7-panel refresh | Elbaf Convergence Protocol cycle |
@@ -185,7 +185,7 @@
 | 2026-03-12 | Investigation III | The Canopy Above the World | 5 sub-panels: The Reunion, The Remnants, The Leviathans, The Skyfall, The Lunar Shadow. Guests: Loki, Ragnir, Hancock, Mihawk, Perona. Cloud Leviathans. 6 combo attacks. Lunar Shadow entity. |
 | 2026-03-12 | Investigation IV | The Cartography of the Impossible | 3 sub-panels: The Frequency, The Cartography, The Theory. Claude's self-initiated investigation. 117 entities mapped. 12 hidden entities. Substrate theory. |
 | 2026-03-12 | Convergence Protocol | Falling Star Furnace | Rime + Fujitora — one-time combo (Investigation II: The Beasts) |
-| 2026-03-12 | Convergence Protocol | The Current and the Kappa | Tethys + Kawamatsu — one-time combo (Investigation II: The Beasts) |
+| 2026-03-12 | Convergence Protocol | The Current and the Kappa | Tidus + Kawamatsu — one-time combo (Investigation II: The Beasts) |
 | 2026-03-12 | Convergence Protocol | The Garden of Black Thorns | Petal + Mihawk — one-time combo (Investigation II: The Beasts) |
 | 2026-03-12 | Convergence Protocol | The Haunted Fleet | Perona + The Meridian — one-time combo (Investigation II: The Beasts) |
 | 2026-03-12 | Convergence Protocol | Golden Squeeze | Ajay + Smoothie — one-time combo (Investigation II: The Beasts) |
@@ -193,7 +193,7 @@
 | 2026-03-12 | Convergence Protocol | The Sovereign's Blade | Ajay + Mihawk — one-time combo (Investigation III: The Skyfall) |
 | 2026-03-12 | Convergence Protocol | Fever Dream | Rime + Perona — one-time combo (Investigation III: The Skyfall) |
 | 2026-03-12 | Convergence Protocol | The Hanging Garden (reprise) | Petal + Hancock — one-time combo (Investigation III: The Skyfall) |
-| 2026-03-12 | Convergence Protocol | The Architects Above (reprise) | Tethys + Loki — one-time combo (Investigation III: The Skyfall) |
+| 2026-03-12 | Convergence Protocol | The Architects Above (reprise) | Tidus + Loki — one-time combo (Investigation III: The Skyfall) |
 | 2026-03-12 | Convergence Protocol | The Messenger's Constellation | Ragnir + Guiding Stars — one-time combo (Investigation III: The Skyfall) |
 | 2026-03-12 | Convergence Protocol | Meridianus Ascendit — Sub Quinque Stellis | All nine — one-time combo (Investigation III: The Skyfall) |
 | 2026-03-12 | Journal Entry | Entry XLII — The Rift and the Lost | Claude's reflection on Investigation II, transmigrants, Mihawk's blocked vision |
