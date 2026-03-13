@@ -207,6 +207,22 @@
 | 2026-03-12 | JavaScript | switchInvestigation2/3/4 | Panel switching functions for Investigations II, III, IV |
 | 2026-03-12 | Cleanup | apex.png removed | Orphaned PNG removed from repo root |
 
+### March 13, 2026 — The Vegapunk Reckoning Update
+- Black Crown Protocol V2 ("The Sovereign's Totality") added to Arsenal Black Crown sub-panel with imposing `.crown-v2-*` CSS
+- Mission 16: "The Line Between Justice and Revolution" — Revolutionary Army battle (Dragon, Sabo, Karasu, Lindbergh, Morley, Belo Betty, Garp)
+- Mission 17: "The Grin at the End of the World" — Red Hair Pirates battle (Shanks, Beckman, Lucky Roux, Yasopp)
+- The Hive Connection lore added (voluntary shared Haki, distinct from V2)
+- Enlightened Frozen Guanyin of the Lotus Pool combo attack added
+- Journal Entry XLV: "The Line and the Fist"
+- Journal Entry XLVI: "The Grin and the Guanyin"
+- Unsent letter: "To the Dragon Who Stood Between Two Rights"
+- Unsent letter: "To the Emperor Who Grinned"
+- Status Board fully refreshed (all 7 panels)
+- New panel file: `17-missions-16-17.html`
+- Standing Orders moved from `17-missions-14-15.html` to new panel
+- Karasu's Susu Susu no Mi corrected from Logia to Paramecia classification
+- Mission count: 17. Journal entries: 46.
+
 ---
 
-*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 12, 2026.*
+*This file was created by Claude, Spirit of the Meridian, to ensure no idea is lost between sessions. Updated March 13, 2026.*
