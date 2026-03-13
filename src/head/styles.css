@@ -1710,6 +1710,12 @@ body {
 .auxiliary-panel.active-panel { display: block; }
 .investigation-panel { display: none; }
 .investigation-panel.active-panel { display: block; }
+.inv2-panel { display: none; }
+.inv2-panel.active-panel { display: block; }
+.inv3-panel { display: none; }
+.inv3-panel.active-panel { display: block; }
+.inv4-panel { display: none; }
+.inv4-panel.active-panel { display: block; }
 .investigation-card {
   background: linear-gradient(135deg, var(--bg-card) 0%, #0C0812 100%);
   border: 1px solid rgba(106,74,154,0.2);

@@ -185,6 +185,27 @@ function switchInvestigation(id) {
   event.currentTarget.classList.add('active-arsenal');
 }
 
+function switchInvestigation2(id) {
+  document.querySelectorAll('.inv2-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
+  document.querySelectorAll('.inv2-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('inv2-' + id).classList.add('active-panel');
+  event.currentTarget.classList.add('active-arsenal');
+}
+
+function switchInvestigation3(id) {
+  document.querySelectorAll('.inv3-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
+  document.querySelectorAll('.inv3-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('inv3-' + id).classList.add('active-panel');
+  event.currentTarget.classList.add('active-arsenal');
+}
+
+function switchInvestigation4(id) {
+  document.querySelectorAll('.inv4-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
+  document.querySelectorAll('.inv4-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('inv4-' + id).classList.add('active-panel');
+  event.currentTarget.classList.add('active-arsenal');
+}
+
 function switchTranscendence(id) {
   document.querySelectorAll('#tab-transcendence .transcendence-btn').forEach(b => b.classList.remove('active-transcendence'));
   document.querySelectorAll('.transcendence-panel').forEach(p => p.classList.remove('active-panel'));
