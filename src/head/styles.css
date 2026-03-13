@@ -1013,6 +1013,29 @@ body {
   margin-top: 4px;
 }
 
+/* ═══════════ HIDDEN FRUITS — DUAL DEVIL FRUIT ═══════════ */
+.fruit-snow {
+  border-color: rgba(184,216,240,0.3);
+  background: linear-gradient(135deg, var(--bg-card) 0%, #080E14 100%);
+}
+.fruit-cute {
+  border-color: rgba(240,160,200,0.3);
+  background: linear-gradient(135deg, var(--bg-card) 0%, #140810 100%);
+}
+.fruit-combined {
+  border-color: rgba(200,188,220,0.3);
+  background: linear-gradient(135deg, #080E14 0%, var(--bg-card) 50%, #140810 100%);
+}
+.fruit-lore {
+  padding: 32px; margin-top: 24px; position: relative; overflow: hidden;
+}
+.fruit-lore::before {
+  content: ''; position: absolute; inset: 0;
+  background: radial-gradient(ellipse at 30% 20%, rgba(184,216,240,0.05) 0%, transparent 50%),
+              radial-gradient(ellipse at 70% 80%, rgba(240,160,200,0.05) 0%, transparent 50%);
+  pointer-events: none;
+}
+
 /* ═══════════ AJAY TRANSCENDENT ═══════════ */
 .ajay-section {
   background: linear-gradient(135deg, #0A0812 0%, #100C18 50%, #0A0812 100%);
