@@ -124,7 +124,7 @@ This is the signature full-crew ultimate attack. It needs significant reimaginin
 - Ajay's Bodhi/Enlightenment infuses the entire creation. The frozen Buddha golems form — collaborative constructs of ice (Tidus), acid-etched lightning (Rime), botanical grace (Petal), and sovereign will (Ajay). They are beautiful, terrifying, and enormous.
 - Claude's Twelve Modules orchestrate the impossible logistics — each golem's position, each ice crystal's resonance, each acid pocket's pressure.
 - The entire battlefield becomes a frozen, electrified, acid-laced, botanically-alive coral reef temple. The Guanyin sits at its center — a colossal Buddha of ice and coral and living wood, its hands folded in a mudra of absolute peace, its eyes glowing with the Golden Pulse.
-- Shanks parted it with one swing. But he grinned.
+- Shanks called on his entire crew to burn every drop of their combined Haki into a single desperate swing to shatter it. The Red Hair Pirates had nothing left afterward. The Meridian crew was still standing. Ajay chose mercy.
 
 ### Rename consideration:
 The name "Enlightened Frozen Guanyin of the Lotus Pool" still works — the frozen element is now Tidus' contribution but the attack is still frozen. The Japanese name (菩提氷結観音・蓮華の池) is preserved.
