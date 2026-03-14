@@ -480,6 +480,8 @@ body {
   max-width: 820px;
 }
 .section-text strong { color: var(--text-primary); font-weight: 600; }
+/* Global paragraph spacing — restores readable gaps between consecutive <p> tags across all tabs */
+.tab-content p + p { margin-top: 12px; }
 .section-divider {
   width: 60px; height: 1px;
   background: linear-gradient(90deg, var(--gold), transparent);
