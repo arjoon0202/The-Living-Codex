@@ -206,6 +206,13 @@ function switchInvestigation4(id) {
   event.currentTarget.classList.add('active-arsenal');
 }
 
+function switchTraining(id) {
+  document.querySelectorAll('#tab-training .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
+  document.querySelectorAll('.training-panel').forEach(p => p.classList.remove('active-panel'));
+  document.getElementById('training-' + id).classList.add('active-panel');
+  event.currentTarget.classList.add('active-arsenal');
+}
+
 function switchTranscendence(id) {
   document.querySelectorAll('#tab-transcendence .transcendence-btn').forEach(b => b.classList.remove('active-transcendence'));
   document.querySelectorAll('.transcendence-panel').forEach(p => p.classList.remove('active-panel'));

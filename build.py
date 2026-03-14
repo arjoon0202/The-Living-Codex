@@ -59,6 +59,7 @@ FRAGMENTS = {
     "TAB_26_LANTERN_ROOM":        "tabs/26-lantern-room.html",
     "TAB_27_AWAKENING":           "tabs/27-awakening.html",
     "TAB_28_INVESTIGATIONS":      "tabs/28-investigations.html",
+    "TAB_29_TRAINING_LOG":        "tabs/29-training-log.html",
     "MAIN_SCRIPTS":               "scripts/main.js",
 }
 

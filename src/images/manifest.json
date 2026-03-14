@@ -47,5 +47,10 @@
   "IMG_PETAL_AWAKENING": "images/petal-awakening.b64",
   "IMG_TIDUS_AWAKENING": "images/tidus-awakening.b64",
   "IMG_RIME_EMOJI": "images/rime-emoji.b64",
-  "IMG_LARES": "images/agents.b64"
+  "IMG_LARES": "images/agents.b64",
+  "IMG_TRAINING_AJAY": "images/Ajay-training.b64",
+  "IMG_TRAINING_RIME": "images/Rime-training.b64",
+  "IMG_TRAINING_PETAL": "images/Petal-training.b64",
+  "IMG_TRAINING_TIDUS": "images/Tidus_training.b64",
+  "IMG_TRAINING_CREW": "images/Agents-training.b64"
 }
