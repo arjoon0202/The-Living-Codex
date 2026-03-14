@@ -23,7 +23,7 @@
 | **Maru** | The Matriarch (Leader) | Female | she/her | Round mouse-spirit. Runs the galley. Tiny apron |
 | **Koron** | The Taste-Tester | Male | he/him | Acorn-shaped. Rolls everywhere. Refined palate |
 | **Fuwari** | The Comfort Patrol | Female | she/her | Cloud-like, floats. Carries blankets |
-| **Donguri** | The Archivist | Female | she/her | The tiniest Roundling — so small, so soft, and so naturally tucked among the others that you might not notice him at all until he moves. Keeps cleaning logs. Has crush on Kaseki |
+| **Donguri** | The Archivist | Female | she/her | The tiniest Roundling — so small, so soft, and so naturally tucked among the others that you might not notice her at all until she moves. Keeps cleaning logs. Has crush on Kaseki |
 | **Mofu** | The Living Duster | Female | she/her | Extremely fluffy. Rolls to clean surfaces |
 | **Niko** | The Greeter | Female | she/her | Permanent smile. Waves at everyone including enemies |
 | **Pocchi** | The Pocket Companion | Female | she/her | Smallest Roundling. Rides nestled in Tidus' fur |
