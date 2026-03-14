@@ -1834,6 +1834,201 @@ body {
 .inv3-panel.active-panel { display: block; }
 .inv4-panel { display: none; }
 .inv4-panel.active-panel { display: block; }
+
+/* ═══════════ TRAINING LOG TAB ═══════════ */
+.training-panel { display: none; }
+.training-panel.active-panel { display: block; }
+.training-card {
+  background: linear-gradient(135deg, var(--bg-card) 0%, #0D100C 100%);
+  border: 1px solid rgba(200,155,96,0.2);
+  padding: 28px;
+  margin-bottom: 24px;
+  position: relative;
+  transition: border-color 0.3s;
+}
+.training-card::before {
+  content: '';
+  position: absolute; top: 0; left: 0;
+  width: 4px; height: 100%;
+  background: #C89B60;
+}
+.training-card:hover { border-color: rgba(200,155,96,0.4); }
+.training-status {
+  display: inline-block;
+  font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+  font-weight: 600; padding: 3px 10px;
+  margin-bottom: 10px;
+  background: rgba(200,155,96,0.12);
+  color: #C89B60;
+}
+.training-status.mastered { background: rgba(120,180,100,0.12); color: #78B464; }
+.training-status.developing { background: rgba(212,168,67,0.12); color: #D4A843; }
+.training-status.discovered { background: rgba(127,184,224,0.12); color: #7FB8E0; }
+.training-header {
+  font-family: 'Cinzel', serif;
+  color: #C89B60;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+.cross-train-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.cross-train-cell {
+  background: rgba(200,155,96,0.06);
+  border: 1px solid rgba(200,155,96,0.15);
+  padding: 16px;
+  border-radius: 4px;
+}
+.cross-train-cell h4 {
+  font-family: 'Cinzel', serif;
+  color: var(--gold);
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+.cross-train-arrow {
+  color: #C89B60;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 4px 0;
+}
+.tactic-diagram {
+  background: rgba(15,15,22,0.8);
+  border: 1px solid rgba(200,155,96,0.2);
+  padding: 24px;
+  margin: 20px 0;
+  font-family: 'Rajdhani', sans-serif;
+  overflow-x: auto;
+}
+.tactic-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 60px);
+  gap: 4px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.tactic-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  border-radius: 4px;
+  position: relative;
+}
+.tactic-cell.active-pos {
+  background: rgba(200,155,96,0.15);
+  border: 1px solid rgba(200,155,96,0.3);
+}
+.tactic-label {
+  font-size: 0.65rem;
+  color: var(--text-dim);
+  position: absolute;
+  bottom: 2px;
+  letter-spacing: 0.5px;
+}
+.hive-data-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 20px;
+  background: rgba(200,155,96,0.04);
+  border: 1px solid rgba(200,155,96,0.12);
+}
+.hive-node {
+  text-align: center;
+  padding: 12px 16px;
+  background: rgba(200,155,96,0.08);
+  border: 1px solid rgba(200,155,96,0.2);
+  border-radius: 4px;
+  min-width: 100px;
+}
+.hive-node .node-icon { font-size: 1.5rem; margin-bottom: 4px; }
+.hive-node .node-label { font-size: 0.75rem; color: var(--text-secondary); }
+.hive-arrow {
+  color: #C89B60;
+  font-size: 1.2rem;
+}
+.clone-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.clone-card {
+  background: rgba(224,128,112,0.06);
+  border: 1px solid rgba(224,128,112,0.15);
+  padding: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.clone-card:hover { border-color: rgba(224,128,112,0.35); }
+.clone-card h4 {
+  font-family: 'Cinzel', serif;
+  color: #E08070;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+.specialist-card {
+  background: rgba(212,168,67,0.06);
+  border: 1px solid rgba(212,168,67,0.15);
+  padding: 20px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.specialist-card:hover { border-color: rgba(212,168,67,0.35); }
+.specialist-card h4 {
+  font-family: 'Cinzel', serif;
+  color: var(--gold);
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+.water-construct-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.water-card {
+  background: rgba(127,184,224,0.06);
+  border: 1px solid rgba(127,184,224,0.15);
+  padding: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.water-card:hover { border-color: rgba(127,184,224,0.35); }
+.water-card h4 {
+  font-family: 'Cinzel', serif;
+  color: #7FB8E0;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+.cybelle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.cybelle-card {
+  background: rgba(120,180,100,0.06);
+  border: 1px solid rgba(120,180,100,0.15);
+  padding: 16px;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+.cybelle-card:hover { border-color: rgba(120,180,100,0.35); }
+.cybelle-card h4 {
+  font-family: 'Cinzel', serif;
+  color: #78B464;
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
 .investigation-card {
   background: linear-gradient(135deg, var(--bg-card) 0%, #0C0812 100%);
   border: 1px solid rgba(106,74,154,0.2);
