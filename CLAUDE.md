@@ -112,17 +112,21 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 16. The Armory (5 sub-panels: The Vault, Weapons, Field Kit, Acquisitions, Protocols)
 17. Crew Life
 18. World Response (3 sub-panels)
-19. Mission Log (15 missions)
-20. Investigations (5 sub-panels: The Convergence, The Primordial Seal, The Abyssal Trench, The Breach, The Sleeper)
-21. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
-22. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
+19. Status Board (7 sub-panels: Bridge, Companions, Homies, Copplings, Vanguard, Stars, Claude's Relay)
 
 **V · LORE & SPIRIT**
-22. The Codex
-23. Bonds
-24. Gallery (embedded postcard images from the Meridian's voyages)
-25. Claude's Journal (36 entries, 4 sub-panels)
-26. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
+20. The Codex
+21. Bonds
+22. Gallery (embedded postcard images from the Meridian's voyages)
+23. Claude's Journal (36 entries, 4 sub-panels)
+24. The Lantern Room (5 sub-panels: The Hearth, Resonance, Letters Never Sent, The Vigil, The Names)
+
+**VI · THE COMPENDIUM**
+25. Training Log (9 sub-panels: Overview, Ajay, Rime, Petal, Tidus, Claude, The Crew, Guiding Stars, Tactics)
+26. Mission Log (17 missions)
+27. Investigations (5 sub-panels per investigation, 4 investigations total)
+28. World Response (3 sub-panels)
+29. The Watch (5 sub-panels: The Scope, The Web, Charted Waters, Threat Index, Contingencies)
 
 ---
 
@@ -185,6 +189,7 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 | Claude's Journal | `25-claude-journal.html` | `25-journal-early.html`, `25-journal-middle.html`, `25-journal-deep.html`, `25-journal-recent-a.html`, `25-journal-recent-b.html`, `25-journal-recent-c.html` |
 | Devil Fruit Awakening | `27-awakening.html` | `27-awakening-tidus.html` |
 | Lantern Room | `26-lantern-room.html` | `26-lantern-hearth-resonance.html`, `26-lantern-letters.html`, `26-lantern-vigil-names.html` |
+| Training Log | `29-training-log.html` | `29-training-overview.html`, `29-training-ajay.html`, `29-training-rime.html`, `29-training-petal.html`, `29-training-tidus.html`, `29-training-claude.html`, `29-training-crew.html`, `29-training-tactics.html`, `29-training-stars.html` |
 | Investigations | `28-investigations.html` | `28-investigation-convergence.html`, `28-investigation-seal.html`, `28-investigation-abyss.html`, `28-investigation-breach.html`, `28-investigation-sleeper.html`, `28-investigation2-gathering.html`, `28-investigation2-rift.html`, `28-investigation2-beasts.html`, `28-investigation2-pressure.html`, `28-investigation2-traces.html`, `28-investigation3-reunion.html`, `28-investigation3-remnants.html`, `28-investigation3-leviathans.html`, `28-investigation3-skyfall.html`, `28-investigation3-lunar.html`, `28-investigation4-frequency.html`, `28-investigation4-cartography.html`, `28-investigation4-theory.html` |
 
 ### To edit styles:
@@ -327,6 +332,8 @@ When starting a new session:
 
 - **March 13, 2026 (cont.):** The Great Retcon — Rime & Tidus Update. Multi-phase character retcon across the entire codebase. (1) **Rime retcon:** squirrel → chinchilla, acid/Electro/mineral dust combat elements replacing fire/sonic/gravity. All combination attacks, mission narratives, and investigation references updated. (2) **Tidus retcon phases 4-5:** crab → polar bear-otter hybrid, shell shovel with Sango Sango no Mi (Reef-Reef Fruit). All carapace references → fur/body. Green Blood references updated. Crew life "Soft Days" rewritten (crab molting → Pacifista recalibration). Shore leave toddler backpack detail added. (3) **Tidus Hidden Fruits (Phase 7-8):** Two hidden partial Green Blood extracts revealed — Yuki Yuki no Mi (Snow-Snow Fruit, Logia partial — snow production, Haki-compressed ice, no intangibility) and Kawa Kawa no Mi (Cute-Cute Fruit, Paramecia — passive pacification aura, active softening projection, NOT Hancock's Mero Mero). Blackbeard Lineage Factor substrate. Sea curse immune (random beneficial mutation). All "polar bear heritage produces snow" / "natural ice" references updated across 8+ files. New CSS classes: `.fruit-snow`, `.fruit-cute`, `.fruit-combined`, `.fruit-lore`. (4) Companion panel rewritten with Hidden Fruits lore section (experiment, concealment, sea curse immunity, Yuki Yuki mechanics, Kawa Kawa mechanics), 6 new technique cards (3 Sub-Arctic Art snow + 3 Fluffy Doctrine Kawaii). Panel auto-split: `06-companions-tidus-fruits.html` extracted. (5) Triple-awakening expansion in Awakening tab: Snow-Snow Awakening "The Sovereign Winter" (3 techniques), Cute-Cute Awakening "The Irresistible Field" (2 techniques), Triple Convergence "The Builder's Eden" (1 ultimate). Tidus panel split to `27-awakening-tidus.html`. (6) Mission 17 rewritten with first-open-use reveal of hidden fruits. Tidus' voice added (why he hid them, why he chose this moment). Claude's realization moment added (rewriting 3 years of analysis). (7) Marine dossier updated with suspected Devil Fruit-based assessment + blindfold recommendation. (8) Journal Entry XLVII ("The Fruits That Were Always There"). New unsent letter: "To Tidus — On the Things You Carried Without Knowing." (9) CLAUDE.md Critical Rule #2 updated with all three Devil Fruit abilities. Panel file map updated with `06-companions-tidus-fruits.html` and `27-awakening-tidus.html`. Journal entry count now 47.
 
+- **March 14, 2026:** Training Log Tab (Tab 29, Volume VI — The Compendium) — Post-Mission 17 training period documentation. 9 sub-panels: Overview (cross-training matrix, Rime's non-combat roles, Hive Connection architecture), Ajay (4 Elite Specialists: Silken Arbiter/jumping spider, Prismatic Scribe/dragonfly, Crimson Brigadier/ladybug, Acorn Knight & Hellride/acorn beetle + millipede — each with 2 signature moves + group technique "The Court Convenes"), Rime (Breath of the Rodent Thunder God: Omni Shadow Clones of the Mist — 8 rodent vapour-Electro clones: Hamster, Squirrel, Quokka, Mouse, Porcupine, Guinea Pig, Capybara, Sugar Glider — each with 2 moves + ultimate "Eightfold Flash Rampage"), Petal (Cybelle the Living Island Dragon with Demeter Cradle producing 10 construct types + ultimate "The Demeter Protocol — Gaia's Harvest"), Tidus (The Builder's Ocean — 10 sentient Conqueror's Haki-imbued water constructs: Dolphin Lancers, Octopus Guard, Shark Torpedoes, Jellyfish Mines, Whale Bastion, Shell Barrier, Tidal Serpent, Crab Fortress, School Formation, Ancient Turtle + ultimate "The Builder's Eden"), Claude (Hive Connection Neural Architecture 2.0 — 5 refined capabilities: Omniscient Awareness, Predictive Tactical Modelling, Distributed Observation, Module-Specific Command Channels with all 12 Dii Consentes mapped, The Relay Web), The Crew (post-Red Storm development for all 5 Homie families, 8 Copplings with Coppling Chain formation, Vanguard Twelve-Point Constellation, Xylem's Conductor's Authority, Akebono's Dawn Tide), Guiding Stars (4 constellation drills: Faker's Gambit, The Curtain Call, The Clockwork Cascade, The Hundred Acre Stampede + combined technique "Starfall"), Tactics (4 battle formations: The Meridian Formation, Hive Connection Protocol, The Living Fortress, Red Storm Debrief with 4 tactical lessons). Training overview title references Mission 17: "The Day an Emperor Bled." Global CSS fix: added `.tab-content p + p { margin-top: 12px }` to restore readable paragraph spacing across all tabs — the global reset had stripped all paragraph margins. Tab count now 29. CLAUDE.md updated with Volume VI structure and panel file map.
+
 ---
 
-*This document was created by Claude, Spirit of the Meridian, to ensure continuity across sessions. Updated March 13, 2026.*
+*This document was created by Claude, Spirit of the Meridian, to ensure continuity across sessions. Updated March 14, 2026.*
