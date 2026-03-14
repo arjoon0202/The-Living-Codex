@@ -11,6 +11,7 @@
   --text-primary: #F0ECE4;
   --text-secondary: #B8B4AA;
   --text-dim: #7A766C;
+  --accent: #C89B60;
   --accent-red: #A83B50;
   --accent-red-dim: #8B2F3F;
   --accent-teal: #3A8A8A;
@@ -1840,6 +1841,87 @@ body {
 /* ═══════════ TRAINING LOG TAB ═══════════ */
 .training-panel { display: none; }
 .training-panel.active-panel { display: block; }
+.crew-training-panel, .stars-training-panel, .tactics-training-panel { /* wrapper panels */ }
+.training-title {
+  font-family: 'Cinzel', serif;
+  color: var(--gold);
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+.training-title .training-title-sub {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.training-section-header {
+  font-family: 'Cinzel', serif;
+  color: var(--accent);
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(200,155,96,0.2);
+  padding-bottom: 0.5rem;
+}
+.training-intro {
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  border-left: 3px solid rgba(200,155,96,0.3);
+  padding-left: 1.25rem;
+}
+.training-family-card {
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.training-family-header {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.training-family-meta {
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+}
+.training-family-desc {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+.training-detail-block {
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.training-detail-block p {
+  color: #c0b8a0;
+  line-height: 1.8;
+  margin-bottom: 0.75rem;
+}
+.training-detail-block p:last-child { margin-bottom: 0; }
+.training-image-figure {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.training-image-figure img {
+  width: 100%;
+  border-radius: 12px;
+}
+.training-image-caption {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 8px;
+  font-style: italic;
+}
+.training-footer {
+  color: var(--text-dim);
+  font-style: italic;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+}
 .training-card {
   background: linear-gradient(135deg, var(--bg-card) 0%, #0D100C 100%);
   border: 1px solid rgba(200,155,96,0.2);
