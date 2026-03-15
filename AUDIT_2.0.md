@@ -70,7 +70,7 @@ archive/annotate the phase note as superseded.
 | Character | Verdict | Notes | Recommendation |
 |---|---|---|---|
 | **Ajay** | PASS | Human swarm doctrine remains coherent and consistent with his role as architect/commander. | No urgent action. |
-| **Rime** | PASS with one major exception | Most techniques align strongly with chinchilla body traits (paws, fur conductivity, rolling mass, whisker/static flavor, dust adjacency). Exception: hamster/cheek-pouch regression in training clones. | Fix `29-training-rime` clone nomenclature/mechanics as priority. |
+| **Rime** | PASS | Most techniques align strongly with chinchilla body traits (paws, fur conductivity, rolling mass, whisker/static flavor, dust adjacency). | Recheck to ensure |
 | **Petal** | PASS | Chick anatomy is used consistently (wings, beak, talons, flight vectors). Silent-assassin style reads physically and narratively coherent. | No urgent action. |
 | **Tidus** | PASS | Polar bear–sea otter body logic is well integrated (paws, hugging/anchoring defense, aquatic domain control, buoyant/barrier style). | Add occasional reminder text separating construct motifs from body doctrine. |
 | **Claude** | PASS | Non-gendered pronoun discipline is largely preserved in narrative treatment. | Keep current rule visible in contributor docs. |
