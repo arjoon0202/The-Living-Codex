@@ -61,6 +61,7 @@ FRAGMENTS = {
     "TAB_28_INVESTIGATIONS":      "tabs/28-investigations.html",
     "TAB_29_TRAINING_LOG":        "tabs/29-training-log.html",
     "TAB_30_GLOSSARY":            "tabs/30-glossary.html",
+    "TAB_31_WAYFARERS":           "tabs/31-wayfarers.html",
     "MAIN_SCRIPTS":               "scripts/main.js",
 }
 

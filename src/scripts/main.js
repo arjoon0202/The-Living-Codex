@@ -166,6 +166,14 @@ function switchTraining(id, evt) {
   switchPanel(id, evt, '#tab-training .arsenal-btn', 'active-arsenal', '.training-panel', 'training-');
 }
 
+function switchMission(id, evt) {
+  switchPanel(id, evt, '#tab-missions .arsenal-btn', 'active-arsenal', '.mission-panel', 'mission-');
+}
+
+function switchWayfarers(id, evt) {
+  switchPanel(id, evt, '#tab-wayfarers .companion-btn', 'active-companion', '.wayfarers-panel', 'wayfarers-');
+}
+
 function switchTranscendence(id, evt) {
   switchPanel(id, evt, '#tab-transcendence .transcendence-btn', 'active-transcendence', '.transcendence-panel', 'trans-');
 }

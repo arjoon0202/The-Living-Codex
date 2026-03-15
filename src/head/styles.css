@@ -1840,6 +1840,41 @@ body {
 .inv5-panel { display: none; }
 .inv5-panel.active-panel { display: block; }
 
+/* ═══════════ THE WAYFARERS TAB ═══════════ */
+.wayfarers-panel { display: none; }
+.wayfarers-panel.active-panel { display: block; }
+
+/* ═══════════ MISSION LOG ERAS ═══════════ */
+.mission-panel { display: none; }
+.mission-panel.active-panel { display: block; }
+.era-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+.era-numeral {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  margin-bottom: 6px;
+}
+.era-name {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 22px;
+  color: var(--gold-light);
+  margin-bottom: 8px;
+}
+.era-subtitle {
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  color: var(--text-dim);
+  font-style: italic;
+}
+
 /* ═══════════ TRAINING LOG TAB ═══════════ */
 .training-panel { display: none; }
 .training-panel.active-panel { display: block; }

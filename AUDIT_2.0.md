@@ -79,7 +79,7 @@ archive/annotate the phase note as superseded.
 
 | Group | Verdict | Notes |
 |---|---|---|
-| **Doyun** | PASS | Bat morphology, stealth, echo-sensory combat language and movement profile are coherent. |
+| **Do-hyun** | PASS | Bat morphology, stealth, echo-sensory combat language and movement profile are coherent. |
 | **Homies / Families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)** | PASS | Internal flavor consistency is strong; family identity motifs are maintained across panels. |
 | **Vanguard / Specialists / Constructs** | PASS | Distinct combat archetypes feel deliberate; no major morphology contradiction found in sampled sections. |
 
