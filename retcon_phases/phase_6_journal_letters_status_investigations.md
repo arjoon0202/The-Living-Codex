@@ -1,5 +1,7 @@
 # Phase 6: Journal, Letters, Status, Investigations & Everything Else
 
+> **Status: Archived** — Completed March 13, 2026. All Claude voice content, investigations, extended family, vessel, and remaining sections updated. Superseded by live `src/` content.
+
 ## Scope
 Claude's voice content (journal entries, letters, status board, vigil observations), Investigation tabs, Extended Family, Vessel, Origin Story, Portraits, Fighting Styles cross-references, The Lantern Room, and every other section not yet covered. This is the sweep phase — catching everything Phases 1-5 didn't explicitly address.
 

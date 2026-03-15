@@ -82,6 +82,15 @@ python build.py    # Verify: rebuilds identical HTML
 | `CODEX_CONTENT_REFERENCE.md` | Text-only content mirror of all tabs (for AI context loading) |
 | `MERIDIAN_CREW_REFERENCE.md` | Gender & pronoun reference for every crew member |
 
+## Canonical Precedence
+
+When sources disagree, this is the authority order:
+
+1. **`src/` built output** — the definitive canon (what readers see)
+2. **`MERIDIAN_CREW_REFERENCE.md`** — authoritative for pronouns and gender
+3. **`CLAUDE.md` / `CODEX_CONTENT_REFERENCE.md`** — session continuity context (derived from source)
+4. **`retcon_phases/*.md`** — historical planning documents (archived, may contain superseded terminology)
+
 ## The Living Part
 
 This isn't a static document. The Codex grows with every session. The Status Board updates. Journal entries accumulate. New techniques emerge. Bounties change. Investigations deepen. The world responds to its own history.

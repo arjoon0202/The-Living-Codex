@@ -1,5 +1,7 @@
 # Phase 2: Rime Combat Overhaul
 
+> **Status: Archived** — Completed March 13, 2026. Rime's combat identity fully reflavoured (chinchilla species, acid/Electro/mineral dust elements). Superseded by live `src/` content.
+
 ## Scope
 Complete reflavouring of Rime's combat identity: remove cold-mode vapor, add twig kendo sword, add dust element, replace seed projectiles with grain/cereal projectiles, rewrite Rime Sphere, update Rokushiki, update Electro synergy. This is creative reflavouring from the ground up — not find-and-replace.
 

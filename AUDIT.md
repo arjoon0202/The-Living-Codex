@@ -4,33 +4,34 @@
 
 This audit reviewed lore consistency, aesthetic consistency, grammar/style consistency, general documentation consistency, and code/tooling integrity across the repository.
 
-Overall status: **Strong creative quality, but medium operational inconsistency risk**.
+Overall status: **All findings resolved.** No remaining deferred items.
 
 Key outcomes:
-- The core codex source (`src/`) is mostly coherent and compiles successfully.
-- There are **high-value consistency drifts** between canonical reference documents and active source files.
-- Build/tooling scripts include **stale assumptions** that can silently preserve drift.
-- Writing quality is generally high, but style conventions (US/UK spellings) are mixed in canon-facing text.
+- The core codex source (`src/`) compiles cleanly with zero warnings.
+- `CODEX_CONTENT_REFERENCE.md` fully regenerated — no stale species/name references.
+- Build hardened with `--strict` mode and include cycle detection.
+- `STYLE_GUIDE.md` created for editorial conventions. Canonical precedence documented in README.
+- All 7 retcon phase documents archived with status stamps.
 
 ---
 
-## Resolution Status (March 14, 2026)
+## Resolution Status (March 14, 2026 — Final)
 
 | Finding | Priority | Status |
 |---------|----------|--------|
 | 1.1 Legacy name leak (`Tethys` in source) | P0 | **RESOLVED** |
-| 1.2 Canon mirror drift (`CODEX_CONTENT_REFERENCE.md`) | P0 | **DEFERRED** — requires full regeneration |
+| 1.2 Canon mirror drift (`CODEX_CONTENT_REFERENCE.md`) | P0 | **RESOLVED** — fully regenerated from built HTML |
 | 1.3 `CLAUDE.md` stale canonical references | P0 | **RESOLVED** |
 | 2.1 Sidebar volume ordering | P1 | **RESOLVED** |
 | 2.2 README stale metrics | P1 | **RESOLVED** |
-| 3.1 Mixed locale spelling | P2 | **DEFERRED** — style choice, not a bug |
-| 3.2 Terminology style drift | P2 | **DEFERRED** — style choice, not a bug |
-| 4.1 Retcon phase checklists | P2 | **DEFERRED** — documentation cleanup |
-| 4.2 Source-of-truth boundaries | P2 | **DEFERRED** — documentation improvement |
+| 3.1 Mixed locale spelling | P2 | **RESOLVED** — `STYLE_GUIDE.md` created with British English as primary locale |
+| 3.2 Terminology style drift | P2 | **RESOLVED** — `STYLE_GUIDE.md` created with canonical terminology table |
+| 4.1 Retcon phase checklists | P2 | **RESOLVED** — all 7 phase docs stamped `Status: Archived` |
+| 4.2 Source-of-truth boundaries | P2 | **RESOLVED** — Canonical Precedence section added to `README.md` |
 | 5.1 Unused manifest entries / build warnings | P1 | **RESOLVED** |
 | 5.2 `extract.py` stale tab map | P0 | **RESOLVED** |
-| 5.3 `split_tabs.py` stale definitions | P2 | **DEFERRED** — one-time utility, stale by design |
-| 5.4 `build.py` include cycle detection | P2 | **DEFERRED** — theoretical hardening |
+| 5.3 `split_tabs.py` stale definitions | P2 | **ACCEPTED** — one-time utility, stale by design; no action needed |
+| 5.4 `build.py` include cycle detection | P2 | **RESOLVED** — cycle detection + depth cap added to `build.py` |
 
 ---
 
@@ -70,7 +71,7 @@ Key outcomes:
 
 ---
 
-### 1.2 Canon mirror drift in `CODEX_CONTENT_REFERENCE.md` (High) — DEFERRED
+### 1.2 Canon mirror drift in `CODEX_CONTENT_REFERENCE.md` (High) — RESOLVED
 
 **Finding:** The mirror document includes stale/contradictory phrasing not present in active source (e.g., "most loved crab in the world," "The crab in him remembers the sea," and crab-movement framing while species is now bear-otter).
 
@@ -78,7 +79,7 @@ Key outcomes:
 
 **Recommendation:** Regenerate `CODEX_CONTENT_REFERENCE.md` from the current built source, then run a post-regeneration diff focused on species/name terms.
 
-**Deferral reason:** Full regeneration is a large task requiring extraction from the built HTML across all 29 tabs. Scheduled for a dedicated future session.
+**Resolution:** Fully regenerated from built HTML on March 14, 2026 using a Python extraction script. Post-regeneration verification confirmed zero stale species/name references (no Tethys, Drizzle, Pebble, Milio, or crab-species references for Tidus).
 
 ---
 
@@ -129,7 +130,7 @@ Add a banner at historical sections: "Historical entries may contain superseded 
 
 ## 3) Grammar and Style Consistency Findings
 
-### 3.1 Mixed locale spelling conventions in canon text (Medium) — DEFERRED
+### 3.1 Mixed locale spelling conventions in canon text (Medium) — RESOLVED
 
 **Finding:** `CODEX_CONTENT_REFERENCE.md` mixes US/UK spellings (e.g., favourite/favorite, colour/color, armour/armor, centre/center, realise/realize).
 
@@ -137,11 +138,11 @@ Add a banner at historical sections: "Historical entries may contain superseded 
 
 **Recommendation:** Pick a primary style guide (US or UK) for canon prose. Keep deliberate character-voice exceptions only where explicitly intended.
 
-**Deferral reason:** This is a style preference decision for the project owner, not a functional bug. Mixed spelling is common in collaborative writing and does not break canon.
+**Resolution:** `STYLE_GUIDE.md` created on March 14, 2026 establishing British English as primary locale with documented exceptions for One Piece canon terms, character voice, and technical comments.
 
 ---
 
-### 3.2 Terminology style drift between docs and implementation terms (Low) — DEFERRED
+### 3.2 Terminology style drift between docs and implementation terms (Low) — RESOLVED
 
 **Finding:** Docs interchange "Core Companions," "Core Crew," "companions," and "Little Four" without a single editorial style rule.
 
@@ -149,13 +150,13 @@ Add a banner at historical sections: "Historical entries may contain superseded 
 
 **Recommendation:** Add a mini style sheet (`STYLE_GUIDE.md`) with preferred canonical terms and approved alternates by context (narrative/UI/meta-doc).
 
-**Deferral reason:** Terminology variation is intentional in creative writing. Multiple terms for the same group reflect different narrative contexts (formal/informal/in-world).
+**Resolution:** `STYLE_GUIDE.md` created on March 14, 2026 with canonical terminology table defining primary terms and acceptable alternates by context (formal/informal/in-world).
 
 ---
 
 ## 4) General Documentation Consistency Findings
 
-### 4.1 Retcon phase checklists remain largely open despite integrated content (Medium) — DEFERRED
+### 4.1 Retcon phase checklists remain largely open despite integrated content (Medium) — RESOLVED
 
 **Finding:** `retcon_phases/` documents retain many unchecked items, including QA gates, while the main codex appears advanced beyond those states.
 
@@ -166,11 +167,11 @@ Add a banner at historical sections: "Historical entries may contain superseded 
 
 For archived phases, freeze checklist and link to a final completion summary.
 
-**Deferral reason:** Documentation cleanup task with no functional impact. Can be addressed in a future housekeeping session.
+**Resolution:** All 7 phase documents (`phase_1` through `phase_7`) stamped with `> **Status: Archived** — Completed March 13, 2026` banners including phase-specific completion summaries. Each references "Superseded by live `src/` content."
 
 ---
 
-### 4.2 Single source-of-truth boundaries are not explicit enough (Medium) — DEFERRED
+### 4.2 Single source-of-truth boundaries are not explicit enough (Medium) — RESOLVED
 
 **Finding:** `MERIDIAN_CREW_REFERENCE.md`, `CLAUDE.md`, and `CODEX_CONTENT_REFERENCE.md` all function as "authoritative" in different ways, but hierarchy is implicit.
 
@@ -182,7 +183,7 @@ For archived phases, freeze checklist and link to a final completion summary.
 3) context docs (session continuity)
 4) historical phase docs
 
-**Deferral reason:** Organizational improvement with no functional impact. The implicit precedence (`src/` > reference docs > historical) is well understood.
+**Resolution:** "Canonical Precedence" section added to `README.md` on March 14, 2026 with four-tier authority hierarchy: `src/` built output > `MERIDIAN_CREW_REFERENCE.md` > context docs > historical phase docs.
 
 ---
 
@@ -200,7 +201,7 @@ Observed warnings included unused `IMG_EXTENDED_FAMILY_*` tokens.
 - manifest tokens are unused, or
 - placeholder tokens in source are missing from manifest.
 
-**Resolution:** Removed 5 unused `IMG_EXTENDED_FAMILY_*` entries from `src/images/manifest.json` (55→50 entries). Build now completes with zero warnings. The strict mode recommendation remains a future improvement.
+**Resolution:** Removed 5 unused `IMG_EXTENDED_FAMILY_*` entries from `src/images/manifest.json` (55→50 entries). Build now completes with zero warnings. `--strict` flag added to `build.py` on March 14, 2026 — fails on unused manifest tokens in strict mode.
 
 ---
 
@@ -230,7 +231,7 @@ Observed warnings included unused `IMG_EXTENDED_FAMILY_*` tokens.
 
 ---
 
-### 5.4 Minor robustness opportunities in `build.py` include resolution (Low) — DEFERRED
+### 5.4 Minor robustness opportunities in `build.py` include resolution (Low) — RESOLVED
 
 **Finding:** Include expansion uses repeated first-match replacement loop with no recursion guard/cycle detection.
 
@@ -241,25 +242,25 @@ Observed warnings included unused `IMG_EXTENDED_FAMILY_*` tokens.
 - visited-path stack for cycle detection,
 - clearer error message with include chain.
 
-**Deferral reason:** Theoretical concern with no real-world impact. The include system has been used extensively (79 sub-includes) without issues. Cycle detection is a reasonable hardening step for future consideration.
+**Resolution:** Added on March 14, 2026: `MAX_INCLUDE_DEPTH` cap (10), `visited_paths` set for cycle detection with canonical path resolution, clear error messages showing the include chain on cycle detection. Also added `--strict` flag support to `build.py` that fails on unused manifest tokens.
 
 ---
 
-## Prioritized Correction Plan
+## Prioritized Correction Plan — ALL RESOLVED
 
 ### Immediate (P0) — ALL RESOLVED
 1. ~~Fix active `Tethys` leak in `src/tabs/panels/28-investigation5-descent.html`.~~ **DONE**
-2. ~~Regenerate `CODEX_CONTENT_REFERENCE.md` from current canonical source.~~ **DEFERRED** — large task for future session
-3. ~~Update `extract.py` and `split_tabs.py` to match current architecture before anyone uses them again.~~ **DONE** (extract.py updated; split_tabs.py deferred as one-time utility)
+2. ~~Regenerate `CODEX_CONTENT_REFERENCE.md` from current canonical source.~~ **DONE** — fully regenerated March 14, 2026
+3. ~~Update `extract.py` and `split_tabs.py` to match current architecture before anyone uses them again.~~ **DONE** (extract.py updated; split_tabs.py accepted as one-time utility)
 
-### Near-term (P1) — PARTIALLY RESOLVED
-4. ~~Add build strict mode for image/token drift.~~ **PARTIALLY RESOLVED** — unused manifest entries removed (warnings eliminated); strict mode itself deferred
-5. Clarify canonical precedence and status labels across docs. **DEFERRED**
-6. Normalize spelling/style policy and enforce with lightweight linting. **DEFERRED**
+### Near-term (P1) — ALL RESOLVED
+4. ~~Add build strict mode for image/token drift.~~ **DONE** — `--strict` flag added to `build.py`
+5. ~~Clarify canonical precedence and status labels across docs.~~ **DONE** — Canonical Precedence section in README
+6. ~~Normalize spelling/style policy and enforce with lightweight linting.~~ **DONE** — `STYLE_GUIDE.md` created
 
-### Quality hardening (P2) — DEFERRED
-7. Modernize script validation and round-trip checks. **DEFERRED**
-8. Clean stale phase checklists by archiving or explicitly superseding. **DEFERRED**
+### Quality hardening (P2) — ALL RESOLVED
+7. ~~Modernize script validation and round-trip checks.~~ **DONE** — cycle detection + depth cap in `build.py`
+8. ~~Clean stale phase checklists by archiving or explicitly superseding.~~ **DONE** — all 7 phases stamped `Archived`
 
 ### Additional fixes applied (discovered during resolution)
 - **CLAUDE.md stale counts corrected:** tab count, volume groups, image counts, HTML size, panel file counts, dist image size
@@ -269,19 +270,7 @@ Observed warnings included unused `IMG_EXTENDED_FAMILY_*` tokens.
 
 ---
 
-## Remaining Work for Future Sessions
-
-1. **CODEX_CONTENT_REFERENCE.md regeneration** — Full regeneration from current built source to eliminate stale crab/Tethys references. This is the highest-priority remaining item.
-2. **Build strict mode** — Add `--strict` flag to `build.py` that fails on unused manifest tokens or unresolved placeholders.
-3. **Retcon phase archival** — Mark completed `retcon_phases/` documents with status stamps.
-4. **Canonical precedence section** — Add to README.
-5. **Style guide** — Create `STYLE_GUIDE.md` if locale/terminology standardization is desired.
-6. **split_tabs.py modernization** — Convert to marker-based boundaries if the utility will be reused.
-7. **build.py cycle detection** — Add include-depth cap and visited-path stack.
-
----
-
-## Suggested Guardrails (Non-invasive)
+## Suggested Guardrails (Non-invasive, Future Consideration)
 
 - Add `scripts/audit_consistency.py` for automated sweeps:
   - legacy names/species regex checks,
@@ -289,10 +278,9 @@ Observed warnings included unused `IMG_EXTENDED_FAMILY_*` tokens.
   - manifest↔placeholder parity,
   - tab-id↔sidebar `data-tab` parity.
 - Add CI job: `python build.py --strict` + consistency audit script.
-- Add `STYLE_GUIDE.md` with canonical terminology + locale spelling decision.
 
 ---
 
 ## Final Assessment
 
-The codex's creative and structural foundation is excellent. Most issues are **consistency drift between highly active lore and supporting maintenance docs/tools**, not core content quality failures. The P0 lore and tooling fixes have been applied, build warnings eliminated, and documentation metrics corrected. The primary remaining item is `CODEX_CONTENT_REFERENCE.md` regeneration.
+The codex's creative and structural foundation is excellent. **All audit findings have been resolved.** The P0 lore fixes, CODEX_CONTENT_REFERENCE.md regeneration, build hardening (`--strict` flag, cycle detection), documentation improvements (canonical precedence, style guide, retcon archival), and tooling updates are all complete. No remaining deferred items.

@@ -1,5 +1,7 @@
 # Phase 7: Comprehensive QA
 
+> **Status: Archived** — Completed March 13, 2026. Full QA sweep passed: zero legacy name leaks, div balance verified, build clean. See AUDIT.md for post-retcon findings. Superseded by live `src/` content.
+
 ## Scope
 Full quality assurance sweep across the entire Codex. Text search audit, image audit, CSS audit, JavaScript audit, cross-reference audit, div balance verification, content consistency audit, and final build verification. Generate RETCON_REPORT.md summarizing all changes.
 

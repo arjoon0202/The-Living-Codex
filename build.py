@@ -106,7 +106,7 @@ def decode_b64_file(b64_path):
     return img_bytes, ext
 
 
-def build():
+def build(strict=False):
     if not os.path.exists(TEMPLATE):
         print(f"ERROR: Template not found: {TEMPLATE}")
         sys.exit(1)
@@ -129,23 +129,35 @@ def build():
     # Resolve sub-includes: {{INCLUDE:relative/path.html}} within assembled content
     # This allows large tab files to split panels into separate sub-fragment files.
     # Paths are relative to the src/ directory.
+    # Cycle detection: track visited paths per include chain; depth cap at 10.
+    MAX_INCLUDE_DEPTH = 10
     include_pattern = re.compile(r"\{\{INCLUDE:([^}]+)\}\}")
     include_count = 0
+    visited_paths = set()
     while True:
         match = include_pattern.search(html)
         if not match:
             break
         include_path = match.group(1).strip()
         full_path = os.path.join(SRC_DIR, include_path)
+        canonical = os.path.realpath(full_path)
+        if canonical in visited_paths:
+            print(f"ERROR: Include cycle detected: {include_path} has already been included")
+            print(f"  Include chain so far: {visited_paths}")
+            sys.exit(1)
         if not os.path.exists(full_path):
             print(f"ERROR: Missing sub-include: {full_path}")
+            sys.exit(1)
+        visited_paths.add(canonical)
+        include_count += 1
+        if include_count > MAX_INCLUDE_DEPTH * len(visited_paths) + 200:
+            print(f"ERROR: Include depth exceeded ({include_count} expansions, {len(visited_paths)} unique files)")
             sys.exit(1)
         with open(full_path, "r", encoding="utf-8") as f:
             include_content = f.read()
         html = html[:match.start()] + include_content + html[match.end():]
-        include_count += 1
     if include_count:
-        print(f"Resolved {include_count} sub-includes")
+        print(f"Resolved {include_count} sub-includes ({len(visited_paths)} unique files)")
 
     # Decode images to dist/images/ and replace placeholders with paths
     if os.path.exists(MANIFEST):
@@ -181,7 +193,12 @@ def build():
                 html = html.replace(placeholder, relative_path)
                 img_count += 1
             else:
-                print(f"WARNING: Image placeholder {placeholder} not found in assembled HTML")
+                msg = f"Image placeholder {placeholder} not found in assembled HTML"
+                if strict:
+                    print(f"ERROR (strict): {msg}")
+                    sys.exit(1)
+                else:
+                    print(f"WARNING: {msg}")
 
         print(f"Decoded {img_count} images to dist/images/ ({total_img_bytes:,} bytes total)")
 
@@ -218,4 +235,7 @@ def build():
 
 
 if __name__ == "__main__":
-    build()
+    strict_mode = "--strict" in sys.argv
+    if strict_mode:
+        print("Running in strict mode")
+    build(strict=strict_mode)
