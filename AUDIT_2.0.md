@@ -143,9 +143,10 @@ Fragments and emphatic punctuation are stylistically intentional and generally e
    - role
    - powers
    - current canonical constraints
+   - Ensure additions are aesthically pleasing.
 
 2. Add a **global glossary panel** for recurring technical terms:
-   - Ryou, Electro, Green Blood, Soul Tether, Anchor Point, etc.
+   - Ryou, Electro, Green Blood, Soul Tether, Anchor Point, etc. [Use your websearch functionality when doing so to ensure accuracy]
 
 3. Standardize panel micro-structure:
    - Overview → Mechanics → Named Techniques → Limits/Costs → Synergy.
@@ -220,16 +221,11 @@ Current switch functions are repetitive and hard to maintain.
 
 ### P0 (Immediate)
 
-1. Fix Rime hamster clone + cheek-pouch regression in `29-training-rime.html`.
-2. Resolve and document canonical position on Tidus/Green Blood references vs archived phase guidance.
-
-### P1 (Near-term)
-
 3. Refactor JS event handling away from implicit global `event`.
 4. Add null guard for particle container.
 5. Standardize locale spelling policy and run targeted normalization pass.
 
-### P2 (Quality uplift)
+### P1 (Quality uplift)
 
 6. Add Canon Snapshot blocks and glossary support.
 7. Reduce cognitive load in high-density lore panels via structural subheads and summaries.
