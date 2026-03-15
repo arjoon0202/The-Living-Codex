@@ -8,4 +8,53 @@
       Comments are pulled from crew discussions, post-mission debriefs, and — in Rime's case — things shouted during the mission itself.
     </p>
 
-{{INCLUDE:tabs/panels/17-missions-01-05.html}}{{INCLUDE:tabs/panels/17-missions-06-10.html}}{{INCLUDE:tabs/panels/17-missions-11-13.html}}{{INCLUDE:tabs/panels/17-missions-14-15.html}}{{INCLUDE:tabs/panels/17-missions-16-17.html}}
+    <!-- Era sub-navigation -->
+    <div class="arsenal-selector">
+      <div class="arsenal-btn active-arsenal" onclick="switchMission('era1', event)">I · The First Swarm</div>
+      <div class="arsenal-btn" onclick="switchMission('era2', event)">II · The Rising Tide</div>
+      <div class="arsenal-btn" onclick="switchMission('era3', event)">III · The World Takes Notice</div>
+      <div class="arsenal-btn" onclick="switchMission('era4', event)">IV · The Sovereign's War</div>
+    </div>
+
+    <!-- Era I — The First Swarm (Missions 1–5) -->
+    <div class="mission-panel active-panel" id="mission-era1">
+      <div class="era-header">
+        <div class="era-numeral">Era I</div>
+        <div class="era-name">The First Swarm</div>
+        <div class="era-subtitle">Missions 1–5 · From a cage on a transport ship to the first flight of the Meridian</div>
+      </div>
+{{INCLUDE:tabs/panels/17-missions-01-05.html}}
+    </div>
+
+    <!-- Era II — The Rising Tide (Missions 6–10) -->
+    <div class="mission-panel" id="mission-era2">
+      <div class="era-header">
+        <div class="era-numeral">Era II</div>
+        <div class="era-name">The Rising Tide</div>
+        <div class="era-subtitle">Missions 6–10 · The world learns the Swarm Sovereign's name</div>
+      </div>
+{{INCLUDE:tabs/panels/17-missions-06-10.html}}
+    </div>
+
+    <!-- Era III — The World Takes Notice (Missions 11–13) -->
+    <div class="mission-panel" id="mission-era3">
+      <div class="era-header">
+        <div class="era-numeral">Era III</div>
+        <div class="era-name">The World Takes Notice</div>
+        <div class="era-subtitle">Missions 11–14 · Prisons breached, islands rebuilt, and a battle erased from history</div>
+      </div>
+{{INCLUDE:tabs/panels/17-missions-11-13.html}}
+    </div>
+
+    <!-- Era IV — The Sovereign's War (Missions 14–17) -->
+    <div class="mission-panel" id="mission-era4">
+      <div class="era-header">
+        <div class="era-numeral">Era IV</div>
+        <div class="era-name">The Sovereign's War</div>
+        <div class="era-subtitle">Missions 15–17 · God's Knights, Revolutionaries, Emperors — the powers of the world converge</div>
+      </div>
+{{INCLUDE:tabs/panels/17-missions-14-15.html}}
+{{INCLUDE:tabs/panels/17-missions-16-17.html}}
+    </div>
+
+  </div>

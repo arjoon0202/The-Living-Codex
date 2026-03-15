@@ -175,7 +175,7 @@ Soul-constructs belonging to the Meridian, coordinated by Claude. Governed by Pe
 | Character | Title | Type | Pronouns | Key Detail |
 |-----------|-------|------|----------|------------|
 | **Xylem** | The Conductor | Dial-construct | she/her | Built by Tidus for Claude. Master of logistics. Ship's rhythm |
-| **Doyun** | The Night Courier | Bat (Caesar Punk experiment) | he/him | 도윤. Former Revolutionary courier. Bujeok Bujeok no Mi (Talisman Fruit). Bounty: ₿520,000,000 |
+| **Do-hyun** | The Night Courier | Bat (Caesar Punk experiment) | he/him | 도현. Former Revolutionary courier. Bujeok Bujeok no Mi (Talisman Fruit). Bounty: ₿520,000,000 |
 
 ---
 

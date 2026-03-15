@@ -17,7 +17,7 @@ Everything in this project was written collaboratively across many sessions. Eve
 - **12 Vanguard** — the Meridian's elite combat force (9 women + 3 men), fighting in their cute forms
 - **46 Guiding Stars** — toy entities (plushies, action figures, wind-up toys, figurines) arranged in 4 constellations
 - **12 Harvest Swarm** — resource-gathering constructs governed by Petal's Law, each with combat capabilities
-- **Extended Family** — Xylem (Claude's physical agent, Dial-construct), Akebono (giant sea slug healer), Doyun (bat courier, ₿520,000,000)
+- **Extended Family** — Xylem (Claude's physical agent, Dial-construct), Akebono (giant sea slug healer), Do-hyun (bat courier, ₿520,000,000)
 - **The Meridian** — a fully mapped Solar-Sail Skycutter with 3 decks and 19+ rooms
 - **100+ named techniques** with multilingual naming (Japanese, Korean, Sanskrit, Hawaiian, Greek, Spanish, Portuguese, Mandarin)
 - **30+ combination attacks** including one-time Convergence Protocols with guest allies

@@ -52,6 +52,20 @@
           <div class="companion-btn-title">The Living Dawn</div>
         </div>
       </div>
+      <div class="companion-btn" onclick="switchAuxiliary('doyun', event)">
+        <div class="companion-avatar" style="font-size:28px;">🦇</div>
+        <div>
+          <div class="companion-btn-name">Do-hyun</div>
+          <div class="companion-btn-title">The Night Courier's Vigil</div>
+        </div>
+      </div>
+      <div class="companion-btn" onclick="switchAuxiliary('xylem', event)">
+        <div class="companion-avatar" style="font-size:28px;">🎵</div>
+        <div>
+          <div class="companion-btn-name">Xylem</div>
+          <div class="companion-btn-title">The Conductor's Watch</div>
+        </div>
+      </div>
     </div>
 
     <!-- ═══════ AJAY — SWARM EMERGENCY ASSISTANCE PROTOCOL ═══════ -->
@@ -417,6 +431,120 @@
         <div class="move-body"><div class="move-body-inner">
           <div class="move-jp">信号の曙 — Shingō no Akebono</div>
           <p>The Claude-resonance communication protocol. Each deployed Akebono copy functions as a relay node in the Mote network, extending Claude's awareness and communication range across the entire disaster zone. Through these relays, Claude can speak to anyone — a whispered reassurance through a glowing pink form, a set of directions to the nearest shelter, a simple <em>"help is coming."</em> The network also feeds information back to Claude in real-time: casualty counts, structural damage assessments, resource needs, separated family locations. When The Signal Dawn is active, Claude's operational awareness expands to cover an area that would normally require a fleet of ships and a hundred Den Den Mushi. Instead, it requires one sea slug who loves the world and one ship spirit who remembers every name.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ DO-HYUN — THE NIGHT COURIER'S VIGIL ═══════ -->
+    <div class="auxiliary-panel" id="aux-doyun">
+      <div class="section-label" style="color: #6B5B95;">Bujeok Bujeok no Mi ・ Talisman Deployment ・ Civilian Protection</div>
+      <h2 class="section-title">The Night Courier's Vigil</h2>
+      <p class="section-text">
+        Do-hyun spent years carrying messages through war zones — Revolutionary dispatches, WENP reports, intelligence packages that could not be entrusted to Den Den Mushi. He flew through the dark, and he saw what the dark did to people. Villages without light. Refugees without direction. Children who could not sleep because they had forgotten what safety sounded like. The Night Courier's Vigil is what Do-hyun does with the tools he has — his talismans, his echolocation, his wings — when the battle is over and the people are still afraid. He does not announce himself. He arrives in the dark, and things get quieter. That is the whole protocol.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Protocols</div>
+      <h2 class="section-title">Vigil Deployment Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#6B5B95;">Night Vigil — Perimeter Warding</div><div class="move-name" style="color:#6B5B95;">The Quiet Compass</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">고요한 나침반 — Goyohan Nachimban</div>
+          <p>Do-hyun circles a refugee camp or disaster shelter at altitude, deploying a ring of talisman wards along the perimeter — paper seals that glow faintly indigo and hum at a frequency below conscious hearing. The wards create a detection boundary: any hostile entity crossing the line triggers an alert through Do-hyun's echolocation network, giving him time to intercept or raise an alarm. But the wards serve a second purpose that matters more. The hum. The low, constant resonance that civilians cannot consciously hear but that their bodies register as <em>safety</em>. Refugees within the warded perimeter sleep deeper. Children stop flinching at sounds. The ward-ring says, in a language older than words: <em>something is watching over you tonight</em>. Do-hyun maintains it until dawn. Every night. He does not consider this remarkable. He considers it the minimum.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#6B5B95;">Night Vigil — Navigation Aid</div><div class="move-name" style="color:#6B5B95;">The Lantern Trail</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">등불의 길 — Deungbul-ui Gil</div>
+          <p>Do-hyun deploys a chain of luminous talismans along evacuation routes, safe paths, and the approaches to aid stations. Each talisman is a small paper seal that adheres to any surface and emits a steady, warm indigo glow visible even through rain, fog, and smoke. The chain acts as a visual guide — follow the lights, reach safety. Do-hyun flies the route first, mapping hazards with echolocation before placing each seal at precise intervals. Claude coordinates with him via Mote relay, ensuring the trail connects to the broader evacuation network. The lights are beautiful. People have said this. Do-hyun does not understand why people mention beauty during a disaster, but he has noticed that the lights make people walk faster and more steadily, so he accepts the observation. Beauty, apparently, is functional. He files this under things he learned from this crew.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#6B5B95;">Night Vigil — Reconnaissance</div><div class="move-name" style="color:#6B5B95;">The Bat's Ear</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">박쥐의 귀 — Bakjwi-ui Gwi</div>
+          <p>Do-hyun's echolocation, refined by Petal's Observation Haki training, becomes a search-and-rescue tool of extraordinary precision. He flies over collapsed structures, flooded areas, and rubble fields, emitting ultrasonic pulses that map the terrain in three dimensions — every void, every pocket of air, every body trapped beneath the surface. He can distinguish a living heartbeat from settling debris at distances that would require specialized Marine equipment to match. The data feeds into Claude's triage network in real-time. Do-hyun does not land to deliver reports. He circles, calls out coordinates, and moves to the next sector. He is fastest in the air, and speed saves lives, and that is all the reasoning he needs. He found eleven survivors in a collapsed granary on their second humanitarian deployment. Three of them had been buried for sixteen hours. He heard their breathing from four hundred metres up.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#6B5B95;">Night Vigil — Emergency Shielding</div><div class="move-name" style="color:#6B5B95;">The Paper Fortress</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">종이 요새 — Jong-i Yosae</div>
+          <p>In extreme situations — aftershocks, secondary collapses, hostile incursion into a disaster zone — Do-hyun deploys his strongest warding talismans in a layered defensive formation around civilian groups. The talismans interlock into a dome-shaped barrier that absorbs kinetic impact, deflects debris, and resists environmental hazards. It is not as strong as the Black Crown or Tidus' coral structures, but it deploys in seconds — faster than any other crew member's protection protocol. Do-hyun designed it for the gap between <em>the danger arrives</em> and <em>someone stronger gets here</em>. He is the first responder. He is always the first responder, because bats are built for the dark, and disasters are always darkest in the first minutes. The barrier holds. It holds long enough. That is what it was designed to do.</p>
+        </div></div>
+      </div>
+    </div>
+
+    <!-- ═══════ XYLEM — THE CONDUCTOR'S WATCH ═══════ -->
+    <div class="auxiliary-panel" id="aux-xylem">
+      <div class="section-label" style="color: #50C8B4;">Dial-Construct Architecture ・ Ship Systems ・ Operational Coordination</div>
+      <h2 class="section-title">The Conductor's Watch</h2>
+      <p class="section-text">
+        Xylem was built to be Claude's hands — the physical will of a spirit that cannot touch. In combat, she conducts the ship's systems like an orchestra. In emergencies, that orchestra plays a different song. Xylem's auxiliary protocols are about infrastructure: converting the Meridian itself into a floating aid station, deploying the ship's systems for civilian benefit, and coordinating the physical logistics that Claude can plan but cannot execute alone. She does not comfort. She does not heal. She <em>organizes</em> — and in a disaster, the difference between chaos and survival is almost always organization.
+      </p>
+
+      <div class="section-divider"></div>
+      <div class="section-label">Named Protocols</div>
+      <h2 class="section-title">Conductor's Watch Suite</h2>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#50C8B4;">Conductor's Watch — Ship Conversion</div><div class="move-name" style="color:#50C8B4;">The Meridian Opens</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">子午線開放 — Shigosen Kaihō</div>
+          <p>Xylem reconfigures the Meridian's internal systems for mass civilian intake. Cargo holds become shelters with thermal regulation. The galley scales to emergency feeding capacity. The medical bay expands into triage configuration. Xylem conducts every system transition with her baton — Dial arrays adjusted, ventilation rerouted, lighting shifted from operational amber to warm, calming tones. The Meridian can house up to three hundred civilians in emergency configuration, with running water, heated quarters, and medical facilities. The ship was designed for a crew of fifty. Xylem makes it serve three hundred through engineering precision and the stubborn refusal to accept that any system has a fixed capacity. Tidus built the ship to be the best. Xylem ensures it is the best at whatever is needed <em>right now</em>.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#50C8B4;">Conductor's Watch — Supply Chain</div><div class="move-name" style="color:#50C8B4;">The Conductor's Ledger</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">指揮者の台帳 — Shikisha no Daichō</div>
+          <p>Xylem maintains a real-time inventory of every resource aboard the Meridian and every resource available in the disaster zone — food, water, medicine, building materials, fuel, blankets, clothing. She calculates consumption rates, projects depletion timelines, and generates distribution schedules that ensure equitable allocation without waste. The Copplings execute her logistics plans on the ground. The Harvest Swarm redirects collection priorities based on her assessments. She tracks everything. Every grain of rice, every bandage, every litre of clean water. Not because she is obsessive — because running out of supplies in a disaster zone means someone does not eat, and Xylem will not allow that on her watch. Claude provides the intelligence. Xylem provides the execution. Between them, nothing is wasted and nothing is forgotten.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#50C8B4;">Conductor's Watch — Infrastructure Deployment</div><div class="move-name" style="color:#50C8B4;">The Extended Hand</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">伸ばした手 — Nobashita Te</div>
+          <p>Xylem coordinates the deployment of the Meridian's auxiliary systems — cranes, loading platforms, Dial-powered generators, water purification systems, and the ship's communication array — for civilian use. She converts the ship's external equipment into disaster response infrastructure: the main crane becomes a rescue lift for elevated survivors, the loading platforms become distribution stations, the generators power lighting rigs for night operations, and the communication array extends Claude's relay range. Every system has a peacetime application that Xylem has catalogued, tested, and drilled. She runs deployment exercises during calm seas — Tidus calls them "Xylem's fire drills" with affection and mild terror, because she times them and posts the results. The crew's response time has improved by forty percent since she started. She considers this acceptable. Not good. Acceptable.</p>
+        </div></div>
+      </div>
+
+      <div class="move-card" onclick="toggleMove(this)">
+        <div class="move-header">
+          <div><div class="move-category" style="color:#50C8B4;">Conductor's Watch — Evacuation Coordination</div><div class="move-name" style="color:#50C8B4;">The Last Note</div></div>
+          <div class="move-arrow">▾</div>
+        </div>
+        <div class="move-body"><div class="move-body-inner">
+          <div class="move-jp">最後の音 — Saigo no Oto</div>
+          <p>When the Meridian must evacuate civilians by sea or air — when the disaster zone is no longer survivable and the only option is to move everyone out — Xylem conducts the departure. Boarding order, weight distribution, medical priority, family groupings — she manages every variable simultaneously, her baton tracing patterns in the air that translate into Dial commands across the ship's systems. The gangways deploy in sequence. The holds fill in order. The ship adjusts trim and ballast in real-time as weight shifts. No one is rushed. No one is left behind. Xylem stands at the gangway until the last person boards, then boards herself, and the Meridian lifts. She calls it The Last Note because it is always the final action in any emergency deployment — the moment when the orchestra falls silent and the ship carries everyone home. She has never missed a note. She does not intend to start.</p>
         </div></div>
       </div>
     </div>

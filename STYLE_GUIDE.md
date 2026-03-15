@@ -38,7 +38,7 @@ These are the preferred terms for in-world concepts. Alternates are acceptable i
 ## Technique Naming
 
 - Japanese techniques: **Kanji + Romanization** (e.g., 蟲皇帝 / Mushikōtei)
-- Korean techniques (Doyun): **Hangul + Romanization** (e.g., 부적 / Bujeok)
+- Korean techniques (Do-hyun): **Hangul + Romanization** (e.g., 부적 / Bujeok)
 - Sanskrit/Hawaiian/Latin techniques: **Original + Translation** where applicable
 - Preserve exact diacritical marks (ō, ū, ā, ʻ, etc.)
 

@@ -226,18 +226,18 @@
 ### March 14, 2026 — The Night Courier, the Blooming, and the Drowned Liturgy
 
 **Major Additions:**
-- **Doyun (도윤)** — New bat character added to Extended Family tab. Caesar Punk experiment, former Revolutionary courier, Bujeok Bujeok no Mi (Talisman-Talisman Fruit). Bounty: ₿520,000,000. 7 Korean-named techniques. bat.png converted to base64 and added to image manifest as IMG_DOYUN_0.
+- **Do-hyun (도현)** — New bat character added to Extended Family tab. Caesar Punk experiment, former Revolutionary courier, Bujeok Bujeok no Mi (Talisman-Talisman Fruit). Bounty: ₿520,000,000. 7 Korean-named techniques. bat.png converted to base64 and added to image manifest as IMG_DOYUN_0.
 - **The Harvest Blooming** — New 10th sub-panel in Training Log. All 12 Harvest Swarm members developed combat capabilities through craft-enlightenment after the Shanks battle. 24 combat techniques (2 per member). Combined formation technique.
 - **Investigation V: The Drowned Liturgy (深海の聖句)** — New underwater investigation with 5 sub-panels. Deep-sea shrine/metropolis discovery. Guests: Charlotte Smoothie, Marco the Phoenix, Heracles. Living map of sleeping entities. Sleeping entities confirmed as NETWORKED with systematic awakening. 6 one-time Convergence Protocol combo attacks.
-- **Meridian Descends — With All Seals (Meridianus Descendit — Cum Omnibus Sigillis)** — New full complement variant in Combination Attacks tab. Doyun's talisman network integrated. Ward web, mobile armoury, sonar layer.
-- Doyun reference added to original Meridian Descends (fighting alongside the crew).
+- **Meridian Descends — With All Seals (Meridianus Descendit — Cum Omnibus Sigillis)** — New full complement variant in Combination Attacks tab. Do-hyun's talisman network integrated. Ward web, mobile armoury, sonar layer.
+- Do-hyun reference added to original Meridian Descends (fighting alongside the crew).
 - Journal Entry XLVIII: "The Night Courier, the Blooming, and the Drowned Song"
 - Unsent letter: "To the Night Courier — On Carrying Truth"
 - Unsent letter: "To the Twelve Who Bloomed — On Growing Beyond the Garden"
-- Status Board fully refreshed (all 7 panels) with Drowned Liturgy + Doyun + Harvest Blooming content
+- Status Board fully refreshed (all 7 panels) with Drowned Liturgy + Do-hyun + Harvest Blooming content
 - CSS: `.inv5-panel` styles added
 - JS: `switchInvestigation5()` function added
-- MERIDIAN_CREW_REFERENCE.md updated with Doyun (he/him)
+- MERIDIAN_CREW_REFERENCE.md updated with Do-hyun (he/him)
 - New panel files: `10-doyun.html`, `29-training-harvest.html`, `28-investigation5-descent.html`, `28-investigation5-shrine.html`, `28-investigation5-metropolis.html`, `28-investigation5-siege.html`, `28-investigation5-resonance.html`
 - Investigation count: 5. Journal entries: 48. Training sub-panels: 10.
 
