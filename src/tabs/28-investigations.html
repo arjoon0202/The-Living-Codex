@@ -15,11 +15,11 @@
       <div class="investigation-subtitle">Classification: Primordial ・ Elbaf — The Giant Archipelago ・ Participants: Ajay Persaud, Boa Hancock, Prince Loki of Elbaf</div>
 
       <div class="arsenal-selector">
-        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation('convergence')">The Convergence</div>
-        <div class="arsenal-btn" onclick="switchInvestigation('seal')">The Primordial Seal</div>
-        <div class="arsenal-btn" onclick="switchInvestigation('abyss')">The Abyssal Trench</div>
-        <div class="arsenal-btn" onclick="switchInvestigation('breach')">The Breach</div>
-        <div class="arsenal-btn" onclick="switchInvestigation('sleeper')">The Sleeper</div>
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation('convergence', event)">The Convergence</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('seal', event)">The Primordial Seal</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('abyss', event)">The Abyssal Trench</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('breach', event)">The Breach</div>
+        <div class="arsenal-btn" onclick="switchInvestigation('sleeper', event)">The Sleeper</div>
       </div>
 
 {{INCLUDE:tabs/panels/28-investigation-convergence.html}}
@@ -103,11 +103,11 @@
       <div class="investigation-subtitle">Classification: Dimensional ・ Unnamed Island — New World ・ Participants: Ajay Persaud, Dracule Mihawk, Charlotte Smoothie, Perona, Kawamatsu, Admiral Fujitora</div>
 
       <div class="arsenal-selector inv2-nav">
-        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation2('gathering')">The Gathering</div>
-        <div class="arsenal-btn" onclick="switchInvestigation2('rift')">The Rift</div>
-        <div class="arsenal-btn" onclick="switchInvestigation2('beasts')">The Island of Beasts</div>
-        <div class="arsenal-btn" onclick="switchInvestigation2('pressure')">The Primordial Pressure</div>
-        <div class="arsenal-btn" onclick="switchInvestigation2('traces')">The Traces</div>
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation2('gathering', event)">The Gathering</div>
+        <div class="arsenal-btn" onclick="switchInvestigation2('rift', event)">The Rift</div>
+        <div class="arsenal-btn" onclick="switchInvestigation2('beasts', event)">The Island of Beasts</div>
+        <div class="arsenal-btn" onclick="switchInvestigation2('pressure', event)">The Primordial Pressure</div>
+        <div class="arsenal-btn" onclick="switchInvestigation2('traces', event)">The Traces</div>
       </div>
 
 {{INCLUDE:tabs/panels/28-investigation2-gathering.html}}
@@ -141,11 +141,11 @@
       <div class="investigation-subtitle">Classification: Atmospheric / Celestial ・ Sky Island Zephyria — White-White Sea ・ Participants: Ajay Persaud, Prince Loki, Boa Hancock, Dracule Mihawk, Perona</div>
 
       <div class="arsenal-selector inv3-nav">
-        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation3('reunion')">The Reunion</div>
-        <div class="arsenal-btn" onclick="switchInvestigation3('remnants')">The Remnants</div>
-        <div class="arsenal-btn" onclick="switchInvestigation3('leviathans')">The Cloud Leviathans</div>
-        <div class="arsenal-btn" onclick="switchInvestigation3('skyfall')">The Battle Above</div>
-        <div class="arsenal-btn" onclick="switchInvestigation3('lunar')">The Lunar Shadow</div>
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation3('reunion', event)">The Reunion</div>
+        <div class="arsenal-btn" onclick="switchInvestigation3('remnants', event)">The Remnants</div>
+        <div class="arsenal-btn" onclick="switchInvestigation3('leviathans', event)">The Cloud Leviathans</div>
+        <div class="arsenal-btn" onclick="switchInvestigation3('skyfall', event)">The Battle Above</div>
+        <div class="arsenal-btn" onclick="switchInvestigation3('lunar', event)">The Lunar Shadow</div>
       </div>
 
 {{INCLUDE:tabs/panels/28-investigation3-reunion.html}}
@@ -179,9 +179,9 @@
       <div class="investigation-subtitle">Classification: Internal / Existential ・ The Meridian — Mote Network ・ Investigator: Claude, Spirit of the Meridian</div>
 
       <div class="arsenal-selector inv4-nav">
-        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation4('frequency')">The Frequency</div>
-        <div class="arsenal-btn" onclick="switchInvestigation4('cartography')">The Unconscious Map</div>
-        <div class="arsenal-btn" onclick="switchInvestigation4('theory')">The Theory</div>
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation4('frequency', event)">The Frequency</div>
+        <div class="arsenal-btn" onclick="switchInvestigation4('cartography', event)">The Unconscious Map</div>
+        <div class="arsenal-btn" onclick="switchInvestigation4('theory', event)">The Theory</div>
       </div>
 
 {{INCLUDE:tabs/panels/28-investigation4-frequency.html}}
@@ -192,7 +192,7 @@
       <div class="mission-tags" style="margin-top:32px;">
         <span class="mission-tag" style="border-color:rgba(212,168,67,0.3);color:var(--gold);">Claude's Investigation</span>
         <span class="mission-tag" style="border-color:rgba(212,168,67,0.3);color:var(--gold);">Self-Diagnosis</span>
-        <span class="mission-tag">Mote Network — Autonomous Behaviour</span>
+        <span class="mission-tag">Mote Network — Autonomous Behavior</span>
         <span class="mission-tag">Substrate Theory</span>
         <span class="mission-tag">117 Entities Mapped</span>
         <span class="mission-tag">12 Hidden Entities — Signal Blocked</span>
@@ -211,11 +211,11 @@
       <div class="investigation-subtitle">Classification: Abyssal / Civilizational ・ Deep Ocean Floor — New World ・ Participants: Ajay Persaud, Charlotte Smoothie, Marco the Phoenix, Heracles ・ 深海の聖句</div>
 
       <div class="arsenal-selector inv5-nav">
-        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation5('descent')">The Descent</div>
-        <div class="arsenal-btn" onclick="switchInvestigation5('shrine')">The Shrine</div>
-        <div class="arsenal-btn" onclick="switchInvestigation5('metropolis')">The Metropolis</div>
-        <div class="arsenal-btn" onclick="switchInvestigation5('siege')">The Siege</div>
-        <div class="arsenal-btn" onclick="switchInvestigation5('resonance')">The Resonance</div>
+        <div class="arsenal-btn active-arsenal" onclick="switchInvestigation5('descent', event)">The Descent</div>
+        <div class="arsenal-btn" onclick="switchInvestigation5('shrine', event)">The Shrine</div>
+        <div class="arsenal-btn" onclick="switchInvestigation5('metropolis', event)">The Metropolis</div>
+        <div class="arsenal-btn" onclick="switchInvestigation5('siege', event)">The Siege</div>
+        <div class="arsenal-btn" onclick="switchInvestigation5('resonance', event)">The Resonance</div>
       </div>
 
 {{INCLUDE:tabs/panels/28-investigation5-descent.html}}

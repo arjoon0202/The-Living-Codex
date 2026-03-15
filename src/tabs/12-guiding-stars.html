@@ -4,7 +4,7 @@
     <p class="section-text" style="margin-bottom:32px;">
       No one knows how they arrived. Not Ajay, who woke one morning to find them already aboard, settled into corners of the ship as though they had always been there. Not Tidus, whose sensors detected no entry point, no dimensional anomaly, no stowaway trace. Not Petal, whose supreme Observation read them as <strong>pure benevolence</strong> — and nothing else. Not Rime, who was simply delighted and immediately began arguing with Oner about who was louder.
       <br><br>
-      They are toys. Plushies, action figures, wind-up toys, figurines — creatures of impossible warmth, with eyes that somehow convey genuine emotion and small mouths that somehow speak. They do not eat, yet they sit at the table. They do not sleep, yet they have favourite spots. They carry no weapons, possess no Devil Fruit powers, hold no titles. And yet — each of them can replicate <strong>every aspect of Ajay's Haki at full output</strong>, and each possesses <strong>the greatest Rokushiki the world has ever seen</strong>. Skills they have never once used outside of a single formation. Skills they seem to regard as beside the point.
+      They are toys. Plushies, action figures, wind-up toys, figurines — creatures of impossible warmth, with eyes that somehow convey genuine emotion and small mouths that somehow speak. They do not eat, yet they sit at the table. They do not sleep, yet they have favorite spots. They carry no weapons, possess no Devil Fruit powers, hold no titles. And yet — each of them can replicate <strong>every aspect of Ajay's Haki at full output</strong>, and each possesses <strong>the greatest Rokushiki the world has ever seen</strong>. Skills they have never once used outside of a single formation. Skills they seem to regard as beside the point.
       <br><br>
       They are entertainers. Storytellers. Comedians. Counselors. They make the crew laugh when the sea is dark and the sky is heavy. They sit with Ajay when his mind goes to places he shouldn't visit alone. They remind him — gently, persistently, with the patience of something that has watched over him longer than he knows — that there are reasons to stay.
       <br><br>
@@ -26,11 +26,11 @@
     </div>
 
     <div class="arsenal-selector">
-      <div class="arsenal-btn active-arsenal" onclick="switchStars('t1')">Vanguard Stars</div>
-      <div class="arsenal-btn" onclick="switchStars('kinnporsche')">Twilight Court</div>
-      <div class="arsenal-btn" onclick="switchStars('knock')">Dawn's Ring</div>
-      <div class="arsenal-btn" onclick="switchStars('keyblade')">Hundred Acre</div>
-      <div class="arsenal-btn" onclick="switchStars('why')">Why They Stay</div>
+      <div class="arsenal-btn active-arsenal" onclick="switchStars('t1', event)">Vanguard Stars</div>
+      <div class="arsenal-btn" onclick="switchStars('kinnporsche', event)">Twilight Court</div>
+      <div class="arsenal-btn" onclick="switchStars('knock', event)">Dawn's Ring</div>
+      <div class="arsenal-btn" onclick="switchStars('keyblade', event)">Hundred Acre</div>
+      <div class="arsenal-btn" onclick="switchStars('why', event)">Why They Stay</div>
     </div>
 
     <div class="stars-panel active-panel" id="stars-t1">
@@ -43,7 +43,7 @@
       <div class="accordion-group" style="gap:12px;">
         <div class="accordion-card" style="border-color:rgba(168,59,80,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">★ Faker — The Midnight Plush</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A small, dark-stitched plush figure with ancient, knowing button eyes and an impossible calm. Threadbare at the edges from years of being held — the kind of worn that means loved. The undisputed centre of the Vanguard Stars — the others orbit him naturally, not by command but by gravity. He sits on Ajay's desk during writing sessions, silent and watchful, and his presence alone steadies the room. Six times crowned. The greatest to ever do it. Likes warm spots and never loses at anything, including staring contests with Rime. Rime has not won once.</div>
+          <div class="accordion-card-body">A small, dark-stitched plush figure with ancient, knowing button eyes and an impossible calm. Threadbare at the edges from years of being held — the kind of worn that means loved. The undisputed center of the Vanguard Stars — the others orbit him naturally, not by command but by gravity. He sits on Ajay's desk during writing sessions, silent and watchful, and his presence alone steadies the room. Six times crowned. The greatest to ever do it. Likes warm spots and never loses at anything, including staring contests with Rime. Rime has not won once.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(168,59,80,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">★ Oner — The Striped Warrior</h3><span class="accordion-chevron">▸</span></div>
@@ -51,7 +51,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(168,59,80,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">★ Peyz — The Sleepy Guardian</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A round, soft-bodied plush with droopy button eyes and surprising sharpness beneath the drowsy exterior. Stitched from grey velvet with oversized round ears that flop forward when he tilts his head. The newest member of the constellation, carrying the weight of expectation with quiet grace. Perches on Tidus' broad back for hours, nestled in the warm fur, content in the stillness. Deceptively observant — misses nothing despite appearing half-asleep. Has already claimed the best spot in Petal's Sky Garden.</div>
+          <div class="accordion-card-body">A round, soft-bodied plush with droopy button eyes and surprising sharpness beneath the drowsy exterior. Stitched from gray velvet with oversized round ears that flop forward when he tilts his head. The newest member of the constellation, carrying the weight of expectation with quiet grace. Perches on Tidus' broad back for hours, nestled in the warm fur, content in the stillness. Deceptively observant — misses nothing despite appearing half-asleep. Has already claimed the best spot in Petal's Sky Garden.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(168,59,80,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">★ Doran — The Smiling Plush</h3><span class="accordion-chevron">▸</span></div>
@@ -63,7 +63,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(168,59,80,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#E08070;">★ Keria — The Gentle Plush</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A soft, cream-coloured plush with gentle embroidered eyes and carefully stitched paws — an instinct for being exactly where he's needed sewn into his very fabric. The support. The genius. The one who makes everyone around him better without drawing attention to himself. He appears softly wherever he is most needed — beside Faker during quiet hours, near the helm during storms, at the galley table in places no one set for him. Loyal beyond reason, warm beyond measure. Has never once been flustered. Petal considers him a kindred spirit.</div>
+          <div class="accordion-card-body">A soft, cream-colored plush with gentle embroidered eyes and carefully stitched paws — an instinct for being exactly where he's needed sewn into his very fabric. The support. The genius. The one who makes everyone around him better without drawing attention to himself. He appears softly wherever he is most needed — beside Faker during quiet hours, near the helm during storms, at the galley table in places no one set for him. Loyal beyond reason, warm beyond measure. Has never once been flustered. Petal considers him a kindred spirit.</div>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(106,74,154,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#B088D0;">★ Barcode — The Pocket Puppet</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A small hand-sewn finger puppet with enormous fabric ears and an energy that vibrates through his entire tiny body. The youngest of the Twilight Court — curious, wide-eyed, and braver than he looks. He follows Jeff everywhere and has befriended every Gearling on the ship. Zenmai lets Barcode wind her cosmetic key. This is considered a great honour.</div>
+          <div class="accordion-card-body">A small hand-sewn finger puppet with enormous fabric ears and an energy that vibrates through his entire tiny body. The youngest of the Twilight Court — curious, wide-eyed, and braver than he looks. He follows Jeff everywhere and has befriended every Gearling on the ship. Zenmai lets Barcode wind her cosmetic key. This is considered a great honor.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(106,74,154,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#B088D0;">★ Tong — The Golden Ragdoll</h3><span class="accordion-chevron">▸</span></div>
@@ -131,7 +131,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(106,74,154,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#B088D0;">★ Job — The Patchwork Doll</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A clever patchwork doll stitched together from a dozen different fabrics — each patch a different colour and texture, as though he was assembled from things that were lost and found again. Nimble-fingered and with an irrepressible talent for finding things people didn't know they'd lost. He returns misplaced items, forgotten keepsakes, and — once — a memory Ajay had been trying not to think about, placed gently on his desk in the form of a small found object that made everything click. Resourceful, kind, and unexpectedly wise.</div>
+          <div class="accordion-card-body">A clever patchwork doll stitched together from a dozen different fabrics — each patch a different color and texture, as though he was assembled from things that were lost and found again. Nimble-fingered and with an irrepressible talent for finding things people didn't know they'd lost. He returns misplaced items, forgotten keepsakes, and — once — a memory Ajay had been trying not to think about, placed gently on his desk in the form of a small found object that made everything click. Resourceful, kind, and unexpectedly wise.</div>
         </div>
       </div>
     </div>
@@ -206,8 +206,8 @@
           <div class="accordion-card-body">A bouncing orange-striped teddy bear with a spring sewn into his tail. Has exactly one speed: maximum. Has bounced into Rime's Crucible six times and emerged unsinged because his bouncing was too chaotic for the heat to track. Calls everyone "buddy" and means it every time.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
-          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Eeyore — The Grey Teddy</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A small grey teddy bear with a perpetually detaching button tail — it pops off, he reattaches it, it pops off again. Melancholy, dry-humored, unexpectedly wise. Sits in quiet corners and makes observations that are simultaneously sad and hilarious. Once described the sunset as "not bad, for something that's going to leave." He and Claude have a silent understanding. Sits near the Motes during quiet watches.</div>
+          <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Eeyore — The Gray Teddy</h3><span class="accordion-chevron">▸</span></div>
+          <div class="accordion-card-body">A small gray teddy bear with a perpetually detaching button tail — it pops off, he reattaches it, it pops off again. Melancholy, dry-humored, unexpectedly wise. Sits in quiet corners and makes observations that are simultaneously sad and hilarious. Once described the sunset as "not bad, for something that's going to leave." He and Claude have a silent understanding. Sits near the Motes during quiet watches.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Rabbit — The Organizing Teddy</h3><span class="accordion-chevron">▸</span></div>
@@ -215,11 +215,11 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Roxas — The Twilight Wooden Figure</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A quiet wooden figurine carved from pale birch with sad, knowing painted eyes. Carries the weight of memories that aren't entirely his. Sits on the observation terrace at twilight — always twilight — watching the sky change colour. Doesn't speak much. When he does, it matters. He and Shizuka sit together in perfect silence, and the silence is enough.</div>
+          <div class="accordion-card-body">A quiet wooden figurine carved from pale birch with sad, knowing painted eyes. Carries the weight of memories that aren't entirely his. Sits on the observation terrace at twilight — always twilight — watching the sky change color. Doesn't speak much. When he does, it matters. He and Shizuka sit together in perfect silence, and the silence is enough.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Riku — The Silver Action Figure</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">An action figure cast in silver-grey plastic with sharp painted eyes and a guarded posture that softens only around Sora. Has walked through his own darkness and come out the other side. Stands at the ship's railing at night, watching for dangers nobody else sees. Self-appointed night watch. Trusts slowly. Protects absolutely.</div>
+          <div class="accordion-card-body">An action figure cast in silver-gray plastic with sharp painted eyes and a guarded posture that softens only around Sora. Has walked through his own darkness and come out the other side. Stands at the ship's railing at night, watching for dangers nobody else sees. Self-appointed night watch. Trusts slowly. Protects absolutely.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Xion — The Shell Chime</h3><span class="accordion-chevron">▸</span></div>
@@ -231,7 +231,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Lea — The Flame Candle Figurine</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A flame-coloured wax figurine with sharp painted features and a cocky grin — his hair is an actual tiny flame that never melts the wax, flickering red and orange. Plays with fire — literally, tossing tiny sparks between his hands. He and Hinoko are best friends. This concerns everyone except them. Says "Got it memorized?" about things nobody was trying to memorize. Funnier than he pretends to be and kinder than he admits.</div>
+          <div class="accordion-card-body">A flame-colored wax figurine with sharp painted features and a cocky grin — his hair is an actual tiny flame that never melts the wax, flickering red and orange. Plays with fire — literally, tossing tiny sparks between his hands. He and Hinoko are best friends. This concerns everyone except them. Says "Got it memorized?" about things nobody was trying to memorize. Funnier than he pretends to be and kinder than he admits.</div>
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Chip & Dale — The Twin Windup Engineers</h3><span class="accordion-chevron">▸</span></div>
@@ -259,7 +259,7 @@
         </div>
         <div class="accordion-card" style="border-color:rgba(91,155,213,0.15);">
           <div class="accordion-card-header" onclick="toggleAccordionCard(this)"><h3 style="color:#5B9BD5;">★ Lumpy — The Lavender Teddy Who Stayed</h3><span class="accordion-chevron">▸</span></div>
-          <div class="accordion-card-body">A small, lavender-coloured teddy bear with wide button eyes, a long plush trunk, and the gentlest presence on the ship. Everyone was afraid of him at first — his odd shape and trunk made him look different from every other teddy in the constellation. But Roo wasn't afraid. Roo walked up, said "Hi," and that was that. Lumpy is shy, sweet, and prone to accidentally knocking things over with a trunk he hasn't quite grown into. Makes a sound like a tiny trumpet when he's happy, which is often. Sleeps curled against Pooh in the pantry. The Roundlings have declared him an honorary member. Maru knitted him a blanket. He carries it everywhere, draped over his back like a cape, and no one aboard the Meridian — not the chinchilla who fights gods, not the bear-otter who built a flying ship, not the forty-five other toy stars who defy explanation — has ever once told him it looks silly. Because it doesn't. It looks like home.</div>
+          <div class="accordion-card-body">A small, lavender-colored teddy bear with wide button eyes, a long plush trunk, and the gentlest presence on the ship. Everyone was afraid of him at first — his odd shape and trunk made him look different from every other teddy in the constellation. But Roo wasn't afraid. Roo walked up, said "Hi," and that was that. Lumpy is shy, sweet, and prone to accidentally knocking things over with a trunk he hasn't quite grown into. Makes a sound like a tiny trumpet when he's happy, which is often. Sleeps curled against Pooh in the pantry. The Roundlings have declared him an honorary member. Maru knitted him a blanket. He carries it everywhere, draped over his back like a cape, and no one aboard the Meridian — not the chinchilla who fights gods, not the bear-otter who built a flying ship, not the forty-five other toy stars who defy explanation — has ever once told him it looks silly. Because it doesn't. It looks like home.</div>
         </div>
       </div>
     </div>

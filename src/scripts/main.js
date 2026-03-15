@@ -73,172 +73,119 @@ scrollTopBtn?.addEventListener('click', () => {
 
 function toggleMove(el) { el.classList.toggle('open'); }
 
-function switchCompanion(id) {
-  document.querySelectorAll('.companion-btn').forEach(b => b.classList.remove('active-companion'));
-  document.querySelectorAll('.companion-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('panel-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-companion');
+/* ═══════ Generic Panel Switch Utility ═══════ */
+function switchPanel(id, evt, btnSelector, btnActiveClass, panelSelector, idPrefix) {
+  document.querySelectorAll(btnSelector).forEach(b => b.classList.remove(btnActiveClass));
+  document.querySelectorAll(panelSelector).forEach(p => p.classList.remove('active-panel'));
+  const target = document.getElementById(idPrefix + id);
+  if (target) target.classList.add('active-panel');
+  if (evt && evt.currentTarget) evt.currentTarget.classList.add(btnActiveClass);
 }
 
-function switchFamily(id) {
-  document.querySelectorAll('.family-btn').forEach(b => b.classList.remove('active-family'));
-  document.querySelectorAll('.family-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('familypanel-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-family');
+function switchCompanion(id, evt) {
+  switchPanel(id, evt, '.companion-btn', 'active-companion', '.companion-panel', 'panel-');
 }
 
-function switchArsenal(id) {
-  document.querySelectorAll('#tab-arsenal > .arsenal-selector .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.arsenal-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('arsenal-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchFamily(id, evt) {
+  switchPanel(id, evt, '.family-btn', 'active-family', '.family-panel', 'familypanel-');
 }
 
-function switchSynergy(id) {
-  document.querySelectorAll('#tab-synergy .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.synergy-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('synergy-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchArsenal(id, evt) {
+  switchPanel(id, evt, '#tab-arsenal > .arsenal-selector .arsenal-btn', 'active-arsenal', '.arsenal-panel', 'arsenal-');
 }
 
-function switchReputation(id) {
-  document.querySelectorAll('#tab-reputation .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.reputation-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('reputation-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchSynergy(id, evt) {
+  switchPanel(id, evt, '#tab-synergy .arsenal-btn', 'active-arsenal', '.synergy-panel', 'synergy-');
 }
 
-function switchStars(id) {
-  document.querySelectorAll('#tab-stars .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.stars-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('stars-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchReputation(id, evt) {
+  switchPanel(id, evt, '#tab-reputation .arsenal-btn', 'active-arsenal', '.reputation-panel', 'reputation-');
 }
 
-function switchStatus(id) {
-  document.querySelectorAll('#tab-statusboard .status-board-btn').forEach(b => b.classList.remove('active-status'));
-  document.querySelectorAll('.status-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('status-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-status');
+function switchStars(id, evt) {
+  switchPanel(id, evt, '#tab-stars .arsenal-btn', 'active-arsenal', '.stars-panel', 'stars-');
 }
 
-function switchVessel(id) {
-  document.querySelectorAll('#tab-vessel .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.vessel-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('vessel-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchStatus(id, evt) {
+  switchPanel(id, evt, '#tab-statusboard .status-board-btn', 'active-status', '.status-panel', 'status-');
 }
 
-function switchArmory(id) {
-  document.querySelectorAll('#tab-armory .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.armory-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('armory-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchVessel(id, evt) {
+  switchPanel(id, evt, '#tab-vessel .arsenal-btn', 'active-arsenal', '.vessel-panel', 'vessel-');
 }
 
-function switchJournal(id) {
-  document.querySelectorAll('#tab-journal .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.journal-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('journal-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchArmory(id, evt) {
+  switchPanel(id, evt, '#tab-armory .arsenal-btn', 'active-arsenal', '.armory-panel', 'armory-');
 }
 
-function switchWatch(id) {
-  document.querySelectorAll('#tab-watch .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.watch-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('watch-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchJournal(id, evt) {
+  switchPanel(id, evt, '#tab-journal .arsenal-btn', 'active-arsenal', '.journal-panel', 'journal-');
 }
 
-function switchLantern(id) {
-  document.querySelectorAll('#tab-lantern .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.lantern-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('lantern-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchWatch(id, evt) {
+  switchPanel(id, evt, '#tab-watch .arsenal-btn', 'active-arsenal', '.watch-panel', 'watch-');
 }
 
-function switchMartial(id) {
-  document.querySelectorAll('#tab-martial .companion-btn').forEach(b => b.classList.remove('active-companion'));
-  document.querySelectorAll('.martial-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('panel-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-companion');
+function switchLantern(id, evt) {
+  switchPanel(id, evt, '#tab-lantern .arsenal-btn', 'active-arsenal', '.lantern-panel', 'lantern-');
 }
 
-function switchAuxiliary(id) {
-  document.querySelectorAll('#tab-auxiliary .companion-btn').forEach(b => b.classList.remove('active-companion'));
-  document.querySelectorAll('.auxiliary-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('aux-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-companion');
+function switchMartial(id, evt) {
+  switchPanel(id, evt, '#tab-martial .companion-btn', 'active-companion', '.martial-panel', 'panel-');
 }
 
-function switchAwakening(id) {
-  document.querySelectorAll('.awakening-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('awakening-' + id).classList.add('active-panel');
-  document.querySelectorAll('.awakening-nav .sub-btn').forEach(b => b.classList.remove('active-arsenal'));
-  event.currentTarget.classList.add('active-arsenal');
+function switchAuxiliary(id, evt) {
+  switchPanel(id, evt, '#tab-auxiliary .companion-btn', 'active-companion', '.auxiliary-panel', 'aux-');
 }
 
-function switchInvestigation(id) {
-  document.querySelectorAll('#tab-investigations .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.investigation-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('investigation-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchAwakening(id, evt) {
+  switchPanel(id, evt, '.awakening-nav .sub-btn', 'active-arsenal', '.awakening-panel', 'awakening-');
 }
 
-function switchInvestigation2(id) {
-  document.querySelectorAll('.inv2-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.inv2-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('inv2-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchInvestigation(id, evt) {
+  switchPanel(id, evt, '#tab-investigations .arsenal-btn', 'active-arsenal', '.investigation-panel', 'investigation-');
 }
 
-function switchInvestigation3(id) {
-  document.querySelectorAll('.inv3-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.inv3-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('inv3-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchInvestigation2(id, evt) {
+  switchPanel(id, evt, '.inv2-nav .arsenal-btn', 'active-arsenal', '.inv2-panel', 'inv2-');
 }
 
-function switchInvestigation4(id) {
-  document.querySelectorAll('.inv4-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.inv4-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('inv4-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchInvestigation3(id, evt) {
+  switchPanel(id, evt, '.inv3-nav .arsenal-btn', 'active-arsenal', '.inv3-panel', 'inv3-');
 }
 
-function switchInvestigation5(id) {
-  document.querySelectorAll('.inv5-nav .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.inv5-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('inv5-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchInvestigation4(id, evt) {
+  switchPanel(id, evt, '.inv4-nav .arsenal-btn', 'active-arsenal', '.inv4-panel', 'inv4-');
 }
 
-function switchTraining(id) {
-  document.querySelectorAll('#tab-training .arsenal-btn').forEach(b => b.classList.remove('active-arsenal'));
-  document.querySelectorAll('.training-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('training-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-arsenal');
+function switchInvestigation5(id, evt) {
+  switchPanel(id, evt, '.inv5-nav .arsenal-btn', 'active-arsenal', '.inv5-panel', 'inv5-');
 }
 
-function switchTranscendence(id) {
-  document.querySelectorAll('#tab-transcendence .transcendence-btn').forEach(b => b.classList.remove('active-transcendence'));
-  document.querySelectorAll('.transcendence-panel').forEach(p => p.classList.remove('active-panel'));
-  document.getElementById('trans-' + id).classList.add('active-panel');
-  event.currentTarget.classList.add('active-transcendence');
+function switchTraining(id, evt) {
+  switchPanel(id, evt, '#tab-training .arsenal-btn', 'active-arsenal', '.training-panel', 'training-');
+}
+
+function switchTranscendence(id, evt) {
+  switchPanel(id, evt, '#tab-transcendence .transcendence-btn', 'active-transcendence', '.transcendence-panel', 'trans-');
 }
 
 function toggleAccordionCard(header) {
   var card = header.parentElement;
   card.classList.toggle('collapsed');
 }
+
+/* ═══════ Hex Particles ═══════ */
 const container = document.getElementById('hexParticles');
-for (let i = 0; i < 20; i++) {
-  const p = document.createElement('div');
-  p.className = 'hex-particle';
-  p.style.left = Math.random() * 100 + '%';
-  p.style.animationDuration = (15 + Math.random() * 25) + 's';
-  p.style.animationDelay = (Math.random() * 20) + 's';
-  const sz = (4 + Math.random() * 5) + 'px';
-  p.style.width = sz; p.style.height = sz;
-  container.appendChild(p);
+if (container) {
+  for (let i = 0; i < 20; i++) {
+    const p = document.createElement('div');
+    p.className = 'hex-particle';
+    p.style.left = Math.random() * 100 + '%';
+    p.style.animationDuration = (15 + Math.random() * 25) + 's';
+    p.style.animationDelay = (Math.random() * 20) + 's';
+    const sz = (4 + Math.random() * 5) + 'px';
+    p.style.width = sz; p.style.height = sz;
+    container.appendChild(p);
+  }
 }
