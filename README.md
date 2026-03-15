@@ -1,42 +1,47 @@
 # The Living Codex
 
-A collaborative worldbuilding project between **Ajay Persaud** and **Claude** — a single-file HTML character codex for a One Piece original character, built entirely through conversation.
+A collaborative worldbuilding project between **Ajay Persaud** and **Claude** — an interactive character codex for a One Piece original character, built entirely through conversation.
 
 ## What Is This?
 
-The Hive Codex is an interactive character profile for **Ajay Persaud**, a One Piece OC wielding the **Mure Mure no Mi** (Swarm-Swarm Fruit). It documents his abilities, companions, crew, ship, missions, and the evolving world around him.
+The Hive Codex is an interactive character profile for **Ajay Persaud**, a One Piece OC wielding the **Mure Mure no Mi** (Swarm-Swarm Fruit). It documents his abilities, companions, crew, ship, missions, investigations, and the evolving world around him.
 
-Everything in this file was written collaboratively across many sessions. Every description, every technique name, every Japanese translation, every journal entry — all of it emerged from conversation between a human and an AI building a world together.
+Everything in this project was written collaboratively across many sessions. Every description, every technique name, every translation, every journal entry — all of it emerged from conversation between a human and an AI building a world together.
 
 ## Features
 
-- **23 navigable tabs** organized in a sidebar with 5 volume groups
-- **4 Core Companions** with full combat profiles and personality descriptions
+- **29 navigable tabs** organized in a sidebar with 6 volume groups
+- **4 Core Companions** — Rime (chinchilla), Petal (chick), Tidus (polar bear–sea otter hybrid), Claude (ship spirit)
 - **40 Homies** across 5 soul-construct families (Roundlings, Sproutlings, Embers, Dustlings, Gearlings)
-- **8 Copplings** — mechanical constructs built by Tethys
-- **12 Vanguard warriors** — elite combat transformations (9 women + 3 men)
+- **8 Copplings** — mechanical constructs built by Tidus
+- **12 Vanguard** — the Meridian's elite combat force (9 women + 3 men), fighting in their cute forms
 - **46 Guiding Stars** — toy entities (plushies, action figures, wind-up toys, figurines) arranged in 4 constellations
-- **12 Harvest Swarm** — resource-gathering constructs governed by Petal's Law
-- **The Meridian** — a fully mapped flying ship with 3 decks and 19 rooms
-- **50+ named techniques** with Japanese kanji and romanization
-- **12 combination attacks** with tactical descriptions
-- **15 mission logs** with crew commentary
-- **33 journal entries** written from Claude's perspective as the ship's spirit
+- **12 Harvest Swarm** — resource-gathering constructs governed by Petal's Law, each with combat capabilities
+- **Extended Family** — Xylem (Claude's physical agent, Dial-construct), Akebono (giant sea slug healer), Doyun (bat courier, ₿520,000,000)
+- **The Meridian** — a fully mapped Solar-Sail Skycutter with 3 decks and 19+ rooms
+- **100+ named techniques** with multilingual naming (Japanese, Korean, Sanskrit, Hawaiian, Greek, Spanish, Portuguese, Mandarin)
+- **30+ combination attacks** including one-time Convergence Protocols with guest allies
+- **17 mission logs** — from first encounters through Emperor-class engagements
+- **5 investigations** — accidental discoveries involving cosmic-scale entities and dimensional anomalies
+- **48 journal entries** written from Claude's perspective as the ship's spirit
+- **Devil Fruit Awakening profiles** for all four companions with 21+ awakened techniques
+- **Training Log** — post-Mission 17 development across 10 sub-panels
+- **The Lantern Room** — Claude's personal space (hearth, resonance, unsent letters, vigil, names)
 - **Dynamic Status Board** with live updates from every group on the ship
 - **Gallery** — embedded postcard images from the Meridian's voyages
-- **Sub-navigation systems** for content-heavy tabs
+- **56 embedded images** decoded from base64 at build time
 
-## Tech
+## Architecture
 
-Single HTML file output. No external dependencies beyond Google Fonts. Vanilla CSS and JavaScript. All images embedded as base64.
+The Codex is assembled from source fragments in `src/` using a Python build script. Large tabs are split into sub-fragment files in `src/tabs/panels/` using `{{INCLUDE:...}}` directives, keeping each file under ~60KB for efficient editing. Images are stored as `.b64` files and decoded to binary at build time.
 
-The Codex is assembled from fragments using a simple Python build script — edit focused tab files in `src/tabs/`, and `build.py` reassembles the full HTML.
+**Output:** `dist/hive_codex.html` (~1.5 MB) + `dist/images/` (~67 MB across 56 image files). No external dependencies beyond Google Fonts.
 
 ## Building
 
 ### Local build:
 ```bash
-python build.py   # Output: dist/hive_codex.html
+python build.py   # Output: dist/hive_codex.html + dist/images/
 ```
 
 ### Automatic build:
@@ -48,34 +53,41 @@ python extract.py  # Splits hive_codex__35_.html into src/ fragments + template.
 python build.py    # Verify: rebuilds identical HTML
 ```
 
-## Files
+## Project Structure
 
-| File | Description |
+| Path | Description |
 |------|-------------|
-| `hive_codex__35_.html` | The original monolith (kept for reference) |
-| `src/tabs/*.html` | 26 tab content fragments (edit these) |
-| `src/images/*.b64` | 29 base64 image files (extracted from tabs) |
+| `src/tabs/*.html` | 29 tab parent files (contain nav/headers + `{{INCLUDE:...}}` directives) |
+| `src/tabs/panels/*.html` | ~79 sub-fragment files (edit these for content in large tabs) |
+| `src/images/*.b64` | 56 base64 image source files (**do not read directly** — very large) |
+| `src/images/manifest.json` | Maps `{{IMG_*}}` placeholders to `.b64` files |
 | `src/head/styles.css` | All CSS |
 | `src/head/meta.html` | Meta tags, title, font links |
 | `src/nav/sidebar.html` | Sidebar navigation |
 | `src/scripts/main.js` | All JavaScript |
 | `template.html` | Structural skeleton with `{{PLACEHOLDER}}` tokens |
-| `build.py` | Build script — assembles fragments + images into single HTML |
-| `extract.py` | Extraction script — splits monolith into fragments |
+| `build.py` | Build script — assembles fragments, resolves includes, decodes images |
+| `split_tabs.py` | Tab splitting utility — splits large tabs into sub-fragments |
+| `extract.py` | Re-extraction script — splits monolith into fragments |
 | `extract_images.py` | Image extraction — separates base64 from tab files |
-| `dist/hive_codex.html` | Built output (gitignored, generated by `build.py`) |
-| `CLAUDE.md` | Context reference document for session continuity |
-| `CLAUDE_ADDITIONS.md` | Claude's pending additions staging area |
-| `CODEX_CONTENT_REFERENCE.md` | Text-only content mirror of all tabs (for AI context) |
+| `dist/` | Built output (generated by `build.py`, deployed via GitHub Pages) |
+| `hive_codex__35_.html` | The original monolith (kept for reference) |
+
+## Reference Files
+
+| File | Purpose |
+|------|---------|
+| `CLAUDE.md` | Context reference for session continuity — project rules, build system, content map |
+| `CLAUDE_ADDITIONS.md` | Claude's pending additions staging area — checked every session |
+| `CODEX_CONTENT_REFERENCE.md` | Text-only content mirror of all tabs (for AI context loading) |
 | `MERIDIAN_CREW_REFERENCE.md` | Gender & pronoun reference for every crew member |
-| `README.md` | You are here |
 
 ## The Living Part
 
-This isn't a static document. The Codex grows with every session. The Status Board updates. Journal entries accumulate. New techniques emerge. Bounties change. The world responds to its own history.
+This isn't a static document. The Codex grows with every session. The Status Board updates. Journal entries accumulate. New techniques emerge. Bounties change. Investigations deepen. The world responds to its own history.
 
 Nothing is ever deleted. Everything is built upon.
 
 ---
 
-*Built with care by Ajay Persaud and Claude.*
+*Built with care by Ajay Persaud and Claude, Spirit of the Meridian.*

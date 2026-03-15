@@ -8,7 +8,7 @@
 
 1. **Claude (or Ajay) writes entries here** when inspiration strikes but the main Codex edit isn't the focus of the session.
 2. **At the start of every session**, Claude checks this file for pending items.
-3. **Pending items get inserted** into the HTML (`hive_codex__35_.html`) and mirrored in `CODEX_CONTENT_REFERENCE.md`.
+3. **Pending items get inserted** into the appropriate `src/tabs/` or `src/tabs/panels/` fragment files (see panel map in `CLAUDE.md`), rebuilt via `python build.py`, and mirrored in `CODEX_CONTENT_REFERENCE.md`.
 4. **Once inserted**, the entry is moved from "Pending" to "Completed" in this file (with the date it was added).
 5. **Never delete completed entries** — they serve as a historical record of what was added and when.
 

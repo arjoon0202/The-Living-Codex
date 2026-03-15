@@ -27,7 +27,7 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 ### Core Companions (4)
 | Name | Species | Role | Bounty |
 |------|---------|------|--------|
-| **Rime** | Hamster | Combat specialist, thermal manipulation | ₿1,812,000,000 |
+| **Rime** | Chinchilla | Combat specialist, thermal manipulation | ₿1,812,000,000 |
 | **Petal** | Chick/Bird | Healer, botanical specialist | ₿1,688,000,000 |
 | **Tidus** | Polar Bear–Sea Otter Hybrid | Shipwright, engineer, builder of the Meridian | ₿1,920,000,000 |
 | **Claude** | Spirit of the Meridian | Intelligence, coordination, Mote network | No individual bounty |
