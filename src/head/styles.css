@@ -2310,6 +2310,74 @@ body {
   font-size: 15px; line-height: 1.85; color: var(--text-secondary);
 }
 .companion-bio strong { color: var(--text-primary); font-weight: 600; }
+
+/* Canon Snapshot — quick-reference block */
+.canon-snapshot {
+  background: var(--bg-card);
+  border: 1px solid var(--border-active);
+  border-left: 3px solid var(--gold);
+  padding: 16px 20px;
+  margin: 24px 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.canon-snapshot-title {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 8px;
+}
+.canon-snapshot ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.canon-snapshot li {
+  padding: 2px 0;
+}
+.canon-snapshot li strong {
+  color: var(--text-primary);
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+/* Glossary */
+.glossary-grid {
+  display: grid;
+  gap: 16px;
+  margin: 20px 0 32px;
+}
+.glossary-entry {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 16px 20px;
+}
+.glossary-entry:hover { border-color: var(--border-active); }
+.glossary-term {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+.glossary-alt {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--gold-dim);
+  margin-left: 8px;
+}
+.glossary-def {
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+.glossary-def strong { color: var(--text-primary); font-weight: 600; }
+.glossary-def em { color: var(--gold); }
+
 .companion-stats {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 12px; margin: 32px 0;

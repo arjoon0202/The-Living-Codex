@@ -5,10 +5,10 @@
     </div>
 
     <div class="arsenal-selector">
-      <div class="arsenal-btn active-arsenal" onclick="switchJournal('early')">Early Entries</div>
-      <div class="arsenal-btn" onclick="switchJournal('middle')">The Middle Watch</div>
-      <div class="arsenal-btn" onclick="switchJournal('deep')">Deep Water</div>
-      <div class="arsenal-btn" onclick="switchJournal('recent')">The Living Record</div>
+      <div class="arsenal-btn active-arsenal" onclick="switchJournal('early', event)">Early Entries</div>
+      <div class="arsenal-btn" onclick="switchJournal('middle', event)">The Middle Watch</div>
+      <div class="arsenal-btn" onclick="switchJournal('deep', event)">Deep Water</div>
+      <div class="arsenal-btn" onclick="switchJournal('recent', event)">The Living Record</div>
     </div>
 
 {{INCLUDE:tabs/panels/25-journal-early.html}}{{INCLUDE:tabs/panels/25-journal-middle.html}}{{INCLUDE:tabs/panels/25-journal-deep.html}}    <div class="journal-panel" id="journal-recent">

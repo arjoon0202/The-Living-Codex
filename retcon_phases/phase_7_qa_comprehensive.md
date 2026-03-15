@@ -28,8 +28,8 @@ Search the ENTIRE built `dist/hive_codex.html` for every term that should have b
 | `Tethys` | Global — character fully renamed to Tidus | 0 |
 | `tethys` | Lowercase in CSS/JS/IDs | 0 |
 | `TETHYS` | Uppercase variants | 0 |
-| `Green Blood` | Completely removed from Tidus' lore | 0 |
-| `green blood` | Case insensitive check | 0 |
+| `Green Blood` | **SUPERSEDED** — Re-canonized in March 13 retcon: Tidus carries two hidden partial Green Blood extracts (Yuki Yuki no Mi, Kawa Kawa no Mi). References are now correct and expected. | N/A |
+| `green blood` | **SUPERSEDED** — See above. Green Blood references are canonical. | N/A |
 | `ceramic shard` | Old name origin — removed | 0 |
 | `ceramic fragment` | Old name origin variant | 0 |
 | `mantis shrimp` | Old Fishman DNA — removed | 0 |
@@ -309,7 +309,7 @@ Summary of what was changed and why.
 - Snow/Ice production: [summary]
 
 ### Removed Content
-- Green Blood: [all references removed]
+- Green Blood: **SUPERSEDED** — Re-canonized March 13, 2026. Tidus now carries two hidden partial Green Blood extracts (Yuki Yuki no Mi, Kawa Kawa no Mi). References are canonical.
 - Mantis shrimp / Pistol shrimp DNA: [removed]
 - Cavitation crack: [replaced with deep resonant pop]
 - Ceramic shard name origin: [replaced with baby voice story]
