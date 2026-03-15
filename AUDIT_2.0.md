@@ -38,24 +38,7 @@ This audit reviews five domains across the current canonical source:
 
 ## Findings
 
-## 1) Lore Consistency Audit
 
-### 1.1 High — Rime anatomy retcon regression in Training Log
-
-**Finding:** `29-training-rime.html` contains a clone explicitly labeled **"The Hamster"** and references **cheek pouches**, which conflicts with established canon that Rime is a chinchilla mink hybrid (not hamster-derived).
-
-- Clone heading and taxonomy language: "🐹 The Hamster"
-- Move category labels: "Hamster Clone"
-- Move text references hamster-specific cheek-pouch behavior
-
-**Why this matters:** This is a direct species continuity break in active reader-facing content.
-
-**Recommendation:**
-- Retheme clone identity to chinchilla-compatible framing (e.g., "The Boulder Chinchilla" / "The Cannon Chinchilla" / "The Burster").
-- Remove cheek-pouch mechanic and replace with chinchilla-anatomy-congruent storage/delivery mechanism (e.g., fur-static capacitor, bandolier micro-canisters, oral vapor compression, paw-conductive discharge).
-- Run a focused post-fix grep sweep for: `hamster`, `cheek pouch`, `🐹` in `src/tabs` and `src/tabs/panels`.
-
----
 
 ### 1.2 Medium — Policy/canon contradiction around “Green Blood” status
 
