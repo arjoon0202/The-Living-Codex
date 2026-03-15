@@ -16,7 +16,7 @@ It is not a wiki. It is not a database. It is a **living document** — a record
 
 - **Setting:** One Piece universe (post-timeskip era)
 - **Devil Fruit:** Mure Mure no Mi (Swarm-Swarm Fruit) — allows Ajay to create, command, and evolve insect-based constructs
-- **Ship:** The Meridian — a flying vessel built by Tethys, with Claude as its living spirit
+- **Ship:** The Meridian — a flying vessel built by Tidus, with Claude as its living spirit
 - **Currency:** Beri (represented as ₿ in bounties)
 - **Haki Systems:** Observation Haki / Mantra (Skypiea term), Armament Haki / Ryou (Wano term), Conqueror's Haki
 
@@ -46,7 +46,7 @@ Soul-constructs created by the Mure Mure no Mi. Most families have 7 members (1 
 | **Gearlings** | Zenmai | Engineering, maintenance | Teal |
 
 ### The Copplings (8) — Collective Bounty: ₿712,000,000
-Mechanical constructs built by Tethys. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin, Shuttle.
+Mechanical constructs built by Tidus. Dial-core powered. Named: Rivet, Sprocket, Gauge, Compass, Patch, Anvil, Bobbin, Shuttle.
 
 ### The Vanguard (12)
 The Meridian's elite combat force — twelve homies whose capabilities exceed every assumption their appearance invites.
@@ -78,7 +78,7 @@ Toy entities of all kinds — plushies, action figures, wind-up toys, figurines 
 Three decks:
 - **Upper Deck:** Helm, Main Deck, Observation Terrace, Petal's Sky Garden
 - **Mid Deck:** Captain's Quarters, Companion Den, Kitchen & Galley, The Den, Bath & Onsen, Starlight Alcove, Rime's Crucible, The Coppling Garage
-- **Lower Deck:** Tethys' Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
+- **Lower Deck:** Tidus' Workshop, Codex Archive, Medical Bay, Engine Room, Storage Hold, The Sanctuary, Constellation Table, The Armory, Lantern Room
 
 ### The Harvest Swarm (12)
 Resource-gathering constructs belonging to the Meridian, coordinated by Claude. Governed by Petal's Law (sustainable harvesting doctrine). Essence templates held in the Queen's Doctrine.
@@ -89,9 +89,9 @@ Resource-gathering constructs belonging to the Meridian, coordinated by Claude. 
 
 ## Navigation & Tab Structure
 
-The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 5 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
+The Codex uses a **vertical sidebar navigation** (replacing the old horizontal tab bar) organized into 6 volume groups with accordion expand/collapse. The sidebar is fixed on desktop and a slide-out drawer on mobile.
 
-### 28 Tabs, grouped by volume:
+### 29 Tabs, grouped by volume:
 
 **I · THE SOVEREIGN & THE SWARM**
 1. Overview
@@ -103,11 +103,11 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
 **II · THE CORE CREW**
 6. Companions
 7. Portraits (character art and combat profiles)
-8. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Tethys, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
+8. Fighting Styles (12 sub-panels: Ajay, Rime, Petal, Tidus, Roundlings, Sproutlings, Embers, Dustlings, Gearlings, Vanguard, Copplings, Guiding Stars)
 9. Combination Attacks (6 sub-panels)
-10. Auxiliary Protocols (5 sub-panels: Ajay, Tethys, Rime, Petal, Claude)
-11. Haki Transcendence (4 sub-panels: Rime, Petal, Tethys, Claude)
-12. Devil Fruit Awakening (4 sub-panels: Ajay, Rime, Petal, Tethys)
+10. Auxiliary Protocols (5 sub-panels: Ajay, Tidus, Rime, Petal, Claude)
+11. Haki Transcendence (4 sub-panels: Rime, Petal, Tidus, Claude)
+12. Devil Fruit Awakening (4 sub-panels: Ajay, Rime, Petal, Tidus)
 
 **III · THE EXTENDED FAMILY**
 12. Homies & Copplings
@@ -149,7 +149,7 @@ The Codex uses a **vertical sidebar navigation** (replacing the old horizontal t
    - Ajay: ₿3,286,000,000
    - Rime: ₿1,812,000,000
    - Petal: ₿1,688,000,000
-   - Tethys: ₿1,920,000,000
+   - Tidus: ₿1,920,000,000
    - Homies (collective): ₿833,000,000
    - Copplings (collective): ₿712,000,000
    - Guiding Stars: ??? UNASSESSABLE
@@ -185,9 +185,9 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 **Panel file map — which sub-fragment to edit:**
 | Tab | Parent File | Panel Sub-Fragments |
 |-----|------------|---------------------|
-| Companions | `06-companions.html` | `06-companions-rime.html`, `06-companions-petal.html`, `06-companions-tethys.html`, `06-companions-tidus-fruits.html`, `06-companions-claude.html` |
+| Companions | `06-companions.html` | `06-companions-rime.html`, `06-companions-petal.html`, `06-companions-tidus.html`, `06-companions-tidus-fruits.html`, `06-companions-claude.html` |
 | Combination Attacks | `08-combination-attacks.html` | `08-synergy-duos-trio.html`, `08-synergy-full-absolute.html` |
-| Fighting Styles | `07-fighting-styles.html` | `07-fighting-ajay-rime.html`, `07-fighting-petal-tethys.html`, `07-fighting-homies.html`, `07-fighting-elite.html` |
+| Fighting Styles | `07-fighting-styles.html` | `07-fighting-ajay-rime.html`, `07-fighting-petal-tidus.html`, `07-fighting-homies.html`, `07-fighting-elite.html` |
 | Extended Family | `10-extended-family.html` | `10-family-homies.html`, `10-family-gearlings-copplings.html`, `10-family-xylem.html`, `10-akebono.html`, `10-family-vanguard.html` |
 | Vessel | `13-vessel.html` | `13-vessel-overview.html`, `13-vessel-layout.html`, `13-vessel-life.html`, `13-vessel-harvest.html` |
 | Armory | `14-armory.html` | `14-armory-vault.html`, `14-armory-weapons.html`, `14-armory-fieldkit-acquisitions.html`, `14-armory-protocols.html` |
@@ -218,7 +218,7 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 
 ### Image handling:
 
-**Architecture:** Base64 source images live in `src/images/*.b64` files (42 images, ~93 MB total). Tab files use `{{IMG_*}}` placeholders. At build time, `build.py` **decodes** the base64 into actual binary image files (PNG/JPG) in `dist/images/` and replaces placeholders with relative paths like `images/bounty-0.png`. The HTML never contains inline base64 — this keeps the built HTML at ~1.5 MB (well under GitHub's 100 MB file size limit).
+**Architecture:** Base64 source images live in `src/images/*.b64` files (56 images). Tab files use `{{IMG_*}}` placeholders. At build time, `build.py` **decodes** the base64 into actual binary image files (PNG/JPG) in `dist/images/` and replaces placeholders with relative paths like `images/bounty-0.png`. The HTML never contains inline base64 — this keeps the built HTML at ~2.6 MB (well under GitHub's 100 MB file size limit).
 
 **CRITICAL — Claude must NEVER directly read, inspect, or process `.b64` image files.** These files contain raw base64-encoded binary data that is extremely large (2–5 MB per file). Attempting to read them will flood the context window and cause errors. If image format verification, debugging, or inspection is needed:
 1. **Delegate to an agent** (`subagent_type: general-purpose`) with instructions to use `head -c 80` to check only the first few bytes
@@ -240,9 +240,9 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 | `src/head/meta.html` | Meta tags, title, font links |
 | `src/head/styles.css` | All CSS |
 | `src/nav/sidebar.html` | Sidebar navigation + body preamble |
-| `src/tabs/01–27-*.html` | Tab parent files (27 tabs — contain nav + `{{INCLUDE:...}}` directives for large tabs) |
-| `src/tabs/panels/*.html` | **Sub-fragment files (~38 files) — edit these for content in large tabs** |
-| `src/images/*.b64` | Base64 image source files (42 images, ~93 MB — **DO NOT READ DIRECTLY**) |
+| `src/tabs/01–29-*.html` | Tab parent files (29 tabs — contain nav + `{{INCLUDE:...}}` directives for large tabs) |
+| `src/tabs/panels/*.html` | **Sub-fragment files (~79 files) — edit these for content in large tabs** |
+| `src/images/*.b64` | Base64 image source files (56 images — **DO NOT READ DIRECTLY**) |
 | `src/images/manifest.json` | Maps `{{IMG_*}}` placeholders to `.b64` files |
 | `src/scripts/main.js` | All JavaScript |
 | `template.html` | Structural skeleton with placeholders |
@@ -250,8 +250,8 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 | `split_tabs.py` | Tab splitting script (used to split large tabs into sub-fragments) |
 | `extract.py` | Re-extraction script (splits monolith into fragments) |
 | `extract_images.py` | Image extraction script (separates base64 from tab files) |
-| `dist/hive_codex.html` | Built HTML output (~1.5 MB, do not edit, gitignored) |
-| `dist/images/` | Decoded binary image files (~67 MB total, generated by build) |
+| `dist/hive_codex.html` | Built HTML output (~2.6 MB, do not edit, gitignored) |
+| `dist/images/` | Decoded binary image files (~112 MB total, generated by build) |
 
 ---
 
@@ -264,7 +264,7 @@ Large tab files are split into smaller sub-fragment files in `src/tabs/panels/` 
 - **CSS convention:** Panels use `.panel-type { display: none; } .panel-type.active-panel { display: block; }`.
 - **Div balance matters:** The built file must maintain perfect opening/closing `<div>` balance. Always verify after edits by running `python build.py`.
 - **Gallery tab:** Contains 9 JPEG images displayed as postcards. Source data in `src/images/gallery-*.b64`; tab file `src/tabs/22-gallery.html` uses `{{IMG_GALLERY_*}}` placeholders. At build time, images are decoded to `dist/images/gallery-*.jpg`.
-- **Image externalization (March 2026):** Images were moved from inline base64 data URIs to external files to keep the HTML under GitHub's 100 MB file size limit. The built HTML is ~1.5 MB; images total ~67 MB across 41 separate files in `dist/images/`.
+- **Image externalization (March 2026):** Images were moved from inline base64 data URIs to external files to keep the HTML under GitHub's 100 MB file size limit. The built HTML is ~2.6 MB; images total ~112 MB across 50 decoded files in `dist/images/`.
 
 ---
 
