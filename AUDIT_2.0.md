@@ -45,7 +45,7 @@ This audit reviews five domains across the current canonical source:
 **Finding:** Current active lore repeatedly uses "partial Green Blood extracts" for Tidus in multiple canonical panels, while a prior QA phase document asserts Green Blood was removed from Tidus lore.
 
 **Why this matters:** 
-- the retcon policy doc is stale, **or**
+- the retcon policy doc is stale.
 
 This creates contributor confusion and future continuity churn.
 
@@ -56,10 +56,10 @@ archive/annotate the phase note as superseded.
 
 ### 1.3 Low — Potential reader confusion from “Crab Fortress” naming in Tidus panel
 
-**Finding:** A Tidus training move includes a "defensive crab construct". Mechanically this can be valid (construct form ≠ body anatomy), but it may read as anatomical backslide because prior phases explicitly removed crab-body framing for Tidus.
+**Finding:** A Tidus training move includes a "defensive crab construct". Mechanically this cvalid (construct form ≠ body anatomy), but it may read as anatomical backslide because prior phases explicitly removed crab-body framing for Tidus.
 
 **Recommendation:**
-- Keep the move if desired, but add one short clarifier line that this is a **coral construct motif**, not Tidus' own body-form movement doctrine.
+- Keep the move, but add one short clarifier line that this is a **coral construct motif**, not Tidus' own body-form movement doctrine.
 
 ---
 
