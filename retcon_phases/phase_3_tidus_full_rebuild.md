@@ -1,5 +1,7 @@
 # Phase 3: Tidus Full Rebuild
 
+> **Status: Archived** — Completed March 13, 2026. Tidus fully rebuilt as polar bear–sea otter hybrid with Sango Sango no Mi shell shovel, Yuki Yuki no Mi + Kawa Kawa no Mi hidden fruits, sea curse immunity. Superseded by live `src/` content.
+
 ## Scope
 Complete character rebuild for Tidus (formerly Tethys): rewrite companion panel, new backstory, new Fishman DNA (clownfish + fancy goldfish), new Fishman Karate, new martial art category (Sub-Arctic Art), new Conqueror's Haki philosophy (The Fluffy Doctrine), new Rokushiki, shell shovel weapon with Zoan Reef-Reef Fruit, snow/ice production, remove ALL Green Blood content. This is the most extensive single-character rewrite.
 

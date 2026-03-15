@@ -1,5 +1,7 @@
 # Phase 4: Combination Attacks
 
+> **Status: Archived** — Completed March 13, 2026. All combination attacks referencing Rime/Tidus updated with new anatomy, abilities, and elements. Superseded by live `src/` content.
+
 ## Scope
 Reflavour ALL combination attacks that reference Rime or Tidus. Every combo involving these two characters needs anatomy, ability, and element updates. The Enlightened Frozen Guanyin of the Lotus Pool gets a MAJOR rewrite. Investigation convergence protocols are also reviewed.
 

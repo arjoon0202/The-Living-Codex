@@ -1,5 +1,7 @@
 # Phase 1: Global Rename & Species
 
+> **Status: Archived** — Completed March 13, 2026. All global renames (Tethys→Tidus, squirrel→chinchilla, crab→polar bear-otter hybrid) applied across all source files. Superseded by live `src/` content.
+
 ## Scope
 Global text replacements across all source files + species description rewrites for both Rime and Tidus. This is the foundation phase — get the names, species, and basic references right before diving into combat mechanics.
 

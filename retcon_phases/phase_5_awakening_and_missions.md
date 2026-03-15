@@ -1,5 +1,7 @@
 # Phase 5: Awakening & Missions
 
+> **Status: Archived** — Completed March 13, 2026. Rime and Tidus awakening sections reworked, all 17 missions reviewed and updated for species/element consistency. Superseded by live `src/` content.
+
 ## Scope
 Complete rework of Rime and Tidus awakening sections in the Devil Fruit Awakening tab, plus full mission log review for anatomy/species/element references across all 17 missions.
 
