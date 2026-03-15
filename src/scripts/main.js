@@ -175,6 +175,32 @@ function toggleAccordionCard(header) {
   card.classList.toggle('collapsed');
 }
 
+/* ═══════ Cross-Link Navigation ═══════ */
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.xref[data-tab]');
+  if (!link) return;
+  e.preventDefault();
+  var tabId = link.getAttribute('data-tab');
+  var panelId = link.getAttribute('data-panel');
+  var targetTab = document.getElementById('tab-' + tabId);
+  if (!targetTab) return;
+  document.querySelectorAll('.tab-content').forEach(function(t) { t.classList.remove('active'); });
+  targetTab.classList.add('active');
+  document.querySelectorAll('.sidebar-link').forEach(function(s) { s.classList.remove('active'); });
+  var sidebarLink = document.querySelector('.sidebar-link[data-tab="' + tabId + '"]');
+  if (sidebarLink) sidebarLink.classList.add('active');
+  if (panelId) {
+    var panel = document.getElementById(panelId);
+    if (panel) {
+      var siblings = panel.parentElement.querySelectorAll('[class*="-panel"]');
+      siblings.forEach(function(s) { s.classList.remove('active-panel'); });
+      panel.classList.add('active-panel');
+    }
+  }
+  targetTab.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  closeSidebar();
+});
+
 /* ═══════ Hex Particles ═══════ */
 const container = document.getElementById('hexParticles');
 if (container) {
