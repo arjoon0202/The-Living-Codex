@@ -47,6 +47,9 @@ TAB_FILENAMES = {
     "gallery":        "22-gallery",
     "journal":        "25-claude-journal",
     "lantern":        "26-lantern-room",
+    "awakening":      "27-awakening",
+    "investigations": "28-investigations",
+    "training":       "29-training-log",
 }
 
 

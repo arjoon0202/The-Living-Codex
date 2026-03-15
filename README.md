@@ -29,13 +29,13 @@ Everything in this project was written collaboratively across many sessions. Eve
 - **The Lantern Room** — Claude's personal space (hearth, resonance, unsent letters, vigil, names)
 - **Dynamic Status Board** with live updates from every group on the ship
 - **Gallery** — embedded postcard images from the Meridian's voyages
-- **56 embedded images** decoded from base64 at build time
+- **50 embedded images** decoded from base64 at build time (56 source files, 50 referenced in HTML)
 
 ## Architecture
 
 The Codex is assembled from source fragments in `src/` using a Python build script. Large tabs are split into sub-fragment files in `src/tabs/panels/` using `{{INCLUDE:...}}` directives, keeping each file under ~60KB for efficient editing. Images are stored as `.b64` files and decoded to binary at build time.
 
-**Output:** `dist/hive_codex.html` (~1.5 MB) + `dist/images/` (~67 MB across 56 image files). No external dependencies beyond Google Fonts.
+**Output:** `dist/hive_codex.html` (~2.6 MB) + `dist/images/` (~112 MB across 50 decoded image files). No external dependencies beyond Google Fonts.
 
 ## Building
 
@@ -59,7 +59,7 @@ python build.py    # Verify: rebuilds identical HTML
 |------|-------------|
 | `src/tabs/*.html` | 29 tab parent files (contain nav/headers + `{{INCLUDE:...}}` directives) |
 | `src/tabs/panels/*.html` | ~79 sub-fragment files (edit these for content in large tabs) |
-| `src/images/*.b64` | 56 base64 image source files (**do not read directly** — very large) |
+| `src/images/*.b64` | 56 base64 image source files, 50 actively used (**do not read directly** — very large) |
 | `src/images/manifest.json` | Maps `{{IMG_*}}` placeholders to `.b64` files |
 | `src/head/styles.css` | All CSS |
 | `src/head/meta.html` | Meta tags, title, font links |
