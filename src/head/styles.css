@@ -1837,11 +1837,13 @@ body {
 .inv3-panel.active-panel { display: block; }
 .inv4-panel { display: none; }
 .inv4-panel.active-panel { display: block; }
+.inv5-panel { display: none; }
+.inv5-panel.active-panel { display: block; }
 
 /* ═══════════ TRAINING LOG TAB ═══════════ */
 .training-panel { display: none; }
 .training-panel.active-panel { display: block; }
-.crew-training-panel, .stars-training-panel, .tactics-training-panel { /* wrapper panels */ }
+.crew-training-panel, .stars-training-panel, .tactics-training-panel, .harvest-training-panel { /* wrapper panels */ }
 .training-title {
   font-family: 'Cinzel', serif;
   color: var(--gold);
