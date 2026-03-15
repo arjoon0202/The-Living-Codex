@@ -44,16 +44,13 @@ This audit reviews five domains across the current canonical source:
 
 **Finding:** Current active lore repeatedly uses "partial Green Blood extracts" for Tidus in multiple canonical panels, while a prior QA phase document asserts Green Blood was removed from Tidus lore.
 
-**Why this matters:** Either:
+**Why this matters:** 
 - the retcon policy doc is stale, **or**
-- active canon has drifted from that policy.
 
-Both cases create contributor confusion and future continuity churn.
+This creates contributor confusion and future continuity churn.
 
 **Recommendation:**
-- Decide one canonical truth and enforce it explicitly in one place.
-- If Green Blood is canon now, archive/annotate the phase note as superseded.
-- If Green Blood is not canon, normalize all active mentions.
+archive/annotate the phase note as superseded.
 
 ---
 
